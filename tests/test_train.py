@@ -35,8 +35,14 @@ class TrainFlowTests(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn("английский", response.text)
         self.assertIn("Starlight 6", response.text)
+        self.assertNotIn("Loiseau Blue", response.text)
         self.assertIn("due", response.text)
         self.assertIn("serafima", response.text)
+
+        fr = self.client.get("/?language=fr")
+        self.assertEqual(fr.status_code, 200)
+        self.assertIn("Loiseau Blue", fr.text)
+        self.assertNotIn("Starlight", fr.text)
 
     def test_unauthenticated_redirects(self) -> None:
         bare = TestClient(app)

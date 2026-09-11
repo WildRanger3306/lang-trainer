@@ -5,7 +5,11 @@ import random
 import unittest
 
 from app.db import connect
-from app.repository import fetch_due_candidates, fetch_new_candidates
+from app.repository import (
+    fetch_due_candidates,
+    fetch_filter_options,
+    fetch_new_candidates,
+)
 from app.scheduler import new_per_day
 from app.session import SessionFilter, build_queue, new_limit_for_day
 
@@ -64,3 +68,12 @@ class RepositoryTests(unittest.TestCase):
 
     def test_new_limit_helper(self) -> None:
         self.assertEqual(new_limit_for_day(0, 10), 10)
+
+    def test_filter_options_scoped_by_language(self) -> None:
+        with connect() as conn:
+            en = fetch_filter_options(conn, "en")
+            fr = fetch_filter_options(conn, "fr")
+        self.assertTrue(any(name.startswith("Starlight") for name in en.textbooks))
+        self.assertFalse(any("Loiseau" in name for name in en.textbooks))
+        self.assertTrue(any(name.startswith("Loiseau Blue") for name in fr.textbooks))
+        self.assertFalse(any("Starlight" in name for name in fr.textbooks))

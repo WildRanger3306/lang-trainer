@@ -17,14 +17,41 @@ class FilterOptions:
     levels: tuple[str, ...]
 
 
-def fetch_filter_options(conn: psycopg.Connection) -> FilterOptions:
+def fetch_filter_options(conn: psycopg.Connection, language: str) -> FilterOptions:
+    """Options scoped to entries of the selected language (EN→Starlight, FR→Loiseau Blue)."""
     with conn.cursor() as cur:
-        cur.execute("SELECT name FROM textbooks ORDER BY name")
+        cur.execute(
+            """
+            SELECT DISTINCT tb.name
+            FROM textbooks tb
+            JOIN entry_textbooks et ON et.textbook_id = tb.id
+            JOIN entries e ON e.id = et.entry_id
+            WHERE e.language = %s
+            ORDER BY tb.name
+            """,
+            (language,),
+        )
         textbooks = tuple(row[0] for row in cur.fetchall())
-        cur.execute("SELECT name FROM topics ORDER BY name")
+        cur.execute(
+            """
+            SELECT DISTINCT tp.name
+            FROM topics tp
+            JOIN entry_topics eto ON eto.topic_id = tp.id
+            JOIN entries e ON e.id = eto.entry_id
+            WHERE e.language = %s
+            ORDER BY tp.name
+            """,
+            (language,),
+        )
         topics = tuple(row[0] for row in cur.fetchall())
         cur.execute(
-            "SELECT DISTINCT level FROM entries WHERE level IS NOT NULL ORDER BY level"
+            """
+            SELECT DISTINCT level
+            FROM entries
+            WHERE language = %s AND level IS NOT NULL
+            ORDER BY level
+            """,
+            (language,),
         )
         levels = tuple(row[0] for row in cur.fetchall())
     return FilterOptions(textbooks=textbooks, topics=topics, levels=levels)

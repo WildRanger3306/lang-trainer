@@ -123,7 +123,7 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
     if language not in ("en", "fr"):
         language = "en"
     with connect() as conn:
-        options = fetch_filter_options(conn)
+        options = fetch_filter_options(conn, language)
         preview = fetch_queue_preview(conn, SessionFilter(language=language), user.id)
     return templates.TemplateResponse(
         request,
