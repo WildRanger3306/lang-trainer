@@ -158,6 +158,152 @@ def migrate() -> None:
             """
         )
         conn.commit()
+    migrate_users()
+
+
+def migrate_users() -> None:
+    """Create users table and attach user_id to progress/reviews."""
+    from app.users import assign_orphan_progress, create_user
+
+    with connect() as conn:
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS users (
+              id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+              login TEXT NOT NULL UNIQUE,
+              password_hash TEXT NOT NULL,
+              display_name TEXT,
+              created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+            )
+            """
+        )
+        conn.execute(
+            """
+            ALTER TABLE card_progress
+              ADD COLUMN IF NOT EXISTS user_id BIGINT
+            """
+        )
+        conn.execute(
+            """
+            ALTER TABLE card_reviews
+              ADD COLUMN IF NOT EXISTS user_id BIGINT
+            """
+        )
+        conn.commit()
+
+        # Ensure default user exists (personal deploy).
+        row = conn.execute(
+            "SELECT id FROM users WHERE login = %s", ("serafima",)
+        ).fetchone()
+        if row is None:
+            user = create_user(conn, "serafima", "serafima123")
+            user_id = user.id
+            print(f"created default user serafima id={user_id}", flush=True)
+        else:
+            user_id = int(row[0])
+
+        prog, rev = assign_orphan_progress(conn, user_id)
+        if prog or rev:
+            print(
+                f"claimed orphan progress={prog} reviews={rev} → user {user_id}",
+                flush=True,
+            )
+
+        # Make user_id NOT NULL and fix PK if still old shape.
+        pk = conn.execute(
+            """
+            SELECT a.attname
+            FROM pg_index i
+            JOIN pg_attribute a ON a.attrelid = i.indrelid AND a.attnum = ANY(i.indkey)
+            WHERE i.indrelid = 'card_progress'::regclass AND i.indisprimary
+            ORDER BY a.attnum
+            """
+        ).fetchall()
+        pk_cols = [r[0] for r in pk]
+        if pk_cols == ["entry_id", "direction"] or (
+            "user_id" not in pk_cols and pk_cols
+        ):
+            # Drop rows that somehow still lack user_id (should be none).
+            conn.execute("DELETE FROM card_progress WHERE user_id IS NULL")
+            conn.execute("DELETE FROM card_reviews WHERE user_id IS NULL")
+            conn.execute(
+                """
+                ALTER TABLE card_progress
+                  DROP CONSTRAINT IF EXISTS card_progress_pkey
+                """
+            )
+            conn.execute(
+                """
+                ALTER TABLE card_progress
+                  ALTER COLUMN user_id SET NOT NULL
+                """
+            )
+            conn.execute(
+                """
+                ALTER TABLE card_progress
+                  ADD PRIMARY KEY (user_id, entry_id, direction)
+                """
+            )
+            conn.execute(
+                """
+                DO $$ BEGIN
+                  ALTER TABLE card_progress
+                    ADD CONSTRAINT card_progress_user_id_fkey
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE;
+                EXCEPTION WHEN duplicate_object THEN NULL;
+                END $$
+                """
+            )
+            conn.commit()
+            print("card_progress PK → (user_id, entry_id, direction)", flush=True)
+        else:
+            # Still allow NOT NULL if all rows filled.
+            nulls = conn.execute(
+                "SELECT count(*) FROM card_progress WHERE user_id IS NULL"
+            ).fetchone()[0]
+            if nulls == 0:
+                conn.execute(
+                    """
+                    ALTER TABLE card_progress
+                      ALTER COLUMN user_id SET NOT NULL
+                    """
+                )
+                conn.commit()
+
+        # Reviews: NOT NULL when empty nulls
+        null_rev = conn.execute(
+            "SELECT count(*) FROM card_reviews WHERE user_id IS NULL"
+        ).fetchone()[0]
+        if null_rev == 0:
+            conn.execute(
+                """
+                ALTER TABLE card_reviews
+                  ALTER COLUMN user_id SET NOT NULL
+                """
+            )
+            conn.execute(
+                """
+                DO $$ BEGIN
+                  ALTER TABLE card_reviews
+                    ADD CONSTRAINT card_reviews_user_id_fkey
+                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE;
+                EXCEPTION WHEN duplicate_object THEN NULL;
+                END $$
+                """
+            )
+            conn.execute(
+                """
+                CREATE INDEX IF NOT EXISTS idx_card_reviews_user
+                ON card_reviews (user_id)
+                """
+            )
+            conn.execute(
+                """
+                CREATE INDEX IF NOT EXISTS idx_card_progress_user
+                ON card_progress (user_id)
+                """
+            )
+            conn.commit()
 
 
 def seed_if_empty() -> None:

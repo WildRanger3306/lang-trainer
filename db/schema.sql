@@ -63,7 +63,17 @@ CREATE INDEX idx_entries_part_of_speech ON entries (part_of_speech);
 
 CREATE TYPE card_direction AS ENUM ('foreign_to_native', 'native_to_foreign');
 
+CREATE TABLE users (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  login TEXT NOT NULL UNIQUE,
+  password_hash TEXT NOT NULL,
+  display_name TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  CONSTRAINT users_login_format CHECK (login ~ '^[a-zA-Z0-9_-]+$')
+);
+
 CREATE TABLE card_progress (
+  user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
   entry_id BIGINT NOT NULL REFERENCES entries (id) ON DELETE CASCADE,
   direction card_direction NOT NULL,
   due_on DATE NOT NULL,
@@ -74,14 +84,16 @@ CREATE TABLE card_progress (
   introduced_on DATE NOT NULL,
   introduced_via TEXT NOT NULL DEFAULT 'train'
     CHECK (introduced_via IN ('train', 'assess')),
-  PRIMARY KEY (entry_id, direction)
+  PRIMARY KEY (user_id, entry_id, direction)
 );
 
 CREATE INDEX idx_card_progress_due_on ON card_progress (due_on);
 CREATE INDEX idx_card_progress_introduced_on ON card_progress (introduced_on);
+CREATE INDEX idx_card_progress_user ON card_progress (user_id);
 
 CREATE TABLE card_reviews (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
   entry_id BIGINT NOT NULL REFERENCES entries (id) ON DELETE CASCADE,
   direction card_direction NOT NULL,
   answered_at TIMESTAMPTZ NOT NULL DEFAULT now(),
@@ -99,3 +111,4 @@ CREATE TABLE card_reviews (
 CREATE INDEX idx_card_reviews_answered_at ON card_reviews (answered_at);
 CREATE INDEX idx_card_reviews_answered_on ON card_reviews (answered_on);
 CREATE INDEX idx_card_reviews_entry ON card_reviews (entry_id, direction);
+CREATE INDEX idx_card_reviews_user ON card_reviews (user_id);

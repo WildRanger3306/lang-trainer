@@ -12,11 +12,20 @@ from app.session import SessionFilter, build_queue, new_limit_for_day
 
 @unittest.skipUnless(os.environ.get("RUN_DB_TESTS") == "1", "set RUN_DB_TESTS=1")
 class RepositoryTests(unittest.TestCase):
+    def setUp(self) -> None:
+        with connect() as conn:
+            row = conn.execute(
+                "SELECT id FROM users WHERE login = %s", ("serafima",)
+            ).fetchone()
+            if row is None:
+                self.skipTest("user serafima missing")
+            self.user_id = int(row[0])
+
     def test_starlight_pool_covers_all_directions(self) -> None:
         flt = SessionFilter(language="en", textbooks=("Starlight 6",))
         with connect() as conn:
-            due = fetch_due_candidates(conn, flt)
-            new = fetch_new_candidates(conn, flt)
+            due = fetch_due_candidates(conn, flt, self.user_id)
+            new = fetch_new_candidates(conn, flt, self.user_id)
             total = conn.execute(
                 """
                 SELECT count(*) FROM entries e
@@ -34,8 +43,10 @@ class RepositoryTests(unittest.TestCase):
                 JOIN textbooks t ON t.id = et.textbook_id
                 WHERE t.name = 'Starlight 6'
                   AND e.language = 'en'
+                  AND p.user_id = %s
                   AND p.due_on > CURRENT_DATE
-                """
+                """,
+                (self.user_id,),
             ).fetchone()[0]
         self.assertEqual(len(due) + len(new) + scheduled_future, total * 2)
         cap = new_per_day("en")
@@ -46,8 +57,8 @@ class RepositoryTests(unittest.TestCase):
     def test_unknown_textbook_is_empty(self) -> None:
         flt = SessionFilter(language="en", textbooks=("No Such Book",))
         with connect() as conn:
-            due = fetch_due_candidates(conn, flt)
-            new = fetch_new_candidates(conn, flt)
+            due = fetch_due_candidates(conn, flt, self.user_id)
+            new = fetch_new_candidates(conn, flt, self.user_id)
         self.assertEqual(due, [])
         self.assertEqual(new, [])
 

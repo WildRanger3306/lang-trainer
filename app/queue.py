@@ -12,13 +12,14 @@ from app.session import SessionFilter, build_assessment_queue, build_queue, new_
 def build_session_cards(
     conn,
     flt: SessionFilter,
+    user_id: int,
     rng: random.Random,
     today: date | None = None,
 ):
     today = today or date.today()
-    due = fetch_due_candidates(conn, flt, today)
-    new = fetch_new_candidates(conn, flt)
-    introduced = count_introduced_today(conn, flt.language, today)
+    due = fetch_due_candidates(conn, flt, user_id, today)
+    new = fetch_new_candidates(conn, flt, user_id)
+    introduced = count_introduced_today(conn, user_id, flt.language, today)
     limit = new_limit_for_day(introduced, new_per_day(flt.language))
     preferred = preferred_direction(flt.language)
     picked = build_queue(due, new, limit, rng, preferred=preferred)
@@ -28,11 +29,12 @@ def build_session_cards(
 def build_assessment_cards(
     conn,
     flt: SessionFilter,
+    user_id: int,
     rng: random.Random,
     batch: int = ASSESS_BATCH,
 ):
     """Unassessed cards with language direction bias."""
-    new = fetch_new_candidates(conn, flt)
+    new = fetch_new_candidates(conn, flt, user_id)
     preferred = preferred_direction(flt.language)
     picked = build_assessment_queue(new, batch, rng, preferred=preferred)
     return picked, len(new)

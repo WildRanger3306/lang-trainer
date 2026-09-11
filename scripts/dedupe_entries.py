@@ -166,14 +166,14 @@ def dedupe_db() -> tuple[int, int]:
                 conn.execute(
                     """
                     INSERT INTO card_progress (
-                      entry_id, direction, due_on, interval_days, ease,
+                      user_id, entry_id, direction, due_on, interval_days, ease,
                       introduced_on, introduced_via
                     )
-                    SELECT %s, direction, due_on, interval_days, ease,
+                    SELECT user_id, %s, direction, due_on, interval_days, ease,
                            introduced_on, introduced_via
                     FROM card_progress
                     WHERE entry_id = %s
-                    ON CONFLICT (entry_id, direction) DO NOTHING
+                    ON CONFLICT (user_id, entry_id, direction) DO NOTHING
                     """,
                     (surv_id, loser_id),
                 )

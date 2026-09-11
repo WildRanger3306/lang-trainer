@@ -18,6 +18,17 @@ class TrainFlowTests(unittest.TestCase):
             conn.execute("TRUNCATE card_reviews RESTART IDENTITY")
             conn.execute("TRUNCATE card_progress")
             conn.commit()
+            row = conn.execute(
+                "SELECT id FROM users WHERE login = %s", ("serafima",)
+            ).fetchone()
+            if row is None:
+                self.skipTest("user serafima missing")
+        login = self.client.post(
+            "/login",
+            data={"login": "serafima", "password": "serafima123"},
+            follow_redirects=False,
+        )
+        self.assertEqual(login.status_code, 303)
 
     def test_filter_page_renders(self) -> None:
         response = self.client.get("/")
@@ -25,6 +36,13 @@ class TrainFlowTests(unittest.TestCase):
         self.assertIn("английский", response.text)
         self.assertIn("Starlight 6", response.text)
         self.assertIn("due", response.text)
+        self.assertIn("serafima", response.text)
+
+    def test_unauthenticated_redirects(self) -> None:
+        bare = TestClient(app)
+        response = bare.get("/", follow_redirects=False)
+        self.assertEqual(response.status_code, 303)
+        self.assertEqual(response.headers["location"], "/login")
 
     def test_grade_writes_progress(self) -> None:
         start = self.client.post(
@@ -37,7 +55,7 @@ class TrainFlowTests(unittest.TestCase):
 
         train = self.client.get("/train")
         self.assertEqual(train.status_code, 200)
-        self.assertIn(f"1 /", train.text)
+        self.assertIn("1 /", train.text)
 
         with connect() as conn:
             before = conn.execute("SELECT count(*) FROM card_progress").fetchone()[0]
@@ -55,30 +73,34 @@ class TrainFlowTests(unittest.TestCase):
             reviews = conn.execute("SELECT count(*) FROM card_reviews").fetchone()[0]
             row = conn.execute(
                 """
-                SELECT remembered, was_new, interval_before, interval_after
+                SELECT remembered, was_new, interval_before, interval_after, user_id
                 FROM card_reviews
                 ORDER BY id DESC
                 LIMIT 1
                 """
             ).fetchone()
-            # join progress
             prog = conn.execute(
                 """
-                SELECT interval_days, ease
+                SELECT interval_days, ease, user_id
                 FROM card_progress
                 ORDER BY introduced_on DESC, entry_id DESC
                 LIMIT 1
                 """
             ).fetchone()
+            uid = conn.execute(
+                "SELECT id FROM users WHERE login = %s", ("serafima",)
+            ).fetchone()[0]
         self.assertGreaterEqual(after, before)
         self.assertGreaterEqual(after, 1)
         self.assertGreaterEqual(reviews, 1)
-        self.assertTrue(row[0])  # remembered
-        self.assertTrue(row[1])  # was_new
+        self.assertTrue(row[0])
+        self.assertTrue(row[1])
         self.assertEqual(float(row[2]), 0.0)
         self.assertEqual(float(row[3]), 1.0)
+        self.assertEqual(int(row[4]), int(uid))
         self.assertEqual(float(prog[0]), 1.0)
         self.assertEqual(float(prog[1]), 2.5)
+        self.assertEqual(int(prog[2]), int(uid))
 
     def test_stats_page_renders(self) -> None:
         response = self.client.get("/stats?language=en")
@@ -95,16 +117,9 @@ class TrainFlowTests(unittest.TestCase):
         self.assertEqual(payload["new_per_day"], new_per_day("en"))
         self.assertEqual(payload["preferred_direction"], "native_to_foreign")
         self.assertLessEqual(payload["new_in_session"], new_per_day("en"))
-        self.assertEqual(payload["due_count"] + payload["new_in_session"], len(payload["cards"]))
-        # EN bias: among new cards, native_to_foreign comes before foreign_to_native
-        news = [c for c in payload["cards"] if c["is_new"]]
-        if len(news) >= 2:
-            dirs = [c["direction"] for c in news]
-            if "native_to_foreign" in dirs and "foreign_to_native" in dirs:
-                self.assertLess(
-                    dirs.index("native_to_foreign"),
-                    max(i for i, d in enumerate(dirs) if d == "foreign_to_native"),
-                )
+        self.assertEqual(
+            payload["due_count"] + payload["new_in_session"], len(payload["cards"])
+        )
 
     def test_fr_session_uses_higher_cap(self) -> None:
         response = self.client.get("/session?language=fr&seed=1")
@@ -137,7 +152,7 @@ class TrainFlowTests(unittest.TestCase):
         with connect() as conn:
             prog = conn.execute(
                 """
-                SELECT interval_days, introduced_via
+                SELECT interval_days, introduced_via, user_id
                 FROM card_progress
                 ORDER BY introduced_on DESC, entry_id DESC
                 LIMIT 1

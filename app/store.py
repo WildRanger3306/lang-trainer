@@ -10,6 +10,7 @@ from app.session import CardCandidate
 @dataclass
 class TrainingSession:
     cards: list[CardCandidate]
+    user_id: int
     mode: str = "train"  # train | assess
     index: int = 0
     known: int = 0
@@ -66,6 +67,7 @@ class SessionStore:
         self,
         cards: list[CardCandidate],
         *,
+        user_id: int,
         mode: str = "train",
         due_at_start: int = 0,
         new_at_start: int = 0,
@@ -74,6 +76,7 @@ class SessionStore:
         token = uuid.uuid4().hex
         self._sessions[token] = TrainingSession(
             cards=cards,
+            user_id=user_id,
             mode=mode,
             due_at_start=due_at_start,
             new_at_start=new_at_start,
@@ -85,3 +88,7 @@ class SessionStore:
         if not token:
             return None
         return self._sessions.get(token)
+
+    def destroy(self, token: str | None) -> None:
+        if token:
+            self._sessions.pop(token, None)

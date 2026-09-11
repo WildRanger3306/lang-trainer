@@ -8,6 +8,14 @@
 </head>
 <body>
   <div class="page">
+    {% if user is defined and user %}
+    <div class="userbar">
+      <span>{{ user.label }}</span>
+      <form method="post" action="/logout">
+        <button class="linkish" type="submit">Выйти</button>
+      </form>
+    </div>
+    {% endif %}
     {% block body %}{% endblock %}
   </div>
   {% block scripts %}{% endblock %}

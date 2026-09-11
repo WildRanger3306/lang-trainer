@@ -166,6 +166,7 @@ def build_horizon(
 
 def fetch_introduced_last_days(
     conn: psycopg.Connection,
+    user_id: int,
     language: str,
     today: date,
     days: int = 7,
@@ -177,17 +178,20 @@ def fetch_introduced_last_days(
             SELECT count(*)
             FROM card_progress p
             JOIN entries e ON e.id = p.entry_id
-            WHERE e.language = %s
+            WHERE p.user_id = %s
+              AND e.language = %s
               AND p.introduced_on >= %s
               AND p.introduced_on <= %s
               AND p.introduced_via = 'train'
             """,
-            (language, since, today),
+            (user_id, language, since, today),
         )
         return int(cur.fetchone()[0])
 
 
-def fetch_corpus_stats(conn: psycopg.Connection, language: str) -> CorpusStats:
+def fetch_corpus_stats(
+    conn: psycopg.Connection, user_id: int, language: str
+) -> CorpusStats:
     with conn.cursor(row_factory=dict_row) as cur:
         cur.execute(
             """
@@ -202,10 +206,10 @@ def fetch_corpus_stats(conn: psycopg.Connection, language: str) -> CorpusStats:
               ARRAY['foreign_to_native','native_to_foreign']::card_direction[]
             ) AS d(direction)
             LEFT JOIN card_progress p
-              ON p.entry_id = e.id AND p.direction = d.direction
+              ON p.entry_id = e.id AND p.direction = d.direction AND p.user_id = %s
             WHERE e.language = %s
             """,
-            (language,),
+            (user_id, language),
         )
         row = cur.fetchone()
     assert row is not None
@@ -220,6 +224,7 @@ def fetch_corpus_stats(conn: psycopg.Connection, language: str) -> CorpusStats:
 
 def fetch_load_stats(
     conn: psycopg.Connection,
+    user_id: int,
     language: str,
     today: date | None = None,
 ) -> LoadStats:
@@ -236,13 +241,14 @@ def fetch_load_stats(
               ) AS introduced_today
             FROM card_progress p
             JOIN entries e ON e.id = p.entry_id
-            WHERE e.language = %s
+            WHERE p.user_id = %s AND e.language = %s
             """,
             (
                 today,
                 today + timedelta(days=1),
                 today + timedelta(days=3),
                 today,
+                user_id,
                 language,
             ),
         )
@@ -254,13 +260,14 @@ def fetch_load_stats(
             SELECT answered_on AS day, count(*) AS n
             FROM card_reviews r
             JOIN entries e ON e.id = r.entry_id
-            WHERE e.language = %s
+            WHERE r.user_id = %s
+              AND e.language = %s
               AND r.answered_on >= %s
               AND r.source = 'train'
             GROUP BY 1
             ORDER BY 1
             """,
-            (language, today - timedelta(days=29)),
+            (user_id, language, today - timedelta(days=29)),
         )
         by_day = {row["day"]: int(row["n"]) for row in cur.fetchall()}
 
@@ -288,6 +295,7 @@ def fetch_load_stats(
 
 def fetch_performance_stats(
     conn: psycopg.Connection,
+    user_id: int,
     language: str,
     today: date | None = None,
 ) -> PerformanceStats:
@@ -313,11 +321,12 @@ def fetch_performance_stats(
               ) AS mature_again
             FROM card_reviews r
             JOIN entries e ON e.id = r.entry_id
-            WHERE e.language = %s
+            WHERE r.user_id = %s
+              AND e.language = %s
               AND r.answered_on >= %s
               AND r.source = 'train'
             """,
-            (language, since),
+            (user_id, language, since),
         )
         row = cur.fetchone()
     assert row is not None
@@ -390,17 +399,18 @@ def advise_load(
 
 def build_language_summary(
     conn: psycopg.Connection,
+    user_id: int,
     language: str,
     today: date | None = None,
 ) -> LanguageSummary:
     if language not in ("en", "fr"):
         raise ValueError("language must be en or fr")
     today = today or date.today()
-    corpus = fetch_corpus_stats(conn, language)
-    load = fetch_load_stats(conn, language, today)
-    performance = fetch_performance_stats(conn, language, today)
+    corpus = fetch_corpus_stats(conn, user_id, language)
+    load = fetch_load_stats(conn, user_id, language, today)
+    performance = fetch_performance_stats(conn, user_id, language, today)
     advice = advise_load(corpus, load, performance)
-    introduced_7 = fetch_introduced_last_days(conn, language, today, 7)
+    introduced_7 = fetch_introduced_last_days(conn, user_id, language, today, 7)
     horizon = build_horizon(corpus.new_cards, load.new_per_day, introduced_7)
     return LanguageSummary(
         language=language,

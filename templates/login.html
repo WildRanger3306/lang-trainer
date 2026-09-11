@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Вход — тренажёр{% endblock %}
+{% block body %}
+  <header class="header">
+    <h1>Вход</h1>
+    <p class="lead">Логин и пароль. Аккаунты создаёт администратор скриптом.</p>
+  </header>
+
+  {% if error %}
+    <p class="banner banner-error">{{ error }}</p>
+  {% endif %}
+
+  <form class="panel" method="post" action="/login">
+    <label class="field">
+      <span>Логин</span>
+      <input type="text" name="login" autocomplete="username" required autofocus>
+    </label>
+    <label class="field">
+      <span>Пароль</span>
+      <input type="password" name="password" autocomplete="current-password" required>
+    </label>
+    <button class="btn btn-primary" type="submit">Войти</button>
+  </form>
+{% endblock %}

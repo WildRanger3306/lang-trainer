@@ -94,6 +94,7 @@ def _row_to_card(row: dict, *, is_new: bool) -> CardCandidate:
 def fetch_due_candidates(
     conn: psycopg.Connection,
     flt: SessionFilter,
+    user_id: int,
     today: date | None = None,
 ) -> list[CardCandidate]:
     today = today or date.today()
@@ -115,14 +116,16 @@ def fetch_due_candidates(
         CROSS JOIN unnest(%s::card_direction[]) AS d(direction)
         JOIN entry_translations tr ON tr.entry_id = e.id
         JOIN card_progress p
-          ON p.entry_id = e.id AND p.direction = d.direction
+          ON p.entry_id = e.id AND p.direction = d.direction AND p.user_id = %s
         {_filter_clause()}
           AND p.due_on <= %s
         GROUP BY e.id, d.direction, p.due_on, p.interval_days, p.ease
         ORDER BY e.id, d.direction
     """
     with conn.cursor(row_factory=dict_row) as cur:
-        cur.execute(query, (list(DIRECTIONS), *_filter_params(flt), today))
+        cur.execute(
+            query, (list(DIRECTIONS), user_id, *_filter_params(flt), today)
+        )
         rows = cur.fetchall()
     return [_row_to_card(row, is_new=False) for row in rows]
 
@@ -130,6 +133,7 @@ def fetch_due_candidates(
 def fetch_new_candidates(
     conn: psycopg.Connection,
     flt: SessionFilter,
+    user_id: int,
 ) -> list[CardCandidate]:
     query = f"""
         SELECT
@@ -149,14 +153,14 @@ def fetch_new_candidates(
         CROSS JOIN unnest(%s::card_direction[]) AS d(direction)
         JOIN entry_translations tr ON tr.entry_id = e.id
         LEFT JOIN card_progress p
-          ON p.entry_id = e.id AND p.direction = d.direction
+          ON p.entry_id = e.id AND p.direction = d.direction AND p.user_id = %s
         {_filter_clause()}
           AND p.entry_id IS NULL
         GROUP BY e.id, d.direction
         ORDER BY e.id, d.direction
     """
     with conn.cursor(row_factory=dict_row) as cur:
-        cur.execute(query, (list(DIRECTIONS), *_filter_params(flt)))
+        cur.execute(query, (list(DIRECTIONS), user_id, *_filter_params(flt)))
         rows = cur.fetchall()
     return [_row_to_card(row, is_new=True) for row in rows]
 
@@ -164,15 +168,16 @@ def fetch_new_candidates(
 def fetch_queue_preview(
     conn: psycopg.Connection,
     flt: SessionFilter,
+    user_id: int,
     today: date | None = None,
 ) -> QueuePreview:
     from app.progress import count_introduced_today
     from app.session import new_limit_for_day
 
     today = today or date.today()
-    due = fetch_due_candidates(conn, flt, today)
-    new = fetch_new_candidates(conn, flt)
-    introduced = count_introduced_today(conn, flt.language, today)
+    due = fetch_due_candidates(conn, flt, user_id, today)
+    new = fetch_new_candidates(conn, flt, user_id)
+    introduced = count_introduced_today(conn, user_id, flt.language, today)
     remaining = new_limit_for_day(introduced, new_per_day(flt.language))
     return QueuePreview(
         due_count=len(due),

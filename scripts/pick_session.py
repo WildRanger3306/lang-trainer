@@ -21,6 +21,7 @@ from app.session import SessionFilter
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--language", required=True, choices=("en", "fr"))
+    parser.add_argument("--user", required=True, help="login of the learner")
     parser.add_argument("--textbook", action="append", default=[])
     parser.add_argument("--topic", action="append", default=[])
     parser.add_argument("--level", action="append", default=[])
@@ -35,12 +36,19 @@ def main() -> None:
     )
     rng = random.Random(args.seed)
     with connect() as conn:
-        picked, due_n, new_n = build_session_cards(conn, flt, rng)
-        introduced = count_introduced_today(conn, flt.language)
+        row = conn.execute(
+            "SELECT id FROM users WHERE login = %s", (args.user,)
+        ).fetchone()
+        if row is None:
+            raise SystemExit(f"user not found: {args.user}")
+        user_id = int(row[0])
+        picked, due_n, new_n = build_session_cards(conn, flt, user_id, rng)
+        introduced = count_introduced_today(conn, user_id, flt.language)
 
     print(
         json.dumps(
             {
+                "user": args.user,
                 "due_count": due_n,
                 "new_in_session": new_n,
                 "introduced_today": introduced,

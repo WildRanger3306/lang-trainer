@@ -9,6 +9,7 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
+from app.auth import AuthStore
 from app.cards import card_view
 from app.db import connect
 from app.progress import count_introduced_today, save_assessment, save_grade
@@ -18,14 +19,17 @@ from app.scheduler import ASSESS_BATCH, ASSESS_KNOW_INTERVAL, ASSESS_VERDICTS, n
 from app.session import SessionFilter
 from app.stats import build_language_summary
 from app.store import SessionStore
+from app.users import User, authenticate
 
 ROOT = Path(__file__).resolve().parents[1]
 COOKIE = "train_session"
+AUTH_COOKIE = "auth_session"
 
 app = FastAPI(title="lang-trainer")
 app.mount("/static", StaticFiles(directory=ROOT / "static"), name="static")
 templates = Jinja2Templates(directory=str(ROOT / "templates"))
 store = SessionStore()
+auth_store = AuthStore()
 
 
 def _format_duration(seconds: int) -> str:
@@ -33,6 +37,18 @@ def _format_duration(seconds: int) -> str:
     if minutes == 0:
         return f"{secs} с"
     return f"{minutes} мин {secs} с"
+
+
+def _current_user(request: Request) -> User | None:
+    session = auth_store.get(request.cookies.get(AUTH_COOKIE))
+    return session.user if session else None
+
+
+def _require_user(request: Request) -> User | RedirectResponse:
+    user = _current_user(request)
+    if user is None:
+        return RedirectResponse("/login", status_code=303)
+    return user
 
 
 def _parse_filter(
@@ -52,23 +68,68 @@ def _parse_filter(
         return RedirectResponse("/?error=Выберите+язык", status_code=303)
 
 
+def _nav(user: User | None) -> dict:
+    return {"user": user}
+
+
 @app.get("/health")
 def health() -> dict[str, bool]:
     return {"ok": True}
 
 
-@app.get("/", response_class=HTMLResponse)
-def filter_page(request: Request, error: str | None = None) -> HTMLResponse:
+@app.get("/login", response_class=HTMLResponse, response_model=None)
+def login_page(request: Request, error: str | None = None) -> HTMLResponse | RedirectResponse:
+    if _current_user(request) is not None:
+        return RedirectResponse("/", status_code=303)
+    return templates.TemplateResponse(
+        request,
+        "login.html",
+        {"error": error},
+    )
+
+
+@app.post("/login")
+def login_submit(
+    request: Request,
+    login: str = Form(...),
+    password: str = Form(...),
+) -> RedirectResponse:
+    with connect() as conn:
+        user = authenticate(conn, login, password)
+    if user is None:
+        return RedirectResponse("/login?error=Неверный+логин+или+пароль", status_code=303)
+    token = auth_store.create(user)
+    response = RedirectResponse("/", status_code=303)
+    response.set_cookie(AUTH_COOKIE, token, httponly=True, samesite="lax")
+    return response
+
+
+@app.post("/logout")
+def logout(request: Request) -> RedirectResponse:
+    auth_store.destroy(request.cookies.get(AUTH_COOKIE))
+    store.destroy(request.cookies.get(COOKIE))
+    response = RedirectResponse("/login", status_code=303)
+    response.delete_cookie(AUTH_COOKIE)
+    response.delete_cookie(COOKIE)
+    return response
+
+
+@app.get("/", response_class=HTMLResponse, response_model=None)
+def filter_page(request: Request, error: str | None = None) -> HTMLResponse | RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
     language = request.query_params.get("language") or "en"
     if language not in ("en", "fr"):
         language = "en"
     with connect() as conn:
         options = fetch_filter_options(conn)
-        preview = fetch_queue_preview(conn, SessionFilter(language=language))
+        preview = fetch_queue_preview(conn, SessionFilter(language=language), user.id)
     return templates.TemplateResponse(
         request,
         "filter.html",
         {
+            **_nav(user),
             "error": error,
             "options": options,
             "language": language,
@@ -86,17 +147,21 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse:
 
 @app.post("/start")
 def start_session(
+    request: Request,
     language: str = Form(...),
     textbook: list[str] | None = Form(default=None),
     topic: list[str] | None = Form(default=None),
     level: list[str] | None = Form(default=None),
 ) -> RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
     flt = _parse_filter(language, textbook, topic, level)
     if isinstance(flt, RedirectResponse):
         return flt
 
     with connect() as conn:
-        picked, due_n, new_n = build_session_cards(conn, flt, random.Random())
+        picked, due_n, new_n = build_session_cards(conn, flt, user.id, random.Random())
 
     if not picked:
         return RedirectResponse(
@@ -104,7 +169,9 @@ def start_session(
             status_code=303,
         )
 
-    token = store.create(picked, mode="train", due_at_start=due_n, new_at_start=new_n)
+    token = store.create(
+        picked, user_id=user.id, mode="train", due_at_start=due_n, new_at_start=new_n
+    )
     response = RedirectResponse("/train", status_code=303)
     response.set_cookie(COOKIE, token, httponly=True, samesite="lax")
     return response
@@ -112,17 +179,23 @@ def start_session(
 
 @app.post("/assess/start")
 def start_assessment(
+    request: Request,
     language: str = Form(...),
     textbook: list[str] | None = Form(default=None),
     topic: list[str] | None = Form(default=None),
     level: list[str] | None = Form(default=None),
 ) -> RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
     flt = _parse_filter(language, textbook, topic, level)
     if isinstance(flt, RedirectResponse):
         return flt
 
     with connect() as conn:
-        picked, unassessed = build_assessment_cards(conn, flt, random.Random())
+        picked, unassessed = build_assessment_cards(
+            conn, flt, user.id, random.Random()
+        )
 
     if not picked:
         return RedirectResponse(
@@ -132,6 +205,7 @@ def start_assessment(
 
     token = store.create(
         picked,
+        user_id=user.id,
         mode="assess",
         unassessed_at_start=unassessed,
     )
@@ -142,8 +216,11 @@ def start_assessment(
 
 @app.get("/train", response_class=HTMLResponse, response_model=None)
 def train_page(request: Request) -> HTMLResponse | RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
     session = store.get(request.cookies.get(COOKIE))
-    if session is None:
+    if session is None or session.user_id != user.id:
         return RedirectResponse("/", status_code=303)
     if session.mode != "train":
         return RedirectResponse("/assess", status_code=303)
@@ -155,6 +232,7 @@ def train_page(request: Request) -> HTMLResponse | RedirectResponse:
         request,
         "train.html",
         {
+            **_nav(user),
             "view": card_view(card),
             "number": session.number,
             "total": session.total,
@@ -165,8 +243,11 @@ def train_page(request: Request) -> HTMLResponse | RedirectResponse:
 
 @app.get("/assess", response_class=HTMLResponse, response_model=None)
 def assess_page(request: Request) -> HTMLResponse | RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
     session = store.get(request.cookies.get(COOKIE))
-    if session is None:
+    if session is None or session.user_id != user.id:
         return RedirectResponse("/", status_code=303)
     if session.mode != "assess":
         return RedirectResponse("/train", status_code=303)
@@ -178,6 +259,7 @@ def assess_page(request: Request) -> HTMLResponse | RedirectResponse:
         request,
         "assess.html",
         {
+            **_nav(user),
             "view": card_view(card),
             "number": session.number,
             "total": session.total,
@@ -188,14 +270,22 @@ def assess_page(request: Request) -> HTMLResponse | RedirectResponse:
 
 @app.post("/grade")
 def grade_card(request: Request, remembered: str = Form(...)) -> RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
     session = store.get(request.cookies.get(COOKIE))
-    if session is None or session.current is None or session.mode != "train":
+    if (
+        session is None
+        or session.current is None
+        or session.mode != "train"
+        or session.user_id != user.id
+    ):
         return RedirectResponse("/", status_code=303)
 
     card = session.current
     knew = remembered == "1"
     with connect() as conn:
-        save_grade(conn, card, knew)
+        save_grade(conn, user.id, card, knew)
 
     if knew:
         session.known += 1
@@ -203,7 +293,6 @@ def grade_card(request: Request, remembered: str = Form(...)) -> RedirectRespons
     else:
         session.unknown += 1
         session.index += 1
-        # Again: show again later in this session; due is tomorrow in DB.
         from dataclasses import replace
 
         session.requeue(replace(card, is_new=False))
@@ -216,15 +305,23 @@ def grade_card(request: Request, remembered: str = Form(...)) -> RedirectRespons
 
 @app.post("/assess/grade")
 def grade_assessment(request: Request, verdict: str = Form(...)) -> RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
     session = store.get(request.cookies.get(COOKIE))
-    if session is None or session.current is None or session.mode != "assess":
+    if (
+        session is None
+        or session.current is None
+        or session.mode != "assess"
+        or session.user_id != user.id
+    ):
         return RedirectResponse("/", status_code=303)
     if verdict not in ASSESS_VERDICTS:
         return RedirectResponse("/assess", status_code=303)
 
     card = session.current
     with connect() as conn:
-        save_assessment(conn, card, verdict)
+        save_assessment(conn, user.id, card, verdict)
 
     if verdict == "know":
         session.known += 1
@@ -242,8 +339,11 @@ def grade_assessment(request: Request, verdict: str = Form(...)) -> RedirectResp
 
 @app.post("/finish")
 def finish_session(request: Request) -> RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
     session = store.get(request.cookies.get(COOKIE))
-    if session is None:
+    if session is None or session.user_id != user.id:
         return RedirectResponse("/", status_code=303)
     session.finish()
     return RedirectResponse("/done", status_code=303)
@@ -251,13 +351,17 @@ def finish_session(request: Request) -> RedirectResponse:
 
 @app.get("/done", response_class=HTMLResponse, response_model=None)
 def done_page(request: Request) -> HTMLResponse | RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
     session = store.get(request.cookies.get(COOKIE))
-    if session is None or not session.done:
+    if session is None or not session.done or session.user_id != user.id:
         return RedirectResponse("/", status_code=303)
     return templates.TemplateResponse(
         request,
         "done.html",
         {
+            **_nav(user),
             "mode": session.mode,
             "known": session.known,
             "doubt": session.doubt,
@@ -269,16 +373,22 @@ def done_page(request: Request) -> HTMLResponse | RedirectResponse:
     )
 
 
-@app.get("/stats", response_class=HTMLResponse)
-def stats_page(request: Request, language: str = "en") -> HTMLResponse:
+@app.get("/stats", response_class=HTMLResponse, response_model=None)
+def stats_page(
+    request: Request, language: str = "en"
+) -> HTMLResponse | RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
     if language not in ("en", "fr"):
         language = "en"
     with connect() as conn:
-        summary = build_language_summary(conn, language)
+        summary = build_language_summary(conn, user.id, language)
     return templates.TemplateResponse(
         request,
         "stats.html",
         {
+            **_nav(user),
             "language": language,
             "summary": summary,
             "new_per_day": new_per_day(language),
@@ -289,12 +399,16 @@ def stats_page(request: Request, language: str = "en") -> HTMLResponse:
 
 @app.get("/session")
 def create_session_json(
+    request: Request,
     language: str,
     textbook: list[str] | None = Query(default=None),
     topic: list[str] | None = Query(default=None),
     level: list[str] | None = Query(default=None),
     seed: int | None = None,
 ) -> dict:
+    user = _current_user(request)
+    if user is None:
+        raise HTTPException(status_code=401, detail="login required")
     try:
         flt = SessionFilter(
             language=language,
@@ -307,8 +421,8 @@ def create_session_json(
 
     rng = random.Random(seed)
     with connect() as conn:
-        picked, due_n, new_n = build_session_cards(conn, flt, rng)
-        introduced = count_introduced_today(conn, flt.language)
+        picked, due_n, new_n = build_session_cards(conn, flt, user.id, rng)
+        introduced = count_introduced_today(conn, user.id, flt.language)
 
     return {
         "filter": {
@@ -317,6 +431,7 @@ def create_session_json(
             "topics": list(flt.topics),
             "levels": list(flt.levels),
         },
+        "user": user.login,
         "due_count": due_n,
         "new_in_session": new_n,
         "introduced_today": introduced,
