@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import date
+from datetime import date, datetime, timezone
 
 import psycopg
 from psycopg.rows import dict_row
@@ -37,9 +37,13 @@ def save_grade(
     card: CardCandidate,
     remembered: bool,
     today: date | None = None,
+    answered_at: datetime | None = None,
 ) -> ScheduleState:
     today = today or date.today()
+    answered_at = answered_at or datetime.now(timezone.utc)
     current = _load_state(conn, card.entry_id, card.direction)
+    was_new = current is None
+    interval_before = 0.0 if current is None else float(current.interval_days)
     nxt = apply_grade(current, remembered, today)
     with conn.cursor() as cur:
         cur.execute(
@@ -60,6 +64,24 @@ def save_grade(
                 nxt.interval_days,
                 nxt.ease,
                 nxt.introduced_on,
+            ),
+        )
+        cur.execute(
+            """
+            INSERT INTO card_reviews (
+              entry_id, direction, answered_at, answered_on, remembered,
+              was_new, interval_before, interval_after
+            ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            """,
+            (
+                card.entry_id,
+                card.direction,
+                answered_at,
+                today,
+                remembered,
+                was_new,
+                interval_before,
+                nxt.interval_days,
             ),
         )
     conn.commit()

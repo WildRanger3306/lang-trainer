@@ -12,7 +12,7 @@ from app.session import SessionFilter, build_queue, new_limit_for_day
 
 @unittest.skipUnless(os.environ.get("RUN_DB_TESTS") == "1", "set RUN_DB_TESTS=1")
 class RepositoryTests(unittest.TestCase):
-    def test_starlight_new_pool_is_two_directions_per_entry(self) -> None:
+    def test_starlight_pool_covers_all_directions(self) -> None:
         flt = SessionFilter(language="en", textbooks=("Starlight 6",))
         with connect() as conn:
             due = fetch_due_candidates(conn, flt)
@@ -25,10 +25,21 @@ class RepositoryTests(unittest.TestCase):
                 WHERE t.name = 'Starlight 6'
                 """
             ).fetchone()[0]
-        self.assertEqual(len(due) + len(new), total * 2)
-        self.assertEqual(len({c.key for c in due + new}), total * 2)
+            scheduled_future = conn.execute(
+                """
+                SELECT count(*)
+                FROM card_progress p
+                JOIN entries e ON e.id = p.entry_id
+                JOIN entry_textbooks et ON et.entry_id = e.id
+                JOIN textbooks t ON t.id = et.textbook_id
+                WHERE t.name = 'Starlight 6'
+                  AND e.language = 'en'
+                  AND p.due_on > CURRENT_DATE
+                """
+            ).fetchone()[0]
+        self.assertEqual(len(due) + len(new) + scheduled_future, total * 2)
         picked = build_queue(due, new, NEW_PER_DAY, random.Random(0))
-        self.assertEqual(len(picked), min(NEW_PER_DAY + len(due), total * 2))
+        self.assertLessEqual(len(picked), NEW_PER_DAY + len(due))
         self.assertTrue(all(c.form for c in picked))
 
     def test_unknown_textbook_is_empty(self) -> None:

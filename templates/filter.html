@@ -1,9 +1,12 @@
 {% extends "base.html" %}
 {% block title %}Фильтр — тренажёр{% endblock %}
 {% block body %}
-  <header class="header">
-    <h1>Тренировка</h1>
-    <p class="lead">Язык обязателен. Тема, уровень и учебник — по желанию. Очередь: due + до {{ new_per_day }} новых в день на язык.</p>
+  <header class="header header-row">
+    <div>
+      <h1>Тренировка</h1>
+      <p class="lead">Язык обязателен. Тема, уровень и учебник — по желанию. Очередь: due + до {{ new_per_day }} новых в день на язык.</p>
+    </div>
+    <a class="nav-link" href="/stats?language={{ language }}">Сводка</a>
   </header>
 
   {% if error %}

@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}Сводка — тренажёр{% endblock %}
+{% block body %}
+  <header class="header header-row">
+    <div>
+      <h1>Сводка</h1>
+      <p class="lead">Прогресс корпуса и нагрузка — чтобы решить, менять ли лимит новых.</p>
+    </div>
+    <a class="nav-link" href="/?language={{ language }}">К тренировке</a>
+  </header>
+
+  <nav class="lang-switch">
+    <a class="chip {% if language == 'en' %}is-active{% endif %}" href="/stats?language=en">английский</a>
+    <a class="chip {% if language == 'fr' %}is-active{% endif %}" href="/stats?language=fr">французский</a>
+  </nav>
+
+  <section class="banner banner-{{ summary.advice.status }}">
+    <p class="advice-label">{{ summary.advice.label }}</p>
+    <p class="muted">{{ summary.advice.detail }}</p>
+    <p>Сейчас лимит <strong>{{ new_per_day }}</strong> новых/день.
+      Совет: <strong>{{ summary.advice.suggested_new_per_day }}</strong>
+      (меняется вручную, автоподстройки нет).</p>
+  </section>
+
+  {% set c = summary.corpus %}
+  {% set l = summary.load %}
+  {% set p = summary.performance %}
+
+  <section class="panel">
+    <h2 class="section-title">Корпус</h2>
+    <ul class="stats">
+      <li><span>карточек всего</span><strong>{{ c.total_cards }}</strong></li>
+      <li><span>ещё новые</span><strong>{{ c.new_cards }}</strong></li>
+      <li><span>уже в системе</span><strong>{{ c.in_system }} ({{ '%.0f'|format(c.in_system_pct) }}%)</strong></li>
+      <li><span>интервал ≥ 7 дн</span><strong>{{ c.interval_ge_7 }} ({{ '%.0f'|format(c.ge7_pct) }}%)</strong></li>
+      <li><span>интервал ≥ 21 дн</span><strong>{{ c.interval_ge_21 }} ({{ '%.0f'|format(c.ge21_pct) }}%)</strong></li>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <h2 class="section-title">Нагрузка</h2>
+    <ul class="stats">
+      <li><span>due сегодня</span><strong>{{ l.due_today }}</strong></li>
+      <li><span>due ≤ завтра</span><strong>{{ l.due_tomorrow }}</strong></li>
+      <li><span>due ≤ +3 дня</span><strong>{{ l.due_in_3_days }}</strong></li>
+      <li><span>новых сегодня</span><strong>{{ l.introduced_today }} / {{ l.new_per_day }}</strong></li>
+      <li><span>ответов за 7 дн</span><strong>{{ l.answers_last_7 }}</strong></li>
+      <li><span>медиана/день (7)</span><strong>{{ '%.0f'|format(l.median_answers_per_day_7) }} · {{ l.active_days_7 }} дн</strong></li>
+      <li><span>ответов за 30 дн</span><strong>{{ l.answers_last_30 }}</strong></li>
+      <li><span>медиана/день (30)</span><strong>{{ '%.0f'|format(l.median_answers_per_day_30) }} · {{ l.active_days_30 }} дн</strong></li>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <h2 class="section-title">Перформанс · 7 дней</h2>
+    {% if p.reviews_7 == 0 %}
+      <p class="muted">Пока нет ответов за неделю — потренируйтесь, и здесь появятся again rate и доли «помню».</p>
+    {% else %}
+      <ul class="stats">
+        <li><span>ответов</span><strong>{{ p.reviews_7 }}</strong></li>
+        <li><span>«помню» все</span><strong>{% if p.remember_rate_all_7 is not none %}{{ '%.0f'|format(p.remember_rate_all_7 * 100) }}%{% else %}—{% endif %}</strong></li>
+        <li><span>«помню» новые</span><strong>{% if p.remember_rate_new_7 is not none %}{{ '%.0f'|format(p.remember_rate_new_7 * 100) }}%{% else %}—{% endif %}</strong></li>
+        <li><span>«помню» повторы</span><strong>{% if p.remember_rate_review_7 is not none %}{{ '%.0f'|format(p.remember_rate_review_7 * 100) }}%{% else %}—{% endif %}</strong></li>
+        <li><span>again rate</span><strong>{% if p.again_rate_7 is not none %}{{ '%.0f'|format(p.again_rate_7 * 100) }}%{% else %}—{% endif %}</strong></li>
+        <li><span>сброс на interval 1</span><strong>{{ p.reset_to_one_7 }}</strong></li>
+        <li><span>mature again (≥21)</span><strong>{% if p.mature_again_rate_7 is not none %}{{ '%.0f'|format(p.mature_again_rate_7 * 100) }}% ({{ p.mature_reviews_7 }}){% else %}— ({{ p.mature_reviews_7 }}){% endif %}</strong></li>
+      </ul>
+    {% endif %}
+  </section>
+{% endblock %}

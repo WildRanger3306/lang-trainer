@@ -16,6 +16,7 @@ from app.queue import build_session_cards
 from app.repository import fetch_filter_options, fetch_queue_preview
 from app.scheduler import NEW_PER_DAY
 from app.session import SessionFilter
+from app.stats import build_language_summary
 from app.store import SessionStore
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -167,6 +168,23 @@ def done_page(request: Request) -> HTMLResponse | RedirectResponse:
             "total": session.answered,
             "started_at": session.started_at.strftime("%d.%m.%Y %H:%M"),
             "duration": _format_duration(session.duration_seconds),
+        },
+    )
+
+
+@app.get("/stats", response_class=HTMLResponse)
+def stats_page(request: Request, language: str = "en") -> HTMLResponse:
+    if language not in ("en", "fr"):
+        language = "en"
+    with connect() as conn:
+        summary = build_language_summary(conn, language)
+    return templates.TemplateResponse(
+        request,
+        "stats.html",
+        {
+            "language": language,
+            "summary": summary,
+            "new_per_day": NEW_PER_DAY,
         },
     )
 

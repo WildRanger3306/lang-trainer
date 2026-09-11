@@ -14,6 +14,10 @@ from app.scheduler import NEW_PER_DAY
 class TrainFlowTests(unittest.TestCase):
     def setUp(self) -> None:
         self.client = TestClient(app)
+        with connect() as conn:
+            conn.execute("TRUNCATE card_reviews RESTART IDENTITY")
+            conn.execute("TRUNCATE card_progress")
+            conn.commit()
 
     def test_filter_page_renders(self) -> None:
         response = self.client.get("/")
@@ -48,7 +52,17 @@ class TrainFlowTests(unittest.TestCase):
 
         with connect() as conn:
             after = conn.execute("SELECT count(*) FROM card_progress").fetchone()[0]
+            reviews = conn.execute("SELECT count(*) FROM card_reviews").fetchone()[0]
             row = conn.execute(
+                """
+                SELECT remembered, was_new, interval_before, interval_after
+                FROM card_reviews
+                ORDER BY id DESC
+                LIMIT 1
+                """
+            ).fetchone()
+            # join progress
+            prog = conn.execute(
                 """
                 SELECT interval_days, ease
                 FROM card_progress
@@ -58,8 +72,20 @@ class TrainFlowTests(unittest.TestCase):
             ).fetchone()
         self.assertGreaterEqual(after, before)
         self.assertGreaterEqual(after, 1)
-        self.assertEqual(float(row[0]), 1.0)
-        self.assertEqual(float(row[1]), 2.5)
+        self.assertGreaterEqual(reviews, 1)
+        self.assertTrue(row[0])  # remembered
+        self.assertTrue(row[1])  # was_new
+        self.assertEqual(float(row[2]), 0.0)
+        self.assertEqual(float(row[3]), 1.0)
+        self.assertEqual(float(prog[0]), 1.0)
+        self.assertEqual(float(prog[1]), 2.5)
+
+    def test_stats_page_renders(self) -> None:
+        response = self.client.get("/stats?language=en")
+        self.assertEqual(response.status_code, 200)
+        self.assertIn("Сводка", response.text)
+        self.assertIn("Корпус", response.text)
+        self.assertIn("Нагрузка", response.text)
 
     def test_session_respects_new_cap(self) -> None:
         response = self.client.get("/session?language=en&textbook=Starlight%206&seed=1")
