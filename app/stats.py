@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from dataclasses import dataclass
 from datetime import date, timedelta
 from statistics import median
@@ -69,12 +70,29 @@ class LoadAdvice:
 
 
 @dataclass(frozen=True)
+class HorizonStats:
+    """ETA for remaining new cards (first pass through the corpus)."""
+
+    remaining_new: int
+    days_at_limit: int | None
+    label_at_limit: str
+    introduced_last_7: int
+    pace_new_per_day_7: float
+    days_at_pace: int | None
+    label_at_pace: str | None
+    days_to_mature_lag: int
+    label_first_pass_plus_mature: str
+    note: str
+
+
+@dataclass(frozen=True)
 class LanguageSummary:
     language: str
     corpus: CorpusStats
     load: LoadStats
     performance: PerformanceStats
     advice: LoadAdvice
+    horizon: HorizonStats
 
 
 def _pct(part: int, whole: int) -> float:
@@ -87,6 +105,85 @@ def _rate(success: int, total: int) -> float | None:
     if total <= 0:
         return None
     return success / total
+
+
+def days_to_finish(remaining: int, per_day: float) -> int | None:
+    if remaining <= 0:
+        return 0
+    if per_day <= 0:
+        return None
+    return int(math.ceil(remaining / per_day))
+
+
+def format_horizon(days: int | None) -> str:
+    if days is None:
+        return "нужен темп > 0"
+    if days <= 0:
+        return "готово"
+    if days < 14:
+        return f"≈ {days} дн"
+    weeks = days / 7
+    if days < 60:
+        w = int(round(weeks))
+        return f"≈ {w} нед"
+    months = days / 30.44
+    if months < 10:
+        return f"≈ {months:.1f} мес"
+    return f"≈ {int(round(months))} мес"
+
+
+def build_horizon(
+    remaining_new: int,
+    new_per_day: int,
+    introduced_last_7: int,
+    *,
+    mature_lag_days: int = 21,
+) -> HorizonStats:
+    days_limit = days_to_finish(remaining_new, float(new_per_day))
+    pace = introduced_last_7 / 7.0
+    days_pace = days_to_finish(remaining_new, pace)
+    label_limit = format_horizon(days_limit)
+    first_plus_mature = (
+        None if days_limit is None else days_limit + mature_lag_days
+    )
+    return HorizonStats(
+        remaining_new=remaining_new,
+        days_at_limit=days_limit,
+        label_at_limit=label_limit,
+        introduced_last_7=introduced_last_7,
+        pace_new_per_day_7=pace,
+        days_at_pace=days_pace,
+        label_at_pace=format_horizon(days_pace) if pace > 0 or remaining_new <= 0 else None,
+        days_to_mature_lag=mature_lag_days,
+        label_first_pass_plus_mature=format_horizon(first_plus_mature),
+        note=(
+            "«Освоить» здесь = первый показ всех оставшихся карточек при ежедневных занятиях. "
+            "Удержание (interval ≥ 21) у последних карточек — примерно ещё +3 недели после этого; "
+            "повторы после ввода новых продолжаются всегда."
+        ),
+    )
+
+
+def fetch_introduced_last_days(
+    conn: psycopg.Connection,
+    language: str,
+    today: date,
+    days: int = 7,
+) -> int:
+    since = today - timedelta(days=days - 1)
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            SELECT count(*)
+            FROM card_progress p
+            JOIN entries e ON e.id = p.entry_id
+            WHERE e.language = %s
+              AND p.introduced_on >= %s
+              AND p.introduced_on <= %s
+            """,
+            (language, since, today),
+        )
+        return int(cur.fetchone()[0])
 
 
 def fetch_corpus_stats(conn: psycopg.Connection, language: str) -> CorpusStats:
@@ -298,10 +395,13 @@ def build_language_summary(
     load = fetch_load_stats(conn, language, today)
     performance = fetch_performance_stats(conn, language, today)
     advice = advise_load(corpus, load, performance)
+    introduced_7 = fetch_introduced_last_days(conn, language, today, 7)
+    horizon = build_horizon(corpus.new_cards, load.new_per_day, introduced_7)
     return LanguageSummary(
         language=language,
         corpus=corpus,
         load=load,
         performance=performance,
         advice=advice,
+        horizon=horizon,
     )

@@ -8,6 +8,9 @@ from app.stats import (
     LoadStats,
     PerformanceStats,
     advise_load,
+    build_horizon,
+    days_to_finish,
+    format_horizon,
 )
 
 
@@ -74,6 +77,27 @@ class AdviseTests(unittest.TestCase):
     def test_keep_when_little_data(self) -> None:
         advice = advise_load(corpus(), load(), perf(reviews_7=5))
         self.assertEqual(advice.status, "keep")
+
+
+class HorizonTests(unittest.TestCase):
+    def test_days_to_finish(self) -> None:
+        self.assertEqual(days_to_finish(0, 15), 0)
+        self.assertEqual(days_to_finish(15, 15), 1)
+        self.assertEqual(days_to_finish(16, 15), 2)
+        self.assertIsNone(days_to_finish(10, 0))
+
+    def test_format_horizon(self) -> None:
+        self.assertEqual(format_horizon(0), "готово")
+        self.assertEqual(format_horizon(10), "≈ 10 дн")
+        self.assertIn("нед", format_horizon(28))
+        self.assertIn("мес", format_horizon(200))
+
+    def test_build_horizon_at_limit(self) -> None:
+        h = build_horizon(450, 15, introduced_last_7=70)
+        self.assertEqual(h.days_at_limit, 30)
+        self.assertEqual(h.pace_new_per_day_7, 10.0)
+        self.assertEqual(h.days_at_pace, 45)
+        self.assertIn("нед", h.label_at_limit)
 
 
 if __name__ == "__main__":

@@ -25,6 +25,18 @@
   {% set c = summary.corpus %}
   {% set l = summary.load %}
   {% set p = summary.performance %}
+  {% set h = summary.horizon %}
+
+  <section class="panel">
+    <h2 class="section-title">Горизонт</h2>
+    <ul class="stats">
+      <li><span>осталось новых</span><strong>{{ h.remaining_new }}</strong></li>
+      <li><span>при лимите {{ l.new_per_day }}/день</span><strong>{{ h.label_at_limit }}{% if h.days_at_limit is not none and h.days_at_limit > 0 %} · {{ h.days_at_limit }} дн{% endif %}</strong></li>
+      <li><span>по темпу 7 дн ({{ '%.1f'|format(h.pace_new_per_day_7) }}/день)</span><strong>{% if h.label_at_pace %}{{ h.label_at_pace }}{% if h.days_at_pace is not none and h.days_at_pace > 0 %} · {{ h.days_at_pace }} дн{% endif %}{% else %}мало данных{% endif %}</strong></li>
+      <li><span>первый показ + ≥21 дн</span><strong>{{ h.label_first_pass_plus_mature }}</strong></li>
+    </ul>
+    <p class="muted horizon-note">{{ h.note }}</p>
+  </section>
 
   <section class="panel">
     <h2 class="section-title">Корпус</h2>

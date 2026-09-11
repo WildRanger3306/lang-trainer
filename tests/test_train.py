@@ -86,6 +86,7 @@ class TrainFlowTests(unittest.TestCase):
         self.assertIn("Сводка", response.text)
         self.assertIn("Корпус", response.text)
         self.assertIn("Нагрузка", response.text)
+        self.assertIn("Горизонт", response.text)
 
     def test_session_respects_new_cap(self) -> None:
         response = self.client.get("/session?language=en&textbook=Starlight%206&seed=1")

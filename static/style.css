@@ -99,9 +99,9 @@ html, body {
   background: color-mix(in srgb, var(--accent) 18%, var(--panel));
 }
 
-.section-title {
-  margin: 0;
-  font-size: 1.05rem;
+.horizon-note {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
 }
 
 .advice-label {
