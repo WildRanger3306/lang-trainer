@@ -1,0 +1,1046 @@
+{
+  "source": {
+    "scan": "docs/words/raw/loiseau_blue_5/0001.jpg",
+    "page": "Unité 1 / p.116"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: Loiseau Blue 5.",
+    "Род: m/f из учебника."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "aimer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "любить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "ami",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "друг"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "amie",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "подруга"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "aussi",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "тоже"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avec",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "prep",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "с"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avoir",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "иметь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "beau, belle",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "красивый, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "blanc, blanche",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "белый",
+        "белая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "bleu, -e",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "синий, -яя",
+        "голубой, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "bonnet",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "вязаная шапочка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "botte",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "сапог"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "bouleau",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "берёза"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cahier",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "тетрадь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chapeau",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "шапка",
+        "шляпа"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chat",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "кот"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "château",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "замок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chaussure",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "ботинок",
+        "туфля",
+        "обувь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chemise",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "рубашка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cheveu",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "волос"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chien",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "собака"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "clown",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "клоун"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "combien",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "сколько"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "comme",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "conj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "как"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "comment",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "как"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "courir",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "бежать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cousin",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "двоюродный брат"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cousine",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "двоюродная сестра"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "crayon",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "карандаш"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "dans",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "prep",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "в"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "déjà",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "уже"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "dent",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "зуб"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "dentiste",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "зубной врач"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "dire",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "говорить",
+        "сказать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "écharpe",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "шарф"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "être",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "быть"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "faire",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "делать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "famille",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "семья"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "feutre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "фломастер"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "français",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "французский"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "frère",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "брат"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "gentil, -le",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "милый, -ая",
+        "приветливый, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "grand, -e",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "большой, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "grand-mère",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "бабушка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "grand-père",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "дедушка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "jaune",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "жёлтый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "jupe",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "юбка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "leur",
+      "partOfSpeech": "pronoun",
+      "partOfSpeechCode": "pro",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "их",
+        "свой"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "livre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "книга"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "lune",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "луна"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mais",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "conj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "но"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "maison",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "дом"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "marcher",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "идти"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "marron",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "коричневый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mère",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "мать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mes",
+      "partOfSpeech": "pronoun",
+      "partOfSpeechCode": "pro",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "мои"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mettre",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "класть",
+        "надевать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "moi",
+      "partOfSpeech": "pronoun",
+      "partOfSpeechCode": "pro",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "я"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "nager",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "плавать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "noir",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "чёрный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "nous",
+      "partOfSpeech": "pronoun",
+      "partOfSpeechCode": "pro",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "мы"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "oiseau",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "птица"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "oncle",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "дядя"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "pantalon",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "брюки"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "parents",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "родители"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 5"
+      ]
+    }
+  ]
+}

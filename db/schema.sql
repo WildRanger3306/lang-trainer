@@ -1,0 +1,66 @@
+CREATE TYPE language_code AS ENUM ('en', 'fr');
+CREATE TYPE part_of_speech AS ENUM (
+  'noun',
+  'adjective',
+  'verb',
+  'pronoun',
+  'numeral',
+  'adverb',
+  'phrase',
+  'other'
+);
+CREATE TYPE cefr_level AS ENUM ('A1', 'A2', 'B1', 'B2');
+CREATE TYPE noun_gender AS ENUM ('m', 'f');
+
+CREATE TABLE entries (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  language language_code NOT NULL,
+  form TEXT NOT NULL,
+  part_of_speech part_of_speech NOT NULL,
+  part_of_speech_code TEXT,
+  transcription TEXT,
+  gender noun_gender,
+  level cefr_level
+);
+
+CREATE TABLE entry_translations (
+  entry_id BIGINT NOT NULL REFERENCES entries (id) ON DELETE CASCADE,
+  position SMALLINT NOT NULL,
+  text TEXT NOT NULL,
+  PRIMARY KEY (entry_id, position)
+);
+
+CREATE TABLE topics (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  name TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE textbooks (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  name TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE entry_topics (
+  entry_id BIGINT NOT NULL REFERENCES entries (id) ON DELETE CASCADE,
+  topic_id BIGINT NOT NULL REFERENCES topics (id) ON DELETE CASCADE,
+  PRIMARY KEY (entry_id, topic_id)
+);
+
+CREATE TABLE entry_textbooks (
+  entry_id BIGINT NOT NULL REFERENCES entries (id) ON DELETE CASCADE,
+  textbook_id BIGINT NOT NULL REFERENCES textbooks (id) ON DELETE CASCADE,
+  PRIMARY KEY (entry_id, textbook_id)
+);
+
+CREATE INDEX idx_entries_language ON entries (language);
+CREATE INDEX idx_entries_level ON entries (level);
+CREATE INDEX idx_entries_part_of_speech ON entries (part_of_speech);
+
+CREATE TYPE card_direction AS ENUM ('foreign_to_native', 'native_to_foreign');
+
+CREATE TABLE card_progress (
+  entry_id BIGINT NOT NULL REFERENCES entries (id) ON DELETE CASCADE,
+  direction card_direction NOT NULL,
+  streak INTEGER NOT NULL DEFAULT 0 CHECK (streak >= 0),
+  PRIMARY KEY (entry_id, direction)
+);

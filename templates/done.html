@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Итог сессии{% endblock %}
+{% block body %}
+  <header class="header">
+    <h1>Итог</h1>
+    <p class="lead">{{ started_at }} · {{ duration }}</p>
+  </header>
+
+  <ul class="stats">
+    <li><span>помню</span><strong>{{ known }}</strong></li>
+    <li><span>не помню</span><strong>{{ unknown }}</strong></li>
+    <li><span>карточек</span><strong>{{ total }}</strong></li>
+  </ul>
+
+  <a class="btn btn-primary" href="/">Ещё сессия</a>
+{% endblock %}

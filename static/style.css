@@ -1,0 +1,236 @@
+:root {
+  color-scheme: light dark;
+  --bg: #f4f1ea;
+  --ink: #1c1916;
+  --muted: #6b645c;
+  --panel: #fffdf8;
+  --line: #d9d0c4;
+  --accent: #2f5d50;
+  --know: #2f5d50;
+  --forget: #8a3b2c;
+  --error: #8a3b2c;
+  --radius: 16px;
+  --tap: 48px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b1916;
+    --ink: #f4efe6;
+    --muted: #b3aa9e;
+    --panel: #26221d;
+    --line: #3d372f;
+    --accent: #7eb8a6;
+    --know: #7eb8a6;
+    --forget: #e09a8c;
+    --error: #e09a8c;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--ink);
+  font: 18px/1.45 system-ui, sans-serif;
+}
+
+.page {
+  width: min(42rem, 100%);
+  margin: 0 auto;
+  padding: 1.25rem 1rem 2.5rem;
+}
+
+.header h1,
+.header .progress {
+  margin: 0 0 0.35rem;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.lead, .muted, .hint, .flip-hint {
+  color: var(--muted);
+}
+
+.direction-flags {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.lead { margin: 0 0 1.25rem; }
+
+.banner {
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+}
+
+.banner-error {
+  background: color-mix(in srgb, var(--error) 16%, var(--panel));
+}
+
+.panel, .card, .stats {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.panel {
+  padding: 1rem 1rem 1.25rem;
+  display: grid;
+  gap: 1.1rem;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+legend {
+  font-weight: 650;
+  margin-bottom: 0.35rem;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: var(--tap);
+  padding: 0 0.15rem;
+}
+
+.choice input {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.choice-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap);
+  padding: 0.7rem 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.btn-know { background: var(--know); border-color: var(--know); color: #fff; }
+.btn-forget { background: var(--forget); border-color: var(--forget); color: #fff; }
+
+.btn-secondary {
+  background: transparent;
+  color: var(--muted);
+  border-color: var(--line);
+}
+
+.finish {
+  margin-top: 1rem;
+}
+
+.card {
+  min-height: 16rem;
+  padding: 0;
+  perspective: 80rem;
+  cursor: pointer;
+}
+
+.card-inner {
+  position: relative;
+  min-height: 16rem;
+  transform-style: preserve-3d;
+  transition: transform 0.45s ease;
+}
+
+.card.is-flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem 1.25rem;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.card-front {
+  min-height: 16rem;
+}
+
+.card-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+}
+
+.prompt {
+  font-size: clamp(1.6rem, 6vw, 2.2rem);
+  font-weight: 650;
+  margin: 0 0 0.5rem;
+}
+
+.hint, .flip-hint { margin: 0; }
+.flip-hint { margin-top: 1.4rem; font-size: 0.95rem; }
+
+.stats {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0.4rem 1rem;
+}
+
+.stats li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.stats li:last-child { border-bottom: 0; }
+
+@media (min-width: 720px) {
+  html, body { font-size: 18px; }
+  .page { padding: 2rem 1.5rem 3rem; }
+  .card, .card-inner, .card-front { min-height: 18rem; }
+  .card-face { padding: 2rem; }
+}

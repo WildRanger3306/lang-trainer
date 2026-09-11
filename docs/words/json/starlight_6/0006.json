@@ -1,0 +1,1451 @@
+{
+  "source": {
+    "scan": "docs/words/raw/starlight_6/0006.jpg",
+    "page": "WL 6"
+  },
+  "notes": [
+    "Транскрипции не заполнены (по запросу).",
+    "Учебник: Starlight 6."
+  ],
+  "entries": [
+    {
+      "language": "en",
+      "form": "fruit",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "фрукт"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fry",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "жарить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "frying pan",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "сковорода"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "full (of)",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "наполненный (чем-либо)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fur",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "мех"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "furniture",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "мебель"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fall in love",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "влюбиться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "follow in (sb's) footsteps",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "идти по чьим-либо стопам"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "for good",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "навсегда"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "games arcade",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "аркадные игры"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "garlic",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "чеснок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "gather",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "собираться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "gathering",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "компания",
+        "собрание"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "geologist",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "геолог"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "geyser",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "гейзер"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "giant",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n, adj",
+      "transcription": null,
+      "translations": [
+        "гигант",
+        "гигантский"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "gigantic",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "гигантский"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "gift shop",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "магазин сувениров"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "glacier",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "ледник"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "glide",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "скользить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "global warming",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "глобальное потепление"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "gloves",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": null,
+      "translations": [
+        "перчатки"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "gold",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "золото"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "gondolier",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "гондольер"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "goodies",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "положительные герои"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grab",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "хватать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grape",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "виноград"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grateful",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "благодарный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "gravy",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "соус"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grill",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "жарить на гриле"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grizzly bear",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "медведь гризли"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ground",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "земля"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grow",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "расти"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grunge",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "гранж (хард-рок)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "guard",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n, v",
+      "transcription": null,
+      "translations": [
+        "охранник",
+        "охранять",
+        "сторожить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "gym",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "тренажёрный зал"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get a snake bite",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "быть укушенным змеёй"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get a swollen knee",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "повредить колено"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get an education",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "получить образование"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get caught",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "попасться",
+        "быть пойманным"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get caught in a flash flood",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "попасть в наводнение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get into trouble",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "попасть в беду"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get involved",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "вмешиваться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get lost",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "заблудиться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get rid of",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "избавиться (от чего-либо)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get sore feet",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "ощущать боль в ногах"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get stuck in mud",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "застрять в грязи"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get stung by bugs",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "быть укушенным насекомыми"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "give a hand",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "протянуть руку помощи"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "give birth",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "рожать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go bowling",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "играть в боулинг"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go dog sledding",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "ехать на собачьих упряжках"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go horse riding",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "кататься верхом на лошади"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go on a nature hike",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "пойти в поход"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go on a tour",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "отправиться на экскурсию"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go on rides",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "пойти кататься на аттракционах"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go sightseeing",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "осматривать достопримечательности"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go trekking",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "ходить в поход"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go windsurfing",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "заниматься виндсёрфингом"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grab a snack",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "перекусить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grow vegetables",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "выращивать овощи"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "guard on duty",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "охранник на посту"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Guess what!",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Угадайте, что!"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "habitat",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "среда обитания",
+        "ареал"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hairy",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "волосатый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "half",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "половина"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hammock",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "гамак"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hand-held camera",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "портативная камера"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "handmade boomerang",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "бумеранг ручной работы"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "handicrafts",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": null,
+      "translations": [
+        "ремёсла"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hang",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "висеть",
+        "вешать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "harmful",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "вредный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "harp",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "арфа"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "harvest",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "урожай"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hassle",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "препятствие",
+        "преграда"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "head (for)",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "направляться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "health care",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "здравоохранение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "healthy",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "здоровый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "heat",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "тепло"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "heat sensitive",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "термочувствительный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "heavy metal",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "хеви-метал (муз. направл.)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hemisphere",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "полушарие"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "herb",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "трава",
+        "лекарственное растение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hero",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "герой"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hide",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "скрывать",
+        "прятать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "highlight",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n, v",
+      "transcription": null,
+      "translations": [
+        "блик",
+        "пятно",
+        "световой эффект",
+        "выделять",
+        "подсвечивать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "high-quality",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "высококачественный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "high-tech",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "высокотехнологичный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hiking trail",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "туристическая тропа"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hilltop",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "вершина холма"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hip house",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "хип-хаус (муз. стиль)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "historic",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "исторический"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "historical",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "исторический"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "historical figure",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "историческая фигура"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hold",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "удерживать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    }
+  ]
+}

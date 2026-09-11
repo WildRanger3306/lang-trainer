@@ -1,0 +1,810 @@
+{
+  "source": {
+    "scan": "docs/words/raw/starlight_6/0014.jpg",
+    "page": "WL 14"
+  },
+  "notes": [
+    "Транскрипции не заполнены (по запросу).",
+    "Учебник: Starlight 6."
+  ],
+  "entries": [
+    {
+      "language": "en",
+      "form": "vegetable",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "овощ"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "victim",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "жертва"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "victory",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "победа"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "video footage",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "отснятый видеоматериал"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "view",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "вид"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "viewer",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "зритель"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "villa",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "вилла"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "vinegar",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "уксус"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "violin",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "скрипка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "vitamin",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "витамин"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "voice-over",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "голос за кадром"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "volcano",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "вулкан"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "volunteer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "выполнять работу безвозмездно",
+        "на добровольных началах"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "volunteer team",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "команда добровольцев"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "vote",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "голосовать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "voyage",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "путешествие"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "vandalise a statue",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "разрушать скульптуру"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "visit historical sites",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "посетить исторические места"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wage",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "заработная плата"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "walk",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "ходить пешком"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wander (around)",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "блуждать (около)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "war",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "война"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "warrior",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "воин"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "water park",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "аквапарк"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "water supply",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "водоснабжение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "waterfall",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "водопад"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wave",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "волна"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wax figure",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "восковая фигура"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "weather",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "погода"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "weaver",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "ткач"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "website",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "интернет-сайт"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "well",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "колодец"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "whale",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "кит"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wild animal",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "дикое животное"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wildlife",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "дикая природа"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wildlife reserve",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "заповедник"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "win",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "выиграть"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wind instrument",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "духовой инструмент"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wind pattern",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "роза ветров"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wing",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "крыло"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wolf",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "волк"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wood",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "дерево",
+        "древесина"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "writer",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "писатель"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "watch out for",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "следить (за кем-либо)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wait my turn",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "ждать своей очереди"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "What's wrong?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Что-то не так?"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "win a battle",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "выиграть сражение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "win a place in history",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "прославиться",
+        "обрести славу"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "withdraw money",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "снять деньги"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "yet",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "translations": [
+        "ещё"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "yogurt",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "йогурт"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "zebra",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "зебра"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "zebra crossing",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "пешеходный переход"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 6"
+      ]
+    }
+  ]
+}

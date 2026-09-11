@@ -1,0 +1,10 @@
+.venv
+.git
+.cursor
+__pycache__
+**/__pycache__
+*.pyc
+.env
+docs/words/raw
+*.md
+!docs/words/json/**

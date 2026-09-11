@@ -1,2 +1,25 @@
 # lang-trainer
-lang-trainer
+
+Личный веб-тренажёр. FastAPI + HTML, всё в Docker. Экраны адаптивные: телефон и компьютер.
+
+Документы: [docs/1-intent.md](docs/1-intent.md). Решения: [docs/4-decisions.md](docs/4-decisions.md).
+
+```bash
+docker compose up --build -d
+```
+
+Открыть http://127.0.0.1:8000 — фильтр → карточки → итог.
+
+При первом старте, если словарь пуст, загружается каталог `docs/words/json/starlight_6/` (WL 1–14). Повторный `up` данные не затирает.
+
+Postgres с хоста: порт 5433. Сбросить всё: `docker compose down -v`.
+
+Тесты (нужен локальный `.venv`):
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+PYTHONPATH=. python3 -m unittest discover -s tests -v
+RUN_DB_TESTS=1 PYTHONPATH=. python3 -m unittest discover -s tests -v
+```

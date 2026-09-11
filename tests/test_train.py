@@ -1,0 +1,54 @@
+from __future__ import annotations
+
+import os
+import unittest
+
+from fastapi.testclient import TestClient
+
+from app.db import connect
+from app.main import app
+
+
+@unittest.skipUnless(os.environ.get("RUN_DB_TESTS") == "1", "set RUN_DB_TESTS=1")
+class TrainFlowTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.client = TestClient(app)
+
+    def test_filter_page_renders(self) -> None:
+        response = self.client.get("/")
+        self.assertEqual(response.status_code, 200)
+        self.assertIn("английский", response.text)
+        self.assertIn("Starlight 6", response.text)
+
+    def test_grade_writes_streak(self) -> None:
+        start = self.client.post(
+            "/start",
+            data={"language": "en", "textbook": "Starlight 6"},
+            follow_redirects=False,
+        )
+        self.assertEqual(start.status_code, 303)
+        self.assertEqual(start.headers["location"], "/train")
+
+        train = self.client.get("/train")
+        self.assertEqual(train.status_code, 200)
+        self.assertIn("1 / 20", train.text)
+
+        with connect() as conn:
+            before = conn.execute("SELECT count(*) FROM card_progress").fetchone()[0]
+
+        grade = self.client.post(
+            "/grade",
+            data={"remembered": "1"},
+            follow_redirects=False,
+        )
+        self.assertEqual(grade.status_code, 303)
+        self.assertEqual(grade.headers["location"], "/train")
+
+        with connect() as conn:
+            after = conn.execute("SELECT count(*) FROM card_progress").fetchone()[0]
+            row = conn.execute(
+                "SELECT streak FROM card_progress ORDER BY entry_id DESC LIMIT 1"
+            ).fetchone()
+        self.assertGreaterEqual(after, before)
+        self.assertGreaterEqual(after, 1)
+        self.assertEqual(row[0], 1)
