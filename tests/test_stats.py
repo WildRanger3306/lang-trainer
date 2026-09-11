@@ -9,6 +9,7 @@ from app.stats import (
     PerformanceStats,
     advise_load,
     build_horizon,
+    corpus_segments,
     days_to_finish,
     format_horizon,
 )
@@ -98,6 +99,18 @@ class HorizonTests(unittest.TestCase):
         self.assertEqual(h.pace_new_per_day_7, 10.0)
         self.assertEqual(h.days_at_pace, 45)
         self.assertIn("нед", h.label_at_limit)
+
+
+class CorpusSegmentsTests(unittest.TestCase):
+    def test_splits_intervals(self) -> None:
+        seg = corpus_segments(
+            corpus(total_cards=1000, new_cards=700, in_system=300, interval_ge_7=120, interval_ge_21=40)
+        )
+        self.assertEqual(seg.new, 700)
+        self.assertEqual(seg.learning, 180)
+        self.assertEqual(seg.young, 80)
+        self.assertEqual(seg.mature, 40)
+        self.assertEqual(seg.total, 1000)
 
 
 if __name__ == "__main__":

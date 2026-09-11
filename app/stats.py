@@ -86,6 +86,122 @@ class HorizonStats:
 
 
 @dataclass(frozen=True)
+class CorpusSegments:
+    """Part-to-whole slices for the corpus stacked bar."""
+
+    new: int
+    learning: int  # in system, interval < 7
+    young: int  # 7 ≤ interval < 21
+    mature: int  # interval ≥ 21
+
+    @property
+    def total(self) -> int:
+        return self.new + self.learning + self.young + self.mature
+
+
+@dataclass(frozen=True)
+class ActivityDay:
+    day: date
+    label: str
+    answers: int
+    introduced: int
+
+
+@dataclass(frozen=True)
+class RememberDay:
+    day: date
+    label: str
+    rate_all: float | None
+    rate_review: float | None
+    reviews: int
+    review_reviews: int
+
+
+@dataclass(frozen=True)
+class StatsCharts:
+    corpus: CorpusSegments
+    activity: tuple[ActivityDay, ...]
+    remember: tuple[RememberDay, ...]
+
+    @property
+    def activity_max(self) -> int:
+        peak = max((max(d.answers, d.introduced) for d in self.activity), default=0)
+        return peak or 1
+
+    def corpus_stack(self) -> tuple[dict[str, float | int | str], ...]:
+        total = max(self.corpus.total, 1)
+        parts = (
+            ("new", "новые", self.corpus.new),
+            ("learning", "< 7 дн", self.corpus.learning),
+            ("young", "7–20 дн", self.corpus.young),
+            ("mature", "≥ 21 дн", self.corpus.mature),
+        )
+        return tuple(
+            {
+                "key": key,
+                "label": label,
+                "count": count,
+                "pct": round(100.0 * count / total, 1),
+                "width": round(100.0 * count / total, 2),
+            }
+            for key, label, count in parts
+        )
+
+    def remember_svg(
+        self, *, width: float = 600.0, height: float = 160.0, pad: float = 18.0
+    ) -> dict[str, str | float | list[dict[str, float | str | None]]]:
+        n = len(self.remember)
+        inner_w = width - 2 * pad
+        inner_h = height - 2 * pad
+        xs = [
+            pad + (inner_w * i / (n - 1) if n > 1 else inner_w / 2)
+            for i in range(n)
+        ]
+
+        def y_of(rate: float | None) -> float | None:
+            if rate is None:
+                return None
+            return pad + inner_h * (1.0 - rate)
+
+        def polyline(attr: str) -> str:
+            parts: list[str] = []
+            pen_down = False
+            for i, day in enumerate(self.remember):
+                rate = getattr(day, attr)
+                if rate is None:
+                    pen_down = False
+                    continue
+                cmd = "L" if pen_down else "M"
+                parts.append(f"{cmd}{xs[i]:.1f},{y_of(rate):.1f}")
+                pen_down = True
+            return " ".join(parts)
+
+        ticks = [
+            {"y": pad, "label": "100%"},
+            {"y": pad + inner_h * 0.5, "label": "50%"},
+            {"y": pad + inner_h, "label": "0%"},
+        ]
+        labels = [
+            {
+                "x": xs[i],
+                "label": day.label,
+                "y_all": y_of(day.rate_all),
+                "y_review": y_of(day.rate_review),
+            }
+            for i, day in enumerate(self.remember)
+            if i % 7 == 0 or i == n - 1
+        ]
+        return {
+            "width": width,
+            "height": height,
+            "all": polyline("rate_all"),
+            "review": polyline("rate_review"),
+            "ticks": ticks,
+            "labels": labels,
+        }
+
+
+@dataclass(frozen=True)
 class LanguageSummary:
     language: str
     corpus: CorpusStats
@@ -93,6 +209,7 @@ class LanguageSummary:
     performance: PerformanceStats
     advice: LoadAdvice
     horizon: HorizonStats
+    charts: StatsCharts
 
 
 def _pct(part: int, whole: int) -> float:
@@ -397,6 +514,151 @@ def advise_load(
     )
 
 
+def corpus_segments(corpus: CorpusStats) -> CorpusSegments:
+    learning = max(0, corpus.in_system - corpus.interval_ge_7)
+    young = max(0, corpus.interval_ge_7 - corpus.interval_ge_21)
+    return CorpusSegments(
+        new=corpus.new_cards,
+        learning=learning,
+        young=young,
+        mature=corpus.interval_ge_21,
+    )
+
+
+def _day_label(day: date) -> str:
+    return day.strftime("%d.%m")
+
+
+def fetch_activity_series(
+    conn: psycopg.Connection,
+    user_id: int,
+    language: str,
+    today: date,
+    days: int = 30,
+) -> tuple[ActivityDay, ...]:
+    since = today - timedelta(days=days - 1)
+    with conn.cursor(row_factory=dict_row) as cur:
+        cur.execute(
+            """
+            SELECT answered_on AS day, count(*) AS n
+            FROM card_reviews r
+            JOIN entries e ON e.id = r.entry_id
+            WHERE r.user_id = %s
+              AND e.language = %s
+              AND r.answered_on >= %s
+              AND r.answered_on <= %s
+              AND r.source = 'train'
+            GROUP BY 1
+            """,
+            (user_id, language, since, today),
+        )
+        answers = {row["day"]: int(row["n"]) for row in cur.fetchall()}
+
+        cur.execute(
+            """
+            SELECT introduced_on AS day, count(*) AS n
+            FROM card_progress p
+            JOIN entries e ON e.id = p.entry_id
+            WHERE p.user_id = %s
+              AND e.language = %s
+              AND p.introduced_on >= %s
+              AND p.introduced_on <= %s
+              AND p.introduced_via = 'train'
+            GROUP BY 1
+            """,
+            (user_id, language, since, today),
+        )
+        introduced = {row["day"]: int(row["n"]) for row in cur.fetchall()}
+
+    out: list[ActivityDay] = []
+    for i in range(days):
+        day = since + timedelta(days=i)
+        out.append(
+            ActivityDay(
+                day=day,
+                label=_day_label(day),
+                answers=answers.get(day, 0),
+                introduced=introduced.get(day, 0),
+            )
+        )
+    return tuple(out)
+
+
+def fetch_remember_series(
+    conn: psycopg.Connection,
+    user_id: int,
+    language: str,
+    today: date,
+    days: int = 30,
+) -> tuple[RememberDay, ...]:
+    since = today - timedelta(days=days - 1)
+    with conn.cursor(row_factory=dict_row) as cur:
+        cur.execute(
+            """
+            SELECT
+              answered_on AS day,
+              count(*) AS reviews,
+              count(*) FILTER (WHERE remembered) AS remembered,
+              count(*) FILTER (WHERE NOT was_new) AS review_reviews,
+              count(*) FILTER (WHERE NOT was_new AND remembered) AS review_remembered
+            FROM card_reviews r
+            JOIN entries e ON e.id = r.entry_id
+            WHERE r.user_id = %s
+              AND e.language = %s
+              AND r.answered_on >= %s
+              AND r.answered_on <= %s
+              AND r.source = 'train'
+            GROUP BY 1
+            """,
+            (user_id, language, since, today),
+        )
+        by_day = {row["day"]: row for row in cur.fetchall()}
+
+    out: list[RememberDay] = []
+    for i in range(days):
+        day = since + timedelta(days=i)
+        row = by_day.get(day)
+        if row is None:
+            out.append(
+                RememberDay(
+                    day=day,
+                    label=_day_label(day),
+                    rate_all=None,
+                    rate_review=None,
+                    reviews=0,
+                    review_reviews=0,
+                )
+            )
+            continue
+        reviews = int(row["reviews"])
+        review_reviews = int(row["review_reviews"])
+        out.append(
+            RememberDay(
+                day=day,
+                label=_day_label(day),
+                rate_all=_rate(int(row["remembered"]), reviews),
+                rate_review=_rate(int(row["review_remembered"]), review_reviews),
+                reviews=reviews,
+                review_reviews=review_reviews,
+            )
+        )
+    return tuple(out)
+
+
+def build_stats_charts(
+    conn: psycopg.Connection,
+    user_id: int,
+    language: str,
+    corpus: CorpusStats,
+    today: date,
+) -> StatsCharts:
+    return StatsCharts(
+        corpus=corpus_segments(corpus),
+        activity=fetch_activity_series(conn, user_id, language, today),
+        remember=fetch_remember_series(conn, user_id, language, today),
+    )
+
+
 def build_language_summary(
     conn: psycopg.Connection,
     user_id: int,
@@ -412,6 +674,7 @@ def build_language_summary(
     advice = advise_load(corpus, load, performance)
     introduced_7 = fetch_introduced_last_days(conn, user_id, language, today, 7)
     horizon = build_horizon(corpus.new_cards, load.new_per_day, introduced_7)
+    charts = build_stats_charts(conn, user_id, language, corpus, today)
     return LanguageSummary(
         language=language,
         corpus=corpus,
@@ -419,4 +682,5 @@ def build_language_summary(
         performance=performance,
         advice=advice,
         horizon=horizon,
+        charts=charts,
     )

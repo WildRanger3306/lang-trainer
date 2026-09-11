@@ -379,6 +379,140 @@ legend {
 
 .stats li:last-child { border-bottom: 0; }
 
+.chart-block {
+  display: grid;
+  gap: 0.65rem;
+  margin-bottom: 0.35rem;
+}
+
+.chart-caption {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.stack-bar {
+  display: flex;
+  width: 100%;
+  height: 1.35rem;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--line) 35%, transparent);
+}
+
+.stack-seg { min-width: 0; }
+
+.stack-new { background: color-mix(in srgb, var(--muted) 55%, var(--panel)); }
+.stack-learning { background: var(--doubt); }
+.stack-young { background: color-mix(in srgb, var(--accent) 70%, #fff); }
+.stack-mature { background: var(--know); }
+
+.chart-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.chart-legend li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.swatch {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 3px;
+  flex-shrink: 0;
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+}
+
+.swatch-answers { background: var(--accent); }
+.swatch-intro { background: var(--doubt); }
+.swatch-all { background: var(--accent); }
+.swatch-review { background: var(--know); }
+
+.bar-chart {
+  display: grid;
+  grid-template-columns: repeat(30, minmax(0, 1fr));
+  align-items: end;
+  gap: 0.12rem;
+  height: 9rem;
+  padding: 0.25rem 0 0;
+}
+
+.bar-col {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  align-items: end;
+  min-width: 0;
+  height: 100%;
+}
+
+.bar-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 1px;
+  height: 100%;
+}
+
+.bar {
+  width: 100%;
+  min-height: 0;
+  border-radius: 2px 2px 0 0;
+}
+
+.bar-answers { background: var(--accent); }
+.bar-intro { background: var(--doubt); }
+
+.bar-label {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.62rem;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.bar-label.is-blank { visibility: hidden; }
+
+.line-chart {
+  width: 100%;
+  height: 10rem;
+  display: block;
+  overflow: visible;
+}
+
+.line-chart .grid {
+  stroke: var(--line);
+  stroke-width: 1;
+  stroke-dasharray: 3 4;
+}
+
+.line-chart .axis {
+  fill: var(--muted);
+  font-size: 11px;
+}
+
+.line-chart .axis-x { font-size: 10px; }
+
+.line-chart .line {
+  stroke-width: 2.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.line-chart .line-all { stroke: var(--accent); }
+.line-chart .line-review { stroke: var(--know); stroke-dasharray: 5 4; }
+
 @media (min-width: 720px) {
   html, body { font-size: 18px; }
   .page { padding: 2rem 1.5rem 3rem; }

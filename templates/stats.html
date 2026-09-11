@@ -28,6 +28,10 @@
   {% set l = summary.load %}
   {% set p = summary.performance %}
   {% set h = summary.horizon %}
+  {% set charts = summary.charts %}
+  {% set stack = charts.corpus_stack() %}
+  {% set amax = charts.activity_max %}
+  {% set rem = charts.remember_svg() %}
 
   <section class="panel">
     <h2 class="section-title">Горизонт</h2>
@@ -42,6 +46,22 @@
 
   <section class="panel">
     <h2 class="section-title">Корпус</h2>
+    <div class="chart-block" role="img" aria-label="Состав корпуса: новые, обучение, молодые, зрелые">
+      <div class="stack-bar">
+        {% for seg in stack %}
+          <div
+            class="stack-seg stack-{{ seg.key }}"
+            style="flex-grow: {{ seg.count if seg.count > 0 else 0.0001 }}; flex-basis: 0"
+            title="{{ seg.label }}: {{ seg.count }} ({{ seg.pct }}%)"
+          ></div>
+        {% endfor %}
+      </div>
+      <ul class="chart-legend">
+        {% for seg in stack %}
+          <li><span class="swatch stack-{{ seg.key }}"></span>{{ seg.label }} · {{ seg.count }} ({{ '%.0f'|format(seg.pct) }}%)</li>
+        {% endfor %}
+      </ul>
+    </div>
     <ul class="stats">
       <li><span>карточек всего</span><strong>{{ c.total_cards }}</strong></li>
       <li><span>ещё новые</span><strong>{{ c.new_cards }}</strong></li>
@@ -53,6 +73,28 @@
 
   <section class="panel">
     <h2 class="section-title">Нагрузка</h2>
+    <div class="chart-block" role="img" aria-label="Ответы и новые карточки за 30 дней">
+      <p class="chart-caption muted">30 дней · ответы и новые (train)</p>
+      <div class="bar-chart">
+        {% for d in charts.activity %}
+          <div class="bar-col" title="{{ d.label }}: ответов {{ d.answers }}, новых {{ d.introduced }}">
+            <div class="bar-pair">
+              <div class="bar bar-answers" style="height: {{ (100 * d.answers / amax)|round(1) }}%"></div>
+              <div class="bar bar-intro" style="height: {{ (100 * d.introduced / amax)|round(1) }}%"></div>
+            </div>
+            {% if loop.index0 % 7 == 0 or loop.last %}
+              <span class="bar-label">{{ d.label }}</span>
+            {% else %}
+              <span class="bar-label is-blank" aria-hidden="true"></span>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+      <ul class="chart-legend">
+        <li><span class="swatch swatch-answers"></span>ответы</li>
+        <li><span class="swatch swatch-intro"></span>новые</li>
+      </ul>
+    </div>
     <ul class="stats">
       <li><span>due сегодня</span><strong>{{ l.due_today }}</strong></li>
       <li><span>due ≤ завтра</span><strong>{{ l.due_tomorrow }}</strong></li>
@@ -67,6 +109,32 @@
 
   <section class="panel">
     <h2 class="section-title">Перформанс · 7 дней</h2>
+    <div class="chart-block" role="img" aria-label="Доля «помню» за 30 дней">
+      <p class="chart-caption muted">30 дней · доля «помню»</p>
+      {% if charts.remember | selectattr('reviews') | list | length == 0 %}
+        <p class="muted">Пока нет ответов за месяц — линия появится после тренировок.</p>
+      {% else %}
+        <svg class="line-chart" viewBox="0 0 {{ rem.width }} {{ rem.height }}" preserveAspectRatio="none" aria-hidden="true">
+          {% for t in rem.ticks %}
+            <line class="grid" x1="18" x2="{{ rem.width - 18 }}" y1="{{ t.y }}" y2="{{ t.y }}"></line>
+            <text class="axis" x="4" y="{{ t.y + 4 }}">{{ t.label }}</text>
+          {% endfor %}
+          {% if rem.review %}
+            <path class="line line-review" d="{{ rem.review }}" fill="none"></path>
+          {% endif %}
+          {% if rem.all %}
+            <path class="line line-all" d="{{ rem.all }}" fill="none"></path>
+          {% endif %}
+          {% for pt in rem.labels %}
+            <text class="axis axis-x" x="{{ pt.x }}" y="{{ rem.height - 2 }}" text-anchor="middle">{{ pt.label }}</text>
+          {% endfor %}
+        </svg>
+        <ul class="chart-legend">
+          <li><span class="swatch swatch-all"></span>все</li>
+          <li><span class="swatch swatch-review"></span>только повторы</li>
+        </ul>
+      {% endif %}
+    </div>
     {% if p.reviews_7 == 0 %}
       <p class="muted">Пока нет ответов за неделю — потренируйтесь, и здесь появятся again rate и доли «помню».</p>
     {% else %}
