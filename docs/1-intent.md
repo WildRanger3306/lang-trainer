@@ -4,4 +4,4 @@
 
 Несколько пользователей (семья / несколько учеников) входят по **логину и паролю**. Словарь учебников **общий**; прогресс Anki — **личный**. Словарь наполняет агент/скрипт; экрана управления словами нет.
 
-Поведение — [2-requirements.md](2-requirements.md). Рамки — [3-constraints.md](3-constraints.md). Решения — [4-decisions.md](4-decisions.md). Модель — [5-data-model.md](5-data-model.md). Срез работ — [6-iterations.md](6-iterations.md).
+Поведение — [2-requirements.md](2-requirements.md). Рамки — [3-constraints.md](3-constraints.md). Решения — [4-decisions.md](4-decisions.md). Модель — [5-data-model.md](5-data-model.md). Срез работ — [6-iterations.md](6-iterations.md). Стратегия занятий — [7-strategy.md](7-strategy.md).
