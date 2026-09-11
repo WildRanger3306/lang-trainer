@@ -1,0 +1,1256 @@
+{
+  "source": {
+    "scan": "docs/words/raw/Starlight_7/0021.jpg",
+    "page": "WL 21"
+  },
+  "notes": [
+    "Формы, коды части речи и переводы сняты со скана.",
+    "Транскрипции не заполнены.",
+    "Учебник: Starlight 7."
+  ],
+  "entries": [
+    {
+      "language": "en",
+      "form": "striking",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "поразительный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "string",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "вереница",
+        "ряд",
+        "струна"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stripe",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "полоска"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "structure",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "здание",
+        "строение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "struggle",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "бороться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "study plan",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "план занятий"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "study timetable",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "расписание занятий"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stunning",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "изумительный",
+        "потрясающий",
+        "ошеломляющий"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stunning scenery",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "очаровательный пейзаж"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stuntman",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "каскадёр"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "subarctic climate",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "субарктический климат"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "success",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "успех"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "suck",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "засасывать",
+        "утягивать (под воду)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "suffer (from)",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "страдать (от)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "suggestion",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "предложение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "suit",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "подходить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "summarise",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "суммировать",
+        "подводить итог"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "summer solstice",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "летнее солнцестояние"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sun",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "солнце"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sunny spell",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "переменная облачность"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sunscreen",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "солнцезащитный крем"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sunshine",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "солнечная погода"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "supervise",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "наблюдать",
+        "контролировать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "surface",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "поверхность"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "surgeon",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "хирург"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "surround",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "окружать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "survey",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "исследование"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "survival course",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "курс выживания"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "survive",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "выживать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "suspect",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "подозреваемый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "swallow",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "глотать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sweat",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "потеть"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sweating",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "потоотделение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sweep",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "смывать",
+        "сметать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "swelling",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "опухоль"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "swollen",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "опухший"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "symbol",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "символ"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sympathise (with)",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "сочувствовать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "symptom",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "симптом"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "scare off",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "отпугивать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "set off",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "запускать",
+        "отправиться в путь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "set up",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "устанавливать",
+        "назначать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sign up",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "регистрироваться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "slow down",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "замедлять"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stand out",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "выделяться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "start out",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "начинать(ся)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "(sb's) heart sinks",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "сердце замерло"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "scratch to pieces",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "зд. расцарапать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "send (sb) to prison",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "отправить кого-либо в тюрьму"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "set (sth) on fire",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "поджечь что-либо"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "set a record",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "ставить рекорд"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "set up a charity",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "организовать благотворительность"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "severe weather",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "холодная погода"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "severely burnt",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "сильно обгоревший"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "share (sb's) opinion",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "разделять (чьё-либо) мнение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "share a meal",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "разделять трапезу"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "share the stage",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "делить сцену"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "show the way",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "показывать путь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sigh with relief",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "вздыхать с облегчением"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "slurp your soup",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "хлебать суп"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "so far",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "пока"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "social connection",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "социальная сеть"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "social media",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "социальные сети"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "solve a crime",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "раскрыть преступление"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "solve a crossword",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "разгадывать кроссворд"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "solve a problem",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "решать задачу",
+        "проблему"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spare the time",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "экономить время"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spend time in the sunshine",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "проводить время на солнце"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sprain my ankle",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "растянуть лодыжку"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spread computer viruses",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "распространять компьютерные вирусы"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spring into action",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "приступить к действиям"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "start a business",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "начать заниматься бизнесом",
+        "открыть дело"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "start a family",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "создать семью"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stay alert",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "быть осторожным"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stay calm",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "сохранять спокойствие"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "steal (sb's) identity",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "украсть персональные данные"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stone floor",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "каменный пол"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "strange object",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "странный объект"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "study abroad",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "учиться за границей"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "suffer from vertigo",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "страдать от головокружения"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sun rises",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "солнце встаёт (восход)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sun sets",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "солнце садится (закат)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1421 @@
+{
+  "source": {
+    "scan": "docs/words/raw/loiseau_blue_6/0003.jpg",
+    "page": "Unité 4 (suite) / Unité 5"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: Loiseau Blue 6.",
+    "Род: m/f из учебника."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "beurre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "масло"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "bientôt",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "вскоре",
+        "скоро"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "boisson",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "напиток"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "camembert",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "камамбер (сорт сыра)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "choisir",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "выбирать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "clé",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "ключ"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "conte",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "сказка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "couper",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "разрезать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "croissant",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "рогалик"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "difficile",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "трудный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "éplucher",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "очищать от кожуры"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "endormir (s')",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "заснуть"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "fête",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "праздник"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "foie",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "печень"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "four",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "духовка в плите"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "goûter",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "полдник"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "gras, grasse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "жирный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "herbe",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "трава"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "heureusement",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "к счастью"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "huile",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "растительное масло"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "huître",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "устрица"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "journée",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "день"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "larme",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "слеза"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "levure",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "дрожжи"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "maîtresse",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "учительница",
+        "хозяйка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mélange",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "смесь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mélanger",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "смешать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "morceau",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "кусок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "occuper (s')",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "занимать(ся)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "offrir",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "предлагать",
+        "дарить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "olive",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "маслина",
+        "оливка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "oublier",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "забывать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "pâte",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "тесто"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "personne",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "человек",
+        "персона"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "pique-nique",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "пикник"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "placer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "поместить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "poser",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "поставить",
+        "положить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "potage",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "суп"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "prochain, prochaine",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "ближайший, -ая",
+        "следующий, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "projet",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "план",
+        "проект"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "raconter",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "рассказать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "rendez-vous",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "свидание",
+        "встреча"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "repas",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "еда (приём пищи)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "saladier",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "салатница"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "saucisson",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "колбаса"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "souhaiter",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "желать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sucre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "сахар"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sucre en poudre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "сахарная пудра"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "tartine",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "тартинка",
+        "бутерброд"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "tasse",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "чашка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "toulousain, toulousaine",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "тулузский, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "verser",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "высыпать",
+        "выливать",
+        "опрокидывать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "yaourt nature",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "йогурт натуральный (без сахара)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avoir faim",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "быть голодным"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avoir raison",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "быть правым"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avoir soif",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "хотеть пить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "c'est commode",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "это удобно"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "c'est parfait",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "это превосходно",
+        "безупречно"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "être en retard",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "опаздывать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "foie gras",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "паштет из печени"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "il faut",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "нужно",
+        "надо"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sur place",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "на месте"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "tomber malade",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "заболеть"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "aboyer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "лаять"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "allemand, allemande",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "немецкий, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "américain, américaine",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "американский, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "anglais, anglaise",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "английский, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "brésilien, brésilienne",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "бразильский, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "bruit",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "шум"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "brun, brune",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "коричневый, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "camerounais, camerounaise",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "камерунский, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "célèbre",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "знаменитый, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "changer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "изменить",
+        "заменить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chinois, chinoise",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "китайский, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cœur",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "сердце"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "courageux, courageuse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "смелый, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cuisine",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "кухня"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "date",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "дата"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "date fixe",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "зд. постоянная дата"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "durer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "длиться",
+        "продолжаться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "enfin",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "наконец"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "ennuyer (s')",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "скучать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "espagnol, espagnole",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "испанский, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "forêt",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "лес"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "formidable",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "превосходный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "frisé, frisée",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "вьющийся, -аяся"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "fusil",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "ружьё"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    }
+  ]
+}

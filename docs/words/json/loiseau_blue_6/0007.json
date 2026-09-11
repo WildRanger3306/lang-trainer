@@ -1,0 +1,1398 @@
+{
+  "source": {
+    "scan": "docs/words/raw/loiseau_blue_6/0007.jpg",
+    "page": "Unité 11–12"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: Loiseau Blue 6.",
+    "Род: m/f из учебника.",
+    "hold-up: транскрипция [ɔldœp] в учебнике — не заполняем.",
+    "lieu: avoir lieu → фраза avoir lieu."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "argent",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "деньги"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cambriolage",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "ограбление"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "clé USB",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "флешка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "démarrer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "трогаться с места"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "désirer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "желать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "différent, différente",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "разный, -ая",
+        "различный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "direction",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "направление"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "disparaître",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "исчезать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "écriteau",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "табличка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "excellent, excellente",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "превосходный, -ая",
+        "отличный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "figurant",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "статист"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "galoper",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "скакать галопом"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "hold-up",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "вооружённое ограбление"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "lecture",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "чтение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avoir lieu",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "иметь место"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mésaventures",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "злоключения"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "présenter",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "представлять"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "producteur",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "продюсер"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "puissant, puissante",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "мощный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "réalisateur",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "режиссёр"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sac",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "сумка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "saluer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "приветствовать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sauter",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "прыгать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "silence",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "тишина"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "spationaute",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "космонавт"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "témoin",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "свидетель"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "terre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "земля"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "timbre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "марка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Circulez!",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Проходите, не останавливайтесь!"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "admirer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "восхищаться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "approcher (s')",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "приближаться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "après",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "потом",
+        "после"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "armoire",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "шкаф"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "art",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "искусство"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "autrefois",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "когда-то"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avenue",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "проспект"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "bûcheron",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "дровосек"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cheminée",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "печная труба"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "couvrir",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "накрывать",
+        "покрывать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "croire",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "думать",
+        "полагать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "décor",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "декорация"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "départ",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "отъезд"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "diriger",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "руководить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "dormir",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "спать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "dresser (se)",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "возвышаться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "écolier",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "школьник"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "écolière",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "школьница"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "étudiant",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "студент"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "étudiante",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "студентка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "endroit",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "место"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "entourer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "окружать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "exposition",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "выставка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "forteresse",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "крепость"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "frapper",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "стучать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "île",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "остров"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "impossible",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "невозможный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "installation",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "устройство",
+        "размещение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "large",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "широкий, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "librairie",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "книжный магазин"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "marchand",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "торговец"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "matinée",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "утро"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "palais",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "дворец"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "pauvre",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "бедный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "plafond",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "потолок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "plein, pleine",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "полный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "quai",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "набережная"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "quartier",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "квартал"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "religieux, religieuse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "религиозный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "représenter",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "представлять"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "règle",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "правило"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "rive",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "берег (реки)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sable",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "песок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "situé, située",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "расположенный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "tante",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "тётя"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "timide",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "робкий, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "toit",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "крыша"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "vaste",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "просторный, -ая"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "vraiment",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "действительно"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avoir besoin de",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "испытывать необходимость",
+        "нуждаться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "au fond de",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "в глубине"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "au milieu de",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "в середине"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "à l'origine",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "изначально"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "C'est possible.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Это возможно."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "C'est impossible.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Это невозможно."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "à l'occasion de...",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "по случаю"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "exposition universelle",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "всемирная выставка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Loiseau Blue 6"
+      ]
+    }
+  ]
+}
