@@ -11,9 +11,11 @@ from fastapi.templating import Jinja2Templates
 
 from app.cards import card_view
 from app.db import connect
-from app.progress import save_grade
-from app.repository import fetch_candidates, fetch_filter_options
-from app.session import SESSION_SIZE, SessionFilter, pick_cards
+from app.progress import count_introduced_today, save_grade
+from app.queue import build_session_cards
+from app.repository import fetch_filter_options, fetch_queue_preview
+from app.scheduler import NEW_PER_DAY
+from app.session import SessionFilter
 from app.store import SessionStore
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -39,18 +41,24 @@ def health() -> dict[str, bool]:
 
 @app.get("/", response_class=HTMLResponse)
 def filter_page(request: Request, error: str | None = None) -> HTMLResponse:
+    language = request.query_params.get("language") or "en"
+    if language not in ("en", "fr"):
+        language = "en"
     with connect() as conn:
         options = fetch_filter_options(conn)
+        preview = fetch_queue_preview(conn, SessionFilter(language=language))
     return templates.TemplateResponse(
         request,
         "filter.html",
         {
             "error": error,
             "options": options,
-            "language": "en",
+            "language": language,
             "selected_textbooks": [],
             "selected_topics": [],
             "selected_levels": [],
+            "preview": preview,
+            "new_per_day": NEW_PER_DAY,
         },
     )
 
@@ -73,13 +81,15 @@ def start_session(
         return RedirectResponse("/?error=Выберите+язык", status_code=303)
 
     with connect() as conn:
-        pool = fetch_candidates(conn, flt)
-        picked = pick_cards(pool, flt.size, random.Random())
+        picked, due_n, new_n = build_session_cards(conn, flt, random.Random())
 
     if not picked:
-        return RedirectResponse("/?error=Нет+карточек+по+фильтру", status_code=303)
+        return RedirectResponse(
+            f"/?language={language}&error=Нет+карточек+на+сегодня",
+            status_code=303,
+        )
 
-    token = store.create(picked)
+    token = store.create(picked, due_at_start=due_n, new_at_start=new_n)
     response = RedirectResponse("/train", status_code=303)
     response.set_cookie(COOKIE, token, httponly=True, samesite="lax")
     return response
@@ -101,6 +111,7 @@ def train_page(request: Request) -> HTMLResponse | RedirectResponse:
             "view": card_view(card),
             "number": session.number,
             "total": session.total,
+            "is_new": card.is_new,
         },
     )
 
@@ -118,9 +129,15 @@ def grade_card(request: Request, remembered: str = Form(...)) -> RedirectRespons
 
     if knew:
         session.known += 1
+        session.index += 1
     else:
         session.unknown += 1
-    session.index += 1
+        session.index += 1
+        # Again: show again later in this session; due is tomorrow in DB.
+        from dataclasses import replace
+
+        session.requeue(replace(card, is_new=False))
+
     if session.done:
         session.finished_at = datetime.now()
         return RedirectResponse("/done", status_code=303)
@@ -161,7 +178,6 @@ def create_session_json(
     topic: list[str] | None = Query(default=None),
     level: list[str] | None = Query(default=None),
     seed: int | None = None,
-    size: int = SESSION_SIZE,
 ) -> dict:
     try:
         flt = SessionFilter(
@@ -169,15 +185,14 @@ def create_session_json(
             textbooks=tuple(textbook or ()),
             topics=tuple(topic or ()),
             levels=tuple(level or ()),
-            size=size,
         )
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
 
     rng = random.Random(seed)
     with connect() as conn:
-        pool = fetch_candidates(conn, flt)
-        picked = pick_cards(pool, flt.size, rng)
+        picked, due_n, new_n = build_session_cards(conn, flt, rng)
+        introduced = count_introduced_today(conn, flt.language)
 
     return {
         "filter": {
@@ -186,7 +201,10 @@ def create_session_json(
             "topics": list(flt.topics),
             "levels": list(flt.levels),
         },
-        "pool_size": len(pool),
+        "due_count": due_n,
+        "new_in_session": new_n,
+        "introduced_today": introduced,
+        "new_per_day": NEW_PER_DAY,
         "cards": [
             {
                 "entry_id": card.entry_id,
@@ -198,8 +216,10 @@ def create_session_json(
                 "transcription": card.transcription,
                 "gender": card.gender,
                 "translations": list(card.translations),
-                "streak": card.streak,
-                "weight": card.weight,
+                "is_new": card.is_new,
+                "due_on": card.due_on.isoformat() if card.due_on else None,
+                "interval_days": card.interval_days,
+                "ease": card.ease,
             }
             for card in picked
         ],

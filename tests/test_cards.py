@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import unittest
+from datetime import date
 
-from app.cards import card_view, next_streak
+from app.cards import card_view
+from app.scheduler import DEFAULT_EASE
 from app.session import CardCandidate
 
 
@@ -17,19 +19,13 @@ def card(**kwargs) -> CardCandidate:
         transcription="bæg",
         gender=None,
         translations=("сумка",),
-        streak=0,
+        is_new=True,
+        due_on=None,
+        interval_days=0.0,
+        ease=DEFAULT_EASE,
     )
     data.update(kwargs)
     return CardCandidate(**data)
-
-
-class StreakTests(unittest.TestCase):
-    def test_remember_increments(self) -> None:
-        self.assertEqual(next_streak(0, True), 1)
-        self.assertEqual(next_streak(2, True), 3)
-
-    def test_forget_resets(self) -> None:
-        self.assertEqual(next_streak(4, False), 0)
 
 
 class CardViewTests(unittest.TestCase):

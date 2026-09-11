@@ -13,6 +13,8 @@ class TrainingSession:
     index: int = 0
     known: int = 0
     unknown: int = 0
+    due_at_start: int = 0
+    new_at_start: int = 0
     started_at: datetime = field(default_factory=datetime.now)
     finished_at: datetime | None = None
 
@@ -43,6 +45,10 @@ class TrainingSession:
     def answered(self) -> int:
         return self.known + self.unknown
 
+    def requeue(self, card: CardCandidate) -> None:
+        """Append forgotten card to the end of today's queue."""
+        self.cards.append(card)
+
     def finish(self) -> None:
         self.index = len(self.cards)
         if self.finished_at is None:
@@ -53,9 +59,19 @@ class SessionStore:
     def __init__(self) -> None:
         self._sessions: dict[str, TrainingSession] = {}
 
-    def create(self, cards: list[CardCandidate]) -> str:
+    def create(
+        self,
+        cards: list[CardCandidate],
+        *,
+        due_at_start: int = 0,
+        new_at_start: int = 0,
+    ) -> str:
         token = uuid.uuid4().hex
-        self._sessions[token] = TrainingSession(cards=cards)
+        self._sessions[token] = TrainingSession(
+            cards=cards,
+            due_at_start=due_at_start,
+            new_at_start=new_at_start,
+        )
         return token
 
     def get(self, token: str | None) -> TrainingSession | None:

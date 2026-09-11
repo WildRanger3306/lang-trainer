@@ -3,22 +3,32 @@
 {% block body %}
   <header class="header">
     <h1>Тренировка</h1>
-    <p class="lead">Язык обязателен. Тема, уровень и учебник — по желанию.</p>
+    <p class="lead">Язык обязателен. Тема, уровень и учебник — по желанию. Очередь: due + до {{ new_per_day }} новых в день на язык.</p>
   </header>
 
   {% if error %}
     <p class="banner banner-error">{{ error }}</p>
   {% endif %}
 
+  <p class="banner">
+    Сейчас для
+    {% if language == "en" %}английского{% else %}французского{% endif %}:
+    <strong>{{ preview.due_count }}</strong> due,
+    новых осталось сегодня <strong>{{ preview.new_remaining_today }}</strong>
+    (уже введено {{ preview.introduced_today }} / {{ new_per_day }}).
+  </p>
+
   <form class="panel" method="post" action="/start">
     <fieldset>
       <legend>Язык</legend>
       <label class="choice">
-        <input type="radio" name="language" value="en" required {% if language == "en" %}checked{% endif %}>
+        <input type="radio" name="language" value="en" required {% if language == "en" %}checked{% endif %}
+               onchange="location.href='/?language=en'">
         английский
       </label>
       <label class="choice">
-        <input type="radio" name="language" value="fr" {% if language == "fr" %}checked{% endif %}>
+        <input type="radio" name="language" value="fr" {% if language == "fr" %}checked{% endif %}
+               onchange="location.href='/?language=fr'">
         французский
       </label>
     </fieldset>

@@ -2,11 +2,18 @@ from __future__ import annotations
 
 import random
 import unittest
+from datetime import date, timedelta
 
-from app.session import CardCandidate, SessionFilter, card_weight, pick_cards
+from app.scheduler import DEFAULT_EASE, MIN_EASE, apply_grade, next_interval
+from app.session import CardCandidate, SessionFilter, build_queue, new_limit_for_day
 
 
-def candidate(entry_id: int, direction: str = "foreign_to_native", streak: int = 0) -> CardCandidate:
+def candidate(
+    entry_id: int,
+    direction: str = "foreign_to_native",
+    *,
+    is_new: bool = True,
+) -> CardCandidate:
     return CardCandidate(
         entry_id=entry_id,
         direction=direction,
@@ -17,47 +24,63 @@ def candidate(entry_id: int, direction: str = "foreign_to_native", streak: int =
         transcription=None,
         gender=None,
         translations=("т",),
-        streak=streak,
+        is_new=is_new,
+        due_on=None if is_new else date(2026, 9, 11),
+        interval_days=0.0 if is_new else 1.0,
+        ease=DEFAULT_EASE,
     )
 
 
-class WeightTests(unittest.TestCase):
-    def test_new_and_forgotten_have_max_weight(self) -> None:
-        self.assertEqual(card_weight(0), 1.0)
+class SchedulerTests(unittest.TestCase):
+    def test_new_good_due_tomorrow(self) -> None:
+        today = date(2026, 9, 11)
+        state = apply_grade(None, True, today)
+        self.assertEqual(state.due_on, today + timedelta(days=1))
+        self.assertEqual(state.interval_days, 1.0)
+        self.assertEqual(state.ease, DEFAULT_EASE)
+        self.assertEqual(state.introduced_on, today)
 
-    def test_streak_lowers_weight(self) -> None:
-        self.assertEqual(card_weight(1), 0.5)
-        self.assertEqual(card_weight(3), 0.25)
+    def test_new_again_due_tomorrow(self) -> None:
+        today = date(2026, 9, 11)
+        state = apply_grade(None, False, today)
+        self.assertEqual(state.due_on, today + timedelta(days=1))
+        self.assertEqual(state.interval_days, 1.0)
+
+    def test_intervals_grow(self) -> None:
+        self.assertEqual(next_interval(1, 2.5), 3.0)
+        self.assertEqual(next_interval(3, 2.5), 8.0)
+
+    def test_again_resets_interval_and_lowers_ease(self) -> None:
+        today = date(2026, 9, 11)
+        first = apply_grade(None, True, today)
+        grown = apply_grade(first, True, today + timedelta(days=1))
+        self.assertEqual(grown.interval_days, 3.0)
+        failed = apply_grade(grown, False, today + timedelta(days=4))
+        self.assertEqual(failed.interval_days, 1.0)
+        self.assertEqual(failed.due_on, today + timedelta(days=5))
+        self.assertAlmostEqual(failed.ease, DEFAULT_EASE - 0.2)
+        self.assertGreaterEqual(failed.ease, MIN_EASE)
 
 
-class PickTests(unittest.TestCase):
-    def test_takes_all_when_pool_smaller_than_n(self) -> None:
-        pool = [candidate(1), candidate(1, "native_to_foreign")]
-        picked = pick_cards(pool, 20, random.Random(0))
-        self.assertEqual(len(picked), 2)
-        self.assertEqual({c.key for c in picked}, {(1, "foreign_to_native"), (1, "native_to_foreign")})
+class QueueTests(unittest.TestCase):
+    def test_due_before_new(self) -> None:
+        due = [candidate(1, is_new=False), candidate(2, is_new=False)]
+        new = [candidate(10), candidate(11), candidate(12)]
+        picked = build_queue(due, new, new_limit=2, rng=random.Random(0))
+        self.assertEqual(len(picked), 4)
+        self.assertTrue(all(not c.is_new for c in picked[:2]))
+        self.assertTrue(all(c.is_new for c in picked[2:]))
 
-    def test_no_duplicate_cards(self) -> None:
-        pool = [candidate(i, d) for i in range(30) for d in ("foreign_to_native", "native_to_foreign")]
-        picked = pick_cards(pool, 20, random.Random(1))
-        self.assertEqual(len(picked), 20)
-        self.assertEqual(len({c.key for c in picked}), 20)
+    def test_new_limit(self) -> None:
+        new = [candidate(i) for i in range(20)]
+        picked = build_queue([], new, new_limit=15, rng=random.Random(1))
+        self.assertEqual(len(picked), 15)
 
-    def test_same_seed_same_order(self) -> None:
-        pool = [candidate(i) for i in range(40)]
-        a = pick_cards(pool, 20, random.Random(42))
-        b = pick_cards(pool, 20, random.Random(42))
-        self.assertEqual([c.key for c in a], [c.key for c in b])
-
-    def test_low_streak_picked_more_often(self) -> None:
-        pool = [candidate(1, streak=0), candidate(2, streak=8)]
-        counts = {1: 0, 2: 0}
-        trials = 400
-        for seed in range(trials):
-            picked = pick_cards(pool, 1, random.Random(seed))
-            counts[picked[0].entry_id] += 1
-        self.assertGreater(counts[1], counts[2])
-        self.assertGreater(counts[1], trials * 0.7)
+    def test_new_limit_for_day(self) -> None:
+        self.assertEqual(new_limit_for_day(0), 15)
+        self.assertEqual(new_limit_for_day(10), 5)
+        self.assertEqual(new_limit_for_day(15), 0)
+        self.assertEqual(new_limit_for_day(20), 0)
 
 
 class FilterTests(unittest.TestCase):

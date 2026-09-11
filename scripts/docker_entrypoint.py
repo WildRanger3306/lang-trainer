@@ -13,7 +13,12 @@ import psycopg
 from app.db import connect, database_url
 
 ROOT = Path(__file__).resolve().parents[1]
-SEED_DIR = ROOT / "docs" / "words" / "json" / "starlight_6"
+SEED_DIRS = [
+    ROOT / "docs" / "words" / "json" / "starlight_6",
+    ROOT / "docs" / "words" / "json" / "starlight_7",
+    ROOT / "docs" / "words" / "json" / "loiseau_blue_5",
+    ROOT / "docs" / "words" / "json" / "loiseau_blue_6",
+]
 
 
 def wait_for_db() -> None:
@@ -46,16 +51,6 @@ def migrate() -> None:
         )
         conn.execute(
             """
-            CREATE TABLE IF NOT EXISTS card_progress (
-              entry_id BIGINT NOT NULL REFERENCES entries (id) ON DELETE CASCADE,
-              direction card_direction NOT NULL,
-              streak INTEGER NOT NULL DEFAULT 0 CHECK (streak >= 0),
-              PRIMARY KEY (entry_id, direction)
-            )
-            """
-        )
-        conn.execute(
-            """
             DO $$ BEGIN
               CREATE TYPE noun_gender AS ENUM ('m', 'f');
             EXCEPTION
@@ -66,6 +61,43 @@ def migrate() -> None:
         conn.execute(
             "ALTER TABLE entries ADD COLUMN IF NOT EXISTS gender noun_gender"
         )
+        # Anki progress replaces streak-based table.
+        conn.execute(
+            """
+            DO $$ BEGIN
+              IF EXISTS (
+                SELECT 1 FROM information_schema.columns
+                WHERE table_name = 'card_progress' AND column_name = 'streak'
+              ) THEN
+                DROP TABLE card_progress;
+              END IF;
+            END $$
+            """
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS card_progress (
+              entry_id BIGINT NOT NULL REFERENCES entries (id) ON DELETE CASCADE,
+              direction card_direction NOT NULL,
+              due_on DATE NOT NULL,
+              interval_days DOUBLE PRECISION NOT NULL DEFAULT 1
+                CHECK (interval_days >= 1),
+              ease DOUBLE PRECISION NOT NULL DEFAULT 2.5
+                CHECK (ease >= 1.3),
+              introduced_on DATE NOT NULL,
+              PRIMARY KEY (entry_id, direction)
+            )
+            """
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_card_progress_due_on ON card_progress (due_on)"
+        )
+        conn.execute(
+            """
+            CREATE INDEX IF NOT EXISTS idx_card_progress_introduced_on
+            ON card_progress (introduced_on)
+            """
+        )
         conn.commit()
 
 
@@ -75,13 +107,20 @@ def seed_if_empty() -> None:
     if count:
         print(f"entries already present: {count}", flush=True)
         return
-    print(f"loading {SEED_DIR}", flush=True)
-    result = subprocess.run(
-        [sys.executable, str(ROOT / "scripts" / "load_entries.py"), str(SEED_DIR)],
-        check=False,
-    )
-    if result.returncode != 0:
-        raise SystemExit(result.returncode)
+    first = True
+    for seed_dir in SEED_DIRS:
+        if not seed_dir.is_dir():
+            print(f"skip missing seed {seed_dir}", flush=True)
+            continue
+        print(f"loading {seed_dir}", flush=True)
+        cmd = [sys.executable, str(ROOT / "scripts" / "load_entries.py")]
+        if not first:
+            cmd.append("--append")
+        cmd.append(str(seed_dir))
+        result = subprocess.run(cmd, check=False)
+        if result.returncode != 0:
+            raise SystemExit(result.returncode)
+        first = False
 
 
 def main() -> None:

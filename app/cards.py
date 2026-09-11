@@ -37,12 +37,6 @@ class CardView:
     direction_flags: str
 
 
-def next_streak(streak: int, remembered: bool) -> int:
-    if streak < 0:
-        raise ValueError("streak must be >= 0")
-    return streak + 1 if remembered else 0
-
-
 def _hint_parts(*parts: str) -> str:
     return " · ".join(part for part in parts if part)
 

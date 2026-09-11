@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pick a training session (I2). No UI."""
+"""Pick a training session queue (due + new). No UI."""
 
 from __future__ import annotations
 
@@ -12,8 +12,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from app.db import connect
-from app.repository import fetch_candidates
-from app.session import SESSION_SIZE, SessionFilter, pick_cards
+from app.progress import count_introduced_today
+from app.queue import build_session_cards
+from app.scheduler import NEW_PER_DAY
+from app.session import SessionFilter
 
 
 def main() -> None:
@@ -22,7 +24,6 @@ def main() -> None:
     parser.add_argument("--textbook", action="append", default=[])
     parser.add_argument("--topic", action="append", default=[])
     parser.add_argument("--level", action="append", default=[])
-    parser.add_argument("--size", type=int, default=SESSION_SIZE)
     parser.add_argument("--seed", type=int, default=None)
     args = parser.parse_args()
 
@@ -31,25 +32,29 @@ def main() -> None:
         textbooks=tuple(args.textbook),
         topics=tuple(args.topic),
         levels=tuple(args.level),
-        size=args.size,
     )
     rng = random.Random(args.seed)
     with connect() as conn:
-        pool = fetch_candidates(conn, flt)
-        picked = pick_cards(pool, flt.size, rng)
+        picked, due_n, new_n = build_session_cards(conn, flt, rng)
+        introduced = count_introduced_today(conn, flt.language)
 
     print(
         json.dumps(
             {
-                "pool_size": len(pool),
+                "due_count": due_n,
+                "new_in_session": new_n,
+                "introduced_today": introduced,
+                "new_per_day": NEW_PER_DAY,
                 "picked": len(picked),
                 "cards": [
                     {
                         "entry_id": c.entry_id,
                         "direction": c.direction,
                         "form": c.form,
-                        "streak": c.streak,
-                        "weight": c.weight,
+                        "is_new": c.is_new,
+                        "due_on": c.due_on.isoformat() if c.due_on else None,
+                        "interval_days": c.interval_days,
+                        "ease": c.ease,
                     }
                     for c in picked
                 ],

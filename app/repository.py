@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from datetime import date
 
 import psycopg
 from psycopg.rows import dict_row
 
-from app.session import DIRECTIONS, CardCandidate, SessionFilter
+from app.scheduler import NEW_PER_DAY
+from app.session import DIRECTIONS, CardCandidate, QueuePreview, SessionFilter
 
 
 @dataclass(frozen=True)
@@ -28,24 +30,8 @@ def fetch_filter_options(conn: psycopg.Connection) -> FilterOptions:
     return FilterOptions(textbooks=textbooks, topics=topics, levels=levels)
 
 
-def fetch_candidates(conn: psycopg.Connection, flt: SessionFilter) -> list[CardCandidate]:
-    query = """
-        SELECT
-          e.id AS entry_id,
-          d.direction,
-          e.language::text AS language,
-          e.form,
-          e.part_of_speech,
-          e.part_of_speech_code,
-          e.transcription,
-          e.gender,
-          COALESCE(p.streak, 0) AS streak,
-          array_agg(tr.text ORDER BY tr.position) AS translations
-        FROM entries e
-        CROSS JOIN unnest(%s::card_direction[]) AS d(direction)
-        JOIN entry_translations tr ON tr.entry_id = e.id
-        LEFT JOIN card_progress p
-          ON p.entry_id = e.id AND p.direction = d.direction
+def _filter_clause() -> str:
+    return """
         WHERE e.language = %s
           AND (
             cardinality(%s::cefr_level[]) = 0
@@ -69,39 +55,128 @@ def fetch_candidates(conn: psycopg.Connection, flt: SessionFilter) -> list[CardC
               WHERE eto.entry_id = e.id AND tp.name = ANY(%s)
             )
           )
-        GROUP BY e.id, d.direction, p.streak
-        ORDER BY e.id, d.direction
     """
+
+
+def _filter_params(flt: SessionFilter) -> tuple:
     levels = list(flt.levels)
     textbooks = list(flt.textbooks)
     topics = list(flt.topics)
+    return (
+        flt.language,
+        levels,
+        levels,
+        textbooks,
+        textbooks,
+        topics,
+        topics,
+    )
+
+
+def _row_to_card(row: dict, *, is_new: bool) -> CardCandidate:
+    return CardCandidate(
+        entry_id=row["entry_id"],
+        direction=row["direction"],
+        language=row["language"],
+        form=row["form"],
+        part_of_speech=row["part_of_speech"],
+        part_of_speech_code=row["part_of_speech_code"],
+        transcription=row["transcription"],
+        gender=row["gender"],
+        translations=tuple(row["translations"]),
+        is_new=is_new,
+        due_on=row.get("due_on"),
+        interval_days=float(row["interval_days"]) if row.get("interval_days") is not None else 0.0,
+        ease=float(row["ease"]) if row.get("ease") is not None else 2.5,
+    )
+
+
+def fetch_due_candidates(
+    conn: psycopg.Connection,
+    flt: SessionFilter,
+    today: date | None = None,
+) -> list[CardCandidate]:
+    today = today or date.today()
+    query = f"""
+        SELECT
+          e.id AS entry_id,
+          d.direction,
+          e.language::text AS language,
+          e.form,
+          e.part_of_speech,
+          e.part_of_speech_code,
+          e.transcription,
+          e.gender,
+          p.due_on,
+          p.interval_days,
+          p.ease,
+          array_agg(tr.text ORDER BY tr.position) AS translations
+        FROM entries e
+        CROSS JOIN unnest(%s::card_direction[]) AS d(direction)
+        JOIN entry_translations tr ON tr.entry_id = e.id
+        JOIN card_progress p
+          ON p.entry_id = e.id AND p.direction = d.direction
+        {_filter_clause()}
+          AND p.due_on <= %s
+        GROUP BY e.id, d.direction, p.due_on, p.interval_days, p.ease
+        ORDER BY e.id, d.direction
+    """
     with conn.cursor(row_factory=dict_row) as cur:
-        cur.execute(
-            query,
-            (
-                list(DIRECTIONS),
-                flt.language,
-                levels,
-                levels,
-                textbooks,
-                textbooks,
-                topics,
-                topics,
-            ),
-        )
+        cur.execute(query, (list(DIRECTIONS), *_filter_params(flt), today))
         rows = cur.fetchall()
-    return [
-        CardCandidate(
-            entry_id=row["entry_id"],
-            direction=row["direction"],
-            language=row["language"],
-            form=row["form"],
-            part_of_speech=row["part_of_speech"],
-            part_of_speech_code=row["part_of_speech_code"],
-            transcription=row["transcription"],
-            gender=row["gender"],
-            translations=tuple(row["translations"]),
-            streak=row["streak"],
-        )
-        for row in rows
-    ]
+    return [_row_to_card(row, is_new=False) for row in rows]
+
+
+def fetch_new_candidates(
+    conn: psycopg.Connection,
+    flt: SessionFilter,
+) -> list[CardCandidate]:
+    query = f"""
+        SELECT
+          e.id AS entry_id,
+          d.direction,
+          e.language::text AS language,
+          e.form,
+          e.part_of_speech,
+          e.part_of_speech_code,
+          e.transcription,
+          e.gender,
+          NULL::date AS due_on,
+          NULL::double precision AS interval_days,
+          NULL::double precision AS ease,
+          array_agg(tr.text ORDER BY tr.position) AS translations
+        FROM entries e
+        CROSS JOIN unnest(%s::card_direction[]) AS d(direction)
+        JOIN entry_translations tr ON tr.entry_id = e.id
+        LEFT JOIN card_progress p
+          ON p.entry_id = e.id AND p.direction = d.direction
+        {_filter_clause()}
+          AND p.entry_id IS NULL
+        GROUP BY e.id, d.direction
+        ORDER BY e.id, d.direction
+    """
+    with conn.cursor(row_factory=dict_row) as cur:
+        cur.execute(query, (list(DIRECTIONS), *_filter_params(flt)))
+        rows = cur.fetchall()
+    return [_row_to_card(row, is_new=True) for row in rows]
+
+
+def fetch_queue_preview(
+    conn: psycopg.Connection,
+    flt: SessionFilter,
+    today: date | None = None,
+) -> QueuePreview:
+    from app.progress import count_introduced_today
+    from app.session import new_limit_for_day
+
+    today = today or date.today()
+    due = fetch_due_candidates(conn, flt, today)
+    new = fetch_new_candidates(conn, flt)
+    introduced = count_introduced_today(conn, flt.language, today)
+    remaining = new_limit_for_day(introduced, NEW_PER_DAY)
+    return QueuePreview(
+        due_count=len(due),
+        new_available=len(new),
+        new_remaining_today=remaining,
+        introduced_today=introduced,
+    )

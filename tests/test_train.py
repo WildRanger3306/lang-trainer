@@ -7,6 +7,7 @@ from fastapi.testclient import TestClient
 
 from app.db import connect
 from app.main import app
+from app.scheduler import NEW_PER_DAY
 
 
 @unittest.skipUnless(os.environ.get("RUN_DB_TESTS") == "1", "set RUN_DB_TESTS=1")
@@ -19,8 +20,9 @@ class TrainFlowTests(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn("английский", response.text)
         self.assertIn("Starlight 6", response.text)
+        self.assertIn("due", response.text)
 
-    def test_grade_writes_streak(self) -> None:
+    def test_grade_writes_progress(self) -> None:
         start = self.client.post(
             "/start",
             data={"language": "en", "textbook": "Starlight 6"},
@@ -31,7 +33,7 @@ class TrainFlowTests(unittest.TestCase):
 
         train = self.client.get("/train")
         self.assertEqual(train.status_code, 200)
-        self.assertIn("1 / 20", train.text)
+        self.assertIn(f"1 /", train.text)
 
         with connect() as conn:
             before = conn.execute("SELECT count(*) FROM card_progress").fetchone()[0]
@@ -47,8 +49,21 @@ class TrainFlowTests(unittest.TestCase):
         with connect() as conn:
             after = conn.execute("SELECT count(*) FROM card_progress").fetchone()[0]
             row = conn.execute(
-                "SELECT streak FROM card_progress ORDER BY entry_id DESC LIMIT 1"
+                """
+                SELECT interval_days, ease
+                FROM card_progress
+                ORDER BY introduced_on DESC, entry_id DESC
+                LIMIT 1
+                """
             ).fetchone()
         self.assertGreaterEqual(after, before)
         self.assertGreaterEqual(after, 1)
-        self.assertEqual(row[0], 1)
+        self.assertEqual(float(row[0]), 1.0)
+        self.assertEqual(float(row[1]), 2.5)
+
+    def test_session_respects_new_cap(self) -> None:
+        response = self.client.get("/session?language=en&textbook=Starlight%206&seed=1")
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertLessEqual(payload["new_in_session"], NEW_PER_DAY)
+        self.assertEqual(payload["due_count"] + payload["new_in_session"], len(payload["cards"]))

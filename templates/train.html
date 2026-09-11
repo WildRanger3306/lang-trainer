@@ -2,7 +2,7 @@
 {% block title %}Карточка {{ number }} из {{ total }}{% endblock %}
 {% block body %}
   <header class="header header-row">
-    <p class="progress">{{ number }} / {{ total }}</p>
+    <p class="progress">{{ number }} / {{ total }}{% if is_new %} · новая{% endif %}</p>
     <p class="direction-flags" title="{{ view.direction_label }}">{{ view.direction_flags }}</p>
   </header>
 
