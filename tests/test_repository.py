@@ -6,7 +6,7 @@ import unittest
 
 from app.db import connect
 from app.repository import fetch_due_candidates, fetch_new_candidates
-from app.scheduler import NEW_PER_DAY
+from app.scheduler import new_per_day
 from app.session import SessionFilter, build_queue, new_limit_for_day
 
 
@@ -38,8 +38,9 @@ class RepositoryTests(unittest.TestCase):
                 """
             ).fetchone()[0]
         self.assertEqual(len(due) + len(new) + scheduled_future, total * 2)
-        picked = build_queue(due, new, NEW_PER_DAY, random.Random(0))
-        self.assertLessEqual(len(picked), NEW_PER_DAY + len(due))
+        cap = new_per_day("en")
+        picked = build_queue(due, new, cap, random.Random(0))
+        self.assertLessEqual(len(picked), cap + len(due))
         self.assertTrue(all(c.form for c in picked))
 
     def test_unknown_textbook_is_empty(self) -> None:
@@ -51,4 +52,4 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(new, [])
 
     def test_new_limit_helper(self) -> None:
-        self.assertEqual(new_limit_for_day(0), 15)
+        self.assertEqual(new_limit_for_day(0, 10), 10)

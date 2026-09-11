@@ -7,7 +7,7 @@ from fastapi.testclient import TestClient
 
 from app.db import connect
 from app.main import app
-from app.scheduler import NEW_PER_DAY
+from app.scheduler import new_per_day
 
 
 @unittest.skipUnless(os.environ.get("RUN_DB_TESTS") == "1", "set RUN_DB_TESTS=1")
@@ -92,8 +92,27 @@ class TrainFlowTests(unittest.TestCase):
         response = self.client.get("/session?language=en&textbook=Starlight%206&seed=1")
         self.assertEqual(response.status_code, 200)
         payload = response.json()
-        self.assertLessEqual(payload["new_in_session"], NEW_PER_DAY)
+        self.assertEqual(payload["new_per_day"], new_per_day("en"))
+        self.assertEqual(payload["preferred_direction"], "native_to_foreign")
+        self.assertLessEqual(payload["new_in_session"], new_per_day("en"))
         self.assertEqual(payload["due_count"] + payload["new_in_session"], len(payload["cards"]))
+        # EN bias: among new cards, native_to_foreign comes before foreign_to_native
+        news = [c for c in payload["cards"] if c["is_new"]]
+        if len(news) >= 2:
+            dirs = [c["direction"] for c in news]
+            if "native_to_foreign" in dirs and "foreign_to_native" in dirs:
+                self.assertLess(
+                    dirs.index("native_to_foreign"),
+                    max(i for i, d in enumerate(dirs) if d == "foreign_to_native"),
+                )
+
+    def test_fr_session_uses_higher_cap(self) -> None:
+        response = self.client.get("/session?language=fr&seed=1")
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertEqual(payload["new_per_day"], 20)
+        self.assertEqual(payload["preferred_direction"], "foreign_to_native")
+        self.assertLessEqual(payload["new_in_session"], 20)
 
     def test_assessment_know_skips_new_quota(self) -> None:
         start = self.client.post(

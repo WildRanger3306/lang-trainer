@@ -14,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from app.db import connect
 from app.progress import count_introduced_today
 from app.queue import build_session_cards
-from app.scheduler import NEW_PER_DAY
+from app.scheduler import new_per_day, preferred_direction
 from app.session import SessionFilter
 
 
@@ -44,7 +44,8 @@ def main() -> None:
                 "due_count": due_n,
                 "new_in_session": new_n,
                 "introduced_today": introduced,
-                "new_per_day": NEW_PER_DAY,
+                "new_per_day": new_per_day(flt.language),
+                "preferred_direction": preferred_direction(flt.language),
                 "picked": len(picked),
                 "cards": [
                     {

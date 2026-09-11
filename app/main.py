@@ -14,7 +14,7 @@ from app.db import connect
 from app.progress import count_introduced_today, save_assessment, save_grade
 from app.queue import build_assessment_cards, build_session_cards
 from app.repository import fetch_filter_options, fetch_queue_preview
-from app.scheduler import ASSESS_BATCH, ASSESS_KNOW_INTERVAL, ASSESS_VERDICTS, NEW_PER_DAY
+from app.scheduler import ASSESS_BATCH, ASSESS_KNOW_INTERVAL, ASSESS_VERDICTS, new_per_day, preferred_direction
 from app.session import SessionFilter
 from app.stats import build_language_summary
 from app.store import SessionStore
@@ -76,7 +76,8 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse:
             "selected_topics": [],
             "selected_levels": [],
             "preview": preview,
-            "new_per_day": NEW_PER_DAY,
+            "new_per_day": new_per_day(language),
+            "preferred_direction": preferred_direction(language),
             "assess_batch": ASSESS_BATCH,
             "assess_know_interval": ASSESS_KNOW_INTERVAL,
         },
@@ -280,7 +281,8 @@ def stats_page(request: Request, language: str = "en") -> HTMLResponse:
         {
             "language": language,
             "summary": summary,
-            "new_per_day": NEW_PER_DAY,
+            "new_per_day": new_per_day(language),
+            "preferred_direction": preferred_direction(language),
         },
     )
 
@@ -318,7 +320,8 @@ def create_session_json(
         "due_count": due_n,
         "new_in_session": new_n,
         "introduced_today": introduced,
-        "new_per_day": NEW_PER_DAY,
+        "new_per_day": new_per_day(flt.language),
+        "preferred_direction": preferred_direction(flt.language),
         "cards": [
             {
                 "entry_id": card.entry_id,

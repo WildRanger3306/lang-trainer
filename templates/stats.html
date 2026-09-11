@@ -17,9 +17,11 @@
   <section class="banner banner-{{ summary.advice.status }}">
     <p class="advice-label">{{ summary.advice.label }}</p>
     <p class="muted">{{ summary.advice.detail }}</p>
-    <p>Сейчас лимит <strong>{{ new_per_day }}</strong> новых/день.
+    <p>Сейчас лимит <strong>{{ new_per_day }}</strong> новых/день
+      ({% if language == 'en' %}EN{% else %}FR{% endif %}; приоритет
+      {% if preferred_direction == 'native_to_foreign' %}RU→язык{% else %}язык→RU{% endif %}).
       Совет: <strong>{{ summary.advice.suggested_new_per_day }}</strong>
-      (меняется вручную, автоподстройки нет).</p>
+      (меняется вручную в коде, автоподстройки нет).</p>
   </section>
 
   {% set c = summary.corpus %}

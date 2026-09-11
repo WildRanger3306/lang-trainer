@@ -11,6 +11,8 @@ from app.scheduler import (
     apply_assessment,
     apply_grade,
     next_interval,
+    new_per_day,
+    preferred_direction,
 )
 from app.session import (
     CardCandidate,
@@ -106,15 +108,46 @@ class QueueTests(unittest.TestCase):
         self.assertEqual(len(picked), 15)
 
     def test_new_limit_for_day(self) -> None:
-        self.assertEqual(new_limit_for_day(0), 15)
-        self.assertEqual(new_limit_for_day(10), 5)
-        self.assertEqual(new_limit_for_day(15), 0)
-        self.assertEqual(new_limit_for_day(20), 0)
+        self.assertEqual(new_limit_for_day(0, 10), 10)
+        self.assertEqual(new_limit_for_day(7, 10), 3)
+        self.assertEqual(new_limit_for_day(10, 10), 0)
+        self.assertEqual(new_limit_for_day(20, 20), 0)
 
     def test_assessment_batch(self) -> None:
         new = [candidate(i) for i in range(100)]
         picked = build_assessment_queue(new, batch=40, rng=random.Random(2))
         self.assertEqual(len(picked), 40)
+
+    def test_preferred_direction_first(self) -> None:
+        due = [
+            candidate(1, "foreign_to_native", is_new=False),
+            candidate(2, "native_to_foreign", is_new=False),
+            candidate(3, "foreign_to_native", is_new=False),
+        ]
+        new = [
+            candidate(10, "foreign_to_native"),
+            candidate(11, "native_to_foreign"),
+            candidate(12, "foreign_to_native"),
+            candidate(13, "native_to_foreign"),
+        ]
+        picked = build_queue(
+            due,
+            new,
+            new_limit=3,
+            rng=random.Random(0),
+            preferred="native_to_foreign",
+        )
+        due_part = picked[:3]
+        new_part = picked[3:]
+        self.assertEqual(due_part[0].direction, "native_to_foreign")
+        self.assertTrue(all(c.direction == "native_to_foreign" for c in new_part[:2]))
+        self.assertEqual(new_part[2].direction, "foreign_to_native")
+
+    def test_language_caps(self) -> None:
+        self.assertEqual(new_per_day("en"), 10)
+        self.assertEqual(new_per_day("fr"), 20)
+        self.assertEqual(preferred_direction("en"), "native_to_foreign")
+        self.assertEqual(preferred_direction("fr"), "foreign_to_native")
 
 
 class FilterTests(unittest.TestCase):

@@ -4,8 +4,6 @@ import random
 from dataclasses import dataclass
 from datetime import date
 
-from app.scheduler import NEW_PER_DAY
-
 DIRECTIONS = ("foreign_to_native", "native_to_foreign")
 
 
@@ -50,17 +48,33 @@ class QueuePreview:
     introduced_today: int
 
 
+def order_by_direction(
+    cards: list[CardCandidate],
+    preferred: str | None,
+    rng: random.Random,
+) -> list[CardCandidate]:
+    """Shuffle within groups; preferred direction first when set."""
+    if not preferred:
+        out = list(cards)
+        rng.shuffle(out)
+        return out
+    pref = [c for c in cards if c.direction == preferred]
+    other = [c for c in cards if c.direction != preferred]
+    rng.shuffle(pref)
+    rng.shuffle(other)
+    return pref + other
+
+
 def build_queue(
     due: list[CardCandidate],
     new: list[CardCandidate],
     new_limit: int,
     rng: random.Random,
+    preferred: str | None = None,
 ) -> list[CardCandidate]:
-    """All due first, then up to new_limit new cards. Both groups shuffled."""
-    due_cards = list(due)
-    new_cards = list(new)
-    rng.shuffle(due_cards)
-    rng.shuffle(new_cards)
+    """All due first, then up to new_limit new cards. Direction bias inside each group."""
+    due_cards = order_by_direction(due, preferred, rng)
+    new_cards = order_by_direction(new, preferred, rng)
     return due_cards + new_cards[: max(0, new_limit)]
 
 
@@ -68,12 +82,12 @@ def build_assessment_queue(
     new: list[CardCandidate],
     batch: int,
     rng: random.Random,
+    preferred: str | None = None,
 ) -> list[CardCandidate]:
-    """Up to `batch` cards without progress, shuffled."""
-    cards = list(new)
-    rng.shuffle(cards)
+    """Up to `batch` cards without progress; preferred direction first."""
+    cards = order_by_direction(new, preferred, rng)
     return cards[: max(0, batch)]
 
 
-def new_limit_for_day(introduced_today: int, per_day: int = NEW_PER_DAY) -> int:
+def new_limit_for_day(introduced_today: int, per_day: int) -> int:
     return max(0, per_day - introduced_today)

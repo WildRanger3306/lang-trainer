@@ -5,7 +5,7 @@ from datetime import date
 
 from app.progress import count_introduced_today
 from app.repository import fetch_due_candidates, fetch_new_candidates
-from app.scheduler import ASSESS_BATCH, NEW_PER_DAY
+from app.scheduler import ASSESS_BATCH, new_per_day, preferred_direction
 from app.session import SessionFilter, build_assessment_queue, build_queue, new_limit_for_day
 
 
@@ -19,8 +19,9 @@ def build_session_cards(
     due = fetch_due_candidates(conn, flt, today)
     new = fetch_new_candidates(conn, flt)
     introduced = count_introduced_today(conn, flt.language, today)
-    limit = new_limit_for_day(introduced, NEW_PER_DAY)
-    picked = build_queue(due, new, limit, rng)
+    limit = new_limit_for_day(introduced, new_per_day(flt.language))
+    preferred = preferred_direction(flt.language)
+    picked = build_queue(due, new, limit, rng, preferred=preferred)
     return picked, len(due), min(limit, len(new))
 
 
@@ -30,7 +31,8 @@ def build_assessment_cards(
     rng: random.Random,
     batch: int = ASSESS_BATCH,
 ):
-    """Shuffle unassessed (no progress) cards and take a batch."""
+    """Unassessed cards with language direction bias."""
     new = fetch_new_candidates(conn, flt)
-    picked = build_assessment_queue(new, batch, rng)
+    preferred = preferred_direction(flt.language)
+    picked = build_assessment_queue(new, batch, rng, preferred=preferred)
     return picked, len(new)

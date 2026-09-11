@@ -10,7 +10,7 @@ from statistics import median
 import psycopg
 from psycopg.rows import dict_row
 
-from app.scheduler import NEW_PER_DAY
+from app.scheduler import new_per_day
 
 
 @dataclass(frozen=True)
@@ -276,7 +276,7 @@ def fetch_load_stats(
         due_tomorrow=int(due_row["due_tomorrow"]),
         due_in_3_days=int(due_row["due_in_3_days"]),
         introduced_today=int(due_row["introduced_today"]),
-        new_per_day=NEW_PER_DAY,
+        new_per_day=new_per_day(language),
         answers_last_7=sum(vals_7),
         answers_last_30=sum(vals_30),
         median_answers_per_day_7=float(median(active_7)) if active_7 else 0.0,

@@ -5,7 +5,16 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import date, timedelta
 
-NEW_PER_DAY = 15
+NEW_PER_DAY_BY_LANGUAGE = {
+    "en": 10,  # after triage; production-heavy school English
+    "fr": 20,  # near-zero start; more new volume
+}
+# Preferred training direction (bias inside due / new / assess batches).
+PREFERRED_DIRECTION_BY_LANGUAGE = {
+    "en": "native_to_foreign",  # RU→EN production for advanced track
+    "fr": "foreign_to_native",  # FR→RU recognition first
+}
+
 DEFAULT_EASE = 2.5
 MIN_EASE = 1.3
 EASE_PENALTY = 0.2
@@ -14,6 +23,20 @@ EASE_PENALTY = 0.2
 ASSESS_BATCH = 40
 ASSESS_KNOW_INTERVAL = 7  # false "know" resurfaces in a week, not three
 ASSESS_VERDICTS = ("know", "doubt", "unknown")
+
+
+def new_per_day(language: str) -> int:
+    try:
+        return NEW_PER_DAY_BY_LANGUAGE[language]
+    except KeyError as exc:
+        raise ValueError("language must be en or fr") from exc
+
+
+def preferred_direction(language: str) -> str:
+    try:
+        return PREFERRED_DIRECTION_BY_LANGUAGE[language]
+    except KeyError as exc:
+        raise ValueError("language must be en or fr") from exc
 
 
 @dataclass(frozen=True)

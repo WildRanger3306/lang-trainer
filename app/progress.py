@@ -125,7 +125,7 @@ def save_assessment(
     today: date | None = None,
     answered_at: datetime | None = None,
 ) -> ScheduleState:
-    """Introduce a new card via assessment. Does not count toward NEW_PER_DAY."""
+    """Introduce a new card via assessment. Does not count toward daily new quota."""
     today = today or date.today()
     answered_at = answered_at or datetime.now(timezone.utc)
     current = _load_state(conn, card.entry_id, card.direction)

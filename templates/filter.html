@@ -4,7 +4,7 @@
   <header class="header header-row">
     <div>
       <h1>Тренировка</h1>
-      <p class="lead">Язык обязателен. Тема, уровень и учебник — по желанию. Очередь: due + до {{ new_per_day }} новых в день на язык.</p>
+      <p class="lead">Язык обязателен. Тема, уровень и учебник — по желанию. Очередь: due + до {{ new_per_day }} новых/день. Сначала {% if preferred_direction == 'native_to_foreign' %}RU→язык{% else %}язык→RU{% endif %}.</p>
     </div>
     <a class="nav-link" href="/stats?language={{ language }}">Сводка</a>
   </header>
