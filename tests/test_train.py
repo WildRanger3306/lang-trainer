@@ -94,3 +94,54 @@ class TrainFlowTests(unittest.TestCase):
         payload = response.json()
         self.assertLessEqual(payload["new_in_session"], NEW_PER_DAY)
         self.assertEqual(payload["due_count"] + payload["new_in_session"], len(payload["cards"]))
+
+    def test_assessment_know_skips_new_quota(self) -> None:
+        start = self.client.post(
+            "/assess/start",
+            data={"language": "en", "textbook": "Starlight 6"},
+            follow_redirects=False,
+        )
+        self.assertEqual(start.status_code, 303)
+        self.assertEqual(start.headers["location"], "/assess")
+
+        page = self.client.get("/assess")
+        self.assertEqual(page.status_code, 200)
+        self.assertIn("Знаю", page.text)
+
+        grade = self.client.post(
+            "/assess/grade",
+            data={"verdict": "know"},
+            follow_redirects=False,
+        )
+        self.assertEqual(grade.status_code, 303)
+
+        with connect() as conn:
+            prog = conn.execute(
+                """
+                SELECT interval_days, introduced_via
+                FROM card_progress
+                ORDER BY introduced_on DESC, entry_id DESC
+                LIMIT 1
+                """
+            ).fetchone()
+            review = conn.execute(
+                """
+                SELECT source, remembered, interval_after
+                FROM card_reviews
+                ORDER BY id DESC
+                LIMIT 1
+                """
+            ).fetchone()
+            introduced = conn.execute(
+                """
+                SELECT count(*)
+                FROM card_progress
+                WHERE introduced_on = CURRENT_DATE AND introduced_via = 'train'
+                """
+            ).fetchone()[0]
+        self.assertEqual(float(prog[0]), 7.0)
+        self.assertEqual(prog[1], "assess")
+        self.assertEqual(review[0], "assess")
+        self.assertTrue(review[1])
+        self.assertEqual(float(review[2]), 7.0)
+        self.assertEqual(introduced, 0)

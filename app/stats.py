@@ -180,6 +180,7 @@ def fetch_introduced_last_days(
             WHERE e.language = %s
               AND p.introduced_on >= %s
               AND p.introduced_on <= %s
+              AND p.introduced_via = 'train'
             """,
             (language, since, today),
         )
@@ -230,7 +231,9 @@ def fetch_load_stats(
               count(*) FILTER (WHERE p.due_on <= %s) AS due_today,
               count(*) FILTER (WHERE p.due_on <= %s) AS due_tomorrow,
               count(*) FILTER (WHERE p.due_on <= %s) AS due_in_3_days,
-              count(*) FILTER (WHERE p.introduced_on = %s) AS introduced_today
+              count(*) FILTER (
+                WHERE p.introduced_on = %s AND p.introduced_via = 'train'
+              ) AS introduced_today
             FROM card_progress p
             JOIN entries e ON e.id = p.entry_id
             WHERE e.language = %s
@@ -253,6 +256,7 @@ def fetch_load_stats(
             JOIN entries e ON e.id = r.entry_id
             WHERE e.language = %s
               AND r.answered_on >= %s
+              AND r.source = 'train'
             GROUP BY 1
             ORDER BY 1
             """,
@@ -311,6 +315,7 @@ def fetch_performance_stats(
             JOIN entries e ON e.id = r.entry_id
             WHERE e.language = %s
               AND r.answered_on >= %s
+              AND r.source = 'train'
             """,
             (language, since),
         )

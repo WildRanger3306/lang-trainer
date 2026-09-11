@@ -2,15 +2,24 @@
 {% block title %}Итог сессии{% endblock %}
 {% block body %}
   <header class="header">
-    <h1>Итог</h1>
+    <h1>{% if mode == "assess" %}Итог оценки{% else %}Итог{% endif %}</h1>
     <p class="lead">{{ started_at }} · {{ duration }}</p>
   </header>
 
+  {% if mode == "assess" %}
+  <ul class="stats">
+    <li><span>знаю</span><strong>{{ known }}</strong></li>
+    <li><span>сомневаюсь</span><strong>{{ doubt }}</strong></li>
+    <li><span>не знаю</span><strong>{{ unknown }}</strong></li>
+    <li><span>карточек</span><strong>{{ total }}</strong></li>
+  </ul>
+  {% else %}
   <ul class="stats">
     <li><span>помню</span><strong>{{ known }}</strong></li>
     <li><span>не помню</span><strong>{{ unknown }}</strong></li>
     <li><span>карточек</span><strong>{{ total }}</strong></li>
   </ul>
+  {% endif %}
 
   <a class="btn btn-primary" href="/">Ещё сессия</a>
   <a class="btn btn-secondary" href="/stats">Сводка</a>

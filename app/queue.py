@@ -5,8 +5,8 @@ from datetime import date
 
 from app.progress import count_introduced_today
 from app.repository import fetch_due_candidates, fetch_new_candidates
-from app.scheduler import NEW_PER_DAY
-from app.session import SessionFilter, build_queue, new_limit_for_day
+from app.scheduler import ASSESS_BATCH, NEW_PER_DAY
+from app.session import SessionFilter, build_assessment_queue, build_queue, new_limit_for_day
 
 
 def build_session_cards(
@@ -22,3 +22,15 @@ def build_session_cards(
     limit = new_limit_for_day(introduced, NEW_PER_DAY)
     picked = build_queue(due, new, limit, rng)
     return picked, len(due), min(limit, len(new))
+
+
+def build_assessment_cards(
+    conn,
+    flt: SessionFilter,
+    rng: random.Random,
+    batch: int = ASSESS_BATCH,
+):
+    """Shuffle unassessed (no progress) cards and take a batch."""
+    new = fetch_new_candidates(conn, flt)
+    picked = build_assessment_queue(new, batch, rng)
+    return picked, len(new)

@@ -4,8 +4,21 @@ import random
 import unittest
 from datetime import date, timedelta
 
-from app.scheduler import DEFAULT_EASE, MIN_EASE, apply_grade, next_interval
-from app.session import CardCandidate, SessionFilter, build_queue, new_limit_for_day
+from app.scheduler import (
+    ASSESS_KNOW_INTERVAL,
+    DEFAULT_EASE,
+    MIN_EASE,
+    apply_assessment,
+    apply_grade,
+    next_interval,
+)
+from app.session import (
+    CardCandidate,
+    SessionFilter,
+    build_assessment_queue,
+    build_queue,
+    new_limit_for_day,
+)
 
 
 def candidate(
@@ -62,6 +75,22 @@ class SchedulerTests(unittest.TestCase):
         self.assertGreaterEqual(failed.ease, MIN_EASE)
 
 
+class AssessmentSchedulerTests(unittest.TestCase):
+    def test_know_interval_seven(self) -> None:
+        today = date(2026, 9, 11)
+        state = apply_assessment("know", today)
+        self.assertEqual(state.interval_days, float(ASSESS_KNOW_INTERVAL))
+        self.assertEqual(state.due_on, today + timedelta(days=ASSESS_KNOW_INTERVAL))
+        self.assertEqual(state.ease, DEFAULT_EASE)
+
+    def test_doubt_and_unknown_due_tomorrow(self) -> None:
+        today = date(2026, 9, 11)
+        for verdict in ("doubt", "unknown"):
+            state = apply_assessment(verdict, today)
+            self.assertEqual(state.interval_days, 1.0)
+            self.assertEqual(state.due_on, today + timedelta(days=1))
+
+
 class QueueTests(unittest.TestCase):
     def test_due_before_new(self) -> None:
         due = [candidate(1, is_new=False), candidate(2, is_new=False)]
@@ -81,6 +110,11 @@ class QueueTests(unittest.TestCase):
         self.assertEqual(new_limit_for_day(10), 5)
         self.assertEqual(new_limit_for_day(15), 0)
         self.assertEqual(new_limit_for_day(20), 0)
+
+    def test_assessment_batch(self) -> None:
+        new = [candidate(i) for i in range(100)]
+        picked = build_assessment_queue(new, batch=40, rng=random.Random(2))
+        self.assertEqual(len(picked), 40)
 
 
 class FilterTests(unittest.TestCase):

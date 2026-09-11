@@ -18,7 +18,8 @@
     {% if language == "en" %}английского{% else %}французского{% endif %}:
     <strong>{{ preview.due_count }}</strong> due,
     новых осталось сегодня <strong>{{ preview.new_remaining_today }}</strong>
-    (уже введено {{ preview.introduced_today }} / {{ new_per_day }}).
+    (уже введено {{ preview.introduced_today }} / {{ new_per_day }}),
+    без прогресса <strong>{{ preview.new_available }}</strong>.
   </p>
 
   <form class="panel" method="post" action="/start">
@@ -74,6 +75,15 @@
     </fieldset>
     {% endif %}
 
-    <button class="btn btn-primary" type="submit">Начать</button>
+    <div class="actions">
+      <button class="btn btn-primary" type="submit">Тренировка</button>
+      <button class="btn btn-secondary" type="submit" formaction="/assess/start">
+        Оценка знаний
+      </button>
+    </div>
+    <p class="hint-text">
+      Оценка: до {{ assess_batch }} карточек без прогресса.
+      «Знаю» → интервал {{ assess_know_interval }} дн., квоту новых не тратит.
+    </p>
   </form>
 {% endblock %}

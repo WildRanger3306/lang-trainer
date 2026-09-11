@@ -139,6 +139,18 @@ def migrate() -> None:
             ON card_reviews (entry_id, direction)
             """
         )
+        conn.execute(
+            """
+            ALTER TABLE card_progress
+              ADD COLUMN IF NOT EXISTS introduced_via TEXT NOT NULL DEFAULT 'train'
+            """
+        )
+        conn.execute(
+            """
+            ALTER TABLE card_reviews
+              ADD COLUMN IF NOT EXISTS source TEXT NOT NULL DEFAULT 'train'
+            """
+        )
         conn.commit()
 
 

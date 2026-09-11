@@ -10,11 +10,14 @@ from app.session import CardCandidate
 @dataclass
 class TrainingSession:
     cards: list[CardCandidate]
+    mode: str = "train"  # train | assess
     index: int = 0
     known: int = 0
+    doubt: int = 0
     unknown: int = 0
     due_at_start: int = 0
     new_at_start: int = 0
+    unassessed_at_start: int = 0
     started_at: datetime = field(default_factory=datetime.now)
     finished_at: datetime | None = None
 
@@ -43,7 +46,7 @@ class TrainingSession:
 
     @property
     def answered(self) -> int:
-        return self.known + self.unknown
+        return self.known + self.doubt + self.unknown
 
     def requeue(self, card: CardCandidate) -> None:
         """Append forgotten card to the end of today's queue."""
@@ -63,14 +66,18 @@ class SessionStore:
         self,
         cards: list[CardCandidate],
         *,
+        mode: str = "train",
         due_at_start: int = 0,
         new_at_start: int = 0,
+        unassessed_at_start: int = 0,
     ) -> str:
         token = uuid.uuid4().hex
         self._sessions[token] = TrainingSession(
             cards=cards,
+            mode=mode,
             due_at_start=due_at_start,
             new_at_start=new_at_start,
+            unassessed_at_start=unassessed_at_start,
         )
         return token
 

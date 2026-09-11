@@ -67,6 +67,8 @@ CREATE TABLE card_progress (
   ease DOUBLE PRECISION NOT NULL DEFAULT 2.5
     CHECK (ease >= 1.3),
   introduced_on DATE NOT NULL,
+  introduced_via TEXT NOT NULL DEFAULT 'train'
+    CHECK (introduced_via IN ('train', 'assess')),
   PRIMARY KEY (entry_id, direction)
 );
 
@@ -84,7 +86,9 @@ CREATE TABLE card_reviews (
   interval_before DOUBLE PRECISION NOT NULL DEFAULT 0
     CHECK (interval_before >= 0),
   interval_after DOUBLE PRECISION NOT NULL
-    CHECK (interval_after >= 0)
+    CHECK (interval_after >= 0),
+  source TEXT NOT NULL DEFAULT 'train'
+    CHECK (source IN ('train', 'assess'))
 );
 
 CREATE INDEX idx_card_reviews_answered_at ON card_reviews (answered_at);

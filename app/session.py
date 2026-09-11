@@ -64,5 +64,16 @@ def build_queue(
     return due_cards + new_cards[: max(0, new_limit)]
 
 
+def build_assessment_queue(
+    new: list[CardCandidate],
+    batch: int,
+    rng: random.Random,
+) -> list[CardCandidate]:
+    """Up to `batch` cards without progress, shuffled."""
+    cards = list(new)
+    rng.shuffle(cards)
+    return cards[: max(0, batch)]
+
+
 def new_limit_for_day(introduced_today: int, per_day: int = NEW_PER_DAY) -> int:
     return max(0, per_day - introduced_today)

@@ -7,6 +7,7 @@
   --line: #d9d0c4;
   --accent: #2f5d50;
   --know: #2f5d50;
+  --doubt: #8a6a2c;
   --forget: #8a3b2c;
   --error: #8a3b2c;
   --radius: 16px;
@@ -22,6 +23,7 @@
     --line: #3d372f;
     --accent: #7eb8a6;
     --know: #7eb8a6;
+    --doubt: #d4b06a;
     --forget: #e09a8c;
     --error: #e09a8c;
   }
@@ -205,7 +207,12 @@ legend {
   margin-top: 1rem;
 }
 
+.grade-assess {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .btn-know { background: var(--know); border-color: var(--know); color: #fff; }
+.btn-doubt { background: var(--doubt); border-color: var(--doubt); color: #fff; }
 .btn-forget { background: var(--forget); border-color: var(--forget); color: #fff; }
 
 .btn-secondary {
@@ -213,6 +220,22 @@ legend {
   background: transparent;
   color: var(--muted);
   border-color: var(--line);
+}
+
+.actions {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.actions .btn-secondary {
+  margin-top: 0;
+}
+
+.hint-text {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 .finish {
