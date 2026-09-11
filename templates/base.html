@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}Тренажёр{% endblock %}</title>
+  <link rel="icon" href="/static/logo.png" type="image/png">
   <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
   <div class="page">
     {% if user is defined and user %}
     <div class="userbar">
-      <span>{{ user.label }}</span>
+      <a class="brand-mark" href="/" title="Языковой тренажёр">
+        <img class="logo logo-sm" src="/static/logo.png" width="40" height="40" alt="">
+        <span>{{ user.label }}</span>
+      </a>
       <form method="post" action="/logout">
         <button class="linkish" type="submit">Выйти</button>
       </form>
