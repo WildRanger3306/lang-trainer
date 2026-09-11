@@ -151,6 +151,12 @@ def migrate() -> None:
               ADD COLUMN IF NOT EXISTS source TEXT NOT NULL DEFAULT 'train'
             """
         )
+        conn.execute(
+            """
+            CREATE UNIQUE INDEX IF NOT EXISTS uq_entries_lang_form_pos
+            ON entries (language, lower(form), part_of_speech)
+            """
+        )
         conn.commit()
 
 

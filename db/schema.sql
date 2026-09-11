@@ -23,6 +23,11 @@ CREATE TABLE entries (
   level cefr_level
 );
 
+-- Uniqueness: one entry per (language, lower(form), part_of_speech).
+-- Multiple textbooks/topics hang off the same row via link tables.
+CREATE UNIQUE INDEX uq_entries_lang_form_pos
+  ON entries (language, lower(form), part_of_speech);
+
 CREATE TABLE entry_translations (
   entry_id BIGINT NOT NULL REFERENCES entries (id) ON DELETE CASCADE,
   position SMALLINT NOT NULL,
