@@ -6,7 +6,8 @@
   "notes": [
     "Транскрипции не заполнены (по запросу).",
     "Учебник: Starlight 6.",
-    "rapid: в учебнике код (n), перевод прилагательный — код оставлен как на скане."
+    "rapid: в учебнике код (n), перевод прилагательный — код оставлен как на скане.",
+    "Тема bridge_sl6: слово есть в Starlight 6 и нет в Starlight 7 (мост в углублёнку)."
   ],
   "entries": [
     {
@@ -35,7 +36,9 @@
         "упорство"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -50,7 +53,9 @@
         "автозаправочная станция"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -65,7 +70,9 @@
         "философ"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -80,7 +87,9 @@
         "физическая боль"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -95,7 +104,9 @@
         "физик"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -110,7 +121,9 @@
         "живописный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -125,7 +138,9 @@
         "пирог"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -140,7 +155,9 @@
         "паломник"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -155,7 +172,9 @@
         "лыжня"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -170,7 +189,9 @@
         "яма"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -185,7 +206,9 @@
         "планировать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -200,7 +223,9 @@
         "самолёт"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -215,7 +240,9 @@
         "растение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -230,7 +257,9 @@
         "плантация"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -245,7 +274,9 @@
         "плазменный экран"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -260,7 +291,9 @@
         "погрузить"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -275,7 +308,9 @@
         "яйцо-пашот"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -290,7 +325,9 @@
         "браконьер"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -305,7 +342,9 @@
         "браконьерство"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -321,7 +360,9 @@
         "заражать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -336,7 +377,9 @@
         "отравленный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -366,7 +409,9 @@
         "ядовитая змея"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -381,7 +426,9 @@
         "полицейский автомобиль"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -396,7 +443,9 @@
         "полицейский участок"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -411,7 +460,9 @@
         "полицейская камера слежения"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -441,7 +492,9 @@
         "загрязнение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -456,7 +509,9 @@
         "бедный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -471,7 +526,9 @@
         "поп-певец"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -501,7 +558,9 @@
         "крыльцо"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -516,7 +575,9 @@
         "позировать (для кого-либо)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -531,7 +592,9 @@
         "имущество"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -546,7 +609,9 @@
         "почтовый ящик"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -561,7 +626,9 @@
         "почта"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -576,7 +643,9 @@
         "почтовый адрес"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -591,7 +660,9 @@
         "почтовый штемпель"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -621,7 +692,9 @@
         "стаканчик (с йогуртом)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -636,7 +709,9 @@
         "картофель"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -651,7 +726,9 @@
         "птица"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -667,7 +744,9 @@
         "наливать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -682,7 +761,9 @@
         "бедность"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -699,7 +780,9 @@
         "могучий"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -714,7 +797,9 @@
         "драгоценный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -729,7 +814,9 @@
         "дорогое произведение искусства"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -744,7 +831,9 @@
         "подготовка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -759,7 +848,9 @@
         "подготовить(ся)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -774,7 +865,9 @@
         "президент"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -789,7 +882,9 @@
         "давление"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -804,7 +899,9 @@
         "производство"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -819,7 +916,9 @@
         "продукт"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -849,7 +948,9 @@
         "обещать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -864,7 +965,9 @@
         "доказательство"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -894,7 +997,9 @@
         "белок"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -910,7 +1015,9 @@
         "сооружение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -925,7 +1032,9 @@
         "общественное место"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -940,7 +1049,9 @@
         "государственная служба"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -955,7 +1066,9 @@
         "общественный транспорт"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -970,7 +1083,9 @@
         "втягивать (во что-либо)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -985,7 +1100,9 @@
         "(зд.) детёныш морского слона"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1000,7 +1117,9 @@
         "кукла"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1015,7 +1134,9 @@
         "женский кошелёк"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1046,7 +1167,9 @@
         "сажать деревья"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1061,7 +1184,9 @@
         "заниматься спортом"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1076,7 +1201,9 @@
         "играть в видеоигры"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1091,7 +1218,9 @@
         "совершенно уверен"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1106,7 +1235,9 @@
         "перекачивать кровь"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1121,7 +1252,9 @@
         "развешивать плакаты"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1136,7 +1269,9 @@
         "королева"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1151,7 +1286,9 @@
         "очередь"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1166,7 +1303,9 @@
         "тихий"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1183,7 +1322,9 @@
         "2. увольнение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1198,7 +1339,9 @@
         "цитата"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1228,7 +1371,9 @@
         "осадки"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1243,7 +1388,9 @@
         "тропический лес"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1258,7 +1405,9 @@
         "рейнджер"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1274,7 +1423,9 @@
         "стремительный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1289,7 +1440,9 @@
         "равиоли"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1320,7 +1473,9 @@
         "реакция"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1335,7 +1490,9 @@
         "понимать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1350,7 +1507,9 @@
         "реалити-шоу"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1365,7 +1524,9 @@
         "реалистичный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1380,7 +1541,9 @@
         "восстанавливать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1395,7 +1558,9 @@
         "недавно"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1426,7 +1591,9 @@
         "регистрировать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]
@@ -1456,7 +1623,9 @@
         "переработка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl6"
+      ],
       "textbooks": [
         "Starlight 6"
       ]

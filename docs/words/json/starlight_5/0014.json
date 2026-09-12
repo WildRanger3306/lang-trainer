@@ -7,7 +7,8 @@
     "Формы, коды POS и переводы со скана (vision extract).",
     "Транскрипции из учебника не переносили — заполнение en_UK через fill_en_transcriptions.py.",
     "Учебник: Starlight 5.",
-    "В сырье нет отдельной страницы WL4 (после WL3 сразу WL5)."
+    "В сырье нет отдельной страницы WL4 (после WL3 сразу WL5).",
+    "Тема bridge_sl5: слово есть только в Starlight 5 (нет в SL6/SL7) — ранний мост."
   ],
   "entries": [
     {
@@ -35,7 +36,9 @@
         "язык"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -50,7 +53,9 @@
         "тонна"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -65,7 +70,9 @@
         "зуб (зубы)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -80,7 +87,9 @@
         "зубная боль"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -110,7 +119,9 @@
         "Торонто"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -125,7 +136,9 @@
         "тортилья"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -140,7 +153,9 @@
         "черепаха (сухопутная)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -155,7 +170,9 @@
         "тур"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -170,7 +187,9 @@
         "турист"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -185,7 +204,9 @@
         "полотенце"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -215,7 +236,9 @@
         "город"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -230,7 +253,9 @@
         "городская площадь"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -245,7 +270,9 @@
         "игрушка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -260,7 +287,9 @@
         "торговец"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -275,7 +304,9 @@
         "торговля"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -290,7 +321,9 @@
         "традиционный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -305,7 +338,9 @@
         "светофор"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -335,7 +370,9 @@
         "кроссовка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -350,7 +387,9 @@
         "трамвай"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -365,7 +404,9 @@
         "передавать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -381,7 +422,9 @@
         "перевозить, транспортировать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -396,7 +439,9 @@
         "трапеция"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -411,7 +456,9 @@
         "турагент"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -426,7 +473,9 @@
         "угощение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -441,7 +490,9 @@
         "дерево"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -456,7 +507,9 @@
         "ствол дерева"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -487,7 +540,9 @@
         "спотыкаться"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -502,7 +557,9 @@
         "Триполи"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -517,7 +574,9 @@
         "брюки"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -532,7 +591,9 @@
         "пробовать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -547,7 +608,9 @@
         "футболка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -562,7 +625,9 @@
         "метро"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -577,7 +642,9 @@
         "вторник"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -592,7 +659,9 @@
         "тундра"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -607,7 +676,9 @@
         "Турция"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -622,7 +693,9 @@
         "поворачивать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -637,7 +710,9 @@
         "черепаха (морская)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -652,7 +727,9 @@
         "прутик"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -667,7 +744,9 @@
         "близнец"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -682,7 +761,9 @@
         "подворачивать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -697,7 +778,9 @@
         "тип"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -727,7 +810,9 @@
         "принимать участие в чём-либо"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -742,7 +827,9 @@
         "попробовать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -757,7 +844,9 @@
         "превратиться в"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -787,7 +876,9 @@
         "Береги себя."
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -817,7 +908,9 @@
         "сказать, который час"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -832,7 +925,9 @@
         "Звучит неплохо."
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -847,7 +942,9 @@
         "Спасибо."
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -862,7 +959,9 @@
         "потерянный город"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -877,7 +976,9 @@
         "по воздуху"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -892,7 +993,9 @@
         "путешествовать на самолёте"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -907,7 +1010,9 @@
         "двадцать минут"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -922,7 +1027,9 @@
         "без двадцати минут"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -952,7 +1059,9 @@
         "зонтик"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -967,7 +1076,9 @@
         "дядя"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -982,7 +1093,9 @@
         "нетипичный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -997,7 +1110,9 @@
         "под"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1027,7 +1142,9 @@
         "незабываемый"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1072,7 +1189,9 @@
         "Объединённые Арабские Эмираты"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1087,7 +1206,9 @@
         "Великобритания"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1102,7 +1223,9 @@
         "невезучий"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1117,7 +1240,9 @@
         "неквалифицированный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1132,7 +1257,9 @@
         "вверх"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1162,7 +1289,9 @@
         "подсобное помещение, кладовка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1177,7 +1306,9 @@
         "уникальный образ жизни"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1192,7 +1323,9 @@
         "пылесос"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1207,7 +1340,9 @@
         "фургон"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1222,7 +1357,9 @@
         "ваза"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1267,7 +1404,9 @@
         "ветеринар"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1282,7 +1421,9 @@
         "игровая приставка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1313,7 +1454,9 @@
         "деревня"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1328,7 +1471,9 @@
         "видимый"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1343,7 +1488,9 @@
         "посещать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1358,7 +1505,9 @@
         "посетитель"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1388,7 +1537,9 @@
         "волейбол"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1403,7 +1554,9 @@
         "добровольный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1419,7 +1572,9 @@
         "работать безвозмездно, на добровольных началах"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1434,7 +1589,9 @@
         "осмотр дома"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
@@ -1449,7 +1606,9 @@
         "посетить музей"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "bridge_sl5"
+      ],
       "textbooks": [
         "Starlight 5"
       ]
