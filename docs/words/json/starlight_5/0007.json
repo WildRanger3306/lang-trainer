@@ -1,0 +1,1394 @@
+{
+  "source": {
+    "scan": "docs/words/raw/Starlight_5/0007.jpg",
+    "page": "WL8"
+  },
+  "notes": [
+    "Формы, коды POS и переводы со скана (vision extract).",
+    "Транскрипции из учебника не переносили — заполнение en_UK через fill_en_transcriptions.py.",
+    "Учебник: Starlight 5.",
+    "В сырье нет отдельной страницы WL4 (после WL3 сразу WL5)."
+  ],
+  "entries": [
+    {
+      "language": "en",
+      "form": "Have a nice evening.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Приятного вечера."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "have a shower",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "принимать душ"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "have a vision",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "иметь точку зрения"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "have breakfast",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "завтракать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "have dinner",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "ужинать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "have lessons",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "посещать занятия"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "have lunch",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "обедать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Have you got the time, please?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Не могли бы вы уделить мне немного времени?"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Here you are.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Вот, пожалуйста."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Here's your change.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Вот ваша сдача."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Hi!",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Привет!"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hippy style",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "стиль хиппи"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "history comes to life",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "история оживает"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "How about you?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "А ты что скажешь?"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "How are you?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Как поживаешь?"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "How do you spell it?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Как это пишется?"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "How does this sound to you?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Что ты думаешь об этом?"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "How old are you?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Сколько тебе лет?"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "How's everything?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Как дела?"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "How's it going?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Как дела?"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ice climbing",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "ледолазание"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ice cream cornet",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "рожок с мороженым"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ICT (Information and Communications Technologies)",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "ИКТ (информационно-коммуникационные технологии)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ID card",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "удостоверение личности"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "iguana",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˌɪgjuːˈɑːnɐ",
+      "translations": [
+        "игуана"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "imagine",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ɪmˈædʒɪn",
+      "translations": [
+        "представлять"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "important",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ɪmpˈɔːtənt",
+      "translations": [
+        "важный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "improve",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ɪmprˈuːv",
+      "translations": [
+        "улучшать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "incident",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˈɪnsɪdənt",
+      "translations": [
+        "инцидент"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "include",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ɪnklˈuːd",
+      "translations": [
+        "включать (в себя)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "independence",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˌɪndɪpˈɛndəns",
+      "translations": [
+        "независимость"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "index finger",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "указательный палец"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "India",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "Индия"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "indoor",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ˈɪndɔː",
+      "translations": [
+        "закрытый, в помещении"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "indoors",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": "ɪndˈɔːz",
+      "translations": [
+        "в помещении"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "inform",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ɪnfˈɔːm",
+      "translations": [
+        "сообщить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "injury",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˈɪndʒəri",
+      "translations": [
+        "травма"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "insect",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˈɪnsɛkt",
+      "translations": [
+        "насекомое"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "inside",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "translations": [
+        "внутри"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "instead",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": "ɪnstˈɛd",
+      "translations": [
+        "вместо"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "institution",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˌɪnstɪtjˈuːʃən",
+      "translations": [
+        "учреждение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "instrument",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˈɪnstrəmənt",
+      "translations": [
+        "музыкальный инструмент"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "insult",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "оскорбление"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "intelligence",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ɪntˈɛlɪdʒəns",
+      "translations": [
+        "интеллект"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "interesting",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ˈɪntrəstɪŋ",
+      "translations": [
+        "интересный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Internet café",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "интернет-кафе"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "into",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "prep",
+      "transcription": "ˈɪntʊ",
+      "translations": [
+        "в"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Ireland",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "Ирландия"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Irish",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "ирландский"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "iron",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˈaɪən",
+      "translations": [
+        "утюг"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "island",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˈaɪlənd",
+      "translations": [
+        "остров"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Italian",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "итальянский"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Italy",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "Италия"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I am new here.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Я новичок здесь."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I can't wait.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Я не могу дождаться."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I find it hard to ...",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Я считаю, что это трудно ..."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I guess you're right.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Я думаю, вы правы."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I loved it.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Мне очень понравилось."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I quite liked it.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Мне понравилось."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I'd like a ...",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Я хотел бы ..."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I'd rather not. Let's ... instead.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Мне не хочется. Давайте ... вместо этого."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I'm fine, thanks.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Я хорошо, спасибо."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I'm free on ...",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Я свободен/свободна в ..."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I'm interested in ...",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Я заинтересован(а) в ..."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "I'm OK.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Я в порядке."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "in fact",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "на самом деле"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "in his early/late twenties",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "двадцать с небольшим/далеко за двадцать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "in sight",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "в поле зрения"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "in the afternoon",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "во второй половине дня"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "in the evening",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "вечером"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "in the heart of",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "в центре"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "in the morning",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "утром"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "in the wild",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "в дикой среде"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "introduce yourself & others",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "представляться и представлять других"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "It sounds like ...",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Это звучит, как ..."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "It was a lot of fun.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Было очень весело."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "It was boring/tiring/frightening, etc.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Он (фильм) был скучным/утомительным/страшным и т. д."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "It was great/amazing/fantastic, etc.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Он (фильм) был отличным/удивительным/потрясающим и т. д."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "It's a bore to watch.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Его (фильм) скучно смотреть."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "It's a must-see.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Его (фильм) нужно обязательно посмотреть."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "It's a pity ...",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Жаль, что ..."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "It's got a great view.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Отсюда открывается восхитительный вид."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "It's very cosy.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Здесь очень уютно."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Is 6:30 OK for you?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "В 6:30 для вас удобно?"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "jacket",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dʒˈækɪt",
+      "translations": [
+        "куртка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "January",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "январь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Japan",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dʒəpˈæn",
+      "translations": [
+        "Япония"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "jealousy",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dʒˈɛləsi",
+      "translations": [
+        "ревность"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "jeans",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": "dʒˈiːnz",
+      "translations": [
+        "джинсы"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "jewellery",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dʒˈuːələri",
+      "translations": [
+        "ювелирные изделия"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "job",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "работа"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "join",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "dʒˈɔɪn",
+      "translations": [
+        "присоединяться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    }
+  ]
+}

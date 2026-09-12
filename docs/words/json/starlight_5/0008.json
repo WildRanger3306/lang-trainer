@@ -1,0 +1,1395 @@
+{
+  "source": {
+    "scan": "docs/words/raw/Starlight_5/0008.jpg",
+    "page": "WL9"
+  },
+  "notes": [
+    "Формы, коды POS и переводы со скана (vision extract).",
+    "Транскрипции из учебника не переносили — заполнение en_UK через fill_en_transcriptions.py.",
+    "Учебник: Starlight 5.",
+    "В сырье нет отдельной страницы WL4 (после WL3 сразу WL5)."
+  ],
+  "entries": [
+    {
+      "language": "en",
+      "form": "journey",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dʒˈɜːni",
+      "translations": [
+        "путешествие"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "juggle",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "dʒˈʌgəl",
+      "translations": [
+        "жонглировать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "July",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "июль"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "jump",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "dʒˈʌmp",
+      "translations": [
+        "прыгать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "June",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "июнь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "jungle",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dʒˈʌŋgəl",
+      "translations": [
+        "джунгли"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "kettle",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kˈɛtəl",
+      "translations": [
+        "чайник"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "kind",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "kˈaɪnd",
+      "translations": [
+        "добрый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "kiss",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kˈɪs",
+      "translations": [
+        "целовать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "kitchen",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kˈɪtʃən",
+      "translations": [
+        "кухня"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "knife",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "nˈaɪf",
+      "translations": [
+        "нож"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "knight",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "nˈaɪt",
+      "translations": [
+        "рыцарь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "knock",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "nˈɒk",
+      "translations": [
+        "сбивать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Komodo dragon",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "комодский варан"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Kuala Lumpur",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "Куала-Лумпур"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "keep an eye out",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "быть начеку"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "keep in touch",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "поддерживать связь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "keep still",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "тихо сидеть"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "laboratory",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lɐbˈɒrətrˌi",
+      "translations": [
+        "лаборатория"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lake",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈeɪk",
+      "translations": [
+        "озеро"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "land",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈænd",
+      "translations": [
+        "земля"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "landmark",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈændmɑːk",
+      "translations": [
+        "достопримечательность"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "laptop",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈæptɒp",
+      "translations": [
+        "ноутбук"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "large",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "lˈɑːdʒ",
+      "translations": [
+        "большой (больше — самый большой)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "last",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈɑːst",
+      "translations": [
+        "длиться, продолжаться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "latest fashions",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "последняя мода"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "laugh",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈɑːf",
+      "translations": [
+        "смеяться"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "leader",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈiːdɐ",
+      "translations": [
+        "лидер"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "leaf (pl – leaves)",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "лист (листья)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "learn",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈɜːn",
+      "translations": [
+        "учиться, изучать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "leave",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈiːv",
+      "translations": [
+        "оставлять, покидать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lecture",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈɛktʃɐ",
+      "translations": [
+        "лекция"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "left",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": "lˈɛft",
+      "translations": [
+        "левая сторона"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "leg",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈɛg",
+      "translations": [
+        "нога"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "leggings",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": "lˈɛgɪŋz",
+      "translations": [
+        "леггинсы, лосины"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "leisure",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈɛʒɐ",
+      "translations": [
+        "досуг"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "length",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈɛŋθ",
+      "translations": [
+        "длина"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lettuce",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈɛtɪs",
+      "translations": [
+        "салат"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "library",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈaɪbrəri",
+      "translations": [
+        "библиотека"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Libya",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "Ливия"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "light",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈaɪt",
+      "translations": [
+        "освещать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "like",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "prep",
+      "transcription": "lˈaɪk",
+      "translations": [
+        "как"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lips",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": "lˈɪps",
+      "translations": [
+        "губы (мн. ч.)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "literature",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈɪtrɪtʃɐ",
+      "translations": [
+        "литература"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "live",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "живой"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "live",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "жить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lively",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "lˈaɪvli",
+      "translations": [
+        "живой, оживлённый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "living room",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "гостиная"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lizard",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈɪzəd",
+      "translations": [
+        "ящерица"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "local tournament",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "местный турнир"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "log",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈɒg",
+      "translations": [
+        "бревно"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "long",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "lˈɒŋ",
+      "translations": [
+        "длинный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "long-term",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "долгосрочный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "look",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈʊk",
+      "translations": [
+        "взгляд"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lorry",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈɒri",
+      "translations": [
+        "грузовик"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "low",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "lˈəʊ",
+      "translations": [
+        "низкий"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lucky",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "lˈʌki",
+      "translations": [
+        "удачливый, везучий"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lunch",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈʌntʃ",
+      "translations": [
+        "ланч, обед"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lie down",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "прилечь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "look after",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "заботиться о ком-либо"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "look for",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "искать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "last a lifetime",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "на всю жизнь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Let's meet at the court at 7:30.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Давайте встретимся в суде в 7:30."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lie in the sun",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "лежать на солнце"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "listen to music",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "слушать музыку"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lost in thought",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "погружённый в свои мысли"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "magazine",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˌægɐzˈiːn",
+      "translations": [
+        "журнал"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "magic",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈædʒɪk",
+      "translations": [
+        "магия"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "magical power",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "магическая сила"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "make",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "mˈeɪk",
+      "translations": [
+        "делать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Malaysia",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "Малайзия"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "mammal",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈæməl",
+      "translations": [
+        "млекопитающее"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "manage",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "mˈænɪdʒ",
+      "translations": [
+        "управлять, контролировать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "man-made",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "созданный руками человека, искусственный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "manners",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": "mˈænəz",
+      "translations": [
+        "манеры"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "manor",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈænɐ",
+      "translations": [
+        "усадьба"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "map",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈæp",
+      "translations": [
+        "карта"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "March",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈɑːtʃ",
+      "translations": [
+        "март"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "marine",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mərˈiːn",
+      "translations": [
+        "моряк, матрос"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "market",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈɑːkɪt",
+      "translations": [
+        "рынок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "marketplace",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈɑːkɪtplˌeɪs",
+      "translations": [
+        "рынок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "married",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "mˈærɪd",
+      "translations": [
+        "женатый/замужем"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "marry",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "mˈæri",
+      "translations": [
+        "вступить в брак"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "martial arts",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "боевые искусства"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "match",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "mˈætʃ",
+      "translations": [
+        "подходить, соответствовать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Maths",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "математика"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "May",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈeɪ",
+      "translations": [
+        "май"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "mealtime",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈiːltaɪm",
+      "translations": [
+        "время приёма пищи"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "means of transport",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "транспортные средства"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "meat",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈiːt",
+      "translations": [
+        "мясо"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "medicine",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈɛdsən",
+      "translations": [
+        "лекарство",
+        "медицина"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "medieval story",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "средневековая история"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1561 @@
+{
+  "source": {
+    "scan": "docs/words/raw/Starlight_5/0010.jpg",
+    "page": "WL11"
+  },
+  "notes": [
+    "Формы, коды POS и переводы со скана (vision extract).",
+    "Транскрипции из учебника не переносили — заполнение en_UK через fill_en_transcriptions.py.",
+    "Учебник: Starlight 5.",
+    "В сырье нет отдельной страницы WL4 (после WL3 сразу WL5)."
+  ],
+  "entries": [
+    {
+      "language": "en",
+      "form": "out of",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "prep",
+      "transcription": null,
+      "translations": [
+        "из"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "outdoors",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": "aʊtdˈɔːz",
+      "translations": [
+        "на открытом воздухе"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "outside",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "translations": [
+        "снаружи"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "oven",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˈʌvən",
+      "translations": [
+        "печь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "over",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "prep",
+      "transcription": "ˈəʊvɐ",
+      "translations": [
+        "над"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "overeat",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ˌəʊvərˈiːt",
+      "translations": [
+        "переедать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "overseas",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": null,
+      "translations": [
+        "за границей"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "own",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "det",
+      "transcription": "ˈəʊn",
+      "translations": [
+        "свой"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "owner",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˈəʊnɐ",
+      "translations": [
+        "владелец"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "of all time",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "всех времён и народов"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Of course.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Конечно."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "of medium height",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "среднего роста"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "OK, see you there.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "Хорошо, увидимся там."
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "on board",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "на борту"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "on display",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "демонстрировать, выставлять напоказ"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "on foot",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "пешком"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "on time",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "вовремя"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "packed lunch",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "пакет с ланчем"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "packet",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈækɪt",
+      "translations": [
+        "пакет"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "painting",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈeɪntɪŋ",
+      "translations": [
+        "живопись"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "palace",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈælɪs",
+      "translations": [
+        "дворец"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "parade",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pərˈeɪd",
+      "translations": [
+        "парад"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "park",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈɑːk",
+      "translations": [
+        "парк"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "parrot",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈærət",
+      "translations": [
+        "попугай"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "participate",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "pɑːtˈɪsɪpˌeɪt",
+      "translations": [
+        "участвовать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "past",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "n, prep",
+      "transcription": "pˈɑːst",
+      "translations": [
+        "прошлое",
+        "мимо"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pasta",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈɑːstɐ",
+      "translations": [
+        "макаронные изделия"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "path",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "дорожка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "paw",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈɔː",
+      "translations": [
+        "лапа"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "PE (Physical Education)",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "физическое воспитание (физкультура)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "peel",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "pˈiːl",
+      "translations": [
+        "чистить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pencil case",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "пенал"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pepper",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈɛpɐ",
+      "translations": [
+        "перец"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "performance",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pəfˈɔːməns",
+      "translations": [
+        "выступление, спектакль"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "performer",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pəfˈɔːmɐ",
+      "translations": [
+        "исполнитель"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "period",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈiərɪəd",
+      "translations": [
+        "период"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "permanent",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pˈɜːmənənt",
+      "translations": [
+        "постоянный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "personal",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pˈɜːsənəl",
+      "translations": [
+        "личный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "personality",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˌɜːsənˈælɪti",
+      "translations": [
+        "личность"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "persuade",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "pəswˈeɪd",
+      "translations": [
+        "убедить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Peru",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "Перу"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Peruvian",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "перуанский"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pet",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈɛt",
+      "translations": [
+        "домашнее животное"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pet shop",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "зоомагазин"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "phone",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "fˈəʊn",
+      "translations": [
+        "звонить по телефону"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "phone call",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "телефонный звонок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "photography",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "fətˈɒgrəfˌi",
+      "translations": [
+        "фотография"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "physical appearance",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "внешний вид"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pillow",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈɪləʊ",
+      "translations": [
+        "подушка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pilot",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈaɪlət",
+      "translations": [
+        "пилот"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pineapple juice",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "ананасовый сок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pipe",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈaɪp",
+      "translations": [
+        "труба"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Pisa",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "Пиза"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pitch",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "pˈɪtʃ",
+      "translations": [
+        "разбивать (лагерь, палатки)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "place",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "plˈeɪs",
+      "translations": [
+        "место"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "plane",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "plˈeɪn",
+      "translations": [
+        "самолёт"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "planet",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "plˈænɪt",
+      "translations": [
+        "планета"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "planetarium",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "plˌænɪtˈeəriəm",
+      "translations": [
+        "планетарий"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "plant",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "plˈænt",
+      "translations": [
+        "завод"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "plaster",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "plˈɑːstɐ",
+      "translations": [
+        "пластырь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "playful",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "plˈeɪfəl",
+      "translations": [
+        "игривый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "plot",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "plˈɒt",
+      "translations": [
+        "содержание"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "plump",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "plˈʌmp",
+      "translations": [
+        "пухлый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "point (at)",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "translations": [
+        "указывать (на)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "poisonous",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pˈɔɪzənəs",
+      "translations": [
+        "ядовитый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Poland",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "Польша"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pole vault",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "прыжки с шестом"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pole vaulter",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "прыгун с шестом"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "police officer",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "полицейский"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Polish",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "польский"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "polite",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pəlˈaɪt",
+      "translations": [
+        "вежливый"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "politics",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈɒlətˌɪks",
+      "translations": [
+        "политика"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pool",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈuːl",
+      "translations": [
+        "бассейн"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "popular (with)",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "популярный (чем-либо)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Portugal",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "Португалия"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Portuguese",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": null,
+      "translations": [
+        "португальский"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "positive",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pˈɒzɪtˌɪv",
+      "translations": [
+        "положительный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "possible",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pˈɒsəbəl",
+      "translations": [
+        "возможный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "post office",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "почтовое отделение"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "postcard",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈəʊstkɑːd",
+      "translations": [
+        "открытка"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "poster",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈəʊstɐ",
+      "translations": [
+        "плакат"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pot",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈɒt",
+      "translations": [
+        "кастрюля, чайник"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "potato",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pətˈeɪtəʊ",
+      "translations": [
+        "картофель"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pottery",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈɒtəri",
+      "translations": [
+        "керамика"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "power",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈaʊɐ",
+      "translations": [
+        "мощь"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "powerful",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pˈaʊəfəl",
+      "translations": [
+        "могучий"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "practice",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "prˈæktɪs",
+      "translations": [
+        "практика"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "prefer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "prɪfˈɜː",
+      "translations": [
+        "предпочитать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "prepare",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "prɪpˈeə",
+      "translations": [
+        "готовить"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "present",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "подарок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pretty",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": "adj, adv",
+      "transcription": "prˈɪti",
+      "translations": [
+        "хорошенький",
+        "очень"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "primary school",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "начальная школа"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "print",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "prˈɪnt",
+      "translations": [
+        "оттиск, гравюра (на одежде)"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "private",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "prˈaɪvət",
+      "translations": [
+        "частный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "problem",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "prˈɒbləm",
+      "translations": [
+        "задача, проблема"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "product",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "prˈɒdʌkt",
+      "translations": [
+        "продукт"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "profile picture",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "фотография профиля"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "promise",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "prˈɒmɪs",
+      "translations": [
+        "обещать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "protect",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "prətˈɛkt",
+      "translations": [
+        "защищать"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "public",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pˈʌblɪk",
+      "translations": [
+        "общественный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pull",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "pˈʊl",
+      "translations": [
+        "тянуть"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "puppy",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈʌpi",
+      "translations": [
+        "щенок"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "puzzled",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pˈʌzəld",
+      "translations": [
+        "озадаченный"
+      ],
+      "level": null,
+      "topics": [],
+      "textbooks": [
+        "Starlight 5"
+      ]
+    }
+  ]
+}

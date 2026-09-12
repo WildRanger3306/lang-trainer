@@ -14,6 +14,7 @@ from app.db import connect, database_url
 
 ROOT = Path(__file__).resolve().parents[1]
 SEED_DIRS = [
+    ROOT / "docs" / "words" / "json" / "starlight_5",
     ROOT / "docs" / "words" / "json" / "starlight_6",
     ROOT / "docs" / "words" / "json" / "starlight_7",
     ROOT / "docs" / "words" / "json" / "loiseau_blue_5",
