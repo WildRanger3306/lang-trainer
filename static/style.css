@@ -368,7 +368,11 @@ legend {
 }
 
 .hint, .flip-hint, .ipa { margin: 0; }
-.ipa { margin-top: 0.35rem; }
+.ipa {
+  margin-top: 0.35rem;
+  font-size: clamp(1.15rem, 4vw, 1.45rem);
+  letter-spacing: 0.02em;
+}
 .flip-hint { margin-top: 1.4rem; font-size: 0.95rem; }
 
 .stats {
