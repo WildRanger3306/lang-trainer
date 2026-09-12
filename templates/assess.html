@@ -10,13 +10,21 @@
     <div class="card-inner">
       <div class="card-face card-front">
         <p class="prompt">{{ view.prompt }}</p>
-        <p class="hint">{{ view.hint }}</p>
+        {% if view.hint %}
+          <p class="hint">{{ view.hint }}</p>
+        {% endif %}
+        {% if view.ipa %}
+          <p class="ipa">{{ view.ipa }}</p>
+        {% endif %}
         <p class="flip-hint">нажмите, чтобы перевернуть</p>
       </div>
       <div class="card-face card-back">
         <p class="prompt">{{ view.answer }}</p>
         {% if view.answer_hint %}
           <p class="hint">{{ view.answer_hint }}</p>
+        {% endif %}
+        {% if view.answer_ipa %}
+          <p class="ipa">{{ view.answer_ipa }}</p>
         {% endif %}
         <p class="flip-hint">нажмите, чтобы перевернуть</p>
       </div>
