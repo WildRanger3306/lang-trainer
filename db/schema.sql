@@ -69,7 +69,16 @@ CREATE TABLE users (
   password_hash TEXT NOT NULL,
   display_name TEXT,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  last_language language_code,
   CONSTRAINT users_login_format CHECK (login ~ '^[a-zA-Z0-9_-]+$')
+);
+
+CREATE TABLE user_language_filters (
+  user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
+  language language_code NOT NULL,
+  textbooks TEXT[] NOT NULL DEFAULT '{}',
+  topics TEXT[] NOT NULL DEFAULT '{}',
+  PRIMARY KEY (user_id, language)
 );
 
 CREATE TABLE card_progress (

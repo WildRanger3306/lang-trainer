@@ -17,6 +17,8 @@ class TrainFlowTests(unittest.TestCase):
         with connect() as conn:
             conn.execute("TRUNCATE card_reviews RESTART IDENTITY")
             conn.execute("TRUNCATE card_progress")
+            conn.execute("TRUNCATE user_language_filters")
+            conn.execute("UPDATE users SET last_language = NULL")
             conn.commit()
             row = conn.execute(
                 "SELECT id FROM users WHERE login = %s", ("serafima",)
@@ -34,15 +36,56 @@ class TrainFlowTests(unittest.TestCase):
         response = self.client.get("/")
         self.assertEqual(response.status_code, 200)
         self.assertIn("английский", response.text)
-        self.assertIn("Starlight 6", response.text)
-        self.assertNotIn("Loiseau Blue", response.text)
+        self.assertIn("Фильтры", response.text)
+        self.assertIn("весь язык", response.text)
+        self.assertNotIn('name="textbook"', response.text)
         self.assertIn("due", response.text)
         self.assertIn("serafima", response.text)
 
         fr = self.client.get("/?language=fr")
         self.assertEqual(fr.status_code, 200)
-        self.assertIn("Loiseau Blue", fr.text)
-        self.assertNotIn("Starlight", fr.text)
+        self.assertIn("французского", fr.text)
+
+    def test_filters_persist_per_user(self) -> None:
+        page = self.client.get("/filters?language=en")
+        self.assertEqual(page.status_code, 200)
+        self.assertIn("Starlight", page.text)
+        self.assertIn('name="textbook"', page.text)
+
+        save = self.client.post(
+            "/filters",
+            data={"language": "en", "textbook": "Starlight 6"},
+            follow_redirects=False,
+        )
+        self.assertEqual(save.status_code, 303)
+        self.assertIn("saved=1", save.headers["location"])
+
+        home = self.client.get("/?language=en")
+        self.assertEqual(home.status_code, 200)
+        self.assertIn("Starlight 6", home.text)
+
+        start = self.client.post(
+            "/start",
+            data={"language": "en"},
+            follow_redirects=False,
+        )
+        self.assertEqual(start.status_code, 303)
+        self.assertEqual(start.headers["location"], "/train")
+
+        with connect() as conn:
+            uid = conn.execute(
+                "SELECT id FROM users WHERE login = %s", ("serafima",)
+            ).fetchone()[0]
+            row = conn.execute(
+                """
+                SELECT textbooks, topics
+                FROM user_language_filters
+                WHERE user_id = %s AND language = 'en'
+                """,
+                (uid,),
+            ).fetchone()
+        self.assertEqual(list(row[0]), ["Starlight 6"])
+        self.assertEqual(list(row[1]), [])
 
     def test_unauthenticated_redirects(self) -> None:
         bare = TestClient(app)
@@ -53,7 +96,7 @@ class TrainFlowTests(unittest.TestCase):
     def test_grade_writes_progress(self) -> None:
         start = self.client.post(
             "/start",
-            data={"language": "en", "textbook": "Starlight 6"},
+            data={"language": "en"},
             follow_redirects=False,
         )
         self.assertEqual(start.status_code, 303)
@@ -138,7 +181,7 @@ class TrainFlowTests(unittest.TestCase):
     def test_assessment_know_skips_new_quota(self) -> None:
         start = self.client.post(
             "/assess/start",
-            data={"language": "en", "textbook": "Starlight 6"},
+            data={"language": "en"},
             follow_redirects=False,
         )
         self.assertEqual(start.status_code, 303)

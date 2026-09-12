@@ -131,6 +131,13 @@ html, body {
   gap: 1rem;
 }
 
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
 .lead, .muted, .hint, .flip-hint {
   color: var(--muted);
 }

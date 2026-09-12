@@ -159,6 +159,31 @@ def migrate() -> None:
         )
         conn.commit()
     migrate_users()
+    migrate_user_filters()
+
+
+def migrate_user_filters() -> None:
+    """Per-user filter prefs and last selected language."""
+    with connect() as conn:
+        conn.execute(
+            """
+            ALTER TABLE users
+              ADD COLUMN IF NOT EXISTS last_language language_code
+            """
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS user_language_filters (
+              user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
+              language language_code NOT NULL,
+              textbooks TEXT[] NOT NULL DEFAULT '{}',
+              topics TEXT[] NOT NULL DEFAULT '{}',
+              PRIMARY KEY (user_id, language)
+            )
+            """
+        )
+        conn.commit()
+        print("user_language_filters ready", flush=True)
 
 
 def migrate_users() -> None:

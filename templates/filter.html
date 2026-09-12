@@ -1,12 +1,15 @@
 {% extends "base.html" %}
-{% block title %}Фильтр — тренажёр{% endblock %}
+{% block title %}Тренировка{% endblock %}
 {% block body %}
   <header class="header header-row">
     <div>
       <h1>Тренировка</h1>
-      <p class="lead">Язык обязателен. Тема, уровень и учебник — по желанию. Очередь: due + до {{ new_per_day }} новых/день. Сначала {% if preferred_direction == 'native_to_foreign' %}RU→язык{% else %}язык→RU{% endif %}.</p>
+      <p class="lead">Очередь: due + до {{ new_per_day }} новых/день. Сначала {% if preferred_direction == 'native_to_foreign' %}RU→язык{% else %}язык→RU{% endif %}.</p>
     </div>
-    <a class="nav-link" href="/stats?language={{ language }}">Сводка</a>
+    <div class="nav-links">
+      <a class="nav-link" href="/filters?language={{ language }}">Фильтры</a>
+      <a class="nav-link" href="/stats?language={{ language }}">Сводка</a>
+    </div>
   </header>
 
   {% if error %}
@@ -20,6 +23,12 @@
     новых осталось сегодня <strong>{{ preview.new_remaining_today }}</strong>
     (уже введено {{ preview.introduced_today }} / {{ new_per_day }}),
     без прогресса <strong>{{ preview.new_available }}</strong>.
+  </p>
+
+  <p class="hint-text">
+    Фильтр:
+    <strong>{{ filter_label }}</strong>
+    · <a href="/filters?language={{ language }}">изменить</a>
   </p>
 
   <form class="panel" method="post" action="/start">
@@ -36,44 +45,6 @@
         французский
       </label>
     </fieldset>
-
-    {% if options.textbooks %}
-    <fieldset>
-      <legend>Учебник</legend>
-      {% for name in options.textbooks %}
-        <label class="choice">
-          <input type="checkbox" name="textbook" value="{{ name }}" {% if name in selected_textbooks %}checked{% endif %}>
-          {{ name }}
-        </label>
-      {% endfor %}
-    </fieldset>
-    {% endif %}
-
-    {% if options.levels %}
-    <fieldset>
-      <legend>Уровень</legend>
-      <div class="choice-row">
-        {% for name in options.levels %}
-          <label class="choice">
-            <input type="checkbox" name="level" value="{{ name }}" {% if name in selected_levels %}checked{% endif %}>
-            {{ name }}
-          </label>
-        {% endfor %}
-      </div>
-    </fieldset>
-    {% endif %}
-
-    {% if options.topics %}
-    <fieldset>
-      <legend>Тема</legend>
-      {% for name in options.topics %}
-        <label class="choice">
-          <input type="checkbox" name="topic" value="{{ name }}" {% if name in selected_topics %}checked{% endif %}>
-          {{ name }}
-        </label>
-      {% endfor %}
-    </fieldset>
-    {% endif %}
 
     <div class="actions">
       <button class="btn btn-primary" type="submit">Тренировка</button>

@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Фильтры — тренажёр{% endblock %}
+{% block body %}
+  <header class="header header-row">
+    <div>
+      <h1>Фильтры</h1>
+      <p class="lead">
+        Для
+        {% if language == "en" %}английского{% else %}французского{% endif %}:
+        учебник и темы. Пустой блок — без ограничения. Сохраняется для вашего логина.
+      </p>
+    </div>
+    <a class="nav-link" href="/?language={{ language }}">К тренировке</a>
+  </header>
+
+  {% if saved %}
+    <p class="banner">Сохранено.</p>
+  {% endif %}
+
+  <form class="panel" method="post" action="/filters">
+    <input type="hidden" name="language" value="{{ language }}">
+
+    <fieldset>
+      <legend>Язык настроек</legend>
+      <label class="choice">
+        <input type="radio" name="switch_language" value="en" {% if language == "en" %}checked{% endif %}
+               onchange="location.href='/filters?language=en'">
+        английский
+      </label>
+      <label class="choice">
+        <input type="radio" name="switch_language" value="fr" {% if language == "fr" %}checked{% endif %}
+               onchange="location.href='/filters?language=fr'">
+        французский
+      </label>
+    </fieldset>
+
+    {% if options.textbooks %}
+    <fieldset>
+      <legend>Учебник</legend>
+      {% for name in options.textbooks %}
+        <label class="choice">
+          <input type="checkbox" name="textbook" value="{{ name }}" {% if name in selected_textbooks %}checked{% endif %}>
+          {{ name }}
+        </label>
+      {% endfor %}
+    </fieldset>
+    {% endif %}
+
+    {% if options.topics %}
+    <fieldset>
+      <legend>Тема</legend>
+      {% for name in options.topics %}
+        <label class="choice">
+          <input type="checkbox" name="topic" value="{{ name }}" {% if name in selected_topics %}checked{% endif %}>
+          {{ name }}
+        </label>
+      {% endfor %}
+    </fieldset>
+    {% else %}
+    <p class="hint-text">Тем для этого языка пока нет.</p>
+    {% endif %}
+
+    <div class="actions">
+      <button class="btn btn-primary" type="submit">Сохранить</button>
+      <a class="btn btn-secondary" href="/?language={{ language }}">Отмена</a>
+    </div>
+  </form>
+{% endblock %}

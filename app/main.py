@@ -19,6 +19,13 @@ from app.scheduler import ASSESS_BATCH, ASSESS_KNOW_INTERVAL, ASSESS_VERDICTS, n
 from app.session import SessionFilter
 from app.stats import build_language_summary
 from app.store import SessionStore
+from app.user_filters import (
+    filter_summary,
+    get_last_language,
+    get_user_filter,
+    save_user_filter,
+    set_last_language,
+)
 from app.users import User, authenticate
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -51,21 +58,14 @@ def _require_user(request: Request) -> User | RedirectResponse:
     return user
 
 
-def _parse_filter(
-    language: str,
-    textbook: list[str] | None,
-    topic: list[str] | None,
-    level: list[str] | None,
-) -> SessionFilter | RedirectResponse:
-    try:
-        return SessionFilter(
-            language=language,
-            textbooks=tuple(textbook or ()),
-            topics=tuple(topic or ()),
-            levels=tuple(level or ()),
-        )
-    except ValueError:
-        return RedirectResponse("/?error=Выберите+язык", status_code=303)
+def _resolve_language(request: Request, user: User, conn) -> str:
+    language = request.query_params.get("language")
+    if language not in ("en", "fr"):
+        language = get_last_language(conn, user.id) or "en"
+    if language not in ("en", "fr"):
+        language = "en"
+    set_last_language(conn, user.id, language)
+    return language
 
 
 def _nav(user: User | None) -> dict:
@@ -119,23 +119,18 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
         return user
-    language = request.query_params.get("language") or "en"
-    if language not in ("en", "fr"):
-        language = "en"
     with connect() as conn:
-        options = fetch_filter_options(conn, language)
-        preview = fetch_queue_preview(conn, SessionFilter(language=language), user.id)
+        language = _resolve_language(request, user, conn)
+        flt = get_user_filter(conn, user.id, language)
+        preview = fetch_queue_preview(conn, flt, user.id)
     return templates.TemplateResponse(
         request,
         "filter.html",
         {
             **_nav(user),
             "error": error,
-            "options": options,
             "language": language,
-            "selected_textbooks": [],
-            "selected_topics": [],
-            "selected_levels": [],
+            "filter_label": filter_summary(flt),
             "preview": preview,
             "new_per_day": new_per_day(language),
             "preferred_direction": preferred_direction(language),
@@ -145,22 +140,71 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
     )
 
 
-@app.post("/start")
-def start_session(
+@app.get("/filters", response_class=HTMLResponse, response_model=None)
+def filters_page(
+    request: Request, saved: str | None = None
+) -> HTMLResponse | RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
+    with connect() as conn:
+        language = _resolve_language(request, user, conn)
+        options = fetch_filter_options(conn, language)
+        flt = get_user_filter(conn, user.id, language)
+    return templates.TemplateResponse(
+        request,
+        "filters.html",
+        {
+            **_nav(user),
+            "language": language,
+            "options": options,
+            "selected_textbooks": list(flt.textbooks),
+            "selected_topics": list(flt.topics),
+            "saved": saved == "1",
+        },
+    )
+
+
+@app.post("/filters")
+def filters_save(
     request: Request,
     language: str = Form(...),
     textbook: list[str] | None = Form(default=None),
     topic: list[str] | None = Form(default=None),
-    level: list[str] | None = Form(default=None),
 ) -> RedirectResponse:
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
         return user
-    flt = _parse_filter(language, textbook, topic, level)
-    if isinstance(flt, RedirectResponse):
-        return flt
+    if language not in ("en", "fr"):
+        return RedirectResponse("/filters?error=1", status_code=303)
+    with connect() as conn:
+        save_user_filter(
+            conn,
+            user.id,
+            language,
+            textbook or [],
+            topic or [],
+        )
+        set_last_language(conn, user.id, language)
+    return RedirectResponse(
+        f"/filters?language={language}&saved=1", status_code=303
+    )
+
+
+@app.post("/start")
+def start_session(
+    request: Request,
+    language: str = Form(...),
+) -> RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
+    if language not in ("en", "fr"):
+        return RedirectResponse("/?error=Выберите+язык", status_code=303)
 
     with connect() as conn:
+        set_last_language(conn, user.id, language)
+        flt = get_user_filter(conn, user.id, language)
         picked, due_n, new_n = build_session_cards(conn, flt, user.id, random.Random())
 
     if not picked:
@@ -181,18 +225,16 @@ def start_session(
 def start_assessment(
     request: Request,
     language: str = Form(...),
-    textbook: list[str] | None = Form(default=None),
-    topic: list[str] | None = Form(default=None),
-    level: list[str] | None = Form(default=None),
 ) -> RedirectResponse:
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
         return user
-    flt = _parse_filter(language, textbook, topic, level)
-    if isinstance(flt, RedirectResponse):
-        return flt
+    if language not in ("en", "fr"):
+        return RedirectResponse("/?error=Выберите+язык", status_code=303)
 
     with connect() as conn:
+        set_last_language(conn, user.id, language)
+        flt = get_user_filter(conn, user.id, language)
         picked, unassessed = build_assessment_cards(
             conn, flt, user.id, random.Random()
         )
