@@ -15,7 +15,7 @@
       "form": "bison",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈaɪsən",
       "translations": [
         "зубр"
       ],
@@ -30,7 +30,7 @@
       "form": "bite",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈaɪt",
       "translations": [
         "укусить"
       ],
@@ -45,7 +45,7 @@
       "form": "block",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "blˈɒk",
       "translations": [
         "глыба"
       ],
@@ -75,7 +75,7 @@
       "form": "blood",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "blˈʌd",
       "translations": [
         "кровь"
       ],
@@ -90,7 +90,7 @@
       "form": "boil",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈɔɪl",
       "translations": [
         "кипеть"
       ],
@@ -105,7 +105,7 @@
       "form": "bond",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɒnd",
       "translations": [
         "связь",
         "узы"
@@ -121,7 +121,7 @@
       "form": "bone",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈəʊn",
       "translations": [
         "кость"
       ],
@@ -136,7 +136,7 @@
       "form": "book",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈʊk",
       "translations": [
         "забронировать"
       ],
@@ -151,7 +151,7 @@
       "form": "border",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈɔːdɐ",
       "translations": [
         "граничить (с чем-либо)"
       ],
@@ -166,7 +166,7 @@
       "form": "boring",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "bˈɔːrɪŋ",
       "translations": [
         "скучный"
       ],
@@ -181,7 +181,7 @@
       "form": "botanical",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "bətˈænɪkəl",
       "translations": [
         "ботанический"
       ],
@@ -196,7 +196,7 @@
       "form": "bottle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɒtəl",
       "translations": [
         "бутылка"
       ],
@@ -211,7 +211,7 @@
       "form": "boutique",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "buːtˈiːk",
       "translations": [
         "бутик"
       ],
@@ -242,7 +242,7 @@
       "form": "box",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɒks",
       "translations": [
         "коробка"
       ],
@@ -257,7 +257,7 @@
       "form": "brain",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "brˈeɪn",
       "translations": [
         "мозг"
       ],
@@ -287,7 +287,7 @@
       "form": "brave",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "brˈeɪv",
       "translations": [
         "храбрый"
       ],
@@ -302,7 +302,7 @@
       "form": "bread",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "brˈɛd",
       "translations": [
         "хлеб"
       ],
@@ -332,7 +332,7 @@
       "form": "breathe",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "brˈiːð",
       "translations": [
         "дышать"
       ],
@@ -377,7 +377,7 @@
       "form": "bridge",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "brˈɪdʒ",
       "translations": [
         "мост"
       ],
@@ -392,7 +392,7 @@
       "form": "brilliant",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "brˈɪlɪənt",
       "translations": [
         "блестящий"
       ],
@@ -407,7 +407,7 @@
       "form": "broccoli",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "brˈɒkəlˌi",
       "translations": [
         "брокколи"
       ],
@@ -422,7 +422,7 @@
       "form": "brownie",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "brˈaʊni",
       "translations": [
         "шоколадное пирожное"
       ],
@@ -437,7 +437,7 @@
       "form": "brushstroke",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "brˈʌʃstrəʊk",
       "translations": [
         "мазок (кисти)"
       ],
@@ -452,7 +452,7 @@
       "form": "bubble",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈʌbəl",
       "translations": [
         "пузырь"
       ],
@@ -467,7 +467,7 @@
       "form": "bubbles",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "bˈʌbəlz",
       "translations": [
         "пузырьки"
       ],
@@ -482,7 +482,7 @@
       "form": "build",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "bˈɪld",
       "translations": [
         "телосложение",
         "строить"
@@ -513,7 +513,7 @@
       "form": "bully",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈʊli",
       "translations": [
         "запугивать"
       ],
@@ -528,7 +528,7 @@
       "form": "bunch",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈʌntʃ",
       "translations": [
         "связка"
       ],
@@ -543,7 +543,7 @@
       "form": "bungalow",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈʌŋgɐlˌəʊ",
       "translations": [
         "бунгало"
       ],
@@ -573,7 +573,7 @@
       "form": "bury",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈɛri",
       "translations": [
         "хоронить"
       ],
@@ -618,7 +618,7 @@
       "form": "butter",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈʌtɐ",
       "translations": [
         "масло"
       ],
@@ -785,7 +785,7 @@
       "form": "cabbage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈæbɪdʒ",
       "translations": [
         "капуста"
       ],
@@ -815,7 +815,7 @@
       "form": "calcium",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈælsiəm",
       "translations": [
         "кальций"
       ],
@@ -830,7 +830,7 @@
       "form": "calculator",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈælkjʊlˌeɪtɐ",
       "translations": [
         "калькулятор"
       ],
@@ -845,7 +845,7 @@
       "form": "camouflage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈæməflˌɑːʒ",
       "translations": [
         "камуфляж"
       ],
@@ -875,7 +875,7 @@
       "form": "campaign",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "kæmpˈeɪn",
       "translations": [
         "кампания",
         "проводить кампанию"
@@ -906,7 +906,7 @@
       "form": "canal",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kənˈæl",
       "translations": [
         "канал"
       ],
@@ -936,7 +936,7 @@
       "form": "canyon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈænɪən",
       "translations": [
         "каньон"
       ],
@@ -951,7 +951,7 @@
       "form": "captain",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈæptɪn",
       "translations": [
         "капитан"
       ],
@@ -966,7 +966,7 @@
       "form": "capture",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈæptʃɐ",
       "translations": [
         "запечатлеть"
       ],
@@ -981,7 +981,7 @@
       "form": "car",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɑː",
       "translations": [
         "автомобиль"
       ],
@@ -1011,7 +1011,7 @@
       "form": "carbohydrate",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˌɑːbəʊhˈaɪdreɪt",
       "translations": [
         "углеводы"
       ],
@@ -1056,7 +1056,7 @@
       "form": "carnivore",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɑːnɪvˌɔː",
       "translations": [
         "плотоядное животное"
       ],
@@ -1071,7 +1071,7 @@
       "form": "carrot",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈærət",
       "translations": [
         "морковь"
       ],
@@ -1101,7 +1101,7 @@
       "form": "carton",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɑːtən",
       "translations": [
         "картон"
       ],
@@ -1131,7 +1131,7 @@
       "form": "cash",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈæʃ",
       "translations": [
         "наличные"
       ],
@@ -1146,7 +1146,7 @@
       "form": "castle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɑːsəl",
       "translations": [
         "замок"
       ],
@@ -1161,7 +1161,7 @@
       "form": "casually",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "kˈæʒuːəli",
       "translations": [
         "случайно"
       ],
@@ -1191,7 +1191,7 @@
       "form": "catch",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈætʃ",
       "translations": [
         "поймать"
       ],
@@ -1221,7 +1221,7 @@
       "form": "cauliflower",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒlɪflˌaʊɐ",
       "translations": [
         "цветная капуста"
       ],
@@ -1236,7 +1236,7 @@
       "form": "cause",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "kˈɔːz",
       "translations": [
         "причина",
         "вызывать"
@@ -1252,7 +1252,7 @@
       "form": "celebrate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sˈɛləbrˌeɪt",
       "translations": [
         "праздновать"
       ],
@@ -1267,7 +1267,7 @@
       "form": "celebration",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˌɛləbrˈeɪʃən",
       "translations": [
         "празднование"
       ],
@@ -1282,7 +1282,7 @@
       "form": "celebrity",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "səlˈɛbrɪti",
       "translations": [
         "знаменитость"
       ],
@@ -1297,7 +1297,7 @@
       "form": "celery",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɛləri",
       "translations": [
         "сельдерей"
       ],
@@ -1312,7 +1312,7 @@
       "form": "cement",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɪmˈɛnt",
       "translations": [
         "цемент"
       ],
@@ -1327,7 +1327,7 @@
       "form": "century",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɛntʃəri",
       "translations": [
         "век"
       ],
@@ -1342,7 +1342,7 @@
       "form": "ceramics",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɪrˈæmɪks",
       "translations": [
         "керамика"
       ],
@@ -1357,7 +1357,7 @@
       "form": "cereal",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈiərɪəl",
       "translations": [
         "хлопья"
       ],
@@ -1387,7 +1387,7 @@
       "form": "challenge",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈælɪndʒ",
       "translations": [
         "вызов"
       ],
@@ -1402,7 +1402,7 @@
       "form": "challenging",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tʃˈælɪndʒˌɪŋ",
       "translations": [
         "сложный"
       ],
@@ -1417,7 +1417,7 @@
       "form": "champ",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈæmp",
       "translations": [
         "чемпион"
       ],
@@ -1432,7 +1432,7 @@
       "form": "champion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈæmpiən",
       "translations": [
         "чемпион"
       ],
@@ -1447,7 +1447,7 @@
       "form": "chance",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈɑːns",
       "translations": [
         "шанс"
       ],
@@ -1477,7 +1477,7 @@
       "form": "chariot",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈæriət",
       "translations": [
         "колесница"
       ],
@@ -1507,7 +1507,7 @@
       "form": "charm",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈɑːm",
       "translations": [
         "очарование"
       ],
@@ -1522,7 +1522,7 @@
       "form": "cheap",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tʃˈiːp",
       "translations": [
         "дешёвый"
       ],

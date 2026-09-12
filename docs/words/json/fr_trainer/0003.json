@@ -1,0 +1,184 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0003.jpg",
+    "page": "Les animaux domestiques"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "chien",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʃjɛ̃",
+      "gender": "m",
+      "translations": [
+        "собака"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_animaux"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chat",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʃa",
+      "gender": "m",
+      "translations": [
+        "кот, кошка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_animaux"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mouton",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mutɔ̃",
+      "gender": "m",
+      "translations": [
+        "овца, баран"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_animaux"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "lapin",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lapɛ̃",
+      "gender": "m",
+      "translations": [
+        "кролик"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_animaux"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "poisson rouge",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "золотая рыбка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_animaux"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chèvre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʃɛvʁ",
+      "gender": "f",
+      "translations": [
+        "коза"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_animaux"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "tortue",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "tɔʁty",
+      "gender": "f",
+      "translations": [
+        "черепаха"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_animaux"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "hamster",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʼamstɛʁ",
+      "gender": "m",
+      "translations": [
+        "хомяк"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_animaux"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "perroquet",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "peʁɔkɛ",
+      "gender": "m",
+      "translations": [
+        "попугай"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_animaux"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}

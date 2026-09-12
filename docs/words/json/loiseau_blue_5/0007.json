@@ -14,7 +14,7 @@
       "form": "international",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛ̃tɛʁnasjɔnal",
       "gender": null,
       "translations": [
         "международный"
@@ -32,7 +32,7 @@
       "form": "internationale",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛ̃tɛʁnasjɔnal",
       "gender": null,
       "translations": [
         "международная"
@@ -50,7 +50,7 @@
       "form": "jouet",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒwɛ",
       "gender": "m",
       "translations": [
         "игрушка"
@@ -68,7 +68,7 @@
       "form": "jusqu'à",
       "partOfSpeech": "other",
       "partOfSpeechCode": "prep",
-      "transcription": null,
+      "transcription": "ʒyska",
       "gender": null,
       "translations": [
         "до"
@@ -86,7 +86,7 @@
       "form": "large",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "laʁʒ",
       "gender": null,
       "translations": [
         "широкий",
@@ -105,7 +105,7 @@
       "form": "lettre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lɛtʁ",
       "gender": "f",
       "translations": [
         "письмо",
@@ -124,7 +124,7 @@
       "form": "loin",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "lwɛ̃",
       "gender": null,
       "translations": [
         "далеко"
@@ -142,7 +142,7 @@
       "form": "main",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɛ̃",
       "gender": "f",
       "translations": [
         "рука"
@@ -160,7 +160,7 @@
       "form": "métro",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "metʁo",
       "gender": "m",
       "translations": [
         "метро"
@@ -196,7 +196,7 @@
       "form": "mettre",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "mɛtʁ",
       "gender": null,
       "translations": [
         "положить",
@@ -216,7 +216,7 @@
       "form": "monument",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɔnymɑ̃",
       "gender": "m",
       "translations": [
         "памятник"
@@ -234,7 +234,7 @@
       "form": "musée",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "myze",
       "gender": "m",
       "translations": [
         "музей"
@@ -252,7 +252,7 @@
       "form": "nez",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ne",
       "gender": "m",
       "translations": [
         "нос"
@@ -270,7 +270,7 @@
       "form": "nombreux",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nɔ̃bʁø",
       "gender": null,
       "translations": [
         "многочисленный"
@@ -288,7 +288,7 @@
       "form": "nombreuse",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nɔ̃bʁøz",
       "gender": null,
       "translations": [
         "многочисленная"
@@ -306,7 +306,7 @@
       "form": "oreille",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɔʁɛj",
       "gender": "f",
       "translations": [
         "ухо"
@@ -324,7 +324,7 @@
       "form": "ouvert",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "uvɛʁ",
       "gender": null,
       "translations": [
         "открытый"
@@ -342,7 +342,7 @@
       "form": "ouverte",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "uvɛʁt",
       "gender": null,
       "translations": [
         "открытая"
@@ -360,7 +360,7 @@
       "form": "ouvrir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "uvʁiʁ",
       "gender": null,
       "translations": [
         "открывать"
@@ -378,7 +378,7 @@
       "form": "partir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "paʁtiʁ",
       "gender": null,
       "translations": [
         "уходить",
@@ -397,7 +397,7 @@
       "form": "pied",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pje",
       "gender": "m",
       "translations": [
         "нога"
@@ -415,7 +415,7 @@
       "form": "piscine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pisin",
       "gender": "f",
       "translations": [
         "бассейн"
@@ -433,7 +433,7 @@
       "form": "place",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "plas",
       "gender": "f",
       "translations": [
         "площадь"
@@ -451,7 +451,7 @@
       "form": "pleurer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "plœʁe",
       "gender": null,
       "translations": [
         "плакать"
@@ -469,7 +469,7 @@
       "form": "porte",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pɔʁt",
       "gender": "f",
       "translations": [
         "дверь"
@@ -487,7 +487,7 @@
       "form": "pourquoi",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "puʁkwa",
       "gender": null,
       "translations": [
         "почему"
@@ -523,7 +523,7 @@
       "form": "rencontrer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁɑ̃kɔ̃tʁe",
       "gender": null,
       "translations": [
         "встречать"
@@ -541,7 +541,7 @@
       "form": "riche",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʁiʃ",
       "gender": null,
       "translations": [
         "богатый",
@@ -560,7 +560,7 @@
       "form": "rivière",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁivjɛʁ",
       "gender": "f",
       "translations": [
         "река"
@@ -578,7 +578,7 @@
       "form": "rond",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʁɔ̃",
       "gender": null,
       "translations": [
         "круглый"
@@ -596,7 +596,7 @@
       "form": "ronde",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʁɔ̃d",
       "gender": null,
       "translations": [
         "круглая"
@@ -614,7 +614,7 @@
       "form": "sortir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sɔʁtiʁ",
       "gender": null,
       "translations": [
         "выходить"
@@ -632,7 +632,7 @@
       "form": "stade",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stad",
       "gender": "m",
       "translations": [
         "стадион"
@@ -650,7 +650,7 @@
       "form": "théâtre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "teatʁ",
       "gender": "m",
       "translations": [
         "театр"
@@ -687,7 +687,7 @@
       "form": "travailler",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tʁavaje",
       "gender": null,
       "translations": [
         "работать"
@@ -705,7 +705,7 @@
       "form": "traverser",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tʁavɛʁse",
       "gender": null,
       "translations": [
         "пересекать",
@@ -724,7 +724,7 @@
       "form": "usine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "yzin",
       "gender": "f",
       "translations": [
         "завод"
@@ -742,7 +742,7 @@
       "form": "vacances",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "vakɑ̃s",
       "gender": "f",
       "translations": [
         "каникулы"
@@ -760,7 +760,7 @@
       "form": "vers",
       "partOfSpeech": "other",
       "partOfSpeechCode": "prep",
-      "transcription": null,
+      "transcription": "vɛʁ",
       "gender": null,
       "translations": [
         "к"
@@ -778,7 +778,7 @@
       "form": "village",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vilaʒ",
       "gender": "m",
       "translations": [
         "деревня"
@@ -796,7 +796,7 @@
       "form": "ville",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vil",
       "gender": "f",
       "translations": [
         "город"
@@ -814,7 +814,7 @@
       "form": "violon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vjɔlɔ̃",
       "gender": "m",
       "translations": [
         "скрипка"
@@ -832,7 +832,7 @@
       "form": "visiteur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vizitœʁ",
       "gender": "m",
       "translations": [
         "посетитель"

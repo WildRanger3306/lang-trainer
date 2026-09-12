@@ -14,7 +14,7 @@
       "form": "sledge",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "slˈɛdʒ",
       "translations": [
         "санки"
       ],
@@ -44,7 +44,7 @@
       "form": "sleet",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "slˈiːt",
       "translations": [
         "дождь со снегом"
       ],
@@ -59,7 +59,7 @@
       "form": "slide",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "slˈaɪd",
       "translations": [
         "скольжение"
       ],
@@ -74,7 +74,7 @@
       "form": "slip",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "slˈɪp",
       "translations": [
         "поскальзываться"
       ],
@@ -104,7 +104,7 @@
       "form": "slope",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "slˈəʊp",
       "translations": [
         "склон холма"
       ],
@@ -134,7 +134,7 @@
       "form": "small",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "smˈɔːl",
       "translations": [
         "маленький"
       ],
@@ -179,7 +179,7 @@
       "form": "snake",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "snˈeɪk",
       "translations": [
         "змея"
       ],
@@ -194,7 +194,7 @@
       "form": "sneeze",
       "partOfSpeech": "other",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "snˈiːz",
       "translations": [
         "чихание",
         "чихать"
@@ -210,7 +210,7 @@
       "form": "snore",
       "partOfSpeech": "other",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "snˈɔː",
       "translations": [
         "храп",
         "храпеть"
@@ -226,7 +226,7 @@
       "form": "snow",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "snˈəʊ",
       "translations": [
         "снег"
       ],
@@ -376,7 +376,7 @@
       "form": "solution",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "səlˈuːʃən",
       "translations": [
         "решение"
       ],
@@ -391,7 +391,7 @@
       "form": "somersault",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈʌməsˌɒlt",
       "translations": [
         "сальто"
       ],
@@ -406,7 +406,7 @@
       "form": "soothe",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sˈuːð",
       "translations": [
         "уменьшить"
       ],
@@ -436,7 +436,7 @@
       "form": "sound",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈaʊnd",
       "translations": [
         "звук"
       ],
@@ -451,7 +451,7 @@
       "form": "spam",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "spˈæm",
       "translations": [
         "нежелательная почта",
         "спам"
@@ -467,7 +467,7 @@
       "form": "sparkle",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "spˈɑːkəl",
       "translations": [
         "блестеть"
       ],
@@ -482,7 +482,7 @@
       "form": "spear",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spˈiə",
       "translations": [
         "копьё"
       ],
@@ -512,7 +512,7 @@
       "form": "specialise",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "spˈɛʃəlˌaɪz",
       "translations": [
         "специализироваться"
       ],
@@ -527,7 +527,7 @@
       "form": "species",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spˈiːsiːz",
       "translations": [
         "виды животных"
       ],
@@ -542,7 +542,7 @@
       "form": "spectrometer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spɛktrˈɒmɪtɐ",
       "translations": [
         "спектрометр"
       ],
@@ -587,7 +587,7 @@
       "form": "speeding",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spˈiːdɪŋ",
       "translations": [
         "превышение скорости"
       ],
@@ -602,7 +602,7 @@
       "form": "speedy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "spˈiːdi",
       "translations": [
         "скоростной"
       ],
@@ -632,7 +632,7 @@
       "form": "spider",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spˈaɪdɐ",
       "translations": [
         "паук"
       ],
@@ -647,7 +647,7 @@
       "form": "spike",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spˈaɪk",
       "translations": [
         "шип"
       ],
@@ -662,7 +662,7 @@
       "form": "spirit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spˈɪrɪt",
       "translations": [
         "дух"
       ],
@@ -677,7 +677,7 @@
       "form": "spoil",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "spˈɔɪl",
       "translations": [
         "портить"
       ],
@@ -692,7 +692,7 @@
       "form": "spontaneous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "spɒntˈeɪniəs",
       "translations": [
         "спонтанный"
       ],
@@ -707,7 +707,7 @@
       "form": "spooky",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "spˈuːki",
       "translations": [
         "страшный",
         "жуткий"
@@ -738,7 +738,7 @@
       "form": "spot",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "spˈɒt",
       "translations": [
         "замечать"
       ],
@@ -753,7 +753,7 @@
       "form": "spray",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sprˈeɪ",
       "translations": [
         "спрей"
       ],
@@ -768,7 +768,7 @@
       "form": "sprinkle",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sprˈɪŋkəl",
       "translations": [
         "посыпать"
       ],
@@ -783,7 +783,7 @@
       "form": "squawk",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "skwˈɔːk",
       "translations": [
         "вопить"
       ],
@@ -798,7 +798,7 @@
       "form": "stage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈeɪdʒ",
       "translations": [
         "сцена",
         "этап"
@@ -829,7 +829,7 @@
       "form": "stain",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈeɪn",
       "translations": [
         "пятно"
       ],
@@ -844,7 +844,7 @@
       "form": "stalactite",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈælɐktˌaɪt",
       "translations": [
         "сталактит"
       ],
@@ -859,7 +859,7 @@
       "form": "stalagmite",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈælɐgmˌaɪt",
       "translations": [
         "сталагмит"
       ],
@@ -889,7 +889,7 @@
       "form": "starve",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "stˈɑːv",
       "translations": [
         "голодать"
       ],
@@ -904,7 +904,7 @@
       "form": "state",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "stˈeɪt",
       "translations": [
         "указывать"
       ],
@@ -919,7 +919,7 @@
       "form": "steal",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "stˈiːl",
       "translations": [
         "красть",
         "воровать"
@@ -965,7 +965,7 @@
       "form": "steel",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈiːl",
       "translations": [
         "сталь"
       ],
@@ -980,7 +980,7 @@
       "form": "step",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈɛp",
       "translations": [
         "шаг"
       ],
@@ -1010,7 +1010,7 @@
       "form": "stick",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈɪk",
       "translations": [
         "палка"
       ],
@@ -1025,7 +1025,7 @@
       "form": "sting",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈɪŋ",
       "translations": [
         "жалить"
       ],
@@ -1070,7 +1070,7 @@
       "form": "storey",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈɔːri",
       "translations": [
         "этаж"
       ],
@@ -1085,7 +1085,7 @@
       "form": "storm",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈɔːm",
       "translations": [
         "шторм",
         "гроза"
@@ -1116,7 +1116,7 @@
       "form": "stove",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈəʊv",
       "translations": [
         "печь",
         "печка"
@@ -1132,7 +1132,7 @@
       "form": "straight",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "strˈeɪt",
       "translations": [
         "прямой"
       ],
@@ -1147,7 +1147,7 @@
       "form": "straightforward",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "streɪtfˈɔːwəd",
       "translations": [
         "напрямую",
         "прямой"
@@ -1163,7 +1163,7 @@
       "form": "strain",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "strˈeɪn",
       "translations": [
         "напряжение"
       ],
@@ -1208,7 +1208,7 @@
       "form": "strengthen",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "strˈɛŋθən",
       "translations": [
         "усилить"
       ],
@@ -1238,7 +1238,7 @@
       "form": "stretch",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "strˈɛtʃ",
       "translations": [
         "растягивать"
       ],
@@ -1253,7 +1253,7 @@
       "form": "strict",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "strˈɪkt",
       "translations": [
         "строгий"
       ],

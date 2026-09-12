@@ -1,0 +1,298 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0009.jpg",
+    "page": "Quel temps fait-il ?"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "Quel temps fait-il ?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Какая погода?"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il fait mauvais.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Плохая погода."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il fait beau.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Хорошая погода."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il fait froid.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Холодно."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il fait frais.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Прохладно."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il fait chaud.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Жарко."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il grêle.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Идёт град."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il pleut.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Идёт дождь."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il neige.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Идёт снег."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il y a du brouillard.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Туман."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il y a de l'orage.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Гроза."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il y a une tempête.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Буря, шторм."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il y a des nuages.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Облачно."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il y a du soleil.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Солнечно."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il y a du vent.",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Ветрено."
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_temps"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}

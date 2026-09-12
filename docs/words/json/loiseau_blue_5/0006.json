@@ -14,7 +14,7 @@
       "form": "grenouille",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gʁənuj",
       "gender": "f",
       "translations": [
         "лягушка"
@@ -32,7 +32,7 @@
       "form": "intelligent, -e",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛ̃teliʒɑ̃",
       "gender": null,
       "translations": [
         "умный, -ая"
@@ -50,7 +50,7 @@
       "form": "intéressant, -e",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛ̃teʁɛsɑ̃",
       "gender": null,
       "translations": [
         "интересный, -ая"
@@ -68,7 +68,7 @@
       "form": "jardin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒaʁdɛ̃",
       "gender": "m",
       "translations": [
         "сад"
@@ -86,7 +86,7 @@
       "form": "lion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ljɔ̃",
       "gender": "m",
       "translations": [
         "лев"
@@ -104,7 +104,7 @@
       "form": "lire",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "liʁ",
       "gender": null,
       "translations": [
         "читать"
@@ -122,7 +122,7 @@
       "form": "marcher",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "maʁʃe",
       "gender": null,
       "translations": [
         "идти"
@@ -140,7 +140,7 @@
       "form": "même",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "mɛm",
       "gender": null,
       "translations": [
         "даже"
@@ -158,7 +158,7 @@
       "form": "mignon, -ne",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "miɲɔ̃",
       "gender": null,
       "translations": [
         "милый, -ая"
@@ -176,7 +176,7 @@
       "form": "montagne",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɔ̃taɲ",
       "gender": "f",
       "translations": [
         "гора"
@@ -194,7 +194,7 @@
       "form": "montrer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "mɔ̃tʁe",
       "gender": null,
       "translations": [
         "показывать"
@@ -212,7 +212,7 @@
       "form": "mur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "myʁ",
       "gender": "m",
       "translations": [
         "стена"
@@ -230,7 +230,7 @@
       "form": "ours",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "uʁs",
       "gender": "m",
       "translations": [
         "медведь"
@@ -248,7 +248,7 @@
       "form": "partir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "paʁtiʁ",
       "gender": null,
       "translations": [
         "уходить",
@@ -267,7 +267,7 @@
       "form": "patte",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pat",
       "gender": "f",
       "translations": [
         "лапа"
@@ -285,7 +285,7 @@
       "form": "penser",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pɑ̃se",
       "gender": null,
       "translations": [
         "думать"
@@ -303,7 +303,7 @@
       "form": "perroquet",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "peʁɔkɛ",
       "gender": "m",
       "translations": [
         "попугай"
@@ -321,7 +321,7 @@
       "form": "plancher",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "plɑ̃ʃe",
       "gender": "m",
       "translations": [
         "пол"
@@ -339,7 +339,7 @@
       "form": "porte",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pɔʁt",
       "gender": "f",
       "translations": [
         "дверь"
@@ -357,7 +357,7 @@
       "form": "porter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pɔʁte",
       "gender": null,
       "translations": [
         "носить"
@@ -375,7 +375,7 @@
       "form": "près de",
       "partOfSpeech": "other",
       "partOfSpeechCode": "prep",
-      "transcription": null,
+      "transcription": "pʁɛdə",
       "gender": null,
       "translations": [
         "возле"
@@ -393,7 +393,7 @@
       "form": "promenade",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pʁɔmnad",
       "gender": "f",
       "translations": [
         "прогулка"
@@ -411,7 +411,7 @@
       "form": "promener",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pʁɔmne",
       "gender": null,
       "translations": [
         "прогуливать"
@@ -429,7 +429,7 @@
       "form": "propre",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pʁɔpʁ",
       "gender": null,
       "translations": [
         "чистый, -ая"
@@ -447,7 +447,7 @@
       "form": "puis",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "pɥi",
       "gender": null,
       "translations": [
         "потом"
@@ -465,7 +465,7 @@
       "form": "queue",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kø",
       "gender": "f",
       "translations": [
         "хвост"
@@ -483,7 +483,7 @@
       "form": "raconter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁakɔ̃te",
       "gender": null,
       "translations": [
         "рассказывать"
@@ -501,7 +501,7 @@
       "form": "route",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁut",
       "gender": "f",
       "translations": [
         "дорога"
@@ -519,7 +519,7 @@
       "form": "sauter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sote",
       "gender": null,
       "translations": [
         "прыгать"
@@ -537,7 +537,7 @@
       "form": "singe",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɛ̃ʒ",
       "gender": "m",
       "translations": [
         "обезьяна"
@@ -555,7 +555,7 @@
       "form": "soupe",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sup",
       "gender": "f",
       "translations": [
         "суп"
@@ -573,7 +573,7 @@
       "form": "sous",
       "partOfSpeech": "other",
       "partOfSpeechCode": "prep",
-      "transcription": null,
+      "transcription": "su",
       "gender": null,
       "translations": [
         "под"
@@ -591,7 +591,7 @@
       "form": "tache",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "taʃ",
       "gender": "f",
       "translations": [
         "пятно"
@@ -609,7 +609,7 @@
       "form": "tortue",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tɔʁty",
       "gender": "f",
       "translations": [
         "черепаха"
@@ -627,7 +627,7 @@
       "form": "toujours",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "tuʒuʁ",
       "gender": null,
       "translations": [
         "всегда"
@@ -645,7 +645,7 @@
       "form": "tout",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tu",
       "gender": null,
       "translations": [
         "весь"
@@ -681,7 +681,7 @@
       "form": "voir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "vwaʁ",
       "gender": null,
       "translations": [
         "видеть"
@@ -699,7 +699,7 @@
       "form": "voiture",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vwatyʁ",
       "gender": "f",
       "translations": [
         "машина"
@@ -717,7 +717,7 @@
       "form": "vrai, -e",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "vʁɛ",
       "gender": null,
       "translations": [
         "правильный, -ая",
@@ -736,7 +736,7 @@
       "form": "vraiment",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "vʁɛmɑ̃",
       "gender": null,
       "translations": [
         "на самом деле"
@@ -826,7 +826,7 @@
       "form": "âne",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "an",
       "gender": "m",
       "translations": [
         "осёл"
@@ -844,7 +844,7 @@
       "form": "apprendre",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "apʁɑ̃dʁ",
       "gender": null,
       "translations": [
         "учить"
@@ -862,7 +862,7 @@
       "form": "arrêter (s')",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "aʁete",
       "gender": null,
       "translations": [
         "останавливаться"
@@ -880,7 +880,7 @@
       "form": "attendre",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "atɑ̃dʁ",
       "gender": null,
       "translations": [
         "ждать"
@@ -898,7 +898,7 @@
       "form": "bassin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "basɛ̃",
       "gender": "m",
       "translations": [
         "чаша (фонтана)"
@@ -916,7 +916,7 @@
       "form": "blond, -e",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "blɔ̃",
       "gender": null,
       "translations": [
         "белокурый, -ая"
@@ -952,7 +952,7 @@
       "form": "bouche",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "buʃ",
       "gender": "f",
       "translations": [
         "рот"
@@ -970,7 +970,7 @@
       "form": "boulevard",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bulvaʁ",
       "gender": "m",
       "translations": [
         "бульвар"
@@ -988,7 +988,7 @@
       "form": "carré, -e",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kaʁe",
       "gender": null,
       "translations": [
         "квадратный, -ая"
@@ -1024,7 +1024,7 @@
       "form": "cathédrale",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "katedʁal",
       "gender": "f",
       "translations": [
         "собор"
@@ -1042,7 +1042,7 @@
       "form": "centre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɑ̃tʁ",
       "gender": "m",
       "translations": [
         "центр"
@@ -1060,7 +1060,7 @@
       "form": "cher, chère",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʃɛʁ",
       "gender": null,
       "translations": [
         "дорогой",
@@ -1079,7 +1079,7 @@
       "form": "cinéma",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sinema",
       "gender": "m",
       "translations": [
         "кино"
@@ -1097,7 +1097,7 @@
       "form": "clair, -e",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "klɛʁ",
       "gender": null,
       "translations": [
         "светлый, -ая"
@@ -1115,7 +1115,7 @@
       "form": "collectionner",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kɔlɛksjɔne",
       "gender": null,
       "translations": [
         "собирать",
@@ -1134,7 +1134,7 @@
       "form": "demain",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "dəmɛ̃",
       "gender": null,
       "translations": [
         "завтра"
@@ -1152,7 +1152,7 @@
       "form": "droit, -e",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "dʁwa",
       "gender": null,
       "translations": [
         "правый, -ая"
@@ -1207,7 +1207,7 @@
       "form": "fabrique",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fabʁik",
       "gender": "f",
       "translations": [
         "фабрика"
@@ -1225,7 +1225,7 @@
       "form": "fontaine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fɔ̃tɛn",
       "gender": "f",
       "translations": [
         "фонтан"
@@ -1243,7 +1243,7 @@
       "form": "gare",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gaʁ",
       "gender": "f",
       "translations": [
         "вокзал"
@@ -1261,7 +1261,7 @@
       "form": "gauche",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "goʃ",
       "gender": null,
       "translations": [
         "левый, -ая"
@@ -1298,7 +1298,7 @@
       "form": "habitant",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "abitɑ̃",
       "gender": "m",
       "translations": [
         "житель"
@@ -1316,7 +1316,7 @@
       "form": "habiter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "abite",
       "gender": null,
       "translations": [
         "жить"

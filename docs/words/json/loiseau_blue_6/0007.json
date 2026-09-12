@@ -16,7 +16,7 @@
       "form": "argent",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "aʁʒɑ̃",
       "gender": "m",
       "translations": [
         "деньги"
@@ -34,7 +34,7 @@
       "form": "cambriolage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɑ̃bʁijɔlaʒ",
       "gender": "m",
       "translations": [
         "ограбление"
@@ -70,7 +70,7 @@
       "form": "démarrer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "demaʁe",
       "gender": null,
       "translations": [
         "трогаться с места"
@@ -88,7 +88,7 @@
       "form": "désirer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "deziʁe",
       "gender": null,
       "translations": [
         "желать"
@@ -106,7 +106,7 @@
       "form": "différent, différente",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "difeʁɑ̃",
       "gender": null,
       "translations": [
         "разный, -ая",
@@ -125,7 +125,7 @@
       "form": "direction",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "diʁɛksjɔ̃",
       "gender": "f",
       "translations": [
         "направление"
@@ -143,7 +143,7 @@
       "form": "disparaître",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dispaʁɛtʁ",
       "gender": null,
       "translations": [
         "исчезать"
@@ -161,7 +161,7 @@
       "form": "écriteau",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ekʁito",
       "gender": "m",
       "translations": [
         "табличка"
@@ -179,7 +179,7 @@
       "form": "excellent, excellente",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛkselɑ̃",
       "gender": null,
       "translations": [
         "превосходный, -ая",
@@ -198,7 +198,7 @@
       "form": "figurant",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "figyʁɑ̃",
       "gender": "m",
       "translations": [
         "статист"
@@ -216,7 +216,7 @@
       "form": "galoper",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "galɔpe",
       "gender": null,
       "translations": [
         "скакать галопом"
@@ -234,7 +234,7 @@
       "form": "hold-up",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʼɔldœp",
       "gender": "m",
       "translations": [
         "вооружённое ограбление"
@@ -252,7 +252,7 @@
       "form": "lecture",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lɛktyʁ",
       "gender": "f",
       "translations": [
         "чтение"
@@ -288,7 +288,7 @@
       "form": "mésaventures",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "mezavɑ̃tyʁ",
       "gender": "f",
       "translations": [
         "злоключения"
@@ -306,7 +306,7 @@
       "form": "présenter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pʁezɑ̃te",
       "gender": null,
       "translations": [
         "представлять"
@@ -324,7 +324,7 @@
       "form": "producteur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pʁɔdyktœʁ",
       "gender": "m",
       "translations": [
         "продюсер"
@@ -342,7 +342,7 @@
       "form": "puissant, puissante",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pɥisɑ̃",
       "gender": null,
       "translations": [
         "мощный, -ая"
@@ -360,7 +360,7 @@
       "form": "réalisateur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁealizatœʁ",
       "gender": "m",
       "translations": [
         "режиссёр"
@@ -378,7 +378,7 @@
       "form": "sac",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sak",
       "gender": "m",
       "translations": [
         "сумка"
@@ -396,7 +396,7 @@
       "form": "saluer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "salɥe",
       "gender": null,
       "translations": [
         "приветствовать"
@@ -414,7 +414,7 @@
       "form": "sauter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sote",
       "gender": null,
       "translations": [
         "прыгать"
@@ -432,7 +432,7 @@
       "form": "silence",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "silɑ̃s",
       "gender": "m",
       "translations": [
         "тишина"
@@ -450,7 +450,7 @@
       "form": "spationaute",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spasjɔnot",
       "gender": "m",
       "translations": [
         "космонавт"
@@ -468,7 +468,7 @@
       "form": "témoin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "temwɛ̃",
       "gender": "m",
       "translations": [
         "свидетель"
@@ -486,7 +486,7 @@
       "form": "terre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tɛʁ",
       "gender": "f",
       "translations": [
         "земля"
@@ -504,7 +504,7 @@
       "form": "timbre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tɛ̃bʁ",
       "gender": "m",
       "translations": [
         "марка"
@@ -540,7 +540,7 @@
       "form": "admirer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "admiʁe",
       "gender": null,
       "translations": [
         "восхищаться"
@@ -558,7 +558,7 @@
       "form": "approcher (s')",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "apʁɔʃe",
       "gender": null,
       "translations": [
         "приближаться"
@@ -576,7 +576,7 @@
       "form": "après",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "apʁɛ",
       "gender": null,
       "translations": [
         "потом",
@@ -595,7 +595,7 @@
       "form": "armoire",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "aʁmwaʁ",
       "gender": "f",
       "translations": [
         "шкаф"
@@ -613,7 +613,7 @@
       "form": "art",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "aʁ",
       "gender": "m",
       "translations": [
         "искусство"
@@ -631,7 +631,7 @@
       "form": "autrefois",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "otʁəfwa",
       "gender": null,
       "translations": [
         "когда-то"
@@ -649,7 +649,7 @@
       "form": "avenue",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "avny",
       "gender": "f",
       "translations": [
         "проспект"
@@ -667,7 +667,7 @@
       "form": "bûcheron",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "byʃʁɔ̃",
       "gender": "m",
       "translations": [
         "дровосек"
@@ -685,7 +685,7 @@
       "form": "cheminée",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃəmine",
       "gender": "f",
       "translations": [
         "печная труба"
@@ -703,7 +703,7 @@
       "form": "couvrir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kuvʁiʁ",
       "gender": null,
       "translations": [
         "накрывать",
@@ -722,7 +722,7 @@
       "form": "croire",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kʁwaʁ",
       "gender": null,
       "translations": [
         "думать",
@@ -741,7 +741,7 @@
       "form": "décor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dekɔʁ",
       "gender": "m",
       "translations": [
         "декорация"
@@ -759,7 +759,7 @@
       "form": "départ",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "depaʁ",
       "gender": "m",
       "translations": [
         "отъезд"
@@ -777,7 +777,7 @@
       "form": "diriger",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "diʁiʒe",
       "gender": null,
       "translations": [
         "руководить"
@@ -795,7 +795,7 @@
       "form": "dormir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɔʁmiʁ",
       "gender": null,
       "translations": [
         "спать"
@@ -813,7 +813,7 @@
       "form": "dresser (se)",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dʁese",
       "gender": null,
       "translations": [
         "возвышаться"
@@ -831,7 +831,7 @@
       "form": "écolier",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ekɔlje",
       "gender": "m",
       "translations": [
         "школьник"
@@ -849,7 +849,7 @@
       "form": "écolière",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ekɔljɛʁ",
       "gender": "f",
       "translations": [
         "школьница"
@@ -867,7 +867,7 @@
       "form": "étudiant",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "etydjɑ̃",
       "gender": "m",
       "translations": [
         "студент"
@@ -885,7 +885,7 @@
       "form": "étudiante",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "etydjɑ̃t",
       "gender": "f",
       "translations": [
         "студентка"
@@ -903,7 +903,7 @@
       "form": "endroit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɑ̃dʁwa",
       "gender": "m",
       "translations": [
         "место"
@@ -921,7 +921,7 @@
       "form": "entourer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɑ̃tuʁe",
       "gender": null,
       "translations": [
         "окружать"
@@ -939,7 +939,7 @@
       "form": "exposition",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛkspozisjɔ̃",
       "gender": "f",
       "translations": [
         "выставка"
@@ -957,7 +957,7 @@
       "form": "forteresse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fɔʁtəʁɛs",
       "gender": "f",
       "translations": [
         "крепость"
@@ -975,7 +975,7 @@
       "form": "frapper",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "fʁape",
       "gender": null,
       "translations": [
         "стучать"
@@ -993,7 +993,7 @@
       "form": "île",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "il",
       "gender": "f",
       "translations": [
         "остров"
@@ -1011,7 +1011,7 @@
       "form": "impossible",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛ̃pɔsibl",
       "gender": null,
       "translations": [
         "невозможный, -ая"
@@ -1029,7 +1029,7 @@
       "form": "installation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛ̃stalasjɔ̃",
       "gender": "f",
       "translations": [
         "устройство",
@@ -1048,7 +1048,7 @@
       "form": "large",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "laʁʒ",
       "gender": null,
       "translations": [
         "широкий, -ая"
@@ -1066,7 +1066,7 @@
       "form": "librairie",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "libʁɛʁi",
       "gender": "f",
       "translations": [
         "книжный магазин"
@@ -1084,7 +1084,7 @@
       "form": "marchand",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "maʁʃɑ̃",
       "gender": "m",
       "translations": [
         "торговец"
@@ -1102,7 +1102,7 @@
       "form": "matinée",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "matine",
       "gender": "f",
       "translations": [
         "утро"
@@ -1120,7 +1120,7 @@
       "form": "palais",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "palɛ",
       "gender": "m",
       "translations": [
         "дворец"
@@ -1138,7 +1138,7 @@
       "form": "pauvre",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "povʁ",
       "gender": null,
       "translations": [
         "бедный, -ая"
@@ -1156,7 +1156,7 @@
       "form": "plafond",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "plafɔ̃",
       "gender": "m",
       "translations": [
         "потолок"
@@ -1174,7 +1174,7 @@
       "form": "plein, pleine",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "plɛ̃",
       "gender": null,
       "translations": [
         "полный, -ая"
@@ -1192,7 +1192,7 @@
       "form": "quai",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɛ",
       "gender": "m",
       "translations": [
         "набережная"
@@ -1210,7 +1210,7 @@
       "form": "quartier",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kaʁtje",
       "gender": "m",
       "translations": [
         "квартал"
@@ -1228,7 +1228,7 @@
       "form": "religieux, religieuse",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʁəliʒjø",
       "gender": null,
       "translations": [
         "религиозный, -ая"
@@ -1246,7 +1246,7 @@
       "form": "représenter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁəpʁezɑ̃te",
       "gender": null,
       "translations": [
         "представлять"
@@ -1264,7 +1264,7 @@
       "form": "règle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁɛgl",
       "gender": "f",
       "translations": [
         "правило"
@@ -1282,7 +1282,7 @@
       "form": "rive",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁiv",
       "gender": "f",
       "translations": [
         "берег (реки)"
@@ -1300,7 +1300,7 @@
       "form": "sable",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sabl",
       "gender": "m",
       "translations": [
         "песок"
@@ -1318,7 +1318,7 @@
       "form": "situé, située",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sitɥe",
       "gender": null,
       "translations": [
         "расположенный, -ая"
@@ -1336,7 +1336,7 @@
       "form": "tante",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tɑ̃t",
       "gender": "f",
       "translations": [
         "тётя"
@@ -1354,7 +1354,7 @@
       "form": "timide",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "timid",
       "gender": null,
       "translations": [
         "робкий, -ая"
@@ -1372,7 +1372,7 @@
       "form": "toit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "twa",
       "gender": "m",
       "translations": [
         "крыша"
@@ -1390,7 +1390,7 @@
       "form": "vaste",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "vast",
       "gender": null,
       "translations": [
         "просторный, -ая"
@@ -1408,7 +1408,7 @@
       "form": "vraiment",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "vʁɛmɑ̃",
       "gender": null,
       "translations": [
         "действительно"

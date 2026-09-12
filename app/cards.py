@@ -53,7 +53,7 @@ def card_view(card: CardCandidate) -> CardView:
     pos = POS_LABELS.get(card.part_of_speech, card.part_of_speech)
     gender = GENDER_LABELS.get(card.gender or "", "")
     translations = ", ".join(card.translations)
-    transcription = card.transcription or ""
+    transcription = f"[{card.transcription}]" if card.transcription else ""
     flags = direction_flags(card.language, card.direction)
     if card.direction == "foreign_to_native":
         return CardView(

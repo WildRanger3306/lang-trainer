@@ -29,7 +29,7 @@
       "form": "ledge",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈɛdʒ",
       "translations": [
         "выступ",
         "край"
@@ -45,7 +45,7 @@
       "form": "legal",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "lˈiːgəl",
       "translations": [
         "легальный",
         "законный"
@@ -61,7 +61,7 @@
       "form": "legislation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˌɛdʒɪslˈeɪʃən",
       "translations": [
         "законопроект"
       ],
@@ -76,7 +76,7 @@
       "form": "level",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈɛvəl",
       "translations": [
         "уровень"
       ],
@@ -106,7 +106,7 @@
       "form": "lifeguard",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈaɪfgɑːd",
       "translations": [
         "спасатель"
       ],
@@ -121,7 +121,7 @@
       "form": "lift",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈɪft",
       "translations": [
         "лифт"
       ],
@@ -136,7 +136,7 @@
       "form": "light",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "lˈaɪt",
       "translations": [
         "светлый"
       ],
@@ -166,7 +166,7 @@
       "form": "lighter",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈaɪtɐ",
       "translations": [
         "зажигалка"
       ],
@@ -181,7 +181,7 @@
       "form": "lighting",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈaɪtɪŋ",
       "translations": [
         "освещение"
       ],
@@ -196,7 +196,7 @@
       "form": "lightning",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈaɪtnɪŋ",
       "translations": [
         "молния"
       ],
@@ -227,7 +227,7 @@
       "form": "limestone",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈaɪmstəʊn",
       "translations": [
         "известняк"
       ],
@@ -242,7 +242,7 @@
       "form": "limit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈɪmɪt",
       "translations": [
         "лимит",
         "ограничение"
@@ -258,7 +258,7 @@
       "form": "linker",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈɪŋkɐ",
       "translations": [
         "связующее слово"
       ],
@@ -273,7 +273,7 @@
       "form": "literature",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈɪtrɪtʃɐ",
       "translations": [
         "литература"
       ],
@@ -288,7 +288,7 @@
       "form": "location",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ləʊkˈeɪʃən",
       "translations": [
         "местонахождение",
         "местоположение"
@@ -304,7 +304,7 @@
       "form": "lock",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈɒk",
       "translations": [
         "замок"
       ],
@@ -319,7 +319,7 @@
       "form": "logical",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "lˈɒdʒɪkəl",
       "translations": [
         "логичный"
       ],
@@ -349,7 +349,7 @@
       "form": "long",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "lˈɒŋ",
       "translations": [
         "длинный"
       ],
@@ -439,7 +439,7 @@
       "form": "loyalty",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈɔɪəlti",
       "translations": [
         "преданность"
       ],
@@ -454,7 +454,7 @@
       "form": "lung",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈʌŋ",
       "translations": [
         "лёгкое (орган)"
       ],
@@ -469,7 +469,7 @@
       "form": "lyrics",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "lˈɪrɪks",
       "translations": [
         "слова песни"
       ],
@@ -817,7 +817,7 @@
       "form": "magic",
       "partOfSpeech": "other",
       "partOfSpeechCode": "n, adj",
-      "transcription": null,
+      "transcription": "mˈædʒɪk",
       "translations": [
         "волшебство",
         "магия",
@@ -834,7 +834,7 @@
       "form": "magician",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɐdʒˈɪʃən",
       "translations": [
         "маг",
         "волшебник"
@@ -865,7 +865,7 @@
       "form": "major",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mˈeɪdʒɐ",
       "translations": [
         "главный",
         "основной"
@@ -881,7 +881,7 @@
       "form": "majority",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mədʒˈɒrɪtˌi",
       "translations": [
         "большинство"
       ],
@@ -926,7 +926,7 @@
       "form": "map",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈæp",
       "translations": [
         "карта"
       ],
@@ -941,7 +941,7 @@
       "form": "march",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "mˈɑːtʃ",
       "translations": [
         "маршировать"
       ],
@@ -986,7 +986,7 @@
       "form": "married",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mˈærɪd",
       "translations": [
         "женатый/замужем"
       ],
@@ -1001,7 +1001,7 @@
       "form": "masculine",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mˈæskjʊlˌɪn",
       "translations": [
         "мужской"
       ],
@@ -1016,7 +1016,7 @@
       "form": "masterpiece",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈɑːstəpˌiːs",
       "translations": [
         "шедевр"
       ],
@@ -1031,7 +1031,7 @@
       "form": "measure",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "mˈɛʒɐ",
       "translations": [
         "измерять"
       ],
@@ -1046,7 +1046,7 @@
       "form": "media",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈiːdiːɐ",
       "translations": [
         "мультимедийные данные"
       ],
@@ -1076,7 +1076,7 @@
       "form": "meditate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "mˈɛdɪtˌeɪt",
       "translations": [
         "медитировать"
       ],
@@ -1091,7 +1091,7 @@
       "form": "meditation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˌɛdɪtˈeɪʃən",
       "translations": [
         "медитация"
       ],
@@ -1106,7 +1106,7 @@
       "form": "melt",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "mˈɛlt",
       "translations": [
         "таять"
       ],
@@ -1121,7 +1121,7 @@
       "form": "member",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈɛmbɐ",
       "translations": [
         "зарегистрированный пользователь"
       ],
@@ -1136,7 +1136,7 @@
       "form": "mermaid",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈɜːmeɪd",
       "translations": [
         "русалка"
       ],
@@ -1151,7 +1151,7 @@
       "form": "message",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈɛsɪdʒ",
       "translations": [
         "сообщение",
         "смысл",

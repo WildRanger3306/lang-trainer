@@ -68,7 +68,7 @@
       "form": "agréable",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "agʁeabl",
       "gender": null,
       "translations": [
         "приятный",
@@ -87,7 +87,7 @@
       "form": "amusant",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "amyzɑ̃",
       "gender": null,
       "translations": [
         "забавный"
@@ -105,7 +105,7 @@
       "form": "amusante",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "amyzɑ̃t",
       "gender": null,
       "translations": [
         "забавная"
@@ -123,7 +123,7 @@
       "form": "appareil",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "apaʁɛj",
       "gender": "m",
       "translations": [
         "аппарат"
@@ -141,7 +141,7 @@
       "form": "baigner (se)",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "beɲe",
       "gender": null,
       "translations": [
         "купаться"
@@ -159,7 +159,7 @@
       "form": "bas",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ba",
       "gender": null,
       "translations": [
         "низкий"
@@ -195,7 +195,7 @@
       "form": "bientôt",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "bjɛ̃to",
       "gender": null,
       "translations": [
         "скоро",
@@ -214,7 +214,7 @@
       "form": "bois",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bwa",
       "gender": "m",
       "translations": [
         "лес"
@@ -251,7 +251,7 @@
       "form": "bord",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bɔʁ",
       "gender": "m",
       "translations": [
         "берег"
@@ -287,7 +287,7 @@
       "form": "briller",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bʁije",
       "gender": null,
       "translations": [
         "блестеть"
@@ -305,7 +305,7 @@
       "form": "bronzer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bʁɔ̃ze",
       "gender": null,
       "translations": [
         "загорать"
@@ -323,7 +323,7 @@
       "form": "changer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʃɑ̃ʒe",
       "gender": null,
       "translations": [
         "меняться"
@@ -341,7 +341,7 @@
       "form": "ciel",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sjɛl",
       "gender": "m",
       "translations": [
         "небо"
@@ -359,7 +359,7 @@
       "form": "citron",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sitʁɔ̃",
       "gender": "m",
       "translations": [
         "лимон"
@@ -377,7 +377,7 @@
       "form": "coucher (se)",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kuʃe",
       "gender": null,
       "translations": [
         "ложиться"
@@ -395,7 +395,7 @@
       "form": "envoler (s')",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɑ̃vɔle",
       "gender": null,
       "translations": [
         "улетать"
@@ -413,7 +413,7 @@
       "form": "feuille",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fœj",
       "gender": "f",
       "translations": [
         "лист"
@@ -431,7 +431,7 @@
       "form": "froid",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fʁwa",
       "gender": null,
       "translations": [
         "холодный"
@@ -449,7 +449,7 @@
       "form": "froide",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fʁwad",
       "gender": null,
       "translations": [
         "холодная"
@@ -467,7 +467,7 @@
       "form": "hirondelle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "iʁɔ̃dɛl",
       "gender": "f",
       "translations": [
         "ласточка"
@@ -485,7 +485,7 @@
       "form": "là-bas",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "laba",
       "gender": null,
       "translations": [
         "там"
@@ -503,7 +503,7 @@
       "form": "lever (se)",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ləve",
       "gender": null,
       "translations": [
         "вставать"
@@ -521,7 +521,7 @@
       "form": "luge",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lyʒ",
       "gender": "f",
       "translations": [
         "санки"
@@ -539,7 +539,7 @@
       "form": "magnifique",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "maɲifik",
       "gender": null,
       "translations": [
         "великолепный"
@@ -575,7 +575,7 @@
       "form": "mer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɛʁ",
       "gender": "f",
       "translations": [
         "море"
@@ -593,7 +593,7 @@
       "form": "nuage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nɥaʒ",
       "gender": "m",
       "translations": [
         "облако"
@@ -611,7 +611,7 @@
       "form": "passé",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pase",
       "gender": null,
       "translations": [
         "прошлый"
@@ -629,7 +629,7 @@
       "form": "passée",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pase",
       "gender": null,
       "translations": [
         "прошлая"
@@ -647,7 +647,7 @@
       "form": "patiner",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "patine",
       "gender": null,
       "translations": [
         "кататься на коньках"
@@ -665,7 +665,7 @@
       "form": "pays",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pei",
       "gender": "m",
       "translations": [
         "страна",
@@ -684,7 +684,7 @@
       "form": "pendant",
       "partOfSpeech": "other",
       "partOfSpeechCode": "prep",
-      "transcription": null,
+      "transcription": "pɑ̃dɑ̃",
       "gender": null,
       "translations": [
         "во время"
@@ -702,7 +702,7 @@
       "form": "plaisir",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pleziʁ",
       "gender": "m",
       "translations": [
         "удовольствие"
@@ -756,7 +756,7 @@
       "form": "ranger",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁɑ̃dʒœʁ",
       "gender": null,
       "translations": [
         "убирать"
@@ -774,7 +774,7 @@
       "form": "rencontrer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁɑ̃kɔ̃tʁe",
       "gender": null,
       "translations": [
         "встречать"
@@ -792,7 +792,7 @@
       "form": "réveiller",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁevɛje",
       "gender": null,
       "translations": [
         "будить"
@@ -810,7 +810,7 @@
       "form": "sans",
       "partOfSpeech": "other",
       "partOfSpeechCode": "prep",
-      "transcription": null,
+      "transcription": "sɑ̃",
       "gender": null,
       "translations": [
         "без"
@@ -828,7 +828,7 @@
       "form": "savoir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "savwaʁ",
       "gender": null,
       "translations": [
         "знать"
@@ -846,7 +846,7 @@
       "form": "ski",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ski",
       "gender": "m",
       "translations": [
         "лыжа"
@@ -882,7 +882,7 @@
       "form": "sage",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "saʒ",
       "gender": null,
       "translations": [
         "послушный",
@@ -901,7 +901,7 @@
       "form": "sud",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "syd",
       "gender": "m",
       "translations": [
         "юг"
@@ -919,7 +919,7 @@
       "form": "vache",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vaʃ",
       "gender": "f",
       "translations": [
         "корова"
@@ -937,7 +937,7 @@
       "form": "vent",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vɑ̃",
       "gender": "m",
       "translations": [
         "ветер"

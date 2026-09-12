@@ -14,7 +14,7 @@
       "form": "browse",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "brˈaʊz",
       "translations": [
         "искать (информацию в Интернете)"
       ],
@@ -29,7 +29,7 @@
       "form": "bucket",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈʌkɪt",
       "translations": [
         "ведро"
       ],
@@ -59,7 +59,7 @@
       "form": "bullying",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈʊlɪɪŋ",
       "translations": [
         "запугивание",
         "буллинг"
@@ -75,7 +75,7 @@
       "form": "bunch",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈʌntʃ",
       "translations": [
         "толпа"
       ],
@@ -90,7 +90,7 @@
       "form": "bundle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈʌndəl",
       "translations": [
         "связка"
       ],
@@ -121,7 +121,7 @@
       "form": "burglary",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɜːgləri",
       "translations": [
         "кража со взломом",
         "ограбление"
@@ -137,7 +137,7 @@
       "form": "burn",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈɜːn",
       "translations": [
         "сжигать"
       ],
@@ -152,7 +152,7 @@
       "form": "bush",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈʊʃ",
       "translations": [
         "кусты"
       ],
@@ -197,7 +197,7 @@
       "form": "bystander",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈaɪstændɐ",
       "translations": [
         "зевака",
         "очевидец"
@@ -789,7 +789,7 @@
       "form": "cabin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈæbɪn",
       "translations": [
         "небольшой домик"
       ],
@@ -804,7 +804,7 @@
       "form": "caffeine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈæfiːn",
       "translations": [
         "кофеин"
       ],
@@ -819,7 +819,7 @@
       "form": "calcite",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈælsaɪt",
       "translations": [
         "кальцит",
         "известковый шпат"
@@ -835,7 +835,7 @@
       "form": "calculate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈælkjʊlˌeɪt",
       "translations": [
         "считать"
       ],
@@ -850,7 +850,7 @@
       "form": "camcorder",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈæmkɔːdɐ",
       "translations": [
         "видеокамера"
       ],
@@ -880,7 +880,7 @@
       "form": "campsite",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈæmpsaɪt",
       "translations": [
         "место разбивки лагеря"
       ],
@@ -895,7 +895,7 @@
       "form": "campus",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈæmpəs",
       "translations": [
         "территория (лагеря, школы, колледжа)"
       ],
@@ -955,7 +955,7 @@
       "form": "card",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɑːd",
       "translations": [
         "карта"
       ],
@@ -970,7 +970,7 @@
       "form": "care",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈeə",
       "translations": [
         "заботиться"
       ],
@@ -1001,7 +1001,7 @@
       "form": "careful",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈeəfəl",
       "translations": [
         "осторожный"
       ],
@@ -1016,7 +1016,7 @@
       "form": "careless",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈeələs",
       "translations": [
         "беззаботный"
       ],
@@ -1031,7 +1031,7 @@
       "form": "caring",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈeərɪŋ",
       "translations": [
         "заботливый"
       ],
@@ -1061,7 +1061,7 @@
       "form": "carving",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɑːvɪŋ",
       "translations": [
         "резьба по дереву"
       ],
@@ -1076,7 +1076,7 @@
       "form": "cash",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈæʃ",
       "translations": [
         "наличные деньги"
       ],
@@ -1091,7 +1091,7 @@
       "form": "cashier",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kæʃˈiə",
       "translations": [
         "кассир"
       ],
@@ -1106,7 +1106,7 @@
       "form": "catchy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈætʃi",
       "translations": [
         "легко запоминающийся"
       ],
@@ -1121,7 +1121,7 @@
       "form": "cause",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈɔːz",
       "translations": [
         "вызывать",
         "быть причиной"
@@ -1152,7 +1152,7 @@
       "form": "celebrity",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "səlˈɛbrɪti",
       "translations": [
         "знаменитость"
       ],
@@ -1167,7 +1167,7 @@
       "form": "cell",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɛl",
       "translations": [
         "клетка"
       ],

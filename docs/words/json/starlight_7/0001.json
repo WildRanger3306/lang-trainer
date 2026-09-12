@@ -14,7 +14,7 @@
       "form": "abandoned",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐbˈændənd",
       "translations": [
         "покинутый",
         "заброшенный"
@@ -30,7 +30,7 @@
       "form": "ability",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐbˈɪlətˌi",
       "translations": [
         "способность"
       ],
@@ -45,7 +45,7 @@
       "form": "abroad",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "ɐbrˈɔːd",
       "translations": [
         "за границей"
       ],
@@ -60,7 +60,7 @@
       "form": "abseil",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈæbseɪl",
       "translations": [
         "спускаться по верёвке"
       ],
@@ -75,7 +75,7 @@
       "form": "absorb",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐbsˈɔːb",
       "translations": [
         "поглощать"
       ],
@@ -90,7 +90,7 @@
       "form": "accept",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐksˈɛpt",
       "translations": [
         "принимать"
       ],
@@ -105,7 +105,7 @@
       "form": "acceptable",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐksˈɛptəbəl",
       "translations": [
         "доступный"
       ],
@@ -135,7 +135,7 @@
       "form": "accommodation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐkˌɒmədˈeɪʃən",
       "translations": [
         "проживание"
       ],
@@ -165,7 +165,7 @@
       "form": "account",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐkˈaʊnt",
       "translations": [
         "учётная запись",
         "аккаунт"
@@ -181,7 +181,7 @@
       "form": "accurate",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈækjʊrət",
       "translations": [
         "аккуратный"
       ],
@@ -211,7 +211,7 @@
       "form": "achieve",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐtʃˈiːv",
       "translations": [
         "достигать"
       ],
@@ -226,7 +226,7 @@
       "form": "acid",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈæsɪd",
       "translations": [
         "кислота"
       ],
@@ -256,7 +256,7 @@
       "form": "acne",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈækni",
       "translations": [
         "прыщи"
       ],
@@ -271,7 +271,7 @@
       "form": "acrobatics",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "ˌækrəbˈætɪks",
       "translations": [
         "акробатика"
       ],
@@ -286,7 +286,7 @@
       "form": "act",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈækt",
       "translations": [
         "действовать"
       ],
@@ -301,7 +301,7 @@
       "form": "action",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈækʃən",
       "translations": [
         "действие"
       ],
@@ -316,7 +316,7 @@
       "form": "active",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈæktɪv",
       "translations": [
         "активный"
       ],
@@ -331,7 +331,7 @@
       "form": "actor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈæktɐ",
       "translations": [
         "актёр"
       ],
@@ -361,7 +361,7 @@
       "form": "addictive",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐdˈɪktɪv",
       "translations": [
         "вызывающий привычку"
       ],
@@ -376,7 +376,7 @@
       "form": "admit",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐdmˈɪt",
       "translations": [
         "признавать"
       ],
@@ -391,7 +391,7 @@
       "form": "adrenalin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐdrˈɛnɐlˌɪn",
       "translations": [
         "адреналин"
       ],
@@ -406,7 +406,7 @@
       "form": "adult",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈædʌlt",
       "translations": [
         "взрослый"
       ],
@@ -421,7 +421,7 @@
       "form": "adventure",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐdvˈɛntʃɐ",
       "translations": [
         "приключение"
       ],
@@ -436,7 +436,7 @@
       "form": "advertise",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈædvətˌaɪz",
       "translations": [
         "рекламировать"
       ],
@@ -497,7 +497,7 @@
       "form": "aim",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈeɪm",
       "translations": [
         "нацеливаться"
       ],
@@ -527,7 +527,7 @@
       "form": "airway",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈeəweɪ",
       "translations": [
         "дыхательные пути"
       ],
@@ -542,7 +542,7 @@
       "form": "alert",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐlˈɜːt",
       "translations": [
         "бдительный",
         "настороже"
@@ -558,7 +558,7 @@
       "form": "alight",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐlˈaɪt",
       "translations": [
         "горящий"
       ],
@@ -573,7 +573,7 @@
       "form": "allergy",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈælədʒi",
       "translations": [
         "аллергия"
       ],
@@ -588,7 +588,7 @@
       "form": "allow",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐlˈaʊ",
       "translations": [
         "позволять"
       ],
@@ -603,7 +603,7 @@
       "form": "analyse",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈænɐlˌaɪz",
       "translations": [
         "анализировать"
       ],
@@ -618,7 +618,7 @@
       "form": "ancient",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈeɪnʃənt",
       "translations": [
         "старинный"
       ],
@@ -663,7 +663,7 @@
       "form": "annoy",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐnˈɔɪ",
       "translations": [
         "раздражать"
       ],
@@ -678,7 +678,7 @@
       "form": "annoyance",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐnˈɔɪəns",
       "translations": [
         "раздражимость"
       ],
@@ -693,7 +693,7 @@
       "form": "annoyed",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐnˈɔɪd",
       "translations": [
         "раздражённый"
       ],
@@ -708,7 +708,7 @@
       "form": "annoying",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐnˈɔɪɪŋ",
       "translations": [
         "раздражающий"
       ],
@@ -723,7 +723,7 @@
       "form": "antibacterial",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˌæntɪbæktˈiərɪəl",
       "translations": [
         "антибактериальный"
       ],
@@ -783,7 +783,7 @@
       "form": "appear",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐpˈiə",
       "translations": [
         "появляться"
       ],
@@ -813,7 +813,7 @@
       "form": "appointment",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐpˈɔɪntmənt",
       "translations": [
         "встреча"
       ],
@@ -828,7 +828,7 @@
       "form": "appreciate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐprˈiːʃɪˌeɪt",
       "translations": [
         "быть благодарным",
         "ценить"
@@ -844,7 +844,7 @@
       "form": "approval",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐprˈuːvəl",
       "translations": [
         "подтверждение"
       ],
@@ -874,7 +874,7 @@
       "form": "architect",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɑːkɪtˌɛkt",
       "translations": [
         "архитектор"
       ],
@@ -889,7 +889,7 @@
       "form": "architecture",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɑːkɪtˌɛktʃɐ",
       "translations": [
         "архитектура"
       ],
@@ -904,7 +904,7 @@
       "form": "argue",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɑːgjuː",
       "translations": [
         "спорить"
       ],
@@ -919,7 +919,7 @@
       "form": "argument",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɑːgjuːmənt",
       "translations": [
         "спор"
       ],
@@ -949,7 +949,7 @@
       "form": "armful",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɑːmfəl",
       "translations": [
         "большое количество"
       ],
@@ -964,7 +964,7 @@
       "form": "arrest",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐrˈɛst",
       "translations": [
         "арестовывать"
       ],
@@ -979,7 +979,7 @@
       "form": "arrive",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐrˈaɪv",
       "translations": [
         "прибывать"
       ],
@@ -994,7 +994,7 @@
       "form": "arson",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɑːsən",
       "translations": [
         "поджог"
       ],
@@ -1024,7 +1024,7 @@
       "form": "artist",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɑːtɪst",
       "translations": [
         "художник",
         "артист"
@@ -1040,7 +1040,7 @@
       "form": "artistic",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɑːtˈɪstɪk",
       "translations": [
         "артистичный"
       ],
@@ -1055,7 +1055,7 @@
       "form": "ash",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈæʃ",
       "translations": [
         "вулканический пепел"
       ],
@@ -1070,7 +1070,7 @@
       "form": "ask",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɑːsk",
       "translations": [
         "спрашивать"
       ],
@@ -1085,7 +1085,7 @@
       "form": "assist",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐsˈɪst",
       "translations": [
         "ассистировать",
         "помогать"
@@ -1101,7 +1101,7 @@
       "form": "assistant",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐsˈɪstənt",
       "translations": [
         "помощник"
       ],
@@ -1116,7 +1116,7 @@
       "form": "athlete",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈæθliːt",
       "translations": [
         "атлет"
       ],
@@ -1131,7 +1131,7 @@
       "form": "athletic",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "æθlˈɛtɪk",
       "translations": [
         "атлетический"
       ],
@@ -1146,7 +1146,7 @@
       "form": "attack",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐtˈæk",
       "translations": [
         "атаковать"
       ],
@@ -1161,7 +1161,7 @@
       "form": "attend",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐtˈɛnd",
       "translations": [
         "принимать участие"
       ],
@@ -1176,7 +1176,7 @@
       "form": "attract",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐtrˈækt",
       "translations": [
         "привлекать"
       ],
@@ -1191,7 +1191,7 @@
       "form": "audience",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɔːdiəns",
       "translations": [
         "аудитория",
         "зрители"
@@ -1207,7 +1207,7 @@
       "form": "authorities",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "ɐθˈɒrɪtˌiz",
       "translations": [
         "власти"
       ],
@@ -1222,7 +1222,7 @@
       "form": "available",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐvˈeɪləbəl",
       "translations": [
         "доступный"
       ],
@@ -1237,7 +1237,7 @@
       "form": "average",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈævrɪdʒ",
       "translations": [
         "средний"
       ],
@@ -1282,7 +1282,7 @@
       "form": "avoid",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐvˈɔɪd",
       "translations": [
         "избегать"
       ],
@@ -1297,7 +1297,7 @@
       "form": "award",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "ɐwˈɔːd",
       "translations": [
         "награда",
         "награждать"

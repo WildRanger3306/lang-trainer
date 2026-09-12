@@ -1,0 +1,963 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0008.jpg",
+    "page": "L'aspect physique / Le caractère"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "grand, grande",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "gʁɑ̃",
+      "gender": null,
+      "translations": [
+        "высокий, -ая; большой, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "petit, petite",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pəti",
+      "gender": null,
+      "translations": [
+        "маленький, -ая; низкий, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "gros, grosse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "gʁo",
+      "gender": null,
+      "translations": [
+        "толстый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mince",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "mɛ̃s",
+      "gender": null,
+      "translations": [
+        "стройный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "maigre",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "mɛgʁ",
+      "gender": null,
+      "translations": [
+        "тощий, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "robuste",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʁɔbyst",
+      "gender": null,
+      "translations": [
+        "крепкий, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "fort, forte",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "fɔʁ",
+      "gender": null,
+      "translations": [
+        "сильный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "rondelet, rondelette",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʁɔ̃dlɛ",
+      "gender": null,
+      "translations": [
+        "полноватый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "blond, blonde",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "blɔ̃",
+      "gender": null,
+      "translations": [
+        "светлый, -ая (волосы)"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "noir, noire",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "nwaʁ",
+      "gender": null,
+      "translations": [
+        "чёрный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "roux, rousse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʁu",
+      "gender": null,
+      "translations": [
+        "рыжий, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "châtain, châtaine",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʃatɛ̃",
+      "gender": null,
+      "translations": [
+        "каштановый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "brun, brune",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "bʁœ̃",
+      "gender": null,
+      "translations": [
+        "тёмно-русый; брюнет"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "gris, grise",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "gʁi",
+      "gender": null,
+      "translations": [
+        "серый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "court, courte",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "kuʁ",
+      "gender": null,
+      "translations": [
+        "короткий, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "long, longue",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "lɔ̃",
+      "gender": null,
+      "translations": [
+        "длинный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "ondulé, ondulée",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ɔ̃dyle",
+      "gender": null,
+      "translations": [
+        "волнистый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "frisé, frisée",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "fʁize",
+      "gender": null,
+      "translations": [
+        "кудрявый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "raide",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʁɛd",
+      "gender": null,
+      "translations": [
+        "прямой, -ая (волосы)"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "allongé, allongée",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "alɔ̃ʒe",
+      "gender": null,
+      "translations": [
+        "вытянутый, -ая (лицо)"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "rond, ronde",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʁɔ̃",
+      "gender": null,
+      "translations": [
+        "круглый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "carré, carrée",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "kaʁe",
+      "gender": null,
+      "translations": [
+        "квадратный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "taches de rousseur",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "f",
+      "translations": [
+        "веснушки"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "barbe",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "baʁb",
+      "gender": "f",
+      "translations": [
+        "борода"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "moustache",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mustaʃ",
+      "gender": "f",
+      "translations": [
+        "усы"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "vert, verte",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "vɛʁ",
+      "gender": null,
+      "translations": [
+        "зелёный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "bleu, bleue",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "blø",
+      "gender": null,
+      "translations": [
+        "синий, -ая; голубой, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "marron",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "maʁɔ̃",
+      "gender": null,
+      "translations": [
+        "карий, коричневый"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "noisette",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "nwazɛt",
+      "gender": null,
+      "translations": [
+        "ореховый (цвет глаз)"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "jeune",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʒœn",
+      "gender": null,
+      "translations": [
+        "молодой, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "âgé, âgée",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "aʒe",
+      "gender": null,
+      "translations": [
+        "пожилой, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "vieux, vieille",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "vjø",
+      "gender": null,
+      "translations": [
+        "старый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sympathique",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "sɛ̃patik",
+      "gender": null,
+      "translations": [
+        "приятный, -ая; симпатичный"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "antipathique",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ɑ̃tipatik",
+      "gender": null,
+      "translations": [
+        "неприятный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "gentil, gentille",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʒɑ̃ti",
+      "gender": null,
+      "translations": [
+        "добрый, -ая; милый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "impulsif, impulsive",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ɛ̃pylsif",
+      "gender": null,
+      "translations": [
+        "импульсивный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "curieux, curieuse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "kyʁjø",
+      "gender": null,
+      "translations": [
+        "любопытный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "généreux, généreuse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʒeneʁø",
+      "gender": null,
+      "translations": [
+        "щедрый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "intelligent, intelligente",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ɛ̃teliʒɑ̃",
+      "gender": null,
+      "translations": [
+        "умный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "bavard, bavarde",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "bavaʁ",
+      "gender": null,
+      "translations": [
+        "болтливый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "dissipé, dissipée",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "disipe",
+      "gender": null,
+      "translations": [
+        "рассеянный, -ая; невнимательный"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "drôle",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "dʁol",
+      "gender": null,
+      "translations": [
+        "смешной, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "timide",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "timid",
+      "gender": null,
+      "translations": [
+        "застенчивый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "paresseux, paresseuse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "paʁɛsø",
+      "gender": null,
+      "translations": [
+        "ленивый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "vif, vive",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "vif",
+      "gender": null,
+      "translations": [
+        "живой, -ая; бойкий, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sportif, sportive",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "spɔʁtif",
+      "gender": null,
+      "translations": [
+        "спортивный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "têtu, têtue",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "tɛty",
+      "gender": null,
+      "translations": [
+        "упрямый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Il est comment ?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Какой он?"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "Elle est comment ?",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "Какая она?"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avoir l'air",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "выглядеть, казаться"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aspect"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}

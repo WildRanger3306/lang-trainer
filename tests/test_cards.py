@@ -33,7 +33,7 @@ class CardViewTests(unittest.TestCase):
         view = card_view(card())
         self.assertEqual(view.prompt, "bag")
         self.assertIn("существительное", view.hint)
-        self.assertIn("bæg", view.hint)
+        self.assertIn("[bæg]", view.hint)
         self.assertEqual(view.answer, "сумка")
         self.assertEqual(view.answer_hint, "")
 
@@ -43,7 +43,7 @@ class CardViewTests(unittest.TestCase):
         self.assertEqual(view.hint, "существительное")
         self.assertNotIn("bæg", view.hint)
         self.assertEqual(view.answer, "bag")
-        self.assertEqual(view.answer_hint, "bæg")
+        self.assertEqual(view.answer_hint, "[bæg]")
 
     def test_foreign_to_native_shows_gender_on_front(self) -> None:
         view = card_view(card(form="chat", transcription=None, gender="m", translations=("кот",)))

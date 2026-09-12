@@ -13,7 +13,7 @@
       "form": "vegetable",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɛdʒɪtəbəl",
       "translations": [
         "овощ"
       ],
@@ -28,7 +28,7 @@
       "form": "victim",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɪktɪm",
       "translations": [
         "жертва"
       ],
@@ -43,7 +43,7 @@
       "form": "victory",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɪktərˌi",
       "translations": [
         "победа"
       ],
@@ -73,7 +73,7 @@
       "form": "view",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vjˈuː",
       "translations": [
         "вид"
       ],
@@ -88,7 +88,7 @@
       "form": "viewer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vjˈuːɐ",
       "translations": [
         "зритель"
       ],
@@ -103,7 +103,7 @@
       "form": "villa",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɪlɐ",
       "translations": [
         "вилла"
       ],
@@ -118,7 +118,7 @@
       "form": "vinegar",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɪnɪgɐ",
       "translations": [
         "уксус"
       ],
@@ -133,7 +133,7 @@
       "form": "violin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vaɪəlˈɪn",
       "translations": [
         "скрипка"
       ],
@@ -148,7 +148,7 @@
       "form": "vitamin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɪtəmɪn",
       "translations": [
         "витамин"
       ],
@@ -178,7 +178,7 @@
       "form": "volcano",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vɒlkˈeɪnəʊ",
       "translations": [
         "вулкан"
       ],
@@ -193,7 +193,7 @@
       "form": "volunteer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "vˌɒləntˈiə",
       "translations": [
         "выполнять работу безвозмездно",
         "на добровольных началах"
@@ -224,7 +224,7 @@
       "form": "vote",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "vˈəʊt",
       "translations": [
         "голосовать"
       ],
@@ -239,7 +239,7 @@
       "form": "voyage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɔɪɪdʒ",
       "translations": [
         "путешествие"
       ],
@@ -284,7 +284,7 @@
       "form": "wage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈeɪdʒ",
       "translations": [
         "заработная плата"
       ],
@@ -299,7 +299,7 @@
       "form": "walk",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "wˈɔːk",
       "translations": [
         "ходить пешком"
       ],
@@ -329,7 +329,7 @@
       "form": "war",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɔː",
       "translations": [
         "война"
       ],
@@ -344,7 +344,7 @@
       "form": "warrior",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɒrɪɐ",
       "translations": [
         "воин"
       ],
@@ -389,7 +389,7 @@
       "form": "waterfall",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɔːtəfˌɔːl",
       "translations": [
         "водопад"
       ],
@@ -404,7 +404,7 @@
       "form": "wave",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈeɪv",
       "translations": [
         "волна"
       ],
@@ -434,7 +434,7 @@
       "form": "weather",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɛðɐ",
       "translations": [
         "погода"
       ],
@@ -449,7 +449,7 @@
       "form": "weaver",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈiːvɐ",
       "translations": [
         "ткач"
       ],
@@ -464,7 +464,7 @@
       "form": "website",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɛbsaɪt",
       "translations": [
         "интернет-сайт"
       ],
@@ -479,7 +479,7 @@
       "form": "well",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɛl",
       "translations": [
         "колодец"
       ],
@@ -494,7 +494,7 @@
       "form": "whale",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈeɪl",
       "translations": [
         "кит"
       ],
@@ -524,7 +524,7 @@
       "form": "wildlife",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈaɪldlaɪf",
       "translations": [
         "дикая природа"
       ],
@@ -554,7 +554,7 @@
       "form": "win",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "wˈɪn",
       "translations": [
         "выиграть"
       ],
@@ -599,7 +599,7 @@
       "form": "wing",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɪŋ",
       "translations": [
         "крыло"
       ],
@@ -614,7 +614,7 @@
       "form": "wolf",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈʊlf",
       "translations": [
         "волк"
       ],
@@ -629,7 +629,7 @@
       "form": "wood",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈʊd",
       "translations": [
         "дерево",
         "древесина"
@@ -645,7 +645,7 @@
       "form": "writer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈaɪtɐ",
       "translations": [
         "писатель"
       ],
@@ -751,7 +751,7 @@
       "form": "yet",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "jˈɛt",
       "translations": [
         "ещё"
       ],
@@ -766,7 +766,7 @@
       "form": "yogurt",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "jˈɒgɜːt",
       "translations": [
         "йогурт"
       ],
@@ -781,7 +781,7 @@
       "form": "zebra",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "zˈɛbrɐ",
       "translations": [
         "зебра"
       ],

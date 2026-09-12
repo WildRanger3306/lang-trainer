@@ -14,7 +14,7 @@
       "form": "heureux, -se",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "œʁø",
       "gender": null,
       "translations": [
         "счастливый"
@@ -32,7 +32,7 @@
       "form": "hiver",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ivɛʁ",
       "gender": "m",
       "translations": [
         "зима"
@@ -50,7 +50,7 @@
       "form": "ici",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "isi",
       "gender": null,
       "translations": [
         "здесь"
@@ -68,7 +68,7 @@
       "form": "image",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "imaʒ",
       "gender": "f",
       "translations": [
         "картинка"
@@ -86,7 +86,7 @@
       "form": "janvier",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒɑ̃vje",
       "gender": "m",
       "translations": [
         "январь"
@@ -104,7 +104,7 @@
       "form": "jour",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒuʁ",
       "gender": "m",
       "translations": [
         "день"
@@ -122,7 +122,7 @@
       "form": "juillet",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒɥijɛ",
       "gender": "m",
       "translations": [
         "июль"
@@ -140,7 +140,7 @@
       "form": "juin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒɥɛ̃",
       "gender": "m",
       "translations": [
         "июнь"
@@ -158,7 +158,7 @@
       "form": "là",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "la",
       "gender": null,
       "translations": [
         "там"
@@ -176,7 +176,7 @@
       "form": "lapin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lapɛ̃",
       "gender": "m",
       "translations": [
         "кролик"
@@ -194,7 +194,7 @@
       "form": "mai",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɛ",
       "gender": "m",
       "translations": [
         "май"
@@ -212,7 +212,7 @@
       "form": "maigre",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mɛgʁ",
       "gender": null,
       "translations": [
         "худой, -ая"
@@ -230,7 +230,7 @@
       "form": "maintenant",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "mɛ̃tnɑ̃",
       "gender": null,
       "translations": [
         "сейчас"
@@ -248,7 +248,7 @@
       "form": "malade",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "malad",
       "gender": null,
       "translations": [
         "больной, -ая"
@@ -266,7 +266,7 @@
       "form": "malheureux, -se",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "malœʁø",
       "gender": null,
       "translations": [
         "несчастный, -ая"
@@ -284,7 +284,7 @@
       "form": "mars",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "maʁs",
       "gender": "m",
       "translations": [
         "март"
@@ -302,7 +302,7 @@
       "form": "matin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "matɛ̃",
       "gender": "m",
       "translations": [
         "утро"
@@ -320,7 +320,7 @@
       "form": "méchant, -e",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "meʃɑ̃",
       "gender": null,
       "translations": [
         "злой, -ая"
@@ -338,7 +338,7 @@
       "form": "médecin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "medsɛ̃",
       "gender": "m",
       "translations": [
         "врач"
@@ -356,7 +356,7 @@
       "form": "minuit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "minɥi",
       "gender": "m",
       "translations": [
         "полночь"
@@ -374,7 +374,7 @@
       "form": "neige",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nɛʒ",
       "gender": "f",
       "translations": [
         "снег"
@@ -392,7 +392,7 @@
       "form": "nid",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ni",
       "gender": "m",
       "translations": [
         "гнездо"
@@ -410,7 +410,7 @@
       "form": "Noël",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nɔɛl",
       "gender": "m",
       "translations": [
         "Рождество"
@@ -428,7 +428,7 @@
       "form": "nouveau, -elle",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nuvo",
       "gender": null,
       "translations": [
         "новый, -ая"
@@ -446,7 +446,7 @@
       "form": "novembre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nɔvɑ̃bʁ",
       "gender": "m",
       "translations": [
         "ноябрь"
@@ -464,7 +464,7 @@
       "form": "octobre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɔktɔbʁ",
       "gender": "m",
       "translations": [
         "октябрь"
@@ -482,7 +482,7 @@
       "form": "œuf",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "œf",
       "gender": "m",
       "translations": [
         "яйцо"
@@ -500,7 +500,7 @@
       "form": "ouvrir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "uvʁiʁ",
       "gender": null,
       "translations": [
         "открывать"
@@ -518,7 +518,7 @@
       "form": "panier",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "panje",
       "gender": "m",
       "translations": [
         "корзина"
@@ -536,7 +536,7 @@
       "form": "papillon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "papijɔ̃",
       "gender": "m",
       "translations": [
         "бабочка"
@@ -554,7 +554,7 @@
       "form": "parapluie",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "paʁaplɥi",
       "gender": "m",
       "translations": [
         "зонтик"
@@ -572,7 +572,7 @@
       "form": "partout",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "paʁtu",
       "gender": null,
       "translations": [
         "везде"
@@ -590,7 +590,7 @@
       "form": "pluie",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "plɥi",
       "gender": "f",
       "translations": [
         "дождь"
@@ -608,7 +608,7 @@
       "form": "pomme",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pɔm",
       "gender": "f",
       "translations": [
         "яблоко"
@@ -626,7 +626,7 @@
       "form": "préparer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pʁepaʁe",
       "gender": null,
       "translations": [
         "готовить"
@@ -644,7 +644,7 @@
       "form": "réveil",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁevɛj",
       "gender": "m",
       "translations": [
         "будильник"
@@ -662,7 +662,7 @@
       "form": "rue",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁy",
       "gender": "f",
       "translations": [
         "улица"
@@ -680,7 +680,7 @@
       "form": "semaine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "smɛn",
       "gender": "f",
       "translations": [
         "неделя"
@@ -698,7 +698,7 @@
       "form": "septembre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɛptɑ̃bʁ",
       "gender": "m",
       "translations": [
         "сентябрь"
@@ -716,7 +716,7 @@
       "form": "soir",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "swaʁ",
       "gender": "m",
       "translations": [
         "вечер"
@@ -734,7 +734,7 @@
       "form": "sonner",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sɔne",
       "gender": null,
       "translations": [
         "звонить"
@@ -752,7 +752,7 @@
       "form": "souffler",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sufle",
       "gender": null,
       "translations": [
         "дуть",
@@ -771,7 +771,7 @@
       "form": "souris",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "suʁi",
       "gender": "f",
       "translations": [
         "мышь"
@@ -789,7 +789,7 @@
       "form": "table",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tabl",
       "gender": "f",
       "translations": [
         "стол"
@@ -807,7 +807,7 @@
       "form": "tapis",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tapi",
       "gender": "m",
       "translations": [
         "ковёр"
@@ -825,7 +825,7 @@
       "form": "tenir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "təniʁ",
       "gender": null,
       "translations": [
         "держать"
@@ -843,7 +843,7 @@
       "form": "timbre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tɛ̃bʁ",
       "gender": "m",
       "translations": [
         "марка"
@@ -861,7 +861,7 @@
       "form": "tomber",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tɔ̃be",
       "gender": null,
       "translations": [
         "падать"
@@ -879,7 +879,7 @@
       "form": "train",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʁɛ̃",
       "gender": "m",
       "translations": [
         "поезд"
@@ -897,7 +897,7 @@
       "form": "triste",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tʁist",
       "gender": null,
       "translations": [
         "грустный, -ая"
@@ -1096,7 +1096,7 @@
       "form": "abricot",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "abʁiko",
       "gender": "m",
       "translations": [
         "абрикос"
@@ -1114,7 +1114,7 @@
       "form": "acheter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "aʃte",
       "gender": null,
       "translations": [
         "покупать"
@@ -1132,7 +1132,7 @@
       "form": "arbre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "aʁbʁ",
       "gender": "m",
       "translations": [
         "дерево"
@@ -1150,7 +1150,7 @@
       "form": "boire",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bwaʁ",
       "gender": null,
       "translations": [
         "пить"
@@ -1168,7 +1168,7 @@
       "form": "boîte",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bwat",
       "gender": "f",
       "translations": [
         "коробка"
@@ -1186,7 +1186,7 @@
       "form": "boule",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bul",
       "gender": "f",
       "translations": [
         "шарик"
@@ -1204,7 +1204,7 @@
       "form": "bouteille",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "butɛj",
       "gender": "f",
       "translations": [
         "бутылка"
@@ -1222,7 +1222,7 @@
       "form": "caisse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɛs",
       "gender": "f",
       "translations": [
         "касса"
@@ -1240,7 +1240,7 @@
       "form": "cerise",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "səʁiz",
       "gender": "f",
       "translations": [
         "вишня"
@@ -1258,7 +1258,7 @@
       "form": "chèvre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃɛvʁ",
       "gender": "f",
       "translations": [
         "коза"
@@ -1276,7 +1276,7 @@
       "form": "chou",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃu",
       "gender": "m",
       "translations": [
         "капуста"
@@ -1294,7 +1294,7 @@
       "form": "concombre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɔ̃kɔ̃bʁ",
       "gender": "m",
       "translations": [
         "огурец"
@@ -1312,7 +1312,7 @@
       "form": "croissant",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kʁwasɑ̃",
       "gender": "m",
       "translations": [
         "круассан",
@@ -1331,7 +1331,7 @@
       "form": "déjeuner",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "deʒœne",
       "gender": null,
       "translations": [
         "завтракать"

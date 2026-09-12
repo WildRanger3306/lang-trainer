@@ -14,7 +14,7 @@
       "form": "gang",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gˈæŋ",
       "translations": [
         "банда"
       ],
@@ -44,7 +44,7 @@
       "form": "garage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gˈærɪdʒ",
       "translations": [
         "гараж"
       ],
@@ -59,7 +59,7 @@
       "form": "gardener",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gˈɑːdənɐ",
       "translations": [
         "садовник"
       ],
@@ -74,7 +74,7 @@
       "form": "garland",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gˈɑːlənd",
       "translations": [
         "гирлянда"
       ],
@@ -89,7 +89,7 @@
       "form": "garlic",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gˈɑːlɪk",
       "translations": [
         "чеснок"
       ],
@@ -104,7 +104,7 @@
       "form": "gather",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "gˈæðɐ",
       "translations": [
         "собираться"
       ],
@@ -134,7 +134,7 @@
       "form": "generation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dʒˌɛnərˈeɪʃən",
       "translations": [
         "поколение"
       ],
@@ -149,7 +149,7 @@
       "form": "generous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "dʒˈɛnərəs",
       "translations": [
         "щедрый"
       ],
@@ -164,7 +164,7 @@
       "form": "gently",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "dʒˈɛntli",
       "translations": [
         "аккуратно"
       ],
@@ -179,7 +179,7 @@
       "form": "germ",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dʒˈɜːm",
       "translations": [
         "микроб"
       ],
@@ -194,7 +194,7 @@
       "form": "ghost",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gˈəʊst",
       "translations": [
         "привидение"
       ],
@@ -224,7 +224,7 @@
       "form": "ginger",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dʒˈɪndʒɐ",
       "translations": [
         "имбирь"
       ],
@@ -239,7 +239,7 @@
       "form": "glacier",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "glˈeɪʃɐ",
       "translations": [
         "ледник"
       ],
@@ -254,7 +254,7 @@
       "form": "glasses",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "glˈɑːsɪz",
       "translations": [
         "очки"
       ],
@@ -284,7 +284,7 @@
       "form": "goal",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gˈəʊl",
       "translations": [
         "цель"
       ],
@@ -299,7 +299,7 @@
       "form": "goggles",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "gˈɒgəlz",
       "translations": [
         "очки для подводного плавания"
       ],
@@ -314,7 +314,7 @@
       "form": "gold",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gˈəʊld",
       "translations": [
         "золото"
       ],
@@ -344,7 +344,7 @@
       "form": "grab",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "grˈæb",
       "translations": [
         "хватать"
       ],
@@ -359,7 +359,7 @@
       "form": "grade",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "grˈeɪd",
       "translations": [
         "звание",
         "степень"
@@ -375,7 +375,7 @@
       "form": "gradually",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "grˈædʒuːəli",
       "translations": [
         "постепенно"
       ],
@@ -406,7 +406,7 @@
       "form": "graffiti",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "grɐfˈiːti",
       "translations": [
         "граффити"
       ],
@@ -436,7 +436,7 @@
       "form": "grand",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "grˈænd",
       "translations": [
         "величественный"
       ],
@@ -451,7 +451,7 @@
       "form": "grate",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "grˈeɪt",
       "translations": [
         "решётка"
       ],
@@ -466,7 +466,7 @@
       "form": "graze",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "grˈeɪz",
       "translations": [
         "царапина"
       ],
@@ -511,7 +511,7 @@
       "form": "greet",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "grˈiːt",
       "translations": [
         "приветствовать"
       ],
@@ -526,7 +526,7 @@
       "form": "greeting",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "grˈiːtɪŋ",
       "translations": [
         "приветствие",
         "поздравление"
@@ -542,7 +542,7 @@
       "form": "grip",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "grˈɪp",
       "translations": [
         "хватать"
       ],
@@ -557,7 +557,7 @@
       "form": "groom",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "grˈuːm",
       "translations": [
         "жених"
       ],
@@ -572,7 +572,7 @@
       "form": "grotto",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "grˈɒtəʊ",
       "translations": [
         "грот"
       ],
@@ -587,7 +587,7 @@
       "form": "growing",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "grˈəʊɪŋ",
       "translations": [
         "растущий"
       ],
@@ -602,7 +602,7 @@
       "form": "growth",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "grˈəʊθ",
       "translations": [
         "рост"
       ],
@@ -617,7 +617,7 @@
       "form": "grumpy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "grˈʌmpi",
       "translations": [
         "сварливый",
         "раздражительный"
@@ -648,7 +648,7 @@
       "form": "guide",
       "partOfSpeech": "other",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "gˈaɪd",
       "translations": [
         "гид",
         "вести"
@@ -679,7 +679,7 @@
       "form": "guilty",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "gˈɪlti",
       "translations": [
         "виновный"
       ],

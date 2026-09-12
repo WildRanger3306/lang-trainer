@@ -14,7 +14,7 @@
       "form": "parler",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "paʁle",
       "gender": null,
       "translations": [
         "говорить",
@@ -33,7 +33,7 @@
       "form": "père",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pɛʁ",
       "gender": "m",
       "translations": [
         "отец"
@@ -51,7 +51,7 @@
       "form": "pianiste",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pjanist",
       "gender": null,
       "translations": [
         "пианист",
@@ -70,7 +70,7 @@
       "form": "poupée",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pupe",
       "gender": "f",
       "translations": [
         "кукла"
@@ -88,7 +88,7 @@
       "form": "professeur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pʁɔfɛsœʁ",
       "gender": "m",
       "translations": [
         "учитель"
@@ -106,7 +106,7 @@
       "form": "programmeur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pʁɔgʁamœʁ",
       "gender": "m",
       "translations": [
         "программист"
@@ -124,7 +124,7 @@
       "form": "qui",
       "partOfSpeech": "pronoun",
       "partOfSpeechCode": "pro",
-      "transcription": null,
+      "transcription": "ki",
       "gender": null,
       "translations": [
         "кто"
@@ -142,7 +142,7 @@
       "form": "regarder",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁəgaʁde",
       "gender": null,
       "translations": [
         "смотреть"
@@ -160,7 +160,7 @@
       "form": "robe",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁɔb",
       "gender": "f",
       "translations": [
         "платье"
@@ -178,7 +178,7 @@
       "form": "sœur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sœʁ",
       "gender": "f",
       "translations": [
         "сестра"
@@ -196,7 +196,7 @@
       "form": "soleil",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɔlɛj",
       "gender": "m",
       "translations": [
         "солнце"
@@ -214,7 +214,7 @@
       "form": "souvent",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "suvɑ̃",
       "gender": null,
       "translations": [
         "часто"
@@ -232,7 +232,7 @@
       "form": "stylo",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stilo",
       "gender": "m",
       "translations": [
         "ручка"
@@ -250,7 +250,7 @@
       "form": "sympa",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sɛ̃pa",
       "gender": null,
       "translations": [
         "симпатичный"
@@ -268,7 +268,7 @@
       "form": "ta",
       "partOfSpeech": "pronoun",
       "partOfSpeechCode": "pro",
-      "transcription": null,
+      "transcription": "ta",
       "gender": null,
       "translations": [
         "твоя",
@@ -287,7 +287,7 @@
       "form": "tante",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tɑ̃t",
       "gender": "f",
       "translations": [
         "тётя"
@@ -305,7 +305,7 @@
       "form": "télé",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tele",
       "gender": "f",
       "translations": [
         "телевизор"
@@ -323,7 +323,7 @@
       "form": "tête",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tɛt",
       "gender": "f",
       "translations": [
         "голова"
@@ -341,7 +341,7 @@
       "form": "ton",
       "partOfSpeech": "pronoun",
       "partOfSpeechCode": "pro",
-      "transcription": null,
+      "transcription": "tɔ̃",
       "gender": null,
       "translations": [
         "твой",
@@ -360,7 +360,7 @@
       "form": "veste",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vɛst",
       "gender": "f",
       "translations": [
         "куртка"
@@ -378,7 +378,7 @@
       "form": "vous",
       "partOfSpeech": "pronoun",
       "partOfSpeechCode": "pro",
-      "transcription": null,
+      "transcription": "vu",
       "gender": null,
       "translations": [
         "вы"
@@ -396,7 +396,7 @@
       "form": "wagon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vagɔ̃",
       "gender": "m",
       "translations": [
         "вагон"
@@ -414,7 +414,7 @@
       "form": "yeux",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "jø",
       "gender": "m",
       "translations": [
         "глаза"
@@ -631,7 +631,7 @@
       "form": "aller",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ale",
       "gender": null,
       "translations": [
         "идти",
@@ -650,7 +650,7 @@
       "form": "allumer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "alyme",
       "gender": null,
       "translations": [
         "зажигать",
@@ -669,7 +669,7 @@
       "form": "aujourd'hui",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "oʒuʁdɥi",
       "gender": null,
       "translations": [
         "сегодня"
@@ -687,7 +687,7 @@
       "form": "beaucoup",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "boku",
       "gender": null,
       "translations": [
         "много"
@@ -705,7 +705,7 @@
       "form": "ça",
       "partOfSpeech": "pronoun",
       "partOfSpeechCode": "pro",
-      "transcription": null,
+      "transcription": "sa",
       "gender": null,
       "translations": [
         "это"
@@ -723,7 +723,7 @@
       "form": "carte",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kaʁt",
       "gender": "f",
       "translations": [
         "карта"
@@ -741,7 +741,7 @@
       "form": "chambre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃɑ̃bʁ",
       "gender": "f",
       "translations": [
         "комната"
@@ -759,7 +759,7 @@
       "form": "chanson",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃɑ̃sɔ̃",
       "gender": "f",
       "translations": [
         "песня"
@@ -777,7 +777,7 @@
       "form": "chanter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʃɑ̃te",
       "gender": null,
       "translations": [
         "петь"
@@ -795,7 +795,7 @@
       "form": "chercher",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʃɛʁʃe",
       "gender": null,
       "translations": [
         "искать"
@@ -813,7 +813,7 @@
       "form": "classe",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klas",
       "gender": "f",
       "translations": [
         "класс"
@@ -831,7 +831,7 @@
       "form": "commencer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kɔmɑ̃se",
       "gender": null,
       "translations": [
         "начинать"
@@ -849,7 +849,7 @@
       "form": "copain",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɔpɛ̃",
       "gender": "m",
       "translations": [
         "приятель"
@@ -867,7 +867,7 @@
       "form": "copine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɔpin",
       "gender": "f",
       "translations": [
         "подружка"
@@ -885,7 +885,7 @@
       "form": "danser",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɑ̃se",
       "gender": null,
       "translations": [
         "танцевать"
@@ -903,7 +903,7 @@
       "form": "demander",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dəmɑ̃de",
       "gender": null,
       "translations": [
         "спрашивать"
@@ -921,7 +921,7 @@
       "form": "dessiner",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "desine",
       "gender": null,
       "translations": [
         "рисовать"
@@ -939,7 +939,7 @@
       "form": "donner",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɔne",
       "gender": null,
       "translations": [
         "давать"
@@ -957,7 +957,7 @@
       "form": "école",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ekɔl",
       "gender": "f",
       "translations": [
         "школа"
@@ -975,7 +975,7 @@
       "form": "entrer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɑ̃tʁe",
       "gender": null,
       "translations": [
         "входить"
@@ -993,7 +993,7 @@
       "form": "fillette",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fijɛt",
       "gender": "f",
       "translations": [
         "девочка"
@@ -1011,7 +1011,7 @@
       "form": "finir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "finiʁ",
       "gender": null,
       "translations": [
         "кончать"
@@ -1029,7 +1029,7 @@
       "form": "garçon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gaʁsɔ̃",
       "gender": "m",
       "translations": [
         "мальчик"
@@ -1047,7 +1047,7 @@
       "form": "géographie",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒeɔgʁafi",
       "gender": "f",
       "translations": [
         "география"
@@ -1065,7 +1065,7 @@
       "form": "gomme",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gɔm",
       "gender": "f",
       "translations": [
         "ластик"
@@ -1083,7 +1083,7 @@
       "form": "histoire",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "istwaʁ",
       "gender": "f",
       "translations": [
         "история"
@@ -1101,7 +1101,7 @@
       "form": "lampe",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lɑ̃p",
       "gender": "f",
       "translations": [
         "лампа"
@@ -1119,7 +1119,7 @@
       "form": "leçon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ləsɔ̃",
       "gender": "f",
       "translations": [
         "урок"
@@ -1173,7 +1173,7 @@
       "form": "lit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "li",
       "gender": "m",
       "translations": [
         "кровать"
@@ -1191,7 +1191,7 @@
       "form": "maître",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɛtʁ",
       "gender": "m",
       "translations": [
         "учитель (младших классов)"
@@ -1209,7 +1209,7 @@
       "form": "maîtresse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɛtʁɛs",
       "gender": "f",
       "translations": [
         "учительница"
@@ -1227,7 +1227,7 @@
       "form": "midi",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "midi",
       "gender": "m",
       "translations": [
         "полдень"
@@ -1245,7 +1245,7 @@
       "form": "montre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɔ̃tʁ",
       "gender": "f",
       "translations": [
         "часы"
@@ -1263,7 +1263,7 @@
       "form": "peu",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "pø",
       "gender": null,
       "translations": [
         "мало"
@@ -1281,7 +1281,7 @@
       "form": "photo",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fɔto",
       "gender": "f",
       "translations": [
         "фотография"

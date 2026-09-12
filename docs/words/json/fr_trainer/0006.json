@@ -1,0 +1,432 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0006.jpg",
+    "page": "Ma famille"
+  },
+  "notes": [
+    "Формы как на скане с притяжательными: mon/ma/mes.",
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "grands-parents",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "gʁɑ̃paʁɑ̃",
+      "gender": "m",
+      "translations": [
+        "бабушка и дедушка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "grand-père",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "gʁɑ̃pɛʁ",
+      "gender": "m",
+      "translations": [
+        "дедушка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "grand-mère",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "gʁɑ̃mɛʁ",
+      "gender": "f",
+      "translations": [
+        "бабушка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "père",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pɛʁ",
+      "gender": "m",
+      "translations": [
+        "отец"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mère",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mɛʁ",
+      "gender": "f",
+      "translations": [
+        "мать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "oncle",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ɔ̃kl",
+      "gender": "m",
+      "translations": [
+        "дядя"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "tante",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "tɑ̃t",
+      "gender": "f",
+      "translations": [
+        "тётя"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "frère",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "fʁɛʁ",
+      "gender": "m",
+      "translations": [
+        "брат"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sœur",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "sœʁ",
+      "gender": "f",
+      "translations": [
+        "сестра"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cousin",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kuzɛ̃",
+      "gender": "m",
+      "translations": [
+        "двоюродный брат"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cousine",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kuzin",
+      "gender": "f",
+      "translations": [
+        "двоюродная сестра"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mon grand-père",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "мой дедушка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "ma grand-mère",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "моя бабушка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mon père",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "мой отец"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "ma mère",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "моя мать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mon oncle",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "мой дядя"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "ma tante",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "моя тётя"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mon frère",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "мой брат"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "ma sœur",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "моя сестра"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mon cousin",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "мой двоюродный брат"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "ma cousine",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "моя двоюродная сестра"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mes grands-parents",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "мои бабушка и дедушка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_famille"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}

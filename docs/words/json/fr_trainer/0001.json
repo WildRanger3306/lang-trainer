@@ -1,0 +1,374 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0001.jpg",
+    "page": "Aliments et boissons"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "eau",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "o",
+      "gender": "f",
+      "translations": [
+        "вода"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "vin",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "vɛ̃",
+      "gender": "m",
+      "translations": [
+        "вино"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "café",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kafe",
+      "gender": "m",
+      "translations": [
+        "кофе"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "lait",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lɛ",
+      "gender": "m",
+      "translations": [
+        "молоко"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "thé",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "te",
+      "gender": "m",
+      "translations": [
+        "чай"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "pain",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pɛ̃",
+      "gender": "m",
+      "translations": [
+        "хлеб"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "pâtes",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pat",
+      "gender": "f",
+      "translations": [
+        "макароны"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "riz",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʁi",
+      "gender": "m",
+      "translations": [
+        "рис"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "saucisson",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "sosisɔ̃",
+      "gender": "m",
+      "translations": [
+        "колбаса"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "poulet",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pulɛ",
+      "gender": "m",
+      "translations": [
+        "курица"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "viande",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "vjɑ̃d",
+      "gender": "f",
+      "translations": [
+        "мясо"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "poisson",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pwasɔ̃",
+      "gender": "m",
+      "translations": [
+        "рыба"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "fromage",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "fʁɔmaʒ",
+      "gender": "m",
+      "translations": [
+        "сыр"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "légumes",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "legym",
+      "gender": "m",
+      "translations": [
+        "овощи"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "fruits",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "fʁɥi",
+      "gender": "m",
+      "translations": [
+        "фрукты"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "œufs",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ø",
+      "gender": "m",
+      "translations": [
+        "яйца"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "potage",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pɔtaʒ",
+      "gender": "m",
+      "translations": [
+        "суп"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "glace",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "glas",
+      "gender": "f",
+      "translations": [
+        "мороженое"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "beurre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "bœʁ",
+      "gender": "m",
+      "translations": [
+        "масло"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_aliments"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}

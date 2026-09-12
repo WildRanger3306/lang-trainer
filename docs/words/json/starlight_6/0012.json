@@ -28,7 +28,7 @@
       "form": "similar",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈɪmɪlɐ",
       "translations": [
         "похожий"
       ],
@@ -43,7 +43,7 @@
       "form": "single",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈɪŋgəl",
       "translations": [
         "(билет) в один конец"
       ],
@@ -58,7 +58,7 @@
       "form": "site",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈaɪt",
       "translations": [
         "место",
         "местонахождение"
@@ -74,7 +74,7 @@
       "form": "skate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "skˈeɪt",
       "translations": [
         "кататься на коньках"
       ],
@@ -89,7 +89,7 @@
       "form": "sketch",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "skˈɛtʃ",
       "translations": [
         "1. миниатюра",
         "эскиз",
@@ -108,7 +108,7 @@
       "form": "skin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "skˈɪn",
       "translations": [
         "кожа"
       ],
@@ -123,7 +123,7 @@
       "form": "skyscraper",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "skˈaɪskreɪpɐ",
       "translations": [
         "небоскрёб"
       ],
@@ -138,7 +138,7 @@
       "form": "sleigh",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "slˈeɪ",
       "translations": [
         "сани"
       ],
@@ -153,7 +153,7 @@
       "form": "slice",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "slˈaɪs",
       "translations": [
         "резать ломтиками"
       ],
@@ -168,7 +168,7 @@
       "form": "smile",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "smˈaɪl",
       "translations": [
         "улыбка"
       ],
@@ -183,7 +183,7 @@
       "form": "smokescreen",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "smˈəʊkskriːn",
       "translations": [
         "дымовая завеса"
       ],
@@ -198,7 +198,7 @@
       "form": "snack",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "snˈæk",
       "translations": [
         "закуска"
       ],
@@ -213,7 +213,7 @@
       "form": "snorkel",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "snˈɔːkəl",
       "translations": [
         "трубка (для подводного плавания)"
       ],
@@ -228,7 +228,7 @@
       "form": "snowfield",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "snˈəʊfiːld",
       "translations": [
         "снежное поле"
       ],
@@ -243,7 +243,7 @@
       "form": "snowy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "snˈəʊi",
       "translations": [
         "снежный"
       ],
@@ -289,7 +289,7 @@
       "form": "soul",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈəʊl",
       "translations": [
         "душа"
       ],
@@ -319,7 +319,7 @@
       "form": "sour",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈaʊə",
       "translations": [
         "кислый"
       ],
@@ -349,7 +349,7 @@
       "form": "source",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɔːs",
       "translations": [
         "источник"
       ],
@@ -364,7 +364,7 @@
       "form": "southern",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈʌðən",
       "translations": [
         "южный"
       ],
@@ -394,7 +394,7 @@
       "form": "species",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spˈiːsiːz",
       "translations": [
         "биологические виды"
       ],
@@ -409,7 +409,7 @@
       "form": "spectacular",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "spɛktˈækjʊlɐ",
       "translations": [
         "захватывающий"
       ],
@@ -439,7 +439,7 @@
       "form": "speed",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "spˈiːd",
       "translations": [
         "ускорять(ся)"
       ],
@@ -454,7 +454,7 @@
       "form": "spice",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spˈaɪs",
       "translations": [
         "специя"
       ],
@@ -469,7 +469,7 @@
       "form": "spicy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "spˈaɪsi",
       "translations": [
         "острый"
       ],
@@ -484,7 +484,7 @@
       "form": "spirit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spˈɪrɪt",
       "translations": [
         "дух"
       ],
@@ -499,7 +499,7 @@
       "form": "splendour",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "splˈɛndɐ",
       "translations": [
         "великолепие",
         "блеск",
@@ -516,7 +516,7 @@
       "form": "spoil",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "spˈɔɪl",
       "translations": [
         "портить"
       ],
@@ -546,7 +546,7 @@
       "form": "square",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "skwˈeə",
       "translations": [
         "площадь"
       ],
@@ -561,7 +561,7 @@
       "form": "stab",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "stˈæb",
       "translations": [
         "заколоть"
       ],
@@ -576,7 +576,7 @@
       "form": "stage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈeɪdʒ",
       "translations": [
         "этап",
         "стадия"
@@ -592,7 +592,7 @@
       "form": "stain",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈeɪn",
       "translations": [
         "пятно"
       ],
@@ -607,7 +607,7 @@
       "form": "stairwell",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈeəwɛl",
       "translations": [
         "лестница"
       ],
@@ -622,7 +622,7 @@
       "form": "stamp",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈæmp",
       "translations": [
         "марка"
       ],
@@ -652,7 +652,7 @@
       "form": "state",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈeɪt",
       "translations": [
         "состояние"
       ],
@@ -682,7 +682,7 @@
       "form": "statue",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈætʃuː",
       "translations": [
         "статуя"
       ],
@@ -697,7 +697,7 @@
       "form": "steal",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "stˈiːl",
       "translations": [
         "украсть"
       ],
@@ -712,7 +712,7 @@
       "form": "steel",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈiːl",
       "translations": [
         "сталь"
       ],
@@ -727,7 +727,7 @@
       "form": "steep",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "stˈiːp",
       "translations": [
         "крутой"
       ],
@@ -757,7 +757,7 @@
       "form": "steeple",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈiːpəl",
       "translations": [
         "шпиль"
       ],
@@ -772,7 +772,7 @@
       "form": "steer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "stˈiə",
       "translations": [
         "управлять"
       ],
@@ -802,7 +802,7 @@
       "form": "step",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈɛp",
       "translations": [
         "шаг"
       ],
@@ -817,7 +817,7 @@
       "form": "stew",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stjˈuː",
       "translations": [
         "рагу"
       ],
@@ -832,7 +832,7 @@
       "form": "stick",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈɪk",
       "translations": [
         "палка",
         "трость"
@@ -848,7 +848,7 @@
       "form": "stir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "stˈɜː",
       "translations": [
         "помешивать",
         "размешивать"
@@ -864,7 +864,7 @@
       "form": "stone",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈəʊn",
       "translations": [
         "камень"
       ],
@@ -879,7 +879,7 @@
       "form": "storey",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈɔːri",
       "translations": [
         "этаж"
       ],
@@ -894,7 +894,7 @@
       "form": "storm",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈɔːm",
       "translations": [
         "шторм"
       ],
@@ -909,7 +909,7 @@
       "form": "straight",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "strˈeɪt",
       "translations": [
         "прямо"
       ],
@@ -924,7 +924,7 @@
       "form": "strawberry",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "strˈɔːbəri",
       "translations": [
         "клубника"
       ],
@@ -939,7 +939,7 @@
       "form": "stream",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "strˈiːm",
       "translations": [
         "ручей"
       ],
@@ -984,7 +984,7 @@
       "form": "striped",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "strˈaɪpt",
       "translations": [
         "полосатый"
       ],
@@ -999,7 +999,7 @@
       "form": "stroll",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "strˈəʊl",
       "translations": [
         "прогуливаться"
       ],
@@ -1014,7 +1014,7 @@
       "form": "study",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "stˈʌdi",
       "translations": [
         "исследовать"
       ],
@@ -1029,7 +1029,7 @@
       "form": "stumble",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "stˈʌmbəl",
       "translations": [
         "спотыкаться"
       ],
@@ -1044,7 +1044,7 @@
       "form": "stunning",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "stˈʌnɪŋ",
       "translations": [
         "потрясающий"
       ],
@@ -1059,7 +1059,7 @@
       "form": "sturgeon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "stˈɜːdʒən",
       "translations": [
         "осётр"
       ],
@@ -1074,7 +1074,7 @@
       "form": "subtropical",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sʌbtrˈɒpɪkəl",
       "translations": [
         "субтропический"
       ],
@@ -1089,7 +1089,7 @@
       "form": "suffer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sˈʌfɐ",
       "translations": [
         "страдать"
       ],
@@ -1104,7 +1104,7 @@
       "form": "sunburnt",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈʌnbɜːnt",
       "translations": [
         "обгоревший на солнце"
       ],
@@ -1119,7 +1119,7 @@
       "form": "sunscreen",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈʌnskriːn",
       "translations": [
         "солнцезащитный крем"
       ],
@@ -1134,7 +1134,7 @@
       "form": "supplies",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "səplˈaɪz",
       "translations": [
         "поставки"
       ],
@@ -1149,7 +1149,7 @@
       "form": "support",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "səpˈɔːt",
       "translations": [
         "поддерживать"
       ],
@@ -1164,7 +1164,7 @@
       "form": "surface",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɜːfɪs",
       "translations": [
         "поверхность"
       ],
@@ -1194,7 +1194,7 @@
       "form": "surrealism",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sərˈiəlɪzəm",
       "translations": [
         "сюрреализм"
       ],
@@ -1225,7 +1225,7 @@
       "form": "survival",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "səvˈaɪvəl",
       "translations": [
         "выживание"
       ],
@@ -1240,7 +1240,7 @@
       "form": "survive",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "səvˈaɪv",
       "translations": [
         "выживать"
       ],
@@ -1270,7 +1270,7 @@
       "form": "swallow",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "swˈɒləʊ",
       "translations": [
         "глотать"
       ],
@@ -1285,7 +1285,7 @@
       "form": "swamp",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "swˈɒmp",
       "translations": [
         "болото"
       ],
@@ -1300,7 +1300,7 @@
       "form": "sweet",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, adj",
-      "transcription": null,
+      "transcription": "swˈiːt",
       "translations": [
         "1. сладость",
         "2. сладкий"
@@ -1316,7 +1316,7 @@
       "form": "swim",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "swˈɪm",
       "translations": [
         "плавать"
       ],
@@ -1331,7 +1331,7 @@
       "form": "sword",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɔːd",
       "translations": [
         "меч"
       ],

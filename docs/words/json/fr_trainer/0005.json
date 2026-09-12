@@ -1,0 +1,337 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0005.jpg",
+    "page": "À l'école"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "trousse",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "tʁus",
+      "gender": "f",
+      "translations": [
+        "пенал"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "bureau",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "byʁo",
+      "gender": "m",
+      "translations": [
+        "парта, письменный стол"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sac à dos",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "рюкзак"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "globe",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "glɔb",
+      "gender": "m",
+      "translations": [
+        "глобус"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "colle",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kɔl",
+      "gender": "f",
+      "translations": [
+        "клей"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "ciseaux",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "sizo",
+      "gender": "m",
+      "translations": [
+        "ножницы"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cahier",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kaje",
+      "gender": "m",
+      "translations": [
+        "тетрадь"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "crayon",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kʁɛjɔ̃",
+      "gender": "m",
+      "translations": [
+        "карандаш"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "ordinateur",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ɔʁdinatœʁ",
+      "gender": "m",
+      "translations": [
+        "компьютер"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "stylo",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "stilo",
+      "gender": "m",
+      "translations": [
+        "ручка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "carte",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kaʁt",
+      "gender": "f",
+      "translations": [
+        "карта"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "règle",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʁɛgl",
+      "gender": "f",
+      "translations": [
+        "линейка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "tableau",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "tablo",
+      "gender": "m",
+      "translations": [
+        "доска"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "calculatrice",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kalkylatʁis",
+      "gender": "f",
+      "translations": [
+        "калькулятор",
+        "счётная машинка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "crayons de couleur",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "цветные карандаши"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "taille-crayon",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "tajkʁɛjɔ̃",
+      "gender": "m",
+      "translations": [
+        "точилка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "gomme",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "gɔm",
+      "gender": "f",
+      "translations": [
+        "ластик"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_ecole"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}

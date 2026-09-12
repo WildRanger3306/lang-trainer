@@ -5,7 +5,7 @@
   },
   "notes": [
     "Формы, коды части речи и переводы сняты со скана (OCR + правка).",
-    "Транскрипции не заполнены: IPA с этой страницы OCR читает непригодно.",
+    "Транскрипции: пилот IPA из docs/words/ipa/en_US.txt (ipa-dict en_US); фразы и часть UK-форм без попадания — null.",
     "У Phrases транскрипции в учебнике часто нет.",
     "3D hologram: код части речи на скане не разобран, поставлен n.",
     "Учебник проставлен пачкой: Starlight 6. Уровень на странице не подписан."
@@ -16,7 +16,7 @@
       "form": "Aboriginal",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˌæbərˈɪdʒɪnəl",
       "translations": [
         "исконный",
         "коренной"
@@ -32,7 +32,7 @@
       "form": "academy",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐkˈædəmi",
       "translations": [
         "академия"
       ],
@@ -47,7 +47,7 @@
       "form": "accessible",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐksˈɛsəbəl",
       "translations": [
         "доступный"
       ],
@@ -62,7 +62,7 @@
       "form": "accompany",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐkˈʌmpəni",
       "translations": [
         "сопровождать"
       ],
@@ -77,7 +77,7 @@
       "form": "accuracy",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈækjʊrəsi",
       "translations": [
         "точность"
       ],
@@ -92,7 +92,7 @@
       "form": "accurate",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈækjʊrət",
       "translations": [
         "точный"
       ],
@@ -107,7 +107,7 @@
       "form": "achieve",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐtʃˈiːv",
       "translations": [
         "добиваться",
         "достигать"
@@ -123,7 +123,7 @@
       "form": "achievement",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐtʃˈiːvmənt",
       "translations": [
         "достижение"
       ],
@@ -153,7 +153,7 @@
       "form": "add",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈæd",
       "translations": [
         "добавить"
       ],
@@ -168,7 +168,7 @@
       "form": "admiral",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈædmɜːrəl",
       "translations": [
         "адмирал"
       ],
@@ -183,7 +183,7 @@
       "form": "adventure",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐdvˈɛntʃɐ",
       "translations": [
         "приключение"
       ],
@@ -198,7 +198,7 @@
       "form": "adventurous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐdvˈɛntʃərəs",
       "translations": [
         "авантюрный"
       ],
@@ -228,7 +228,7 @@
       "form": "airline",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈeəlaɪn",
       "translations": [
         "авиакомпания"
       ],
@@ -243,7 +243,7 @@
       "form": "airmail",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈeəmeɪl",
       "translations": [
         "авиапочта"
       ],
@@ -258,7 +258,7 @@
       "form": "aisle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈaɪəl",
       "translations": [
         "проход"
       ],
@@ -273,7 +273,7 @@
       "form": "alike",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "ɐlˈaɪk",
       "translations": [
         "подобный",
         "похожий"
@@ -289,7 +289,7 @@
       "form": "alone",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐlˈəʊn",
       "translations": [
         "одинокий"
       ],
@@ -304,7 +304,7 @@
       "form": "alternative",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɔːltˈɜːnətˌɪv",
       "translations": [
         "альтернатива"
       ],
@@ -319,7 +319,7 @@
       "form": "although",
       "partOfSpeech": "other",
       "partOfSpeechCode": "conj",
-      "transcription": null,
+      "transcription": "ɒlðˈəʊ",
       "translations": [
         "хотя"
       ],
@@ -334,7 +334,7 @@
       "form": "ambulance",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈæmbjʊləns",
       "translations": [
         "скорая неотложная помощь"
       ],
@@ -364,7 +364,7 @@
       "form": "anatomy",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐnˈætəmi",
       "translations": [
         "анатомия"
       ],
@@ -379,7 +379,7 @@
       "form": "ancient",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈeɪnʃənt",
       "translations": [
         "древний"
       ],
@@ -424,7 +424,7 @@
       "form": "announce",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐnˈaʊns",
       "translations": [
         "объявлять"
       ],
@@ -439,7 +439,7 @@
       "form": "anticipate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "æntˈɪsɪpˌeɪt",
       "translations": [
         "ожидать",
         "предвосхищать"
@@ -455,7 +455,7 @@
       "form": "antique",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "æntˈiːk",
       "translations": [
         "антикварный"
       ],
@@ -470,7 +470,7 @@
       "form": "anxious",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈæŋʃəs",
       "translations": [
         "тревожный"
       ],
@@ -485,7 +485,7 @@
       "form": "appear",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐpˈiə",
       "translations": [
         "появляться"
       ],
@@ -500,7 +500,7 @@
       "form": "appliance",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐplˈaɪəns",
       "translations": [
         "прибор"
       ],
@@ -515,7 +515,7 @@
       "form": "approach",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐprˈəʊtʃ",
       "translations": [
         "приближаться"
       ],
@@ -545,7 +545,7 @@
       "form": "archaeologist",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌɑːkiːˈɒlədʒˌɪst",
       "translations": [
         "археолог"
       ],
@@ -575,7 +575,7 @@
       "form": "armoury",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɑːmɜːri",
       "translations": [
         "склад оружия",
         "арсенал"
@@ -591,7 +591,7 @@
       "form": "army",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɑːmi",
       "translations": [
         "армия"
       ],
@@ -606,7 +606,7 @@
       "form": "arrest",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐrˈɛst",
       "translations": [
         "арестовать"
       ],
@@ -651,7 +651,7 @@
       "form": "artist",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɑːtɪst",
       "translations": [
         "художник"
       ],
@@ -666,7 +666,7 @@
       "form": "association",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐsˈəʊsɪˈeɪʃən",
       "translations": [
         "ассоциация"
       ],
@@ -681,7 +681,7 @@
       "form": "assume",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐsˈuːm",
       "translations": [
         "считать",
         "полагать"
@@ -697,7 +697,7 @@
       "form": "astonishing",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɐstˈɒnɪʃɪŋ",
       "translations": [
         "удивительный"
       ],
@@ -712,7 +712,7 @@
       "form": "atmosphere",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈætməsfˌiə",
       "translations": [
         "атмосфера"
       ],
@@ -727,7 +727,7 @@
       "form": "attendance",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐtˈɛndəns",
       "translations": [
         "посещение"
       ],
@@ -742,7 +742,7 @@
       "form": "attract",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɐtrˈækt",
       "translations": [
         "привлекать"
       ],
@@ -757,7 +757,7 @@
       "form": "attraction",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐtrˈækʃən",
       "translations": [
         "достопримечательность"
       ],
@@ -772,7 +772,7 @@
       "form": "authentic",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɔːθˈɛntɪk",
       "translations": [
         "аутентичный"
       ],
@@ -787,7 +787,7 @@
       "form": "award",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐwˈɔːd",
       "translations": [
         "награда"
       ],
@@ -802,7 +802,7 @@
       "form": "awareness",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɐwˈeənəs",
       "translations": [
         "осведомлённость",
         "информированность"
@@ -818,7 +818,7 @@
       "form": "awful",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɔːfəl",
       "translations": [
         "ужасный"
       ],
@@ -968,7 +968,7 @@
       "form": "background",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈækgraʊnd",
       "translations": [
         "фон",
         "задний план"
@@ -999,7 +999,7 @@
       "form": "bag",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈæg",
       "translations": [
         "сумка"
       ],
@@ -1044,7 +1044,7 @@
       "form": "bakery",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈeɪkəri",
       "translations": [
         "отдел с хлебобулочными изделиями"
       ],
@@ -1089,7 +1089,7 @@
       "form": "banana",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bɐnˈɑːnɐ",
       "translations": [
         "банан"
       ],
@@ -1104,7 +1104,7 @@
       "form": "banjo",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈændʒəʊ",
       "translations": [
         "банджо"
       ],
@@ -1119,7 +1119,7 @@
       "form": "bank",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈæŋk",
       "translations": [
         "банк"
       ],
@@ -1134,7 +1134,7 @@
       "form": "bar",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɑː",
       "translations": [
         "плитка (шоколада)"
       ],
@@ -1149,7 +1149,7 @@
       "form": "bark",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɑːk",
       "translations": [
         "кора (дерева)"
       ],
@@ -1164,7 +1164,7 @@
       "form": "barren",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "bˈærən",
       "translations": [
         "бесплодный"
       ],
@@ -1194,7 +1194,7 @@
       "form": "batter",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈætɐ",
       "translations": [
         "тесто"
       ],
@@ -1209,7 +1209,7 @@
       "form": "battle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈætəl",
       "translations": [
         "битва"
       ],
@@ -1239,7 +1239,7 @@
       "form": "bean",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈiːn",
       "translations": [
         "боб"
       ],
@@ -1254,7 +1254,7 @@
       "form": "beat",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈiːt",
       "translations": [
         "бить"
       ],
@@ -1269,7 +1269,7 @@
       "form": "beautiful",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "bjˈuːtɪfəl",
       "translations": [
         "красивый"
       ],
@@ -1284,7 +1284,7 @@
       "form": "become",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bɪkˈʌm",
       "translations": [
         "становиться",
         "делаться"
@@ -1300,7 +1300,7 @@
       "form": "beef",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈiːf",
       "translations": [
         "говядина"
       ],
@@ -1315,7 +1315,7 @@
       "form": "behaviour",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bɪhˈeɪvjɐ",
       "translations": [
         "поведение"
       ],
@@ -1330,7 +1330,7 @@
       "form": "benefit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɛnɪfˌɪt",
       "translations": [
         "польза"
       ],
@@ -1360,7 +1360,7 @@
       "form": "bike",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈaɪk",
       "translations": [
         "велосипед"
       ],
@@ -1375,7 +1375,7 @@
       "form": "biography",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "baɪˈɒgrəfi",
       "translations": [
         "биография"
       ],

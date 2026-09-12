@@ -1,0 +1,450 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0002.jpg",
+    "page": "La description physique"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "petit, petite",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "pəti",
+      "gender": null,
+      "translations": [
+        "маленький, -ая; низкий, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "grand, grande",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "gʁɑ̃",
+      "gender": null,
+      "translations": [
+        "большой, -ая; высокий, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "gros, grosse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "gʁo",
+      "gender": null,
+      "translations": [
+        "толстый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mince",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "mɛ̃s",
+      "gender": null,
+      "translations": [
+        "худой, -ая; стройный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "long, longue",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "lɔ̃",
+      "gender": null,
+      "translations": [
+        "длинный, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cheveux longs",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "длинные волосы"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cheveux courts",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "короткие волосы"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "bouclé, bouclée",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "bukle",
+      "gender": null,
+      "translations": [
+        "вьющийся, -аяся"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "frisé, frisée",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "fʁize",
+      "gender": null,
+      "translations": [
+        "курчавый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "raide",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʁɛd",
+      "gender": null,
+      "translations": [
+        "прямые (о волосах)"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "lisse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "lis",
+      "gender": null,
+      "translations": [
+        "гладкий, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "brun, brune",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "bʁœ̃",
+      "gender": null,
+      "translations": [
+        "брюнет, брюнетка; каштановый"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "châtain, châtaine",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʃatɛ̃",
+      "gender": null,
+      "translations": [
+        "каштановый, -ая (волосы)"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "blond, blonde",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "blɔ̃",
+      "gender": null,
+      "translations": [
+        "блондин, блондинка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "roux, rousse",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʁu",
+      "gender": null,
+      "translations": [
+        "рыжий, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avoir de la barbe",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "иметь бороду"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avoir de la moustache",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "иметь усы"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chauve",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ʃov",
+      "gender": null,
+      "translations": [
+        "лысый, -ая"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "être chauve",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "быть лысым"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "yeux bleus",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "голубые глаза"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "yeux verts",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "зелёные глаза"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "yeux marron",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "карие глаза"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "yeux noirs",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "чёрные глаза"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_physique"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}

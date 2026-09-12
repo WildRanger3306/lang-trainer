@@ -14,7 +14,7 @@
       "form": "check",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tʃˈɛk",
       "translations": [
         "проверять"
       ],
@@ -29,7 +29,7 @@
       "form": "cheering",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tʃˈiərɪŋ",
       "translations": [
         "приветственный"
       ],
@@ -44,7 +44,7 @@
       "form": "cheese",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈiːz",
       "translations": [
         "сыр"
       ],
@@ -59,7 +59,7 @@
       "form": "chef",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃˈɛf",
       "translations": [
         "шеф-повар"
       ],
@@ -89,7 +89,7 @@
       "form": "cheque",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈɛk",
       "translations": [
         "чек"
       ],
@@ -104,7 +104,7 @@
       "form": "cherry",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈɛri",
       "translations": [
         "вишня"
       ],
@@ -119,7 +119,7 @@
       "form": "chicken",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈɪkɪn",
       "translations": [
         "курица"
       ],
@@ -164,7 +164,7 @@
       "form": "chipped",
       "partOfSpeech": "other",
       "partOfSpeechCode": "pp",
-      "transcription": null,
+      "transcription": "tʃˈɪpt",
       "translations": [
         "мелконарезанный"
       ],
@@ -179,7 +179,7 @@
       "form": "chips",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "tʃˈɪps",
       "translations": [
         "чипсы"
       ],
@@ -194,7 +194,7 @@
       "form": "cholesterol",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəlˈɛstərˌɒl",
       "translations": [
         "холестерин"
       ],
@@ -209,7 +209,7 @@
       "form": "chop",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tʃˈɒp",
       "translations": [
         "мелко нарезать"
       ],
@@ -224,7 +224,7 @@
       "form": "chore",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈɔː",
       "translations": [
         "обязанности по дому"
       ],
@@ -254,7 +254,7 @@
       "form": "cinnamon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɪnəmən",
       "translations": [
         "корица"
       ],
@@ -269,7 +269,7 @@
       "form": "citizen",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɪtɪzən",
       "translations": [
         "гражданин"
       ],
@@ -284,7 +284,7 @@
       "form": "citizenship",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɪtɪzənʃˌɪp",
       "translations": [
         "гражданство"
       ],
@@ -299,7 +299,7 @@
       "form": "citrus",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɪtrəs",
       "translations": [
         "цитрус"
       ],
@@ -314,7 +314,7 @@
       "form": "city",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɪti",
       "translations": [
         "город"
       ],
@@ -344,7 +344,7 @@
       "form": "clay",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˈeɪ",
       "translations": [
         "глина"
       ],
@@ -359,7 +359,7 @@
       "form": "clean",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "klˈiːn",
       "translations": [
         "чистый"
       ],
@@ -374,7 +374,7 @@
       "form": "clear",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "klˈiə",
       "translations": [
         "очищать"
       ],
@@ -389,7 +389,7 @@
       "form": "cliff",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˈɪf",
       "translations": [
         "скала"
       ],
@@ -404,7 +404,7 @@
       "form": "climb",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "klˈaɪm",
       "translations": [
         "карабкаться",
         "подниматься"
@@ -420,7 +420,7 @@
       "form": "cloth",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˈɒθ",
       "translations": [
         "ткань"
       ],
@@ -435,7 +435,7 @@
       "form": "cloudy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "klˈaʊdi",
       "translations": [
         "облачный"
       ],
@@ -465,7 +465,7 @@
       "form": "clue",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˈuː",
       "translations": [
         "ключ",
         "подсказка"
@@ -481,7 +481,7 @@
       "form": "coach",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈəʊtʃ",
       "translations": [
         "автобус"
       ],
@@ -496,7 +496,7 @@
       "form": "coast",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈəʊst",
       "translations": [
         "побережье"
       ],
@@ -511,7 +511,7 @@
       "form": "coastline",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈəʊslaɪn",
       "translations": [
         "береговая линия"
       ],
@@ -526,7 +526,7 @@
       "form": "coat",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈəʊt",
       "translations": [
         "пальто"
       ],
@@ -541,7 +541,7 @@
       "form": "cod",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒd",
       "translations": [
         "треска"
       ],
@@ -556,7 +556,7 @@
       "form": "coffee",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒfi",
       "translations": [
         "кофе"
       ],
@@ -586,7 +586,7 @@
       "form": "collection",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəlˈɛkʃən",
       "translations": [
         "коллекция"
       ],
@@ -601,7 +601,7 @@
       "form": "colony",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒləni",
       "translations": [
         "колония"
       ],
@@ -633,7 +633,7 @@
       "form": "comedy",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒmədi",
       "translations": [
         "комедия"
       ],
@@ -648,7 +648,7 @@
       "form": "command",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kəmˈɑːnd",
       "translations": [
         "командовать"
       ],
@@ -663,7 +663,7 @@
       "form": "commander",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəmˈɑːndɐ",
       "translations": [
         "командир"
       ],
@@ -678,7 +678,7 @@
       "form": "commemorate",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəmˈɛmərˌeɪt",
       "translations": [
         "почтить чью-либо память"
       ],
@@ -693,7 +693,7 @@
       "form": "community",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəmjˈuːnɪtˌi",
       "translations": [
         "сообщество"
       ],
@@ -723,7 +723,7 @@
       "form": "compass",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈʌmpəs",
       "translations": [
         "компас"
       ],
@@ -738,7 +738,7 @@
       "form": "competitively",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "kəmpˈɛtɪtˌɪvli",
       "translations": [
         "конкурентоспособно"
       ],
@@ -753,7 +753,7 @@
       "form": "complete",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kəmplˈiːt",
       "translations": [
         "завершать"
       ],
@@ -768,7 +768,7 @@
       "form": "compose",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kəmpˈəʊz",
       "translations": [
         "сочинять"
       ],
@@ -783,7 +783,7 @@
       "form": "concentrate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈɒnsəntrˌeɪt",
       "translations": [
         "концентрировать(ся)",
         "сосредотачивать(ся)"
@@ -799,7 +799,7 @@
       "form": "concrete",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈɒŋkriːt",
       "translations": [
         "бетонный"
       ],
@@ -814,7 +814,7 @@
       "form": "conditions",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "kəndˈɪʃənz",
       "translations": [
         "условия"
       ],
@@ -859,7 +859,7 @@
       "form": "confused",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kənfjˈuːzd",
       "translations": [
         "запутанный"
       ],
@@ -874,7 +874,7 @@
       "form": "conquer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈɒnkɐ",
       "translations": [
         "покорять"
       ],
@@ -904,7 +904,7 @@
       "form": "consider",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kənsˈɪdɐ",
       "translations": [
         "рассматривать",
         "обсуждать"
@@ -935,7 +935,7 @@
       "form": "constructed",
       "partOfSpeech": "other",
       "partOfSpeechCode": "pp",
-      "transcription": null,
+      "transcription": "kənstrˈʌktɪd",
       "translations": [
         "построенный"
       ],
@@ -950,7 +950,7 @@
       "form": "contain",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kəntˈeɪn",
       "translations": [
         "содержать"
       ],
@@ -965,7 +965,7 @@
       "form": "contestant",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəntˈɛstənt",
       "translations": [
         "участник соревнования"
       ],
@@ -980,7 +980,7 @@
       "form": "continent",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒntɪnənt",
       "translations": [
         "континент"
       ],
@@ -995,7 +995,7 @@
       "form": "control",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kəntrˈəʊl",
       "translations": [
         "контролировать"
       ],
@@ -1010,7 +1010,7 @@
       "form": "copper",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒpɐ",
       "translations": [
         "медь"
       ],
@@ -1040,7 +1040,7 @@
       "form": "corn",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɔːn",
       "translations": [
         "кукуруза"
       ],
@@ -1055,7 +1055,7 @@
       "form": "cosmopolitan",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˌɒzməpˈɒlɪtən",
       "translations": [
         "многонациональный"
       ],
@@ -1070,7 +1070,7 @@
       "form": "cost",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈɒst",
       "translations": [
         "стоить"
       ],
@@ -1085,7 +1085,7 @@
       "form": "cosy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈəʊzi",
       "translations": [
         "уютный"
       ],
@@ -1100,7 +1100,7 @@
       "form": "cottage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒtɪdʒ",
       "translations": [
         "коттедж"
       ],
@@ -1115,7 +1115,7 @@
       "form": "courage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈʌrɪdʒ",
       "translations": [
         "мужество"
       ],
@@ -1130,7 +1130,7 @@
       "form": "cover",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈʌvɐ",
       "translations": [
         "накрывать"
       ],
@@ -1145,7 +1145,7 @@
       "form": "covering",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈʌvərɪŋ",
       "translations": [
         "покрытие"
       ],
@@ -1176,7 +1176,7 @@
       "form": "creamy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "krˈiːmi",
       "translations": [
         "сливочный"
       ],
@@ -1191,7 +1191,7 @@
       "form": "creation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kriːˈeɪʃən",
       "translations": [
         "произведение",
         "творение"
@@ -1207,7 +1207,7 @@
       "form": "creature",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈiːtʃɐ",
       "translations": [
         "существо"
       ],
@@ -1222,7 +1222,7 @@
       "form": "creep",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "krˈiːp",
       "translations": [
         "ползать"
       ],
@@ -1237,7 +1237,7 @@
       "form": "crew",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈuː",
       "translations": [
         "персонал"
       ],
@@ -1252,7 +1252,7 @@
       "form": "crime",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈaɪm",
       "translations": [
         "преступление"
       ],
@@ -1267,7 +1267,7 @@
       "form": "critical",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "krˈɪtɪkəl",
       "translations": [
         "критический"
       ],
@@ -1282,7 +1282,7 @@
       "form": "crop",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈɒp",
       "translations": [
         "зерновая культура"
       ],
@@ -1297,7 +1297,7 @@
       "form": "cross",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "krˈɒs",
       "translations": [
         "переходить (дорогу)"
       ],
@@ -1312,7 +1312,7 @@
       "form": "crowd",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈaʊd",
       "translations": [
         "толпа"
       ],
@@ -1327,7 +1327,7 @@
       "form": "crowded",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "krˈaʊdɪd",
       "translations": [
         "переполненный"
       ],
@@ -1342,7 +1342,7 @@
       "form": "cruise",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈuːz",
       "translations": [
         "круиз"
       ],
@@ -1357,7 +1357,7 @@
       "form": "cucumber",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kjˈuːkʌmbɐ",
       "translations": [
         "огурец"
       ],
@@ -1372,7 +1372,7 @@
       "form": "cultural",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈʌltʃərəl",
       "translations": [
         "культурный"
       ],
@@ -1387,7 +1387,7 @@
       "form": "culture",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈʌltʃɐ",
       "translations": [
         "культура"
       ],
@@ -1402,7 +1402,7 @@
       "form": "cupboard",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈʌbəd",
       "translations": [
         "кухонный шкафчик"
       ],
@@ -1417,7 +1417,7 @@
       "form": "curator",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kjʊrˈeɪtɐ",
       "translations": [
         "куратор"
       ],
@@ -1432,7 +1432,7 @@
       "form": "curious",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kjˈʊrɪəs",
       "translations": [
         "любопытный"
       ],
@@ -1447,7 +1447,7 @@
       "form": "curse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɜːs",
       "translations": [
         "проклятие"
       ],
@@ -1462,7 +1462,7 @@
       "form": "customer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈʌstəmɐ",
       "translations": [
         "клиент",
         "покупатель"
@@ -1493,7 +1493,7 @@
       "form": "cyclist",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈaɪklɪst",
       "translations": [
         "велосипедист"
       ],

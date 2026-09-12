@@ -1,0 +1,546 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0004.jpg",
+    "page": "La routine (A2)"
+  },
+  "notes": [
+    "Уровень на скане: A2.",
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "se réveiller",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "просыпаться"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "se lever",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "вставать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "prendre le petit déjeuner",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "завтракать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "prendre une douche",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "принимать душ"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "se coiffer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "причёсываться"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "s'habiller",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "одеваться"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "aller travailler",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "идти на работу"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "travailler",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "tʁavaje",
+      "gender": null,
+      "translations": [
+        "работать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "déjeuner",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "deʒœne",
+      "gender": null,
+      "translations": [
+        "обедать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "se reposer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "отдыхать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "faire le ménage",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "делать уборку"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "faire du sport",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "заниматься спортом"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "faire de l'exercice",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "делать упражнения"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "écouter de la musique",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "слушать музыку"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "lire",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "liʁ",
+      "gender": null,
+      "translations": [
+        "читать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "surfer sur Internet",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "сидеть в интернете"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "faire les courses",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "ходить за покупками"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "cuisiner",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kɥizine",
+      "gender": null,
+      "translations": [
+        "готовить"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "dîner",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "dine",
+      "gender": null,
+      "translations": [
+        "ужинать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "regarder la télé",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "смотреть телевизор"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "se promener",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "гулять"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "se déshabiller",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "раздеваться"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "se brosser les dents",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "чистить зубы"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "se laver le visage",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "умывать лицо"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "se coucher",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "ложиться спать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "aller au lit",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "идти в постель"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "dormir",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "dɔʁmiʁ",
+      "gender": null,
+      "translations": [
+        "спать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "s'endormir",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "засыпать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_routine"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}

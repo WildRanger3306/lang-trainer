@@ -14,7 +14,7 @@
       "form": "performance",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pəfˈɔːməns",
       "translations": [
         "производительность"
       ],
@@ -44,7 +44,7 @@
       "form": "permission",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pəmˈɪʃən",
       "translations": [
         "разрешение"
       ],
@@ -74,7 +74,7 @@
       "form": "personalise",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pˈɜːsənəlˌaɪz",
       "translations": [
         "персонализировать"
       ],
@@ -104,7 +104,7 @@
       "form": "persuade",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pəswˈeɪd",
       "translations": [
         "убеждать"
       ],
@@ -119,7 +119,7 @@
       "form": "phenomenal",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fɪnˈɒmɪnəl",
       "translations": [
         "феноменальный"
       ],
@@ -134,7 +134,7 @@
       "form": "phishing",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɪʃɪŋ",
       "translations": [
         "«фишинг» (вид банковского мошенничества в Интернете, используемый для кражи секретных банковских данных пользователя)"
       ],
@@ -149,7 +149,7 @@
       "form": "photo",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈəʊtəʊ",
       "translations": [
         "фотография"
       ],
@@ -164,7 +164,7 @@
       "form": "photography",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fətˈɒgrəfˌi",
       "translations": [
         "фотография"
       ],
@@ -179,7 +179,7 @@
       "form": "photosynthesis",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˌəʊtəʊsˈɪnθəsˌɪs",
       "translations": [
         "фотосинтез"
       ],
@@ -254,7 +254,7 @@
       "form": "pilot",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈaɪlət",
       "translations": [
         "пилот"
       ],
@@ -269,7 +269,7 @@
       "form": "pineapple",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈaɪnæpəl",
       "translations": [
         "ананас"
       ],
@@ -299,7 +299,7 @@
       "form": "play",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "plˈeɪ",
       "translations": [
         "пьеса"
       ],
@@ -314,7 +314,7 @@
       "form": "pleasant",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "plˈɛzənt",
       "translations": [
         "приятный"
       ],
@@ -329,7 +329,7 @@
       "form": "please",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "plˈiːz",
       "translations": [
         "доставлять удовольствие"
       ],
@@ -359,7 +359,7 @@
       "form": "plump",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "plˈʌmp",
       "translations": [
         "пухлый"
       ],
@@ -374,7 +374,7 @@
       "form": "pointless",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pˈɔɪntləs",
       "translations": [
         "бессмысленный"
       ],
@@ -389,7 +389,7 @@
       "form": "poison",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɔɪzən",
       "translations": [
         "яд"
       ],
@@ -404,7 +404,7 @@
       "form": "poisonous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pˈɔɪzənəs",
       "translations": [
         "ядовитый"
       ],
@@ -464,7 +464,7 @@
       "form": "polite",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pəlˈaɪt",
       "translations": [
         "вежливый"
       ],
@@ -479,7 +479,7 @@
       "form": "pollen",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɒlən",
       "translations": [
         "пыльца"
       ],
@@ -494,7 +494,7 @@
       "form": "polluted",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pəlˈuːtɪd",
       "translations": [
         "загрязнённый"
       ],
@@ -554,7 +554,7 @@
       "form": "popular",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pˈɒpjʊlɐ",
       "translations": [
         "популярный"
       ],
@@ -569,7 +569,7 @@
       "form": "popularity",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˌɒpjʊlˈærɪti",
       "translations": [
         "популярность"
       ],
@@ -584,7 +584,7 @@
       "form": "population",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˌɒpjʊlˈeɪʃən",
       "translations": [
         "население"
       ],
@@ -599,7 +599,7 @@
       "form": "pore",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɔː",
       "translations": [
         "пора (на коже)"
       ],
@@ -614,7 +614,7 @@
       "form": "positive",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pˈɒzɪtˌɪv",
       "translations": [
         "положительный",
         "позитивный"
@@ -630,7 +630,7 @@
       "form": "possibility",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˌɒsəbˈɪlɪti",
       "translations": [
         "возможность"
       ],
@@ -645,7 +645,7 @@
       "form": "possible",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pˈɒsəbəl",
       "translations": [
         "возможный"
       ],
@@ -660,7 +660,7 @@
       "form": "post",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pˈəʊst",
       "translations": [
         "опубликовать"
       ],
@@ -675,7 +675,7 @@
       "form": "postpone",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pəʊstpˈəʊn",
       "translations": [
         "откладывать"
       ],
@@ -690,7 +690,7 @@
       "form": "pottery",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɒtəri",
       "translations": [
         "керамика"
       ],
@@ -720,7 +720,7 @@
       "form": "practical",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "prˈæktɪkəl",
       "translations": [
         "практический"
       ],
@@ -750,7 +750,7 @@
       "form": "pressurise",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "prˈɛʃərˌaɪz",
       "translations": [
         "давить",
         "заставлять"
@@ -766,7 +766,7 @@
       "form": "prevent",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "prɪvˈɛnt",
       "translations": [
         "предотвращать",
         "предупреждать"
@@ -782,7 +782,7 @@
       "form": "previous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "prˈiːvɪəs",
       "translations": [
         "предыдущий"
       ],
@@ -797,7 +797,7 @@
       "form": "pride",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "prˈaɪd",
       "translations": [
         "гордость"
       ],
@@ -872,7 +872,7 @@
       "form": "profession",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "prəfˈɛʃən",
       "translations": [
         "профессия"
       ],
@@ -887,7 +887,7 @@
       "form": "profile",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "prˈəʊfaɪl",
       "translations": [
         "профиль",
         "страничка пользователя"
@@ -903,7 +903,7 @@
       "form": "profit",
       "partOfSpeech": "other",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "prˈɒfɪt",
       "translations": [
         "гонорар",
         "извлекать выгоду"
@@ -919,7 +919,7 @@
       "form": "prohibition",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "prəhɪbˈɪʃən",
       "translations": [
         "запрет"
       ],
@@ -949,7 +949,7 @@
       "form": "promote",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "prəmˈəʊt",
       "translations": [
         "продвигать"
       ],
@@ -964,7 +964,7 @@
       "form": "prop",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "prˈɒp",
       "translations": [
         "реквизит"
       ],
@@ -979,7 +979,7 @@
       "form": "property",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "prˈɒpəti",
       "translations": [
         "собственность"
       ],
@@ -994,7 +994,7 @@
       "form": "prosperity",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "prəspˈɛrɪti",
       "translations": [
         "процветание",
         "благополучие"
@@ -1025,7 +1025,7 @@
       "form": "protect",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "prətˈɛkt",
       "translations": [
         "защищать"
       ],
@@ -1040,7 +1040,7 @@
       "form": "protective",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "prətˈɛktɪv",
       "translations": [
         "защитный"
       ],
@@ -1055,7 +1055,7 @@
       "form": "prove",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "prˈuːv",
       "translations": [
         "доказывать"
       ],
@@ -1070,7 +1070,7 @@
       "form": "proverb",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "prˈɒvɜːb",
       "translations": [
         "пословица"
       ],
@@ -1085,7 +1085,7 @@
       "form": "provider",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "prəvˈaɪdɐ",
       "translations": [
         "интернет-провайдер"
       ],
@@ -1100,7 +1100,7 @@
       "form": "province",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "prˈɒvɪns",
       "translations": [
         "провинция"
       ],
@@ -1115,7 +1115,7 @@
       "form": "psychologist",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "saɪkˈɒlədʒˌɪst",
       "translations": [
         "психолог"
       ],
@@ -1190,7 +1190,7 @@
       "form": "puff",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pˈʌf",
       "translations": [
         "дуть порывами"
       ],
@@ -1205,7 +1205,7 @@
       "form": "pump",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pˈʌmp",
       "translations": [
         "качать"
       ],

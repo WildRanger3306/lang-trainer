@@ -14,7 +14,7 @@
       "form": "warrior",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɒrɪɐ",
       "translations": [
         "воин"
       ],
@@ -44,7 +44,7 @@
       "form": "wave",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈeɪv",
       "translations": [
         "волна"
       ],
@@ -59,7 +59,7 @@
       "form": "wavy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "wˈeɪvi",
       "translations": [
         "волнистый"
       ],
@@ -74,7 +74,7 @@
       "form": "weather",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɛðɐ",
       "translations": [
         "погода"
       ],
@@ -104,7 +104,7 @@
       "form": "weird",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "wˈiəd",
       "translations": [
         "странный"
       ],
@@ -164,7 +164,7 @@
       "form": "wetsuit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɛtsuːt",
       "translations": [
         "гидрокостюм"
       ],
@@ -179,7 +179,7 @@
       "form": "whip",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɪp",
       "translations": [
         "кнут"
       ],
@@ -224,7 +224,7 @@
       "form": "whole",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "hˈəʊl",
       "translations": [
         "весь"
       ],
@@ -254,7 +254,7 @@
       "form": "wig",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɪg",
       "translations": [
         "парик"
       ],
@@ -269,7 +269,7 @@
       "form": "wild",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "wˈaɪld",
       "translations": [
         "дикий"
       ],
@@ -284,7 +284,7 @@
       "form": "wilderness",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɪldənəs",
       "translations": [
         "глушь"
       ],
@@ -299,7 +299,7 @@
       "form": "wildlife",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈaɪldlaɪf",
       "translations": [
         "дикая природа"
       ],
@@ -329,7 +329,7 @@
       "form": "win",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "wˈɪn",
       "translations": [
         "выигрывать"
       ],
@@ -359,7 +359,7 @@
       "form": "windsurfing",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɪndsɜːfɪŋ",
       "translations": [
         "виндсёрфинг"
       ],
@@ -374,7 +374,7 @@
       "form": "witness",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "wˈɪtnəs",
       "translations": [
         "быть свидетелем"
       ],
@@ -404,7 +404,7 @@
       "form": "workplace",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɜːkpleɪs",
       "translations": [
         "место работы"
       ],
@@ -449,7 +449,7 @@
       "form": "worldwide",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "wˈɜːldwaɪd",
       "translations": [
         "всемирный"
       ],
@@ -479,7 +479,7 @@
       "form": "worm",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈɜːm",
       "translations": [
         "червяк"
       ],
@@ -509,7 +509,7 @@
       "form": "worrying",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "wˈʌrɪɪŋ",
       "translations": [
         "волнующийся"
       ],
@@ -539,7 +539,7 @@
       "form": "wrinkle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈɪŋkəl",
       "translations": [
         "морщина"
       ],
@@ -769,7 +769,7 @@
       "form": "yawn",
       "partOfSpeech": "other",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "jˈɔːn",
       "translations": [
         "зевота",
         "зевать"
@@ -785,7 +785,7 @@
       "form": "young",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "jˈʌŋ",
       "translations": [
         "молодой"
       ],

@@ -135,7 +135,7 @@
       "form": "damage",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dˈæmɪdʒ",
       "translations": [
         "повредить"
       ],
@@ -150,7 +150,7 @@
       "form": "dangerous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "dˈeɪndʒərəs",
       "translations": [
         "опасный"
       ],
@@ -165,7 +165,7 @@
       "form": "dangers",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "dˈeɪndʒəz",
       "translations": [
         "опасности"
       ],
@@ -180,7 +180,7 @@
       "form": "dawn",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˈɔːn",
       "translations": [
         "рассвет"
       ],
@@ -210,7 +210,7 @@
       "form": "dazzled",
       "partOfSpeech": "other",
       "partOfSpeechCode": "pp",
-      "transcription": null,
+      "transcription": "dˈæzəld",
       "translations": [
         "ослеплённый"
       ],
@@ -225,7 +225,7 @@
       "form": "deep",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj, adv",
-      "transcription": null,
+      "transcription": "dˈiːp",
       "translations": [
         "глубокий",
         "глубоко"
@@ -271,7 +271,7 @@
       "form": "deforestation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dɪfˌɒrɪstˈeɪʃən",
       "translations": [
         "вырубка леса",
         "обезлесение"
@@ -287,7 +287,7 @@
       "form": "delicatessen",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˈɛlɪkˌætɛsən",
       "translations": [
         "деликатесы"
       ],
@@ -302,7 +302,7 @@
       "form": "delicious",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "dɪlˈɪʃəs",
       "translations": [
         "вкусный"
       ],
@@ -317,7 +317,7 @@
       "form": "demonstration",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˌɛmənstrˈeɪʃən",
       "translations": [
         "показ",
         "демонстрация"
@@ -348,7 +348,7 @@
       "form": "design",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɪzˈaɪn",
       "translations": [
         "придумывать",
         "разрабатывать",
@@ -380,7 +380,7 @@
       "form": "dessert",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dɪzˈɜːt",
       "translations": [
         "десерт"
       ],
@@ -395,7 +395,7 @@
       "form": "destination",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˌɛstɪnˈeɪʃən",
       "translations": [
         "место назначения"
       ],
@@ -410,7 +410,7 @@
       "form": "destroy",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɪstrˈɔɪ",
       "translations": [
         "уничтожить"
       ],
@@ -440,7 +440,7 @@
       "form": "detailed",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "dˈiːteɪld",
       "translations": [
         "подробный"
       ],
@@ -455,7 +455,7 @@
       "form": "determination",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dɪtˌɜːmɪnˈeɪʃən",
       "translations": [
         "решительность"
       ],
@@ -470,7 +470,7 @@
       "form": "develop",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɪvˈɛləp",
       "translations": [
         "развивать",
         "совершенствовать"
@@ -486,7 +486,7 @@
       "form": "didgeridoo",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˈɪdʒrɪdˌuː",
       "translations": [
         "диджериду (духовой инструмент)"
       ],
@@ -501,7 +501,7 @@
       "form": "dig",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dˈɪg",
       "translations": [
         "копать"
       ],
@@ -577,7 +577,7 @@
       "form": "dirty",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "dˈɜːti",
       "translations": [
         "грязный"
       ],
@@ -608,7 +608,7 @@
       "form": "discourage",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɪskˈʌrɪdʒ",
       "translations": [
         "препятствовать",
         "отговаривать"
@@ -624,7 +624,7 @@
       "form": "discover",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɪskˈʌvɐ",
       "translations": [
         "открывать"
       ],
@@ -639,7 +639,7 @@
       "form": "discuss",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɪskˈʌs",
       "translations": [
         "обсудить"
       ],
@@ -654,7 +654,7 @@
       "form": "disease",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dɪzˈiːz",
       "translations": [
         "болезнь"
       ],
@@ -669,7 +669,7 @@
       "form": "dish",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˈɪʃ",
       "translations": [
         "блюдо"
       ],
@@ -684,7 +684,7 @@
       "form": "distort",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɪstˈɔːt",
       "translations": [
         "искажать"
       ],
@@ -699,7 +699,7 @@
       "form": "distribute",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dˈɪstrɪbjˌuːt",
       "translations": [
         "распространять"
       ],
@@ -714,7 +714,7 @@
       "form": "disturb",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dɪstˈɜːb",
       "translations": [
         "беспокоить"
       ],
@@ -729,7 +729,7 @@
       "form": "dive",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dˈaɪv",
       "translations": [
         "нырять в воду"
       ],
@@ -744,7 +744,7 @@
       "form": "documentary",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˌɒkjuːmˈɛntəri",
       "translations": [
         "документальный фильм"
       ],
@@ -759,7 +759,7 @@
       "form": "dot",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˈɒt",
       "translations": [
         "точка"
       ],
@@ -774,7 +774,7 @@
       "form": "dragon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "drˈægən",
       "translations": [
         "дракон"
       ],
@@ -789,7 +789,7 @@
       "form": "draw",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "drˈɔː",
       "translations": [
         "тянуть",
         "тащить"
@@ -805,7 +805,7 @@
       "form": "drink",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "drˈɪŋk",
       "translations": [
         "напиток"
       ],
@@ -820,7 +820,7 @@
       "form": "drought",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "drˈaʊt",
       "translations": [
         "засуха"
       ],
@@ -1030,7 +1030,7 @@
       "form": "earthquake",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɜːθkweɪk",
       "translations": [
         "землетрясение"
       ],
@@ -1075,7 +1075,7 @@
       "form": "ecologist",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛkˈɒlədʒˌɪst",
       "translations": [
         "эколог"
       ],
@@ -1090,7 +1090,7 @@
       "form": "egg",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɛg",
       "translations": [
         "яйцо"
       ],
@@ -1121,7 +1121,7 @@
       "form": "elegant",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɛlɪgənt",
       "translations": [
         "элегантный"
       ],
@@ -1136,7 +1136,7 @@
       "form": "element",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɛlɪmənt",
       "translations": [
         "элемент"
       ],
@@ -1166,7 +1166,7 @@
       "form": "elk",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɛlk",
       "translations": [
         "лось"
       ],
@@ -1181,7 +1181,7 @@
       "form": "emerge",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪmˈɜːdʒ",
       "translations": [
         "появляться",
         "всплывать"
@@ -1197,7 +1197,7 @@
       "form": "emergency",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪmˈɜːdʒənsi",
       "translations": [
         "чрезвычайная ситуация"
       ],
@@ -1212,7 +1212,7 @@
       "form": "emperor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɛmpərɐ",
       "translations": [
         "император"
       ],
@@ -1227,7 +1227,7 @@
       "form": "empire",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɛmpaɪə",
       "translations": [
         "империя"
       ],
@@ -1242,7 +1242,7 @@
       "form": "emu",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈiːmjuː",
       "translations": [
         "эму"
       ],
@@ -1257,7 +1257,7 @@
       "form": "enable",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɛnˈeɪbəl",
       "translations": [
         "давать возможность что-либо сделать"
       ],
@@ -1272,7 +1272,7 @@
       "form": "encourage",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɛnkˈʌrɪdʒ",
       "translations": [
         "поощрять"
       ],
@@ -1319,7 +1319,7 @@
       "form": "energy",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɛnədʒi",
       "translations": [
         "энергия"
       ],
@@ -1334,7 +1334,7 @@
       "form": "engine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɛndʒɪn",
       "translations": [
         "двигатель"
       ],

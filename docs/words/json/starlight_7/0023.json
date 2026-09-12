@@ -450,7 +450,7 @@
       "form": "undergo",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˌʌndəgˈəʊ",
       "translations": [
         "подвергаться",
         "терпеть"
@@ -466,7 +466,7 @@
       "form": "undervalue",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˌʌndəvˈæljuː",
       "translations": [
         "недооценивать"
       ],
@@ -481,7 +481,7 @@
       "form": "unfortunately",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "ʌnfˈɔːtʃənətli",
       "translations": [
         "к сожалению"
       ],
@@ -496,7 +496,7 @@
       "form": "unhappy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʌnhˈæpi",
       "translations": [
         "несчастный"
       ],
@@ -511,7 +511,7 @@
       "form": "unhelpful",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʌnhˈɛlpfəl",
       "translations": [
         "бесполезный"
       ],
@@ -526,7 +526,7 @@
       "form": "unique",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "juːnˈiːk",
       "translations": [
         "уникальный"
       ],
@@ -556,7 +556,7 @@
       "form": "unpleasant",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʌnplˈɛzənt",
       "translations": [
         "неприятный"
       ],
@@ -571,7 +571,7 @@
       "form": "unpredictable",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʌnprɪdˈɪktəbəl",
       "translations": [
         "непредсказуемый"
       ],
@@ -586,7 +586,7 @@
       "form": "upload",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈʌpləʊd",
       "translations": [
         "загружать"
       ],
@@ -631,7 +631,7 @@
       "form": "urban",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɜːbən",
       "translations": [
         "городской"
       ],
@@ -646,7 +646,7 @@
       "form": "useful",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "jˈuːsfəl",
       "translations": [
         "полезный"
       ],
@@ -661,7 +661,7 @@
       "form": "user",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "jˈuːzɐ",
       "translations": [
         "пользователь"
       ],
@@ -691,7 +691,7 @@
       "form": "username",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "jˈuːzənˌeɪm",
       "translations": [
         "имя пользователя"
       ],
@@ -706,7 +706,7 @@
       "form": "usher",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈʌʃɐ",
       "translations": [
         "билетёр"
       ],
@@ -751,7 +751,7 @@
       "form": "vandalism",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈændəlˌɪzəm",
       "translations": [
         "вандализм"
       ],
@@ -766,7 +766,7 @@
       "form": "vanish",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "vˈænɪʃ",
       "translations": [
         "исчезать"
       ],
@@ -781,7 +781,7 @@
       "form": "venom",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɛnəm",
       "translations": [
         "яд"
       ],
@@ -796,7 +796,7 @@
       "form": "verbally",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "vˈɜːbəli",
       "translations": [
         "устно"
       ],
@@ -811,7 +811,7 @@
       "form": "vertigo",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɜːtɪgˌəʊ",
       "translations": [
         "головокружение"
       ],
@@ -826,7 +826,7 @@
       "form": "vibrate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "vaɪbrˈeɪt",
       "translations": [
         "вибрировать"
       ],
@@ -841,7 +841,7 @@
       "form": "victim",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɪktɪm",
       "translations": [
         "жертва"
       ],
@@ -856,7 +856,7 @@
       "form": "video",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɪdɪəʊ",
       "translations": [
         "видеоклип"
       ],
@@ -886,7 +886,7 @@
       "form": "vinegar",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɪnɪgɐ",
       "translations": [
         "уксус"
       ],
@@ -901,7 +901,7 @@
       "form": "virus",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈaɪrəs",
       "translations": [
         "вирус"
       ],
@@ -931,7 +931,7 @@
       "form": "vocalist",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈəʊkəlˌɪst",
       "translations": [
         "вокалист"
       ],
@@ -976,7 +976,7 @@
       "form": "volume",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɒljuːm",
       "translations": [
         "звук"
       ],
@@ -991,7 +991,7 @@
       "form": "voluntary",
       "partOfSpeech": "other",
       "partOfSpeechCode": "n, adj",
-      "transcription": null,
+      "transcription": "vˈɒləntəri",
       "translations": [
         "волонтёр",
         "доброволец",
@@ -1024,7 +1024,7 @@
       "form": "vomiting",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vˈɒmɪtɪŋ",
       "translations": [
         "рвота"
       ],
@@ -1039,7 +1039,7 @@
       "form": "waitress",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "wˈeɪtrəs",
       "translations": [
         "официантка"
       ],
@@ -1054,7 +1054,7 @@
       "form": "wander",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "wˈɒndɐ",
       "translations": [
         "бродить"
       ],
@@ -1069,7 +1069,7 @@
       "form": "warm",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "wˈɔːm",
       "translations": [
         "тёплый"
       ],

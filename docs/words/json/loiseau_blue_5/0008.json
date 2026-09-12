@@ -14,7 +14,7 @@
       "form": "adorer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "adɔʁe",
       "gender": null,
       "translations": [
         "обожать",
@@ -33,7 +33,7 @@
       "form": "amuser (s')",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "amyze",
       "gender": null,
       "translations": [
         "веселиться",
@@ -52,7 +52,7 @@
       "form": "arbitre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "aʁbitʁ",
       "gender": "m",
       "translations": [
         "судья (в спорте)"
@@ -70,7 +70,7 @@
       "form": "automne",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "otɔn",
       "gender": "m",
       "translations": [
         "осень"
@@ -88,7 +88,7 @@
       "form": "basket",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "baskɛt",
       "gender": "m",
       "translations": [
         "спортивная туфля",
@@ -107,7 +107,7 @@
       "form": "boxe",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bɔks",
       "gender": "f",
       "translations": [
         "бокс"
@@ -125,7 +125,7 @@
       "form": "bureau",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "byʁo",
       "gender": "m",
       "translations": [
         "бюро",
@@ -144,7 +144,7 @@
       "form": "but",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "by",
       "gender": "m",
       "translations": [
         "гол"
@@ -162,7 +162,7 @@
       "form": "car",
       "partOfSpeech": "other",
       "partOfSpeechCode": "conj",
-      "transcription": null,
+      "transcription": "kaʁ",
       "gender": null,
       "translations": [
         "потому что",
@@ -181,7 +181,7 @@
       "form": "casserole",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kasʁɔl",
       "gender": "f",
       "translations": [
         "кастрюля"
@@ -199,7 +199,7 @@
       "form": "chanteur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃɑ̃tœʁ",
       "gender": "m",
       "translations": [
         "певец"
@@ -217,7 +217,7 @@
       "form": "chose",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃoz",
       "gender": "f",
       "translations": [
         "вещь"
@@ -235,7 +235,7 @@
       "form": "collège",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɔlɛʒ",
       "gender": "m",
       "translations": [
         "колледж (во Франции)"
@@ -253,7 +253,7 @@
       "form": "craie",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kʁɛ",
       "gender": "f",
       "translations": [
         "мел"
@@ -271,7 +271,7 @@
       "form": "cuisine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɥizin",
       "gender": "f",
       "translations": [
         "кухня"
@@ -307,7 +307,7 @@
       "form": "danse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dɑ̃s",
       "gender": "f",
       "translations": [
         "танец"
@@ -325,7 +325,7 @@
       "form": "décrire",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dekʁiʁ",
       "gender": null,
       "translations": [
         "описывать"
@@ -343,7 +343,7 @@
       "form": "depuis",
       "partOfSpeech": "other",
       "partOfSpeechCode": "prep",
-      "transcription": null,
+      "transcription": "dəpɥi",
       "gender": null,
       "translations": [
         "с",
@@ -362,7 +362,7 @@
       "form": "détester",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "detɛste",
       "gender": null,
       "translations": [
         "ненавидеть"
@@ -380,7 +380,7 @@
       "form": "équipe",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ekip",
       "gender": "f",
       "translations": [
         "команда"
@@ -398,7 +398,7 @@
       "form": "été",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ete",
       "gender": "m",
       "translations": [
         "лето"
@@ -416,7 +416,7 @@
       "form": "facile",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fasil",
       "gender": null,
       "translations": [
         "лёгкий",
@@ -435,7 +435,7 @@
       "form": "facteur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "faktœʁ",
       "gender": "m",
       "translations": [
         "почтальон"
@@ -453,7 +453,7 @@
       "form": "football",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "futbol",
       "gender": "m",
       "translations": [
         "футбол"
@@ -471,7 +471,7 @@
       "form": "formidable",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fɔʁmidabl",
       "gender": null,
       "translations": [
         "потрясающий",
@@ -490,7 +490,7 @@
       "form": "fort",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fɔʁ",
       "gender": null,
       "translations": [
         "сильный"
@@ -508,7 +508,7 @@
       "form": "forte",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fɔʁt",
       "gender": null,
       "translations": [
         "сильная"
@@ -526,7 +526,7 @@
       "form": "gagner",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "gaɲe",
       "gender": null,
       "translations": [
         "выиграть"
@@ -544,7 +544,7 @@
       "form": "gentil",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʒɑ̃ti",
       "gender": null,
       "translations": [
         "милый",
@@ -563,7 +563,7 @@
       "form": "gentille",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʒɑ̃tij",
       "gender": null,
       "translations": [
         "милая",
@@ -582,7 +582,7 @@
       "form": "goût",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gu",
       "gender": "m",
       "translations": [
         "вкус"
@@ -600,7 +600,7 @@
       "form": "haut",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʼo",
       "gender": null,
       "translations": [
         "высокий"
@@ -618,7 +618,7 @@
       "form": "haute",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʼot",
       "gender": null,
       "translations": [
         "высокая"
@@ -654,7 +654,7 @@
       "form": "heureusement",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "œʁøzmɑ̃",
       "gender": null,
       "translations": [
         "к счастью"
@@ -672,7 +672,7 @@
       "form": "hôpital",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɔpital",
       "gender": "m",
       "translations": [
         "больница"
@@ -690,7 +690,7 @@
       "form": "jeu",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒø",
       "gender": "m",
       "translations": [
         "игра"
@@ -726,7 +726,7 @@
       "form": "joueur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒwœʁ",
       "gender": "m",
       "translations": [
         "игрок"
@@ -744,7 +744,7 @@
       "form": "maillot",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "majo",
       "gender": "m",
       "translations": [
         "майка"
@@ -762,7 +762,7 @@
       "form": "malheureusement",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "malœʁøzmɑ̃",
       "gender": null,
       "translations": [
         "к несчастью"
@@ -780,7 +780,7 @@
       "form": "médicament",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "medikamɑ̃",
       "gender": "m",
       "translations": [
         "лекарство"
@@ -798,7 +798,7 @@
       "form": "meilleur",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mɛjœʁ",
       "gender": null,
       "translations": [
         "лучший"
@@ -816,7 +816,7 @@
       "form": "meilleure",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mɛjœʁ",
       "gender": null,
       "translations": [
         "лучшая"
@@ -834,7 +834,7 @@
       "form": "moto",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɔto",
       "gender": "f",
       "translations": [
         "мотоцикл"
@@ -852,7 +852,7 @@
       "form": "ordinateur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɔʁdinatœʁ",
       "gender": "m",
       "translations": [
         "компьютер"
@@ -870,7 +870,7 @@
       "form": "parce que",
       "partOfSpeech": "other",
       "partOfSpeechCode": "conj",
-      "transcription": null,
+      "transcription": "paʁskə",
       "gender": null,
       "translations": [
         "потому что"
@@ -942,7 +942,7 @@
       "form": "poche",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pɔʃ",
       "gender": "f",
       "translations": [
         "карман"
@@ -960,7 +960,7 @@
       "form": "préférer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pʁefeʁe",
       "gender": null,
       "translations": [
         "предпочитать"
@@ -978,7 +978,7 @@
       "form": "prêt",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pʁɛ",
       "gender": null,
       "translations": [
         "готовый"
@@ -996,7 +996,7 @@
       "form": "prête",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pʁɛt",
       "gender": null,
       "translations": [
         "готовая"
@@ -1014,7 +1014,7 @@
       "form": "printemps",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pʁɛ̃tɑ̃",
       "gender": "m",
       "translations": [
         "весна"
@@ -1032,7 +1032,7 @@
       "form": "progrès",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pʁɔgʁɛ",
       "gender": "m",
       "translations": [
         "достижение"
@@ -1068,7 +1068,7 @@
       "form": "projet",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pʁɔʒɛ",
       "gender": "m",
       "translations": [
         "план"
@@ -1086,7 +1086,7 @@
       "form": "réponse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁepɔ̃s",
       "gender": "f",
       "translations": [
         "ответ"
@@ -1104,7 +1104,7 @@
       "form": "rester",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁɛste",
       "gender": null,
       "translations": [
         "остаться"
@@ -1122,7 +1122,7 @@
       "form": "rêver",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁɛve",
       "gender": null,
       "translations": [
         "мечтать",
@@ -1141,7 +1141,7 @@
       "form": "saison",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɛzɔ̃",
       "gender": "f",
       "translations": [
         "время года"
@@ -1159,7 +1159,7 @@
       "form": "seul",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sœl",
       "gender": null,
       "translations": [
         "один"
@@ -1177,7 +1177,7 @@
       "form": "seule",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sœl",
       "gender": null,
       "translations": [
         "одна"
@@ -1195,7 +1195,7 @@
       "form": "spectateur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spɛktatœʁ",
       "gender": "m",
       "translations": [
         "зритель"
@@ -1213,7 +1213,7 @@
       "form": "sportif",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "spɔʁtif",
       "gender": "m",
       "translations": [
         "спортсмен"
@@ -1231,7 +1231,7 @@
       "form": "surtout",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "syʁtu",
       "gender": null,
       "translations": [
         "особенно"
@@ -1249,7 +1249,7 @@
       "form": "temps",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tɑ̃",
       "gender": "m",
       "translations": [
         "время",
@@ -1286,7 +1286,7 @@
       "form": "trottinette",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʁɔtinɛt",
       "gender": "f",
       "translations": [
         "самокат"
@@ -1304,7 +1304,7 @@
       "form": "vermicelle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vɛʁmisɛl",
       "gender": "m",
       "translations": [
         "вермишель"
@@ -1322,7 +1322,7 @@
       "form": "viande",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vjɑ̃d",
       "gender": "f",
       "translations": [
         "мясо"
@@ -1340,7 +1340,7 @@
       "form": "voisin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vwazɛ̃",
       "gender": "m",
       "translations": [
         "сосед"
@@ -1358,7 +1358,7 @@
       "form": "volley-ball",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vɔlɛbol",
       "gender": "m",
       "translations": [
         "волейбол"
@@ -1376,7 +1376,7 @@
       "form": "voyager",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "vwajaʒe",
       "gender": null,
       "translations": [
         "путешествовать",

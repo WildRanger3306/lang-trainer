@@ -14,7 +14,7 @@
       "form": "census",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɛnsəs",
       "translations": [
         "перепись"
       ],
@@ -29,7 +29,7 @@
       "form": "century",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɛntʃəri",
       "translations": [
         "век"
       ],
@@ -44,7 +44,7 @@
       "form": "ceremony",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɛrɪməni",
       "translations": [
         "церемония"
       ],
@@ -59,7 +59,7 @@
       "form": "chalk",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈɔːk",
       "translations": [
         "мел"
       ],
@@ -74,7 +74,7 @@
       "form": "challenge",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈælɪndʒ",
       "translations": [
         "испытание"
       ],
@@ -89,7 +89,7 @@
       "form": "challenging",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tʃˈælɪndʒˌɪŋ",
       "translations": [
         "трудный",
         "сложный"
@@ -105,7 +105,7 @@
       "form": "champion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈæmpiən",
       "translations": [
         "чемпион"
       ],
@@ -135,7 +135,7 @@
       "form": "changeable",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tʃˈeɪndʒəbəl",
       "translations": [
         "изменчивый"
       ],
@@ -150,7 +150,7 @@
       "form": "charity",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈærɪti",
       "translations": [
         "благотворительность"
       ],
@@ -180,7 +180,7 @@
       "form": "chat",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tʃˈæt",
       "translations": [
         "беседовать",
         "болтать"
@@ -196,7 +196,7 @@
       "form": "checkpoint",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈɛkpɔɪnt",
       "translations": [
         "зд. засада"
       ],
@@ -211,7 +211,7 @@
       "form": "cheerful",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tʃˈiəfəl",
       "translations": [
         "весёлый",
         "живой"
@@ -227,7 +227,7 @@
       "form": "chew",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tʃjˈuː",
       "translations": [
         "жевать"
       ],
@@ -242,7 +242,7 @@
       "form": "chilly",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tʃˈɪli",
       "translations": [
         "прохладный",
         "зябкий"
@@ -258,7 +258,7 @@
       "form": "chord",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɔːd",
       "translations": [
         "шнур"
       ],
@@ -273,7 +273,7 @@
       "form": "chunk",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tʃˈʌŋk",
       "translations": [
         "глыба"
       ],
@@ -288,7 +288,7 @@
       "form": "circumstances",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɜːkəmstˌænsɪz",
       "translations": [
         "обстоятельства"
       ],
@@ -303,7 +303,7 @@
       "form": "clap",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "klˈæp",
       "translations": [
         "хлопать в ладоши"
       ],
@@ -333,7 +333,7 @@
       "form": "classical",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "klˈæsɪkəl",
       "translations": [
         "классический"
       ],
@@ -363,7 +363,7 @@
       "form": "claustrophobia",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˌɒstrəfˈəʊbiə",
       "translations": [
         "клаустрофобия (боязнь замкнутого пространства)"
       ],
@@ -378,7 +378,7 @@
       "form": "clerk",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˈɑːk",
       "translations": [
         "секретарь"
       ],
@@ -393,7 +393,7 @@
       "form": "click",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "klˈɪk",
       "translations": [
         "щёлкать"
       ],
@@ -408,7 +408,7 @@
       "form": "cliff",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˈɪf",
       "translations": [
         "утёс",
         "обрыв"
@@ -424,7 +424,7 @@
       "form": "climate",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˈaɪmət",
       "translations": [
         "климат"
       ],
@@ -454,7 +454,7 @@
       "form": "climatologist",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˌaɪmɐtˈɒlədʒˌɪst",
       "translations": [
         "климатолог"
       ],
@@ -469,7 +469,7 @@
       "form": "cloud",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˈaʊd",
       "translations": [
         "облако",
         "туча"
@@ -485,7 +485,7 @@
       "form": "club",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "klˈʌb",
       "translations": [
         "клуб"
       ],
@@ -500,7 +500,7 @@
       "form": "coastal",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈəʊstəl",
       "translations": [
         "прибрежный"
       ],
@@ -530,7 +530,7 @@
       "form": "cold",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈəʊld",
       "translations": [
         "холодный"
       ],
@@ -560,7 +560,7 @@
       "form": "collage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɒlˈɑːʒ",
       "translations": [
         "коллаж"
       ],
@@ -575,7 +575,7 @@
       "form": "column",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒlʌm",
       "translations": [
         "колонна"
       ],
@@ -590,7 +590,7 @@
       "form": "comb",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈəʊm",
       "translations": [
         "расчёска"
       ],
@@ -620,7 +620,7 @@
       "form": "comfort",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈʌmfət",
       "translations": [
         "утешать",
         "успокаивать"
@@ -636,7 +636,7 @@
       "form": "commit",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kəmˈɪt",
       "translations": [
         "совершать"
       ],
@@ -651,7 +651,7 @@
       "form": "commitment",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəmˈɪtmənt",
       "translations": [
         "обязательство"
       ],
@@ -666,7 +666,7 @@
       "form": "community",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəmjˈuːnɪtˌi",
       "translations": [
         "общество",
         "сообщество",
@@ -728,7 +728,7 @@
       "form": "company",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈʌmpəni",
       "translations": [
         "компания"
       ],
@@ -743,7 +743,7 @@
       "form": "compass",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈʌmpəs",
       "translations": [
         "компас"
       ],
@@ -758,7 +758,7 @@
       "form": "compensate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈɒmpənsˌeɪt",
       "translations": [
         "компенсировать"
       ],
@@ -818,7 +818,7 @@
       "form": "competitor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəmpˈɛtɪtɐ",
       "translations": [
         "противник",
         "конкурент"
@@ -834,7 +834,7 @@
       "form": "complain",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kəmplˈeɪn",
       "translations": [
         "жаловаться"
       ],
@@ -849,7 +849,7 @@
       "form": "complaint",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəmplˈeɪnt",
       "translations": [
         "жалоба"
       ],
@@ -864,7 +864,7 @@
       "form": "complicated",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈɒmplɪkˌeɪtɪd",
       "translations": [
         "сложный"
       ],
@@ -894,7 +894,7 @@
       "form": "composer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kəmpˈəʊzɐ",
       "translations": [
         "композитор"
       ],
@@ -939,7 +939,7 @@
       "form": "concentrate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈɒnsəntrˌeɪt",
       "translations": [
         "концентрироваться"
       ],
@@ -954,7 +954,7 @@
       "form": "conclusion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kənklˈuːʒən",
       "translations": [
         "заключение"
       ],
@@ -969,7 +969,7 @@
       "form": "concrete",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒŋkriːt",
       "translations": [
         "бетон"
       ],
@@ -984,7 +984,7 @@
       "form": "conditions",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "kəndˈɪʃənz",
       "translations": [
         "условия"
       ],
@@ -999,7 +999,7 @@
       "form": "confidence",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒnfɪdəns",
       "translations": [
         "уверенность"
       ],
@@ -1014,7 +1014,7 @@
       "form": "confident",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈɒnfɪdənt",
       "translations": [
         "уверенный"
       ],
@@ -1044,7 +1044,7 @@
       "form": "confirmation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɒnfəmˈeɪʃən",
       "translations": [
         "подтверждение"
       ],
@@ -1075,7 +1075,7 @@
       "form": "coniferous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kənˈɪfərəs",
       "translations": [
         "хвойный"
       ],
@@ -1090,7 +1090,7 @@
       "form": "connect",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kənˈɛkt",
       "translations": [
         "соединять"
       ],
@@ -1120,7 +1120,7 @@
       "form": "connection",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kənˈɛkʃən",
       "translations": [
         "связь"
       ],
@@ -1135,7 +1135,7 @@
       "form": "consequence",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒnsɪkwəns",
       "translations": [
         "последствие"
       ],
@@ -1150,7 +1150,7 @@
       "form": "consequently",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "kˈɒnsɪkwəntli",
       "translations": [
         "в результате"
       ],
@@ -1165,7 +1165,7 @@
       "form": "conservation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˌɒnsəvˈeɪʃən",
       "translations": [
         "сохранение",
         "охрана природы"
@@ -1196,7 +1196,7 @@
       "form": "conservative",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kənsˈɜːvətˌɪv",
       "translations": [
         "консервативный",
         "устаревший"
@@ -1227,7 +1227,7 @@
       "form": "constricted",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kənstrˈɪktɪd",
       "translations": [
         "узкий (о сосудах)"
       ],

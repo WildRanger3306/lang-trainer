@@ -14,7 +14,7 @@
       "form": "consumer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kənsˈuːmɐ",
       "translations": [
         "покупатель"
       ],
@@ -29,7 +29,7 @@
       "form": "contagious",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kəntˈeɪdʒəs",
       "translations": [
         "заразный"
       ],
@@ -44,7 +44,7 @@
       "form": "contain",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kəntˈeɪn",
       "translations": [
         "содержать"
       ],
@@ -59,7 +59,7 @@
       "form": "continent",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒntɪnənt",
       "translations": [
         "континент"
       ],
@@ -74,7 +74,7 @@
       "form": "control",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kəntrˈəʊl",
       "translations": [
         "контролировать"
       ],
@@ -89,7 +89,7 @@
       "form": "conversation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɒnvəsˈeɪʃən",
       "translations": [
         "общение",
         "разговор"
@@ -150,7 +150,7 @@
       "form": "corridor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒrɪdˌɔː",
       "translations": [
         "коридор"
       ],
@@ -165,7 +165,7 @@
       "form": "cost",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈɒst",
       "translations": [
         "стоить"
       ],
@@ -180,7 +180,7 @@
       "form": "costume",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɒstjuːm",
       "translations": [
         "костюм"
       ],
@@ -195,7 +195,7 @@
       "form": "cough",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "kˈɒf",
       "translations": [
         "кашель",
         "кашлять"
@@ -211,7 +211,7 @@
       "form": "counselling",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈaʊnsəlɪŋ",
       "translations": [
         "консультирование"
       ],
@@ -226,7 +226,7 @@
       "form": "court",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɔːt",
       "translations": [
         "суд"
       ],
@@ -256,7 +256,7 @@
       "form": "cover",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kˈʌvɐ",
       "translations": [
         "покрывать"
       ],
@@ -271,7 +271,7 @@
       "form": "coyote",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kaɪˈəʊti",
       "translations": [
         "койот"
       ],
@@ -286,7 +286,7 @@
       "form": "crab",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈæb",
       "translations": [
         "краб"
       ],
@@ -301,7 +301,7 @@
       "form": "crack",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈæk",
       "translations": [
         "трещина"
       ],
@@ -316,7 +316,7 @@
       "form": "cracker",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈækɐ",
       "translations": [
         "взломщик компьютерных сетей"
       ],
@@ -362,7 +362,7 @@
       "form": "crayfish",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈeɪfɪʃ",
       "translations": [
         "лангуст",
         "речной рак"
@@ -378,7 +378,7 @@
       "form": "craze",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈeɪz",
       "translations": [
         "всеобщее увлечение",
         "мания"
@@ -394,7 +394,7 @@
       "form": "creaky",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "krˈiːki",
       "translations": [
         "скрипучий"
       ],
@@ -409,7 +409,7 @@
       "form": "creative",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kriːˈeɪtɪv",
       "translations": [
         "творческий",
         "креативный"
@@ -425,7 +425,7 @@
       "form": "creature",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈiːtʃɐ",
       "translations": [
         "существо"
       ],
@@ -440,7 +440,7 @@
       "form": "crevasse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krəvˈæs",
       "translations": [
         "расщелина в леднике"
       ],
@@ -455,7 +455,7 @@
       "form": "crime",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈaɪm",
       "translations": [
         "преступление"
       ],
@@ -515,7 +515,7 @@
       "form": "criticise",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "krˈɪtɪsˌaɪz",
       "translations": [
         "критиковать"
       ],
@@ -530,7 +530,7 @@
       "form": "criticism",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈɪtɪsˌɪzəm",
       "translations": [
         "критика"
       ],
@@ -545,7 +545,7 @@
       "form": "crowd",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈaʊd",
       "translations": [
         "толпа"
       ],
@@ -575,7 +575,7 @@
       "form": "cruelty",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "krˈuːəlti",
       "translations": [
         "жестокость"
       ],
@@ -590,7 +590,7 @@
       "form": "crystal",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "krˈɪstəl",
       "translations": [
         "хрустальный"
       ],
@@ -605,7 +605,7 @@
       "form": "culture",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈʌltʃɐ",
       "translations": [
         "культура"
       ],
@@ -620,7 +620,7 @@
       "form": "curable",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kjˈɔːrəbəl",
       "translations": [
         "излечивающий"
       ],
@@ -635,7 +635,7 @@
       "form": "cure",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kjˈɔː",
       "translations": [
         "лечить"
       ],
@@ -650,7 +650,7 @@
       "form": "curious",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kjˈʊrɪəs",
       "translations": [
         "любопытный"
       ],
@@ -665,7 +665,7 @@
       "form": "curly",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kˈɜːli",
       "translations": [
         "кудрявый"
       ],
@@ -695,7 +695,7 @@
       "form": "curtain",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɜːtən",
       "translations": [
         "занавес"
       ],
@@ -710,7 +710,7 @@
       "form": "customer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈʌstəmɐ",
       "translations": [
         "клиент"
       ],
@@ -983,7 +983,7 @@
       "form": "damage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˈæmɪdʒ",
       "translations": [
         "вред"
       ],
@@ -998,7 +998,7 @@
       "form": "dangerous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "dˈeɪndʒərəs",
       "translations": [
         "опасный"
       ],
@@ -1013,7 +1013,7 @@
       "form": "daredevil",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˈeədɛvəl",
       "translations": [
         "смельчак",
         "сорвиголова"
@@ -1044,7 +1044,7 @@
       "form": "dark",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "dˈɑːk",
       "translations": [
         "тёмный"
       ],
@@ -1074,7 +1074,7 @@
       "form": "deadly",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "dˈɛdli",
       "translations": [
         "смертельный"
       ],
@@ -1089,7 +1089,7 @@
       "form": "death",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˈɛθ",
       "translations": [
         "смерть"
       ],
@@ -1119,7 +1119,7 @@
       "form": "debate",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dɪbˈeɪt",
       "translations": [
         "дебаты"
       ],
@@ -1134,7 +1134,7 @@
       "form": "decade",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˈɛkeɪd",
       "translations": [
         "декада"
       ],
@@ -1149,7 +1149,7 @@
       "form": "dedication",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dˌɛdɪkˈeɪʃən",
       "translations": [
         "посвящение",
         "верность"
@@ -1180,7 +1180,7 @@
       "form": "deeply",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "dˈiːpli",
       "translations": [
         "глубоко"
       ],

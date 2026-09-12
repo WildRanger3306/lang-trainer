@@ -44,7 +44,7 @@
       "form": "talent",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈælənt",
       "translations": [
         "талант"
       ],
@@ -59,7 +59,7 @@
       "form": "tall",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tˈɔːl",
       "translations": [
         "высокий"
       ],
@@ -74,7 +74,7 @@
       "form": "tannin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈænɪn",
       "translations": [
         "танин",
         "дубильное вещество"
@@ -90,7 +90,7 @@
       "form": "tattoo",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tætˈuː",
       "translations": [
         "татуировка"
       ],
@@ -120,7 +120,7 @@
       "form": "teenager",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈiːneɪdʒɐ",
       "translations": [
         "подросток"
       ],
@@ -135,7 +135,7 @@
       "form": "telescope",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈɛlɪskˌəʊp",
       "translations": [
         "телескоп"
       ],
@@ -150,7 +150,7 @@
       "form": "temperature",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈɛmprɪtʃɐ",
       "translations": [
         "температура"
       ],
@@ -165,7 +165,7 @@
       "form": "temporary",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tˈɛmprərˌi",
       "translations": [
         "временный"
       ],
@@ -180,7 +180,7 @@
       "form": "tense",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tˈɛns",
       "translations": [
         "напряжённый"
       ],
@@ -195,7 +195,7 @@
       "form": "tent",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈɛnt",
       "translations": [
         "палатка"
       ],
@@ -210,7 +210,7 @@
       "form": "tentacle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈɛntəkəl",
       "translations": [
         "щупальца"
       ],
@@ -225,7 +225,7 @@
       "form": "terrific",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tərˈɪfɪk",
       "translations": [
         "потрясающий",
         "великолепный"
@@ -241,7 +241,7 @@
       "form": "terrified",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tˈɛrɪfˌaɪd",
       "translations": [
         "испуганный"
       ],
@@ -256,7 +256,7 @@
       "form": "terrifying",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tˈɛrɪfˌaɪɪŋ",
       "translations": [
         "ужасающий",
         "пугающий"
@@ -272,7 +272,7 @@
       "form": "theft",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "θˈɛft",
       "translations": [
         "кража"
       ],
@@ -302,7 +302,7 @@
       "form": "thief",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "θˈiːf",
       "translations": [
         "вор"
       ],
@@ -317,7 +317,7 @@
       "form": "thin",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "θˈɪn",
       "translations": [
         "тонкий"
       ],
@@ -347,7 +347,7 @@
       "form": "threaten",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "θrˈɛtən",
       "translations": [
         "угрожать"
       ],
@@ -377,7 +377,7 @@
       "form": "thrilling",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "θrˈɪlɪŋ",
       "translations": [
         "волнующий",
         "захватывающий"
@@ -408,7 +408,7 @@
       "form": "throat",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "θrˈəʊt",
       "translations": [
         "горло"
       ],
@@ -438,7 +438,7 @@
       "form": "thunder",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "θˈʌndɐ",
       "translations": [
         "гром"
       ],
@@ -453,7 +453,7 @@
       "form": "thunderstorm",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "θˈʌndəstˌɔːm",
       "translations": [
         "гроза"
       ],
@@ -483,7 +483,7 @@
       "form": "tip",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈɪp",
       "translations": [
         "подсказка",
         "чаевые"
@@ -499,7 +499,7 @@
       "form": "title",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈaɪtəl",
       "translations": [
         "зд. обращение"
       ],
@@ -514,7 +514,7 @@
       "form": "toddler",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈɒdlɐ",
       "translations": [
         "ребёнок, начинающий ходить"
       ],
@@ -529,7 +529,7 @@
       "form": "toe",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈəʊ",
       "translations": [
         "большой палец ноги"
       ],
@@ -544,7 +544,7 @@
       "form": "token",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈəʊkən",
       "translations": [
         "знак",
         "символ"
@@ -560,7 +560,7 @@
       "form": "tolerate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tˈɒlərˌeɪt",
       "translations": [
         "терпеть",
         "позволять"
@@ -576,7 +576,7 @@
       "form": "tool",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈuːl",
       "translations": [
         "инструмент"
       ],
@@ -591,7 +591,7 @@
       "form": "torch",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈɔːtʃ",
       "translations": [
         "факел"
       ],
@@ -606,7 +606,7 @@
       "form": "tornado",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tɔːnˈeɪdəʊ",
       "translations": [
         "торнадо"
       ],
@@ -636,7 +636,7 @@
       "form": "totally",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "tˈəʊtəli",
       "translations": [
         "абсолютно"
       ],
@@ -651,7 +651,7 @@
       "form": "tough",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tˈʌf",
       "translations": [
         "жёсткий"
       ],
@@ -696,7 +696,7 @@
       "form": "toxin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tˈɒksɪn",
       "translations": [
         "токсин"
       ],
@@ -711,7 +711,7 @@
       "form": "trace",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "trˈeɪs",
       "translations": [
         "следить"
       ],
@@ -726,7 +726,7 @@
       "form": "tradition",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "trɐdˈɪʃən",
       "translations": [
         "традиция"
       ],
@@ -786,7 +786,7 @@
       "form": "trail",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "trˈeɪl",
       "translations": [
         "путь",
         "тропа"
@@ -802,7 +802,7 @@
       "form": "train",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "trˈeɪn",
       "translations": [
         "тренироваться"
       ],
@@ -817,7 +817,7 @@
       "form": "training",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "trˈeɪnɪŋ",
       "translations": [
         "тренировка"
       ],
@@ -848,7 +848,7 @@
       "form": "trap",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "trˈæp",
       "translations": [
         "задерживать"
       ],
@@ -893,7 +893,7 @@
       "form": "treasurer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "trˈɛʒərɐ",
       "translations": [
         "хранитель ценностей"
       ],
@@ -908,7 +908,7 @@
       "form": "treat",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "trˈiːt",
       "translations": [
         "угощать"
       ],
@@ -923,7 +923,7 @@
       "form": "trend",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "trˈɛnd",
       "translations": [
         "тенденция"
       ],
@@ -938,7 +938,7 @@
       "form": "triangular",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "traɪˈængjʊlɐ",
       "translations": [
         "треугольный"
       ],
@@ -953,7 +953,7 @@
       "form": "trigger",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "trˈɪgɐ",
       "translations": [
         "приводить в действие"
       ],
@@ -968,7 +968,7 @@
       "form": "trip",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "trˈɪp",
       "translations": [
         "спотыкаться"
       ],
@@ -983,7 +983,7 @@
       "form": "trouble",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "trˈʌbəl",
       "translations": [
         "неприятность",
         "проблема"
@@ -1014,7 +1014,7 @@
       "form": "truly",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "trˈuːli",
       "translations": [
         "действительно",
         "по-настоящему"
@@ -1060,7 +1060,7 @@
       "form": "tutor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tjˈuːtɐ",
       "translations": [
         "репетитор"
       ],
@@ -1075,7 +1075,7 @@
       "form": "typical",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tˈɪpɪkəl",
       "translations": [
         "типичный"
       ],

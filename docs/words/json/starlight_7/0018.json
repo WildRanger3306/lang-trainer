@@ -14,7 +14,7 @@
       "form": "request",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rɪkwˈɛst",
       "translations": [
         "запрос"
       ],
@@ -29,7 +29,7 @@
       "form": "requirement",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rɪkwˈaɪəmənt",
       "translations": [
         "требование"
       ],
@@ -104,7 +104,7 @@
       "form": "resist",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪsˈɪst",
       "translations": [
         "сопротивлять(ся)"
       ],
@@ -135,7 +135,7 @@
       "form": "respect",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rɪspˈɛkt",
       "translations": [
         "уважение"
       ],
@@ -150,7 +150,7 @@
       "form": "respond",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪspˈɒnd",
       "translations": [
         "отвечать"
       ],
@@ -165,7 +165,7 @@
       "form": "responsible",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rɪspˈɒnsəbəl",
       "translations": [
         "ответственный"
       ],
@@ -180,7 +180,7 @@
       "form": "rest",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈɛst",
       "translations": [
         "отдых"
       ],
@@ -240,7 +240,7 @@
       "form": "restriction",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rɪstrˈɪkʃən",
       "translations": [
         "ограничение"
       ],
@@ -255,7 +255,7 @@
       "form": "result",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rɪzˈʌlt",
       "translations": [
         "результат"
       ],
@@ -270,7 +270,7 @@
       "form": "resurface",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪsˈɜːfɪs",
       "translations": [
         "появиться снова",
         "всплыть"
@@ -286,7 +286,7 @@
       "form": "retire",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪtˈaɪə",
       "translations": [
         "уходить на пенсию"
       ],
@@ -301,7 +301,7 @@
       "form": "retrieve",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪtrˈiːv",
       "translations": [
         "вернуть",
         "восстановить"
@@ -317,7 +317,7 @@
       "form": "reveal",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪvˈiːl",
       "translations": [
         "открывать"
       ],
@@ -332,7 +332,7 @@
       "form": "rewarding",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rɪwˈɔːdɪŋ",
       "translations": [
         "зд. достойный",
         "стоящий того",
@@ -349,7 +349,7 @@
       "form": "ribbon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈɪbən",
       "translations": [
         "лента"
       ],
@@ -364,7 +364,7 @@
       "form": "rickshaw",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈɪkʃɔː",
       "translations": [
         "рикша (повозка (чаще всего двухколёсная), которую тянет за собой, взявшись за оглобли, человек)"
       ],
@@ -379,7 +379,7 @@
       "form": "ridiculous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rɪdˈɪkjʊləs",
       "translations": [
         "нелепый",
         "смешной"
@@ -395,7 +395,7 @@
       "form": "ring",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈɪŋ",
       "translations": [
         "звонить"
       ],
@@ -410,7 +410,7 @@
       "form": "rise",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈaɪz",
       "translations": [
         "подниматься"
       ],
@@ -425,7 +425,7 @@
       "form": "risk",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈɪsk",
       "translations": [
         "рисковать"
       ],
@@ -440,7 +440,7 @@
       "form": "risky",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rˈɪski",
       "translations": [
         "рискованный"
       ],
@@ -455,7 +455,7 @@
       "form": "rite",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈaɪt",
       "translations": [
         "обряд"
       ],
@@ -485,7 +485,7 @@
       "form": "roaring",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rˈɔːrɪŋ",
       "translations": [
         "пылающий"
       ],
@@ -500,7 +500,7 @@
       "form": "robbery",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈɒbəri",
       "translations": [
         "кража"
       ],
@@ -575,7 +575,7 @@
       "form": "rocky",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rˈɒki",
       "translations": [
         "скалистый"
       ],
@@ -605,7 +605,7 @@
       "form": "rooftop",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈuːftɒp",
       "translations": [
         "крыша"
       ],
@@ -650,7 +650,7 @@
       "form": "rope",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈəʊp",
       "translations": [
         "верёвка"
       ],
@@ -665,7 +665,7 @@
       "form": "round",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rˈaʊnd",
       "translations": [
         "круглый"
       ],
@@ -695,7 +695,7 @@
       "form": "rub",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈʌb",
       "translations": [
         "втирать"
       ],
@@ -710,7 +710,7 @@
       "form": "rucksack",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈʌksæk",
       "translations": [
         "рюкзак"
       ],
@@ -725,7 +725,7 @@
       "form": "rude",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rˈuːd",
       "translations": [
         "грубый"
       ],
@@ -771,7 +771,7 @@
       "form": "rust",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈʌst",
       "translations": [
         "ржавчина"
       ],
@@ -1071,7 +1071,7 @@
       "form": "sack",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈæk",
       "translations": [
         "мешок",
         "сумка"
@@ -1102,7 +1102,7 @@
       "form": "salary",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈæləri",
       "translations": [
         "зарплата"
       ],
@@ -1117,7 +1117,7 @@
       "form": "saliva",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɐlˈaɪvɐ",
       "translations": [
         "слюна"
       ],
@@ -1132,7 +1132,7 @@
       "form": "salon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈælɒn",
       "translations": [
         "музыкальный салон"
       ],
@@ -1147,7 +1147,7 @@
       "form": "salt",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɒlt",
       "translations": [
         "соль"
       ],
@@ -1162,7 +1162,7 @@
       "form": "salty",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈɒlti",
       "translations": [
         "солёный"
       ],
@@ -1177,7 +1177,7 @@
       "form": "sari",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɑːri",
       "translations": [
         "сари (индийская национальная женская одежда)"
       ],
@@ -1192,7 +1192,7 @@
       "form": "satisfied",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈætɪsfˌaɪd",
       "translations": [
         "удовлетворённый"
       ],
@@ -1207,7 +1207,7 @@
       "form": "satisfying",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈætɪsfˌaɪɪŋ",
       "translations": [
         "удовлетворительный"
       ],

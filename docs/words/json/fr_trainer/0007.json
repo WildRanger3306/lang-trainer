@@ -1,0 +1,450 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0007.jpg",
+    "page": "Jours, mois, saisons"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "lundi",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lœ̃di",
+      "gender": "m",
+      "translations": [
+        "понедельник"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mardi",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "maʁdi",
+      "gender": "m",
+      "translations": [
+        "вторник"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mercredi",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mɛʁkʁədi",
+      "gender": "m",
+      "translations": [
+        "среда"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "jeudi",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʒødi",
+      "gender": "m",
+      "translations": [
+        "четверг"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "vendredi",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "vɑ̃dʁədi",
+      "gender": "m",
+      "translations": [
+        "пятница"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "samedi",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "samdi",
+      "gender": "m",
+      "translations": [
+        "суббота"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "dimanche",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dimɑ̃ʃ",
+      "gender": "m",
+      "translations": [
+        "воскресенье"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "janvier",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʒɑ̃vje",
+      "gender": "m",
+      "translations": [
+        "январь"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "février",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "fevʁije",
+      "gender": "m",
+      "translations": [
+        "февраль"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mars",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "maʁs",
+      "gender": "m",
+      "translations": [
+        "март"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "avril",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "avʁil",
+      "gender": "m",
+      "translations": [
+        "апрель"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mai",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mɛ",
+      "gender": "m",
+      "translations": [
+        "май"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "juin",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʒɥɛ̃",
+      "gender": "m",
+      "translations": [
+        "июнь"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "juillet",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʒɥijɛ",
+      "gender": "m",
+      "translations": [
+        "июль"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "août",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "u",
+      "gender": "m",
+      "translations": [
+        "август"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "septembre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "sɛptɑ̃bʁ",
+      "gender": "m",
+      "translations": [
+        "сентябрь"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "octobre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ɔktɔbʁ",
+      "gender": "m",
+      "translations": [
+        "октябрь"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "novembre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "nɔvɑ̃bʁ",
+      "gender": "m",
+      "translations": [
+        "ноябрь"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "décembre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "desɑ̃bʁ",
+      "gender": "m",
+      "translations": [
+        "декабрь"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "hiver",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ivɛʁ",
+      "gender": "m",
+      "translations": [
+        "зима"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "printemps",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pʁɛ̃tɑ̃",
+      "gender": "m",
+      "translations": [
+        "весна"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "été",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ete",
+      "gender": "m",
+      "translations": [
+        "лето"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "automne",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "otɔn",
+      "gender": "m",
+      "translations": [
+        "осень"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all",
+        "frt_calendrier"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}

@@ -14,7 +14,7 @@
       "form": "gagner",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "gaɲe",
       "gender": null,
       "translations": [
         "зарабатывать",
@@ -33,7 +33,7 @@
       "form": "intelligent, intelligente",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛ̃teliʒɑ̃",
       "gender": null,
       "translations": [
         "умный, -ая"
@@ -51,7 +51,7 @@
       "form": "italien, italienne",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "italjɛ̃",
       "gender": null,
       "translations": [
         "итальянский, -ая"
@@ -69,7 +69,7 @@
       "form": "jardin",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒaʁdɛ̃",
       "gender": "m",
       "translations": [
         "сад"
@@ -87,7 +87,7 @@
       "form": "joueur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒwœʁ",
       "gender": "m",
       "translations": [
         "игрок"
@@ -105,7 +105,7 @@
       "form": "libre",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "libʁ",
       "gender": null,
       "translations": [
         "свободный, -ая"
@@ -141,7 +141,7 @@
       "form": "lièvre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ljɛvʁ",
       "gender": "m",
       "translations": [
         "заяц"
@@ -159,7 +159,7 @@
       "form": "longtemps",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "lɔ̃tɑ̃",
       "gender": null,
       "translations": [
         "долго"
@@ -177,7 +177,7 @@
       "form": "loup",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lu",
       "gender": "m",
       "translations": [
         "волк"
@@ -195,7 +195,7 @@
       "form": "maigrir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "megʁiʁ",
       "gender": null,
       "translations": [
         "худеть"
@@ -213,7 +213,7 @@
       "form": "marcher",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "maʁʃe",
       "gender": null,
       "translations": [
         "шагать",
@@ -232,7 +232,7 @@
       "form": "marchandise",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "maʁʃɑ̃diz",
       "gender": "f",
       "translations": [
         "товар"
@@ -250,7 +250,7 @@
       "form": "métier",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "metje",
       "gender": "m",
       "translations": [
         "профессия",
@@ -269,7 +269,7 @@
       "form": "mexicain, mexicaine",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mɛksikɛ̃",
       "gender": null,
       "translations": [
         "мексиканский, -ая"
@@ -287,7 +287,7 @@
       "form": "mince",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mɛ̃s",
       "gender": null,
       "translations": [
         "стройный, -ая"
@@ -305,7 +305,7 @@
       "form": "moyen, moyenne",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mwajɛ̃",
       "gender": null,
       "translations": [
         "средний, -ая"
@@ -323,7 +323,7 @@
       "form": "natation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "natasjɔ̃",
       "gender": "f",
       "translations": [
         "плавание"
@@ -341,7 +341,7 @@
       "form": "naître",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "nɛtʁ",
       "gender": null,
       "translations": [
         "родиться"
@@ -359,7 +359,7 @@
       "form": "ouvrier",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "uvʁije",
       "gender": "m",
       "translations": [
         "рабочий"
@@ -377,7 +377,7 @@
       "form": "passer (se)",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pase",
       "gender": null,
       "translations": [
         "происходить"
@@ -395,7 +395,7 @@
       "form": "pâtisserie",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "patisʁi",
       "gender": "f",
       "translations": [
         "кондитерская"
@@ -413,7 +413,7 @@
       "form": "pâtissier",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "patisje",
       "gender": "m",
       "translations": [
         "кондитер"
@@ -431,7 +431,7 @@
       "form": "pâtissière",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "patisjɛʁ",
       "gender": "f",
       "translations": [
         "кондитер"
@@ -449,7 +449,7 @@
       "form": "pendant",
       "partOfSpeech": "other",
       "partOfSpeechCode": "prep",
-      "transcription": null,
+      "transcription": "pɑ̃dɑ̃",
       "gender": null,
       "translations": [
         "во время",
@@ -468,7 +468,7 @@
       "form": "peur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pœʁ",
       "gender": "f",
       "translations": [
         "страх"
@@ -486,7 +486,7 @@
       "form": "peureux, peureuse",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pœʁø",
       "gender": null,
       "translations": [
         "боязливый, -ая"
@@ -504,7 +504,7 @@
       "form": "portugais, portugaise",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pɔʁtygɛ",
       "gender": null,
       "translations": [
         "португальский, -ая"
@@ -522,7 +522,7 @@
       "form": "sage",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "saʒ",
       "gender": null,
       "translations": [
         "послушный, -ая"
@@ -540,7 +540,7 @@
       "form": "seul, seule",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sœl",
       "gender": null,
       "translations": [
         "один",
@@ -559,7 +559,7 @@
       "form": "sourire",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "suʁiʁ",
       "gender": "m",
       "translations": [
         "улыбка"
@@ -577,7 +577,7 @@
       "form": "taille",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "taj",
       "gender": "f",
       "translations": [
         "рост"
@@ -595,7 +595,7 @@
       "form": "taire (se)",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tɛʁ",
       "gender": null,
       "translations": [
         "молчать"
@@ -613,7 +613,7 @@
       "form": "tarte",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "taʁt",
       "gender": "f",
       "translations": [
         "торт",
@@ -632,7 +632,7 @@
       "form": "toujours",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "tuʒuʁ",
       "gender": null,
       "translations": [
         "всегда"
@@ -650,7 +650,7 @@
       "form": "tuer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tɥe",
       "gender": null,
       "translations": [
         "убивать"
@@ -668,7 +668,7 @@
       "form": "usine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "yzin",
       "gender": "f",
       "translations": [
         "завод"
@@ -686,7 +686,7 @@
       "form": "vedette",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vədɛt",
       "gender": "f",
       "translations": [
         "звезда"
@@ -704,7 +704,7 @@
       "form": "vendre",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "vɑ̃dʁ",
       "gender": null,
       "translations": [
         "продавать"
@@ -722,7 +722,7 @@
       "form": "violon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vjɔlɔ̃",
       "gender": "m",
       "translations": [
         "скрипка"
@@ -813,7 +813,7 @@
       "form": "allumette",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "alymɛt",
       "gender": "f",
       "translations": [
         "спичка"
@@ -831,7 +831,7 @@
       "form": "annoncer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "anɔ̃se",
       "gender": null,
       "translations": [
         "объявлять"
@@ -849,7 +849,7 @@
       "form": "chaîne",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃɛn",
       "gender": "f",
       "translations": [
         "программа (канал)"
@@ -867,7 +867,7 @@
       "form": "contre",
       "partOfSpeech": "other",
       "partOfSpeechCode": "prep",
-      "transcription": null,
+      "transcription": "kɔ̃tʁ",
       "gender": null,
       "translations": [
         "напротив",
@@ -886,7 +886,7 @@
       "form": "coq",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɔk",
       "gender": "m",
       "translations": [
         "петух"
@@ -904,7 +904,7 @@
       "form": "curieux, curieuse",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kyʁjø",
       "gender": null,
       "translations": [
         "любопытный, -ая",
@@ -941,7 +941,7 @@
       "form": "devenir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dəvniʁ",
       "gender": null,
       "translations": [
         "становиться"
@@ -959,7 +959,7 @@
       "form": "électronicien",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "elɛktʁɔnisjɛ̃",
       "gender": "m",
       "translations": [
         "электронщик"
@@ -977,7 +977,7 @@
       "form": "émission",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "emisjɔ̃",
       "gender": "f",
       "translations": [
         "передача"
@@ -995,7 +995,7 @@
       "form": "ennuyeux, ennuyeuse",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɑ̃nɥijø",
       "gender": null,
       "translations": [
         "скучный, -ая"
@@ -1013,7 +1013,7 @@
       "form": "éteindre",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "etɛ̃dʁ",
       "gender": null,
       "translations": [
         "выключить",
@@ -1033,7 +1033,7 @@
       "form": "jamais",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "ʒamɛ",
       "gender": null,
       "translations": [
         "никогда"
@@ -1051,7 +1051,7 @@
       "form": "jeune",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʒœn",
       "gender": null,
       "translations": [
         "молодой, -ая"
@@ -1087,7 +1087,7 @@
       "form": "magazine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "magazin",
       "gender": "m",
       "translations": [
         "зд. тематическая передача"
@@ -1105,7 +1105,7 @@
       "form": "météo",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "meteo",
       "gender": "f",
       "translations": [
         "сводка погоды"
@@ -1123,7 +1123,7 @@
       "form": "parfois",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "paʁfwa",
       "gender": null,
       "translations": [
         "иногда"
@@ -1141,7 +1141,7 @@
       "form": "présentateur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pʁezɑ̃tatœʁ",
       "gender": "m",
       "translations": [
         "ведущий"
@@ -1159,7 +1159,7 @@
       "form": "présentatrice",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pʁezɑ̃tatʁis",
       "gender": "f",
       "translations": [
         "ведущая"
@@ -1177,7 +1177,7 @@
       "form": "publicité",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pyblisite",
       "gender": "f",
       "translations": [
         "реклама"
@@ -1195,7 +1195,7 @@
       "form": "puis",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "pɥi",
       "gender": null,
       "translations": [
         "потом",
@@ -1214,7 +1214,7 @@
       "form": "renard",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁənaʁ",
       "gender": "m",
       "translations": [
         "лиса"
@@ -1232,7 +1232,7 @@
       "form": "retrouver",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁətʁuve",
       "gender": null,
       "translations": [
         "найти",
@@ -1251,7 +1251,7 @@
       "form": "roi",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁwa",
       "gender": "m",
       "translations": [
         "король"
@@ -1269,7 +1269,7 @@
       "form": "reine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁɛn",
       "gender": "f",
       "translations": [
         "королева"
@@ -1287,7 +1287,7 @@
       "form": "suite",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɥit",
       "gender": "f",
       "translations": [
         "продолжение"
@@ -1305,7 +1305,7 @@
       "form": "tard",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "taʁ",
       "gender": null,
       "translations": [
         "поздно"
@@ -1323,7 +1323,7 @@
       "form": "télécommande",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "telekɔmɑ̃d",
       "gender": "f",
       "translations": [
         "пульт дистанционного управления"
@@ -1341,7 +1341,7 @@
       "form": "téléspectateur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "telespɛktatœʁ",
       "gender": "m",
       "translations": [
         "телезритель"
@@ -1359,7 +1359,7 @@
       "form": "téléspectatrice",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "telespɛktatʁis",
       "gender": "f",
       "translations": [
         "телезрительница"
@@ -1377,7 +1377,7 @@
       "form": "vieux, vieille",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "vjø",
       "gender": null,
       "translations": [
         "старый, -ая"

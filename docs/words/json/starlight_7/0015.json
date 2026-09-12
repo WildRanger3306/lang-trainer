@@ -30,7 +30,7 @@
       "form": "nickname",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈɪkneɪm",
       "translations": [
         "кличка"
       ],
@@ -45,7 +45,7 @@
       "form": "nightmare",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈaɪtmeə",
       "translations": [
         "кошмар"
       ],
@@ -135,7 +135,7 @@
       "form": "notice",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "nˈəʊtɪs",
       "translations": [
         "замечать"
       ],
@@ -150,7 +150,7 @@
       "form": "nurse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈɜːs",
       "translations": [
         "медсестра"
       ],
@@ -210,7 +210,7 @@
       "form": "oar",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɔː",
       "translations": [
         "весло"
       ],
@@ -225,7 +225,7 @@
       "form": "objective",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɒbdʒˈɛktɪv",
       "translations": [
         "цель"
       ],
@@ -240,7 +240,7 @@
       "form": "observant",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɒbzˈɜːvənt",
       "translations": [
         "наблюдатель"
       ],
@@ -255,7 +255,7 @@
       "form": "observe",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɒbzˈɜːv",
       "translations": [
         "наблюдать"
       ],
@@ -270,7 +270,7 @@
       "form": "obsessed",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɒbsˈɛst",
       "translations": [
         "одержимый"
       ],
@@ -285,7 +285,7 @@
       "form": "obtain",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɒbtˈeɪn",
       "translations": [
         "получать",
         "приобретать"
@@ -301,7 +301,7 @@
       "form": "odd",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɒd",
       "translations": [
         "странный"
       ],
@@ -331,7 +331,7 @@
       "form": "offensive",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "əfˈɛnsɪv",
       "translations": [
         "грубый"
       ],
@@ -346,7 +346,7 @@
       "form": "offer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɒfɐ",
       "translations": [
         "предлагать"
       ],
@@ -361,7 +361,7 @@
       "form": "offline",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɒflaɪn",
       "translations": [
         "не в сети",
         "оффлайн"
@@ -377,7 +377,7 @@
       "form": "old",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈəʊld",
       "translations": [
         "старый"
       ],
@@ -453,7 +453,7 @@
       "form": "opera",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɒpərɐ",
       "translations": [
         "опера"
       ],
@@ -483,7 +483,7 @@
       "form": "operation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌɒpərˈeɪʃən",
       "translations": [
         "операция"
       ],
@@ -498,7 +498,7 @@
       "form": "opportunity",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɒpətjˈuːnɪti",
       "translations": [
         "возможность"
       ],
@@ -528,7 +528,7 @@
       "form": "optician",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɒptˈɪʃən",
       "translations": [
         "окулист"
       ],
@@ -543,7 +543,7 @@
       "form": "orchestra",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɔːkɛstrɐ",
       "translations": [
         "оркестр"
       ],
@@ -573,7 +573,7 @@
       "form": "organised",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɔːgɐnˌaɪzd",
       "translations": [
         "организованный"
       ],
@@ -588,7 +588,7 @@
       "form": "orphan",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɔːfən",
       "translations": [
         "сирота"
       ],
@@ -603,7 +603,7 @@
       "form": "outgoing",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "aʊtgˈəʊɪŋ",
       "translations": [
         "общительный",
         "дружелюбный"
@@ -619,7 +619,7 @@
       "form": "outrageous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "aʊtrˈeɪdʒəs",
       "translations": [
         "эпатажный",
         "вопиющий"
@@ -635,7 +635,7 @@
       "form": "oval",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈəʊvəl",
       "translations": [
         "овальный"
       ],
@@ -680,7 +680,7 @@
       "form": "overwhelming",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˌəʊvəwˈɛlmɪŋ",
       "translations": [
         "чрезвычайный"
       ],
@@ -710,7 +710,7 @@
       "form": "oxygen",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɒksɪdʒən",
       "translations": [
         "кислород"
       ],
@@ -830,7 +830,7 @@
       "form": "padded",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pˈædɪd",
       "translations": [
         "дутый"
       ],
@@ -845,7 +845,7 @@
       "form": "pain",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈeɪn",
       "translations": [
         "боль"
       ],
@@ -860,7 +860,7 @@
       "form": "painful",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pˈeɪnfəl",
       "translations": [
         "болезненный"
       ],
@@ -890,7 +890,7 @@
       "form": "painting",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈeɪntɪŋ",
       "translations": [
         "картина"
       ],
@@ -905,7 +905,7 @@
       "form": "palm",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɑːm",
       "translations": [
         "ладонь"
       ],
@@ -920,7 +920,7 @@
       "form": "parachute",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pˈærəʃˌuːt",
       "translations": [
         "парашют"
       ],
@@ -935,7 +935,7 @@
       "form": "paragliding",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈærəglˌaɪdɪŋ",
       "translations": [
         "парапланеризм"
       ],
@@ -965,7 +965,7 @@
       "form": "parkland",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɑːklənd",
       "translations": [
         "парковая зона"
       ],
@@ -980,7 +980,7 @@
       "form": "parrot",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈærət",
       "translations": [
         "попугай"
       ],
@@ -1055,7 +1055,7 @@
       "form": "passenger",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈæsɪndʒɐ",
       "translations": [
         "пассажир"
       ],
@@ -1070,7 +1070,7 @@
       "form": "passionate",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pˈæʃənət",
       "translations": [
         "страстный"
       ],
@@ -1085,7 +1085,7 @@
       "form": "password",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɑːswɜːd",
       "translations": [
         "пароль"
       ],
@@ -1100,7 +1100,7 @@
       "form": "patch",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈætʃ",
       "translations": [
         "грядка"
       ],
@@ -1115,7 +1115,7 @@
       "form": "patient",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pˈeɪʃənt",
       "translations": [
         "терпеливый"
       ],
@@ -1130,7 +1130,7 @@
       "form": "patrol",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pɐtrˈəʊl",
       "translations": [
         "патрулировать"
       ],
@@ -1145,7 +1145,7 @@
       "form": "pavement",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈeɪvmənt",
       "translations": [
         "тротуар"
       ],
@@ -1176,7 +1176,7 @@
       "form": "penknife",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɛnnaɪf",
       "translations": [
         "перочинный нож"
       ],
@@ -1206,7 +1206,7 @@
       "form": "perform",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pəfˈɔːm",
       "translations": [
         "выступать"
       ],

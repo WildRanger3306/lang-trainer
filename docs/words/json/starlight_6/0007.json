@@ -13,7 +13,7 @@
       "form": "hole",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈəʊl",
       "translations": [
         "отверстие"
       ],
@@ -58,7 +58,7 @@
       "form": "homeland",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈəʊmlənd",
       "translations": [
         "Родина"
       ],
@@ -73,7 +73,7 @@
       "form": "homelessness",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈəʊmləsnəs",
       "translations": [
         "бездомность"
       ],
@@ -88,7 +88,7 @@
       "form": "hometown",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈəʊmtaʊn",
       "translations": [
         "родной город"
       ],
@@ -103,7 +103,7 @@
       "form": "honour",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɒnɐ",
       "translations": [
         "почитать",
         "уважать"
@@ -119,7 +119,7 @@
       "form": "horn",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈɔːn",
       "translations": [
         "рог"
       ],
@@ -134,7 +134,7 @@
       "form": "hospital",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈɒspɪtəl",
       "translations": [
         "больница"
       ],
@@ -179,7 +179,7 @@
       "form": "housing",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈaʊzɪŋ",
       "translations": [
         "жильё"
       ],
@@ -194,7 +194,7 @@
       "form": "huge",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "hjˈuːdʒ",
       "translations": [
         "огромный"
       ],
@@ -209,7 +209,7 @@
       "form": "human",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hjˈuːmən",
       "translations": [
         "человек"
       ],
@@ -239,7 +239,7 @@
       "form": "humanitarian",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "hjˌuːmɐnɪtˈeəriən",
       "translations": [
         "гуманитарный"
       ],
@@ -254,7 +254,7 @@
       "form": "humble",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "hˈʌmbəl",
       "translations": [
         "скромный"
       ],
@@ -284,7 +284,7 @@
       "form": "hunger",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈʌŋgɐ",
       "translations": [
         "голод"
       ],
@@ -299,7 +299,7 @@
       "form": "hungry",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "hˈʌŋgri",
       "translations": [
         "голодный"
       ],
@@ -314,7 +314,7 @@
       "form": "hunt",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "hˈʌnt",
       "translations": [
         "охота",
         "охотиться"
@@ -330,7 +330,7 @@
       "form": "hunting",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈʌntɪŋ",
       "translations": [
         "охота"
       ],
@@ -345,7 +345,7 @@
       "form": "hurricane",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈʌrɪkˌeɪn",
       "translations": [
         "ураган"
       ],
@@ -360,7 +360,7 @@
       "form": "hut",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "hˈʌt",
       "translations": [
         "хижина"
       ],
@@ -496,7 +496,7 @@
       "form": "icicle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈaɪsɪkəl",
       "translations": [
         "сосулька"
       ],
@@ -511,7 +511,7 @@
       "form": "identify",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "aɪdˈɛntɪfˌaɪ",
       "translations": [
         "определить"
       ],
@@ -526,7 +526,7 @@
       "form": "ignorance",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɪgnərəns",
       "translations": [
         "невежество"
       ],
@@ -541,7 +541,7 @@
       "form": "ill",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɪl",
       "translations": [
         "больной"
       ],
@@ -556,7 +556,7 @@
       "form": "illiteracy",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪlˈɪtərəsi",
       "translations": [
         "неграмотность"
       ],
@@ -571,7 +571,7 @@
       "form": "imagine",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪmˈædʒɪn",
       "translations": [
         "представлять"
       ],
@@ -616,7 +616,7 @@
       "form": "importance",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪmpˈɔːtəns",
       "translations": [
         "значение",
         "важность"
@@ -647,7 +647,7 @@
       "form": "impressionism",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪmprˈɛʃənˌɪzəm",
       "translations": [
         "импрессионизм"
       ],
@@ -662,7 +662,7 @@
       "form": "impressive",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪmprˈɛsɪv",
       "translations": [
         "впечатляющий"
       ],
@@ -677,7 +677,7 @@
       "form": "improve",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪmprˈuːv",
       "translations": [
         "улучшать",
         "совершенствовать"
@@ -693,7 +693,7 @@
       "form": "include",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪnklˈuːd",
       "translations": [
         "включить"
       ],
@@ -708,7 +708,7 @@
       "form": "including",
       "partOfSpeech": "other",
       "partOfSpeechCode": "prep",
-      "transcription": null,
+      "transcription": "ɪnklˈuːdɪŋ",
       "translations": [
         "в том числе"
       ],
@@ -723,7 +723,7 @@
       "form": "incredible",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪnkrˈɛdɪbəl",
       "translations": [
         "невероятный"
       ],
@@ -738,7 +738,7 @@
       "form": "individual",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˌɪndɪvˈɪdʒuːəl",
       "translations": [
         "индивидуальный"
       ],
@@ -753,7 +753,7 @@
       "form": "individuals",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌɪndɪvˈɪdʒuːəlz",
       "translations": [
         "лица",
         "индивиды"
@@ -769,7 +769,7 @@
       "form": "indoor",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɪndɔː",
       "translations": [
         "внутренний",
         "домашний"
@@ -785,7 +785,7 @@
       "form": "industry",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɪndʌstrˌi",
       "translations": [
         "промышленность"
       ],
@@ -800,7 +800,7 @@
       "form": "influence",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɪnfluːəns",
       "translations": [
         "влиять",
         "оказывать влияние"
@@ -831,7 +831,7 @@
       "form": "ingredient",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪngrˈiːdiənt",
       "translations": [
         "ингредиент"
       ],
@@ -846,7 +846,7 @@
       "form": "injure",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɪndʒɐ",
       "translations": [
         "нанести травму",
         "ранить"
@@ -862,7 +862,7 @@
       "form": "injured",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɪndʒəd",
       "translations": [
         "раненый"
       ],
@@ -877,7 +877,7 @@
       "form": "injury",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɪndʒəri",
       "translations": [
         "травма"
       ],
@@ -892,7 +892,7 @@
       "form": "inlet",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɪnlət",
       "translations": [
         "бухта"
       ],
@@ -922,7 +922,7 @@
       "form": "inspiration",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌɪnspərˈeɪʃən",
       "translations": [
         "вдохновение"
       ],
@@ -937,7 +937,7 @@
       "form": "inspire",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪnspˈaɪə",
       "translations": [
         "вдохновлять"
       ],
@@ -952,7 +952,7 @@
       "form": "instructor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪnstrˈʌktɐ",
       "translations": [
         "инструктор"
       ],
@@ -967,7 +967,7 @@
       "form": "intelligent",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪntˈɛlɪdʒənt",
       "translations": [
         "умный",
         "смышлёный"
@@ -998,7 +998,7 @@
       "form": "invasion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪnvˈeɪʒən",
       "translations": [
         "вторжение"
       ],
@@ -1013,7 +1013,7 @@
       "form": "invent",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪnvˈɛnt",
       "translations": [
         "изобретать"
       ],
@@ -1028,7 +1028,7 @@
       "form": "inventor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪnvˈɛntɐ",
       "translations": [
         "изобретатель"
       ],
@@ -1043,7 +1043,7 @@
       "form": "invest",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪnvˈɛst",
       "translations": [
         "инвестировать"
       ],
@@ -1073,7 +1073,7 @@
       "form": "iron",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈaɪən",
       "translations": [
         "железо",
         "утюг"
@@ -1089,7 +1089,7 @@
       "form": "issue",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɪʃuː",
       "translations": [
         "вопрос",
         "проблема"
@@ -1226,7 +1226,7 @@
       "form": "jar",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dʒˈɑː",
       "translations": [
         "банка"
       ],
@@ -1256,7 +1256,7 @@
       "form": "juggler",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dʒˈʌglɐ",
       "translations": [
         "жонглёр"
       ],
@@ -1271,7 +1271,7 @@
       "form": "juice",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dʒˈuːs",
       "translations": [
         "сок"
       ],
@@ -1316,7 +1316,7 @@
       "form": "king",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kˈɪŋ",
       "translations": [
         "король"
       ],
@@ -1331,7 +1331,7 @@
       "form": "label",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈeɪbəl",
       "translations": [
         "ярлык"
       ],
@@ -1361,7 +1361,7 @@
       "form": "lamb",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lˈæm",
       "translations": [
         "ягнёнок"
       ],

@@ -13,7 +13,7 @@
       "form": "engineer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌɛndʒɪnˈiə",
       "translations": [
         "инженер"
       ],
@@ -28,7 +28,7 @@
       "form": "enormous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪnˈɔːməs",
       "translations": [
         "огромный"
       ],
@@ -43,7 +43,7 @@
       "form": "enter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɛntɐ",
       "translations": [
         "входить"
       ],
@@ -73,7 +73,7 @@
       "form": "equipment",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪkwˈɪpmənt",
       "translations": [
         "оборудование"
       ],
@@ -88,7 +88,7 @@
       "form": "erect",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪrˈɛkt",
       "translations": [
         "сооружать",
         "устанавливать",
@@ -105,7 +105,7 @@
       "form": "erupt",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪrˈʌpt",
       "translations": [
         "извергаться"
       ],
@@ -120,7 +120,7 @@
       "form": "escape",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɛskˈeɪp",
       "translations": [
         "убежать"
       ],
@@ -135,7 +135,7 @@
       "form": "establish",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪstˈæblɪʃ",
       "translations": [
         "установить"
       ],
@@ -181,7 +181,7 @@
       "form": "event",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪvˈɛnt",
       "translations": [
         "событие"
       ],
@@ -196,7 +196,7 @@
       "form": "evil",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈiːvəl",
       "translations": [
         "злой"
       ],
@@ -211,7 +211,7 @@
       "form": "excavate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɛkskəvˌeɪt",
       "translations": [
         "производить раскопки",
         "раскапывать"
@@ -227,7 +227,7 @@
       "form": "excited",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛksˈaɪtɪd",
       "translations": [
         "возбуждённый"
       ],
@@ -242,7 +242,7 @@
       "form": "exciting",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛksˈaɪtɪŋ",
       "translations": [
         "захватывающий"
       ],
@@ -257,7 +257,7 @@
       "form": "exclusive",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛksklˈuːsɪv",
       "translations": [
         "эксклюзивный"
       ],
@@ -272,7 +272,7 @@
       "form": "exercise",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɛksəsˌaɪz",
       "translations": [
         "упражняться"
       ],
@@ -287,7 +287,7 @@
       "form": "exhibit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "ɛgzˈɪbɪt",
       "translations": [
         "экспонат",
         "показывать",
@@ -304,7 +304,7 @@
       "form": "exhibition",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛksɪbˈɪʃən",
       "translations": [
         "выставка"
       ],
@@ -319,7 +319,7 @@
       "form": "expect",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɛkspˈɛkt",
       "translations": [
         "ожидать"
       ],
@@ -334,7 +334,7 @@
       "form": "expedition",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌɛkspədˈɪʃən",
       "translations": [
         "экспедиция"
       ],
@@ -349,7 +349,7 @@
       "form": "expensive",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛkspˈɛnsɪv",
       "translations": [
         "дорогой"
       ],
@@ -364,7 +364,7 @@
       "form": "experience",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "ɛkspˈiərɪəns",
       "translations": [
         "опыт",
         "переживать",
@@ -381,7 +381,7 @@
       "form": "experiment",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɛkspˈɛrɪmənt",
       "translations": [
         "экспериментировать"
       ],
@@ -396,7 +396,7 @@
       "form": "explore",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɛksplˈɔː",
       "translations": [
         "исследовать"
       ],
@@ -411,7 +411,7 @@
       "form": "explorer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛksplˈɔːrɐ",
       "translations": [
         "исследователь"
       ],
@@ -426,7 +426,7 @@
       "form": "exposition",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛkspəzˈɪʃən",
       "translations": [
         "экспозиция"
       ],
@@ -441,7 +441,7 @@
       "form": "expressionism",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛksprˈɛʃənˌɪzəm",
       "translations": [
         "экспрессионизм"
       ],
@@ -547,7 +547,7 @@
       "form": "factory",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈæktərˌi",
       "translations": [
         "завод",
         "фабрика"
@@ -563,7 +563,7 @@
       "form": "failure",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈeɪliə",
       "translations": [
         "неудача",
         "поражение"
@@ -579,7 +579,7 @@
       "form": "fairy",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈeəri",
       "translations": [
         "фея"
       ],
@@ -609,7 +609,7 @@
       "form": "falconry",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈælkɒnri",
       "translations": [
         "соколиная охота"
       ],
@@ -624,7 +624,7 @@
       "form": "fall",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɔːl",
       "translations": [
         "осень"
       ],
@@ -654,7 +654,7 @@
       "form": "famine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈæmɪn",
       "translations": [
         "голод"
       ],
@@ -669,7 +669,7 @@
       "form": "famous",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fˈeɪməs",
       "translations": [
         "известный"
       ],
@@ -684,7 +684,7 @@
       "form": "fantasy",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɑːntəsi",
       "translations": [
         "фантазия"
       ],
@@ -714,7 +714,7 @@
       "form": "farming",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɑːmɪŋ",
       "translations": [
         "сельское хозяйство"
       ],
@@ -729,7 +729,7 @@
       "form": "fascinating",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fˈæsɪnˌeɪtɪŋ",
       "translations": [
         "увлекательный"
       ],
@@ -759,7 +759,7 @@
       "form": "fat",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈæt",
       "translations": [
         "жир"
       ],
@@ -774,7 +774,7 @@
       "form": "fatal",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fˈeɪtəl",
       "translations": [
         "смертельный"
       ],
@@ -789,7 +789,7 @@
       "form": "fateful",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fˈeɪtfəl",
       "translations": [
         "роковой"
       ],
@@ -819,7 +819,7 @@
       "form": "feast",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈiːst",
       "translations": [
         "праздник"
       ],
@@ -834,7 +834,7 @@
       "form": "feature",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "fˈiːtʃɐ",
       "translations": [
         "качество",
         "свойство",
@@ -851,7 +851,7 @@
       "form": "feed",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "fˈiːd",
       "translations": [
         "кормить"
       ],
@@ -866,7 +866,7 @@
       "form": "female",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈiːmeɪl",
       "translations": [
         "женщина"
       ],
@@ -881,7 +881,7 @@
       "form": "ferry",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɛri",
       "translations": [
         "паром"
       ],
@@ -896,7 +896,7 @@
       "form": "fibreglass",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈaɪbrɪglˌɑːs",
       "translations": [
         "стекловолокно"
       ],
@@ -911,7 +911,7 @@
       "form": "field",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈiːld",
       "translations": [
         "поле"
       ],
@@ -956,7 +956,7 @@
       "form": "filling",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɪlɪŋ",
       "translations": [
         "начинка"
       ],
@@ -971,7 +971,7 @@
       "form": "fire",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈaɪə",
       "translations": [
         "пожар"
       ],
@@ -986,7 +986,7 @@
       "form": "fireworks",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "fˈaɪəwɜːks",
       "translations": [
         "фейерверк"
       ],
@@ -1016,7 +1016,7 @@
       "form": "fish",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɪʃ",
       "translations": [
         "рыба"
       ],
@@ -1061,7 +1061,7 @@
       "form": "flatmate",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈætmeɪt",
       "translations": [
         "сосед по квартире"
       ],
@@ -1076,7 +1076,7 @@
       "form": "flavour",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈeɪvɐ",
       "translations": [
         "вкус"
       ],
@@ -1107,7 +1107,7 @@
       "form": "flight",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈaɪt",
       "translations": [
         "рейс"
       ],
@@ -1122,7 +1122,7 @@
       "form": "flipper",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈɪpɐ",
       "translations": [
         "плавник"
       ],
@@ -1137,7 +1137,7 @@
       "form": "float",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "flˈəʊt",
       "translations": [
         "платформа на колёсах",
         "плавать",
@@ -1154,7 +1154,7 @@
       "form": "floating",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "flˈəʊtɪŋ",
       "translations": [
         "плавающий"
       ],
@@ -1184,7 +1184,7 @@
       "form": "flood",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈʌd",
       "translations": [
         "наводнение"
       ],
@@ -1199,7 +1199,7 @@
       "form": "flute",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈuːt",
       "translations": [
         "флейта"
       ],
@@ -1259,7 +1259,7 @@
       "form": "forecast",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɔːkɑːst",
       "translations": [
         "прогноз"
       ],
@@ -1274,7 +1274,7 @@
       "form": "forest",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɒrɪst",
       "translations": [
         "лес"
       ],
@@ -1304,7 +1304,7 @@
       "form": "fort",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɔːt",
       "translations": [
         "форт"
       ],
@@ -1319,7 +1319,7 @@
       "form": "fortress",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɔːtrəs",
       "translations": [
         "крепость"
       ],
@@ -1334,7 +1334,7 @@
       "form": "fossil",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɒsəl",
       "translations": [
         "ископаемое"
       ],
@@ -1349,7 +1349,7 @@
       "form": "found",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "fˈaʊnd",
       "translations": [
         "основывать"
       ],
@@ -1364,7 +1364,7 @@
       "form": "frame",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "frˈeɪm",
       "translations": [
         "рама"
       ],
@@ -1379,7 +1379,7 @@
       "form": "freezer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "frˈiːzɐ",
       "translations": [
         "морозильная камера"
       ],
@@ -1394,7 +1394,7 @@
       "form": "fresh",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "frˈɛʃ",
       "translations": [
         "свежий"
       ],
@@ -1439,7 +1439,7 @@
       "form": "frozen",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "frˈəʊzən",
       "translations": [
         "замороженный"
       ],

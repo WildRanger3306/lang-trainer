@@ -18,6 +18,7 @@ SEED_DIRS = [
     ROOT / "docs" / "words" / "json" / "starlight_7",
     ROOT / "docs" / "words" / "json" / "loiseau_blue_5",
     ROOT / "docs" / "words" / "json" / "loiseau_blue_6",
+    ROOT / "docs" / "words" / "json" / "fr_trainer",
 ]
 
 

@@ -14,7 +14,7 @@
       "form": "chalet",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃalɛ",
       "gender": "m",
       "translations": [
         "шале",
@@ -33,7 +33,7 @@
       "form": "chiffre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃifʁ",
       "gender": "m",
       "translations": [
         "цифра"
@@ -51,7 +51,7 @@
       "form": "détail",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "detaj",
       "gender": "m",
       "translations": [
         "деталь"
@@ -87,7 +87,7 @@
       "form": "drapeau",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dʁapo",
       "gender": "m",
       "translations": [
         "флаг",
@@ -106,7 +106,7 @@
       "form": "entendre",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɑ̃tɑ̃dʁ",
       "gender": null,
       "translations": [
         "слышать"
@@ -124,7 +124,7 @@
       "form": "erreur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛʁœʁ",
       "gender": "f",
       "translations": [
         "ошибка"
@@ -160,7 +160,7 @@
       "form": "fleuve",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flœv",
       "gender": "m",
       "translations": [
         "река"
@@ -178,7 +178,7 @@
       "form": "frontière",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fʁɔ̃tjɛʁ",
       "gender": "f",
       "translations": [
         "граница"
@@ -196,7 +196,7 @@
       "form": "horloge",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɔʁlɔʒ",
       "gender": "f",
       "translations": [
         "часы (настенные)"
@@ -214,7 +214,7 @@
       "form": "intérieur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛ̃teʁjœʁ",
       "gender": "m",
       "translations": [
         "интерьер"
@@ -250,7 +250,7 @@
       "form": "lac",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "lak",
       "gender": "m",
       "translations": [
         "озеро"
@@ -268,7 +268,7 @@
       "form": "magnifique",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "maɲifik",
       "gender": null,
       "translations": [
         "великолепный, -ая"
@@ -286,7 +286,7 @@
       "form": "message",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mesaʒ",
       "gender": "m",
       "translations": [
         "послание"
@@ -304,7 +304,7 @@
       "form": "monnaie",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɔnɛ",
       "gender": "f",
       "translations": [
         "монета",
@@ -341,7 +341,7 @@
       "form": "montagne",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɔ̃taɲ",
       "gender": "f",
       "translations": [
         "гора"
@@ -359,7 +359,7 @@
       "form": "montagneux, montagneuse",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mɔ̃taɲø",
       "gender": null,
       "translations": [
         "горный, -ая"
@@ -377,7 +377,7 @@
       "form": "neigeux, neigeuse",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nɛʒø",
       "gender": null,
       "translations": [
         "заснеженный, -ая"
@@ -395,7 +395,7 @@
       "form": "rappeler",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁaple",
       "gender": null,
       "translations": [
         "перезвонить",
@@ -414,7 +414,7 @@
       "form": "remercier",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁəmɛʁsje",
       "gender": null,
       "translations": [
         "поблагодарить"
@@ -450,7 +450,7 @@
       "form": "télécarte",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "telekaʁt",
       "gender": "f",
       "translations": [
         "телефонная карточка"
@@ -468,7 +468,7 @@
       "form": "tempéré, tempérée",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "tɑ̃peʁe",
       "gender": null,
       "translations": [
         "умеренный, -ая"
@@ -504,7 +504,7 @@
       "form": "traverser",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tʁavɛʁse",
       "gender": null,
       "translations": [
         "пересекать"
@@ -522,7 +522,7 @@
       "form": "tromper (se)",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "tʁɔ̃pe",
       "gender": null,
       "translations": [
         "ошибаться"
@@ -594,7 +594,7 @@
       "form": "appuyer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "apɥije",
       "gender": null,
       "translations": [
         "нажимать"
@@ -648,7 +648,7 @@
       "form": "bâtir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "batiʁ",
       "gender": null,
       "translations": [
         "строить"
@@ -666,7 +666,7 @@
       "form": "bête",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "bɛt",
       "gender": null,
       "translations": [
         "глупый, -ая"
@@ -684,7 +684,7 @@
       "form": "bouquiner",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bukine",
       "gender": null,
       "translations": [
         "читать (разг.)"
@@ -702,7 +702,7 @@
       "form": "brique",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bʁik",
       "gender": "f",
       "translations": [
         "кирпич"
@@ -720,7 +720,7 @@
       "form": "calme",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kalm",
       "gender": null,
       "translations": [
         "спокойный, -ая"
@@ -738,7 +738,7 @@
       "form": "carton",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kaʁtɔ̃",
       "gender": "m",
       "translations": [
         "картонная коробка"
@@ -756,7 +756,7 @@
       "form": "collectionner",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kɔlɛksjɔne",
       "gender": null,
       "translations": [
         "коллекционировать"
@@ -774,7 +774,7 @@
       "form": "conducteur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɔ̃dyktœʁ",
       "gender": "m",
       "translations": [
         "водитель"
@@ -792,7 +792,7 @@
       "form": "conseil",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɔ̃sɛj",
       "gender": "m",
       "translations": [
         "совет"
@@ -810,7 +810,7 @@
       "form": "construire",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kɔ̃stʁɥiʁ",
       "gender": null,
       "translations": [
         "строить"
@@ -828,7 +828,7 @@
       "form": "crime",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kʁim",
       "gender": "m",
       "translations": [
         "преступление"
@@ -846,7 +846,7 @@
       "form": "découper",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dekupe",
       "gender": null,
       "translations": [
         "вырезать"
@@ -864,7 +864,7 @@
       "form": "discuter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "diskyte",
       "gender": null,
       "translations": [
         "обсуждать",
@@ -883,7 +883,7 @@
       "form": "excuser (s')",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɛkskyze",
       "gender": null,
       "translations": [
         "извиняться"
@@ -901,7 +901,7 @@
       "form": "extrait",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛkstʁɛ",
       "gender": "m",
       "translations": [
         "отрывок"
@@ -919,7 +919,7 @@
       "form": "fatigué, fatiguée",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fatige",
       "gender": null,
       "translations": [
         "усталый, -ая"
@@ -937,7 +937,7 @@
       "form": "fixer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "fikse",
       "gender": null,
       "translations": [
         "назначать"
@@ -973,7 +973,7 @@
       "form": "justement",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "ʒystəmɑ̃",
       "gender": null,
       "translations": [
         "как раз"
@@ -991,7 +991,7 @@
       "form": "magazine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "magazin",
       "gender": "m",
       "translations": [
         "иллюстрированный журнал"
@@ -1009,7 +1009,7 @@
       "form": "paille",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "paj",
       "gender": "f",
       "translations": [
         "солома"
@@ -1027,7 +1027,7 @@
       "form": "paresseux, paresseuse",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "paʁɛsø",
       "gender": null,
       "translations": [
         "ленивый, -ая"
@@ -1045,7 +1045,7 @@
       "form": "pont",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pɔ̃",
       "gender": "m",
       "translations": [
         "мост"
@@ -1063,7 +1063,7 @@
       "form": "récit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁesi",
       "gender": "m",
       "translations": [
         "рассказ"
@@ -1081,7 +1081,7 @@
       "form": "revue",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁəvy",
       "gender": "f",
       "translations": [
         "журнал"
@@ -1099,7 +1099,7 @@
       "form": "rien",
       "partOfSpeech": "pronoun",
       "partOfSpeechCode": "pron",
-      "transcription": null,
+      "transcription": "ʁjɛ̃",
       "gender": null,
       "translations": [
         "ничего"
@@ -1117,7 +1117,7 @@
       "form": "simple",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sɛ̃pl",
       "gender": null,
       "translations": [
         "простой, -ая"
@@ -1135,7 +1135,7 @@
       "form": "solide",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sɔlid",
       "gender": null,
       "translations": [
         "прочный, -ая",
@@ -1154,7 +1154,7 @@
       "form": "titre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "titʁ",
       "gender": "m",
       "translations": [
         "название"
@@ -1172,7 +1172,7 @@
       "form": "utile",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ytil",
       "gender": null,
       "translations": [
         "полезный, -ая"
@@ -1190,7 +1190,7 @@
       "form": "voyageur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "vwajaʒœʁ",
       "gender": "m",
       "translations": [
         "путешественник"

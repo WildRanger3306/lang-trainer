@@ -13,7 +13,7 @@
       "form": "reduce",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪdjˈuːs",
       "translations": [
         "уменьшать"
       ],
@@ -43,7 +43,7 @@
       "form": "reflect",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪflˈɛkt",
       "translations": [
         "отражать"
       ],
@@ -58,7 +58,7 @@
       "form": "region",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈiːdʒən",
       "translations": [
         "область"
       ],
@@ -88,7 +88,7 @@
       "form": "rehearsal",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rɪhˈɜːsəl",
       "translations": [
         "репетиция"
       ],
@@ -103,7 +103,7 @@
       "form": "reign",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈeɪn",
       "translations": [
         "царствование"
       ],
@@ -118,7 +118,7 @@
       "form": "relationship",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rɪlˈeɪʃənʃˌɪp",
       "translations": [
         "отношения"
       ],
@@ -133,7 +133,7 @@
       "form": "relaxing",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rɪlˈæksɪŋ",
       "translations": [
         "расслабляющий"
       ],
@@ -148,7 +148,7 @@
       "form": "remain",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪmˈeɪn",
       "translations": [
         "оставаться"
       ],
@@ -163,7 +163,7 @@
       "form": "remember",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪmˈɛmbɐ",
       "translations": [
         "помнить"
       ],
@@ -178,7 +178,7 @@
       "form": "remove",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪmˈuːv",
       "translations": [
         "удалять"
       ],
@@ -193,7 +193,7 @@
       "form": "renovation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˌɛnəvˈeɪʃən",
       "translations": [
         "восстановление",
         "реконструкция"
@@ -225,7 +225,7 @@
       "form": "repel",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪpˈɛl",
       "translations": [
         "отталкивать"
       ],
@@ -240,7 +240,7 @@
       "form": "replace",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪplˈeɪs",
       "translations": [
         "заменять"
       ],
@@ -255,7 +255,7 @@
       "form": "replica",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈɛplɪkɐ",
       "translations": [
         "копия"
       ],
@@ -301,7 +301,7 @@
       "form": "reptile",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈɛptaɪl",
       "translations": [
         "рептилия"
       ],
@@ -331,7 +331,7 @@
       "form": "resemble",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪsˈɛmbəl",
       "translations": [
         "походить",
         "иметь сходство"
@@ -362,7 +362,7 @@
       "form": "respect",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪspˈɛkt",
       "translations": [
         "уважать"
       ],
@@ -377,7 +377,7 @@
       "form": "responsibility",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rɪspˌɒnsəbˈɪlɪti",
       "translations": [
         "ответственность"
       ],
@@ -423,7 +423,7 @@
       "form": "reveal",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪvˈiːl",
       "translations": [
         "раскрыть"
       ],
@@ -438,7 +438,7 @@
       "form": "revolution",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˌɛvəlˈuːʃən",
       "translations": [
         "революция"
       ],
@@ -453,7 +453,7 @@
       "form": "rewarding",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rɪwˈɔːdɪŋ",
       "translations": [
         "дающий результат"
       ],
@@ -468,7 +468,7 @@
       "form": "rice",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈaɪs",
       "translations": [
         "рис"
       ],
@@ -483,7 +483,7 @@
       "form": "riches",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "rˈɪtʃɪz",
       "translations": [
         "богатства",
         "богачи"
@@ -499,7 +499,7 @@
       "form": "ride",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "rˈaɪd",
       "translations": [
         "1. поездка",
         "2. ездить верхом"
@@ -515,7 +515,7 @@
       "form": "road",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈəʊd",
       "translations": [
         "дорога"
       ],
@@ -590,7 +590,7 @@
       "form": "rob",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈɒb",
       "translations": [
         "ограбить"
       ],
@@ -605,7 +605,7 @@
       "form": "route",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈuːt",
       "translations": [
         "маршрут"
       ],
@@ -620,7 +620,7 @@
       "form": "rubbish",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈʌbɪʃ",
       "translations": [
         "мусор"
       ],
@@ -635,7 +635,7 @@
       "form": "rubble",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈʌbəl",
       "translations": [
         "щебень"
       ],
@@ -650,7 +650,7 @@
       "form": "ruins",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "rˈuːɪnz",
       "translations": [
         "руины"
       ],
@@ -665,7 +665,7 @@
       "form": "rule",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "rˈuːl",
       "translations": [
         "1. правило",
         "2. править"
@@ -681,7 +681,7 @@
       "form": "ruler",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈuːlɐ",
       "translations": [
         "правитель"
       ],
@@ -696,7 +696,7 @@
       "form": "run",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈʌn",
       "translations": [
         "управлять"
       ],
@@ -832,7 +832,7 @@
       "form": "safari",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɐfˈɑːri",
       "translations": [
         "сафари"
       ],
@@ -847,7 +847,7 @@
       "form": "safe",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈeɪf",
       "translations": [
         "безопасный"
       ],
@@ -862,7 +862,7 @@
       "form": "safety",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈeɪfti",
       "translations": [
         "безопасность"
       ],
@@ -877,7 +877,7 @@
       "form": "sail",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sˈeɪl",
       "translations": [
         "плавать под парусами"
       ],
@@ -907,7 +907,7 @@
       "form": "sailor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈeɪlɐ",
       "translations": [
         "моряк"
       ],
@@ -937,7 +937,7 @@
       "form": "salmon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈæmən",
       "translations": [
         "лосось"
       ],
@@ -952,7 +952,7 @@
       "form": "salt",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɒlt",
       "translations": [
         "соль"
       ],
@@ -967,7 +967,7 @@
       "form": "salty",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈɒlti",
       "translations": [
         "солёный"
       ],
@@ -997,7 +997,7 @@
       "form": "sauce",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɔːs",
       "translations": [
         "соус"
       ],
@@ -1012,7 +1012,7 @@
       "form": "sauerkraut",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈaʊəkrˌaʊt",
       "translations": [
         "тушёная капуста (нем. блюдо)"
       ],
@@ -1027,7 +1027,7 @@
       "form": "save",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sˈeɪv",
       "translations": [
         "сохранить"
       ],
@@ -1042,7 +1042,7 @@
       "form": "scales",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "skˈeɪlz",
       "translations": [
         "весы"
       ],
@@ -1057,7 +1057,7 @@
       "form": "scene",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈiːn",
       "translations": [
         "место действия"
       ],
@@ -1072,7 +1072,7 @@
       "form": "science",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈaɪəns",
       "translations": [
         "наука"
       ],
@@ -1102,7 +1102,7 @@
       "form": "scientist",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈaɪəntɪst",
       "translations": [
         "учёный"
       ],
@@ -1117,7 +1117,7 @@
       "form": "scorpion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "skˈɔːpiən",
       "translations": [
         "скорпион"
       ],
@@ -1147,7 +1147,7 @@
       "form": "script",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "skrˈɪpt",
       "translations": [
         "текст"
       ],
@@ -1162,7 +1162,7 @@
       "form": "sculpt",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "skˈʌlpt",
       "translations": [
         "ваять"
       ],
@@ -1177,7 +1177,7 @@
       "form": "sculptor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "skˈʌlptɐ",
       "translations": [
         "скульптор"
       ],
@@ -1192,7 +1192,7 @@
       "form": "sculpture",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "skˈʌlptʃɐ",
       "translations": [
         "скульптура"
       ],
@@ -1237,7 +1237,7 @@
       "form": "seafood",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈiːfuːd",
       "translations": [
         "морепродукты"
       ],
@@ -1252,7 +1252,7 @@
       "form": "seal",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈiːl",
       "translations": [
         "герметичная крышка"
       ],
@@ -1267,7 +1267,7 @@
       "form": "sealed",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈiːld",
       "translations": [
         "запечатанный"
       ],
@@ -1282,7 +1282,7 @@
       "form": "section",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈɛkʃən",
       "translations": [
         "секция",
         "отдел (в магазине)"
@@ -1313,7 +1313,7 @@
       "form": "sensation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sɛnsˈeɪʃən",
       "translations": [
         "ощущение"
       ],
@@ -1343,7 +1343,7 @@
       "form": "sequence",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈiːkwəns",
       "translations": [
         "последовательность"
       ],
@@ -1358,7 +1358,7 @@
       "form": "serenade",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "sˌɛrɪnˈeɪd",
       "translations": [
         "исполнять серенаду"
       ],
@@ -1373,7 +1373,7 @@
       "form": "shake",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʃˈeɪk",
       "translations": [
         "встряхивать"
       ],
@@ -1388,7 +1388,7 @@
       "form": "share",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʃˈeə",
       "translations": [
         "использовать совместно"
       ],
@@ -1403,7 +1403,7 @@
       "form": "shimmer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʃˈɪmɐ",
       "translations": [
         "мерцать"
       ],
@@ -1418,7 +1418,7 @@
       "form": "ship",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃˈɪp",
       "translations": [
         "корабль"
       ],
@@ -1433,7 +1433,7 @@
       "form": "shocked",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʃˈɒkt",
       "translations": [
         "шокированный"
       ],
@@ -1448,7 +1448,7 @@
       "form": "shop",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʃˈɒp",
       "translations": [
         "делать покупки"
       ],
@@ -1478,7 +1478,7 @@
       "form": "shrimp",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʃrˈɪmp",
       "translations": [
         "креветка"
       ],
@@ -1493,7 +1493,7 @@
       "form": "sick",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "sˈɪk",
       "translations": [
         "больной"
       ],
@@ -1538,7 +1538,7 @@
       "form": "sight",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sˈaɪt",
       "translations": [
         "вид",
         "зрелище",

@@ -14,7 +14,7 @@
       "form": "beurre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bœʁ",
       "gender": "m",
       "translations": [
         "масло"
@@ -32,7 +32,7 @@
       "form": "bientôt",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "bjɛ̃to",
       "gender": null,
       "translations": [
         "вскоре",
@@ -51,7 +51,7 @@
       "form": "boisson",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bwasɔ̃",
       "gender": "f",
       "translations": [
         "напиток"
@@ -69,7 +69,7 @@
       "form": "camembert",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kamɑ̃bɛʁ",
       "gender": "m",
       "translations": [
         "камамбер (сорт сыра)"
@@ -87,7 +87,7 @@
       "form": "choisir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʃwaziʁ",
       "gender": null,
       "translations": [
         "выбирать"
@@ -105,7 +105,7 @@
       "form": "clé",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kle",
       "gender": "f",
       "translations": [
         "ключ"
@@ -123,7 +123,7 @@
       "form": "conte",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɔ̃t",
       "gender": "m",
       "translations": [
         "сказка"
@@ -141,7 +141,7 @@
       "form": "couper",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "kupe",
       "gender": null,
       "translations": [
         "разрезать"
@@ -159,7 +159,7 @@
       "form": "croissant",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kʁwasɑ̃",
       "gender": "m",
       "translations": [
         "рогалик"
@@ -177,7 +177,7 @@
       "form": "difficile",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "difisil",
       "gender": null,
       "translations": [
         "трудный, -ая"
@@ -195,7 +195,7 @@
       "form": "éplucher",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "eplyʃe",
       "gender": null,
       "translations": [
         "очищать от кожуры"
@@ -213,7 +213,7 @@
       "form": "endormir (s')",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɑ̃dɔʁmiʁ",
       "gender": null,
       "translations": [
         "заснуть"
@@ -231,7 +231,7 @@
       "form": "fête",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fɛt",
       "gender": "f",
       "translations": [
         "праздник"
@@ -249,7 +249,7 @@
       "form": "foie",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fwa",
       "gender": "m",
       "translations": [
         "печень"
@@ -267,7 +267,7 @@
       "form": "four",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fuʁ",
       "gender": "m",
       "translations": [
         "духовка в плите"
@@ -285,7 +285,7 @@
       "form": "goûter",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gute",
       "gender": "m",
       "translations": [
         "полдник"
@@ -303,7 +303,7 @@
       "form": "gras, grasse",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "gʁa",
       "gender": null,
       "translations": [
         "жирный, -ая"
@@ -321,7 +321,7 @@
       "form": "herbe",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɛʁb",
       "gender": "f",
       "translations": [
         "трава"
@@ -339,7 +339,7 @@
       "form": "heureusement",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "œʁøzmɑ̃",
       "gender": null,
       "translations": [
         "к счастью"
@@ -357,7 +357,7 @@
       "form": "huile",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɥil",
       "gender": "f",
       "translations": [
         "растительное масло"
@@ -375,7 +375,7 @@
       "form": "huître",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɥitʁ",
       "gender": "f",
       "translations": [
         "устрица"
@@ -393,7 +393,7 @@
       "form": "journée",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʒuʁne",
       "gender": "f",
       "translations": [
         "день"
@@ -411,7 +411,7 @@
       "form": "larme",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "laʁm",
       "gender": "f",
       "translations": [
         "слеза"
@@ -429,7 +429,7 @@
       "form": "levure",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ləvyʁ",
       "gender": "f",
       "translations": [
         "дрожжи"
@@ -447,7 +447,7 @@
       "form": "maîtresse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɛtʁɛs",
       "gender": "f",
       "translations": [
         "учительница",
@@ -466,7 +466,7 @@
       "form": "mélange",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "melɑ̃ʒ",
       "gender": "m",
       "translations": [
         "смесь"
@@ -484,7 +484,7 @@
       "form": "mélanger",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "melɑ̃ʒe",
       "gender": null,
       "translations": [
         "смешать"
@@ -502,7 +502,7 @@
       "form": "morceau",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mɔʁso",
       "gender": "m",
       "translations": [
         "кусок"
@@ -520,7 +520,7 @@
       "form": "occuper (s')",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɔkype",
       "gender": null,
       "translations": [
         "занимать(ся)"
@@ -538,7 +538,7 @@
       "form": "offrir",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɔfʁiʁ",
       "gender": null,
       "translations": [
         "предлагать",
@@ -557,7 +557,7 @@
       "form": "olive",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɔliv",
       "gender": "f",
       "translations": [
         "маслина",
@@ -576,7 +576,7 @@
       "form": "oublier",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ublije",
       "gender": null,
       "translations": [
         "забывать"
@@ -594,7 +594,7 @@
       "form": "pâte",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pat",
       "gender": "f",
       "translations": [
         "тесто"
@@ -612,7 +612,7 @@
       "form": "personne",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pɛʁsɔn",
       "gender": "f",
       "translations": [
         "человек",
@@ -631,7 +631,7 @@
       "form": "pique-nique",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "piknik",
       "gender": "m",
       "translations": [
         "пикник"
@@ -649,7 +649,7 @@
       "form": "placer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "plase",
       "gender": null,
       "translations": [
         "поместить"
@@ -667,7 +667,7 @@
       "form": "poser",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "poze",
       "gender": null,
       "translations": [
         "поставить",
@@ -686,7 +686,7 @@
       "form": "potage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pɔtaʒ",
       "gender": "m",
       "translations": [
         "суп"
@@ -704,7 +704,7 @@
       "form": "prochain, prochaine",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "pʁɔʃɛ̃",
       "gender": null,
       "translations": [
         "ближайший, -ая",
@@ -723,7 +723,7 @@
       "form": "projet",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pʁɔʒɛ",
       "gender": "m",
       "translations": [
         "план",
@@ -742,7 +742,7 @@
       "form": "raconter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʁakɔ̃te",
       "gender": null,
       "translations": [
         "рассказать"
@@ -760,7 +760,7 @@
       "form": "rendez-vous",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁɑ̃devu",
       "gender": "m",
       "translations": [
         "свидание",
@@ -779,7 +779,7 @@
       "form": "repas",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ʁəpa",
       "gender": "m",
       "translations": [
         "еда (приём пищи)"
@@ -797,7 +797,7 @@
       "form": "saladier",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "saladje",
       "gender": "m",
       "translations": [
         "салатница"
@@ -815,7 +815,7 @@
       "form": "saucisson",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sosisɔ̃",
       "gender": "m",
       "translations": [
         "колбаса"
@@ -833,7 +833,7 @@
       "form": "souhaiter",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "swete",
       "gender": null,
       "translations": [
         "желать"
@@ -851,7 +851,7 @@
       "form": "sucre",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "sykʁ",
       "gender": "m",
       "translations": [
         "сахар"
@@ -887,7 +887,7 @@
       "form": "tartine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "taʁtin",
       "gender": "f",
       "translations": [
         "тартинка",
@@ -906,7 +906,7 @@
       "form": "tasse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "tas",
       "gender": "f",
       "translations": [
         "чашка"
@@ -942,7 +942,7 @@
       "form": "verser",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "vɛʁse",
       "gender": null,
       "translations": [
         "высыпать",
@@ -1162,7 +1162,7 @@
       "form": "aboyer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "abwaje",
       "gender": null,
       "translations": [
         "лаять"
@@ -1180,7 +1180,7 @@
       "form": "allemand, allemande",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "almɑ̃",
       "gender": null,
       "translations": [
         "немецкий, -ая"
@@ -1198,7 +1198,7 @@
       "form": "américain, américaine",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ameʁikɛ̃",
       "gender": null,
       "translations": [
         "американский, -ая"
@@ -1216,7 +1216,7 @@
       "form": "anglais, anglaise",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɑ̃glɛ",
       "gender": null,
       "translations": [
         "английский, -ая"
@@ -1234,7 +1234,7 @@
       "form": "brésilien, brésilienne",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "bʁeziljɛ̃",
       "gender": null,
       "translations": [
         "бразильский, -ая"
@@ -1252,7 +1252,7 @@
       "form": "bruit",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bʁɥi",
       "gender": "m",
       "translations": [
         "шум"
@@ -1270,7 +1270,7 @@
       "form": "brun, brune",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "bʁœ̃",
       "gender": null,
       "translations": [
         "коричневый, -ая"
@@ -1288,7 +1288,7 @@
       "form": "camerounais, camerounaise",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kamʁunɛ",
       "gender": null,
       "translations": [
         "камерунский, -ая"
@@ -1306,7 +1306,7 @@
       "form": "célèbre",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "selɛbʁ",
       "gender": null,
       "translations": [
         "знаменитый, -ая"
@@ -1324,7 +1324,7 @@
       "form": "changer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ʃɑ̃ʒe",
       "gender": null,
       "translations": [
         "изменить",
@@ -1343,7 +1343,7 @@
       "form": "chinois, chinoise",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ʃinwa",
       "gender": null,
       "translations": [
         "китайский, -ая"
@@ -1361,7 +1361,7 @@
       "form": "cœur",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kœʁ",
       "gender": "m",
       "translations": [
         "сердце"
@@ -1379,7 +1379,7 @@
       "form": "courageux, courageuse",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "kuʁaʒø",
       "gender": null,
       "translations": [
         "смелый, -ая"
@@ -1397,7 +1397,7 @@
       "form": "cuisine",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kɥizin",
       "gender": "f",
       "translations": [
         "кухня"
@@ -1415,7 +1415,7 @@
       "form": "date",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "dat",
       "gender": "f",
       "translations": [
         "дата"
@@ -1451,7 +1451,7 @@
       "form": "durer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "dyʁe",
       "gender": null,
       "translations": [
         "длиться",
@@ -1470,7 +1470,7 @@
       "form": "enfin",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "ɑ̃fɛ̃",
       "gender": null,
       "translations": [
         "наконец"
@@ -1488,7 +1488,7 @@
       "form": "ennuyer (s')",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɑ̃nɥije",
       "gender": null,
       "translations": [
         "скучать"
@@ -1506,7 +1506,7 @@
       "form": "espagnol, espagnole",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɛspaɲɔl",
       "gender": null,
       "translations": [
         "испанский, -ая"
@@ -1524,7 +1524,7 @@
       "form": "forêt",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fɔʁɛ",
       "gender": "f",
       "translations": [
         "лес"
@@ -1542,7 +1542,7 @@
       "form": "formidable",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fɔʁmidabl",
       "gender": null,
       "translations": [
         "превосходный, -ая"
@@ -1560,7 +1560,7 @@
       "form": "frisé, frisée",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fʁize",
       "gender": null,
       "translations": [
         "вьющийся, -аяся"
@@ -1578,7 +1578,7 @@
       "form": "fusil",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fyzi",
       "gender": "m",
       "translations": [
         "ружьё"

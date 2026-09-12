@@ -14,7 +14,7 @@
       "form": "punctuality",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˌʌŋktʃuːˈælɪti",
       "translations": [
         "пунктуальность"
       ],
@@ -29,7 +29,7 @@
       "form": "purpose",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɜːpəs",
       "translations": [
         "цель"
       ],
@@ -453,7 +453,7 @@
       "form": "qualification",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kwˌɒlɪfɪkˈeɪʃən",
       "translations": [
         "квалификация"
       ],
@@ -468,7 +468,7 @@
       "form": "quality",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "kwˈɒlɪti",
       "translations": [
         "качество"
       ],
@@ -498,7 +498,7 @@
       "form": "raccoon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rækˈuːn",
       "translations": [
         "енот"
       ],
@@ -513,7 +513,7 @@
       "form": "racism",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈeɪsɪzəm",
       "translations": [
         "расизм"
       ],
@@ -528,7 +528,7 @@
       "form": "radiate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈeɪdɪˌeɪt",
       "translations": [
         "отходить",
         "излучать"
@@ -544,7 +544,7 @@
       "form": "rafting",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈɑːftɪŋ",
       "translations": [
         "рафтинг"
       ],
@@ -559,7 +559,7 @@
       "form": "rail",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈeɪl",
       "translations": [
         "поручень"
       ],
@@ -574,7 +574,7 @@
       "form": "rain",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈeɪn",
       "translations": [
         "дождь"
       ],
@@ -589,7 +589,7 @@
       "form": "range",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈeɪndʒ",
       "translations": [
         "ряд"
       ],
@@ -619,7 +619,7 @@
       "form": "rapids",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "rˈæpɪdz",
       "translations": [
         "пороги реки"
       ],
@@ -634,7 +634,7 @@
       "form": "rare",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rˈeə",
       "translations": [
         "редкий"
       ],
@@ -649,7 +649,7 @@
       "form": "rash",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈæʃ",
       "translations": [
         "сыпь"
       ],
@@ -664,7 +664,7 @@
       "form": "rational",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rˈæʃənəl",
       "translations": [
         "рациональный"
       ],
@@ -679,7 +679,7 @@
       "form": "raw",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rˈɔː",
       "translations": [
         "сырой"
       ],
@@ -694,7 +694,7 @@
       "form": "razor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈeɪzɐ",
       "translations": [
         "лезвие"
       ],
@@ -709,7 +709,7 @@
       "form": "reach",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈiːtʃ",
       "translations": [
         "доставать",
         "дотягиваться"
@@ -725,7 +725,7 @@
       "form": "realistic",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "riəlˈɪstɪk",
       "translations": [
         "реалистичный"
       ],
@@ -740,7 +740,7 @@
       "form": "reason",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈiːzən",
       "translations": [
         "причина"
       ],
@@ -770,7 +770,7 @@
       "form": "recognise",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈɛkəgnˌaɪz",
       "translations": [
         "узнавать"
       ],
@@ -785,7 +785,7 @@
       "form": "recommend",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˌɛkəmˈɛnd",
       "translations": [
         "рекомендовать"
       ],
@@ -862,7 +862,7 @@
       "form": "reduce",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪdjˈuːs",
       "translations": [
         "сокращать",
         "уменьшать"
@@ -878,7 +878,7 @@
       "form": "refusal",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rɪfjˈuːsəl",
       "translations": [
         "отказ"
       ],
@@ -908,7 +908,7 @@
       "form": "regular",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rˈɛgjuːlɐ",
       "translations": [
         "зд. правильный"
       ],
@@ -923,7 +923,7 @@
       "form": "reigning",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rˈeɪnɪŋ",
       "translations": [
         "действующий",
         "господствующий"
@@ -954,7 +954,7 @@
       "form": "relative",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˈɛlətˌɪv",
       "translations": [
         "родственник"
       ],
@@ -984,7 +984,7 @@
       "form": "reliable",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rɪlˈaɪəbəl",
       "translations": [
         "надёжный"
       ],
@@ -999,7 +999,7 @@
       "form": "relieve",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪlˈiːv",
       "translations": [
         "облегчать",
         "предотвращать"
@@ -1030,7 +1030,7 @@
       "form": "remove",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪmˈuːv",
       "translations": [
         "удалять"
       ],
@@ -1045,7 +1045,7 @@
       "form": "renovate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rˈɛnəvˌeɪt",
       "translations": [
         "обновлять",
         "реставрировать"
@@ -1091,7 +1091,7 @@
       "form": "repeat",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪpˈiːt",
       "translations": [
         "повторять"
       ],
@@ -1106,7 +1106,7 @@
       "form": "repeated",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "rɪpˈiːtɪd",
       "translations": [
         "повторяющийся"
       ],
@@ -1121,7 +1121,7 @@
       "form": "replace",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "rɪplˈeɪs",
       "translations": [
         "заменять"
       ],
@@ -1152,7 +1152,7 @@
       "form": "reputation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "rˌɛpjuːtˈeɪʃən",
       "translations": [
         "репутация"
       ],

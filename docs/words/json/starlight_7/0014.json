@@ -29,7 +29,7 @@
       "form": "meteor",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈiːtɪɐ",
       "translations": [
         "метеор"
       ],
@@ -59,7 +59,7 @@
       "form": "mild",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mˈaɪld",
       "translations": [
         "умеренный"
       ],
@@ -89,7 +89,7 @@
       "form": "millipede",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈɪlɪpˌiːd",
       "translations": [
         "многоножка"
       ],
@@ -104,7 +104,7 @@
       "form": "mind",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "mˈaɪnd",
       "translations": [
         "возражать"
       ],
@@ -149,7 +149,7 @@
       "form": "monitor",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "mˈɒnɪtɐ",
       "translations": [
         "отслеживать",
         "наблюдать"
@@ -180,7 +180,7 @@
       "form": "mood",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈuːd",
       "translations": [
         "настроение"
       ],
@@ -195,7 +195,7 @@
       "form": "moose",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈuːs",
       "translations": [
         "лось"
       ],
@@ -225,7 +225,7 @@
       "form": "mostly",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "mˈəʊstli",
       "translations": [
         "в большинстве"
       ],
@@ -255,7 +255,7 @@
       "form": "motion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈəʊʃən",
       "translations": [
         "движение"
       ],
@@ -270,7 +270,7 @@
       "form": "motocross",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈɒtəkrˌɒs",
       "translations": [
         "мотокросс"
       ],
@@ -300,7 +300,7 @@
       "form": "motto",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈɒtəʊ",
       "translations": [
         "девиз",
         "лозунг"
@@ -346,7 +346,7 @@
       "form": "moustache",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "məstˈɑːʃ",
       "translations": [
         "усы"
       ],
@@ -376,7 +376,7 @@
       "form": "movement",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈuːvmənt",
       "translations": [
         "движение"
       ],
@@ -391,7 +391,7 @@
       "form": "mugging",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈʌgɪŋ",
       "translations": [
         "уличное ограбление"
       ],
@@ -421,7 +421,7 @@
       "form": "muscle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mˈʌsəl",
       "translations": [
         "мускул"
       ],
@@ -466,7 +466,7 @@
       "form": "musical",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "mjˈuːzɪkəl",
       "translations": [
         "музыкальный"
       ],
@@ -481,7 +481,7 @@
       "form": "musician",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "mjuːzˈɪʃən",
       "translations": [
         "музыкант"
       ],
@@ -769,7 +769,7 @@
       "form": "nasty",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nˈɑːsti",
       "translations": [
         "опасный"
       ],
@@ -784,7 +784,7 @@
       "form": "national",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nˈæʃənəl",
       "translations": [
         "национальный"
       ],
@@ -799,7 +799,7 @@
       "form": "native",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nˈeɪtɪv",
       "translations": [
         "родной",
         "коренной"
@@ -815,7 +815,7 @@
       "form": "natural",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nˈætʃərəl",
       "translations": [
         "природный"
       ],
@@ -906,7 +906,7 @@
       "form": "neat",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nˈiːt",
       "translations": [
         "аккуратный"
       ],
@@ -921,7 +921,7 @@
       "form": "necessary",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nˈɛsəsəri",
       "translations": [
         "необходимый"
       ],
@@ -936,7 +936,7 @@
       "form": "needle",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈiːdəl",
       "translations": [
         "игла"
       ],
@@ -951,7 +951,7 @@
       "form": "negative",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nˈɛgətˌɪv",
       "translations": [
         "отрицательный",
         "негативный"
@@ -967,7 +967,7 @@
       "form": "neglected",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nɪglˈɛktɪd",
       "translations": [
         "оставленный",
         "покинутый",
@@ -984,7 +984,7 @@
       "form": "neighbourhood",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈeɪbəhˌʊd",
       "translations": [
         "окрестность"
       ],
@@ -1014,7 +1014,7 @@
       "form": "network",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈɛtwɜːk",
       "translations": [
         "сеть"
       ],
@@ -1029,7 +1029,7 @@
       "form": "neutralise",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "njˈuːtrəlˌaɪz",
       "translations": [
         "нейтрализовать"
       ],
@@ -1044,7 +1044,7 @@
       "form": "newcomer",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "njˈuːkʌmɐ",
       "translations": [
         "новичок"
       ],

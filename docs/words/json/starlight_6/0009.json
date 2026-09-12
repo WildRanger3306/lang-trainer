@@ -118,7 +118,7 @@
       "form": "narrator",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nɐrˈeɪtɐ",
       "translations": [
         "рассказчик"
       ],
@@ -163,7 +163,7 @@
       "form": "natural",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nˈætʃərəl",
       "translations": [
         "природный"
       ],
@@ -208,7 +208,7 @@
       "form": "navigator",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈævɪgˌeɪtɐ",
       "translations": [
         "навигатор"
       ],
@@ -223,7 +223,7 @@
       "form": "nearly",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "nˈiəli",
       "translations": [
         "почти"
       ],
@@ -238,7 +238,7 @@
       "form": "neglected",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nɪglˈɛktɪd",
       "translations": [
         "забытый"
       ],
@@ -253,7 +253,7 @@
       "form": "neighbourhood",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈeɪbəhˌʊd",
       "translations": [
         "окрестности"
       ],
@@ -283,7 +283,7 @@
       "form": "nest",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈɛst",
       "translations": [
         "гнездо"
       ],
@@ -313,7 +313,7 @@
       "form": "net",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈɛt",
       "translations": [
         "сеть"
       ],
@@ -358,7 +358,7 @@
       "form": "nightlife",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈaɪtlaɪf",
       "translations": [
         "ночная жизнь"
       ],
@@ -373,7 +373,7 @@
       "form": "noise",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈɔɪz",
       "translations": [
         "шум"
       ],
@@ -388,7 +388,7 @@
       "form": "noisy",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "nˈɔɪzi",
       "translations": [
         "шумный"
       ],
@@ -403,7 +403,7 @@
       "form": "nurse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "nˈɜːs",
       "translations": [
         "медсестра"
       ],
@@ -418,7 +418,7 @@
       "form": "obey",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "əʊbˈeɪ",
       "translations": [
         "повиноваться",
         "подчиняться"
@@ -434,7 +434,7 @@
       "form": "obesity",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "əʊbˈiːsətˌi",
       "translations": [
         "ожирение"
       ],
@@ -449,7 +449,7 @@
       "form": "observation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɒbzəvˈeɪʃən",
       "translations": [
         "наблюдение"
       ],
@@ -494,7 +494,7 @@
       "form": "oceanography",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌəʊʃənˈɒgrəfi",
       "translations": [
         "океанография"
       ],
@@ -509,7 +509,7 @@
       "form": "offer",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɒfɐ",
       "translations": [
         "предлагать"
       ],
@@ -539,7 +539,7 @@
       "form": "oily",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɔɪli",
       "translations": [
         "жирный"
       ],
@@ -584,7 +584,7 @@
       "form": "omelette",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɒmlət",
       "translations": [
         "омлет"
       ],
@@ -614,7 +614,7 @@
       "form": "onion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈʌniən",
       "translations": [
         "лук"
       ],
@@ -629,7 +629,7 @@
       "form": "online",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "ˈɒnlaɪn",
       "translations": [
         "в Сети",
         "онлайн"
@@ -675,7 +675,7 @@
       "form": "operate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɒpərˌeɪt",
       "translations": [
         "работать",
         "функционировать"
@@ -706,7 +706,7 @@
       "form": "orange",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɒrɪndʒ",
       "translations": [
         "апельсин"
       ],
@@ -736,7 +736,7 @@
       "form": "order",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "ˈɔːdɐ",
       "translations": [
         "заказ",
         "заказать"
@@ -752,7 +752,7 @@
       "form": "ordinary",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɔːdɪnəri",
       "translations": [
         "обычный"
       ],
@@ -767,7 +767,7 @@
       "form": "organisation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌɔːgɐnaɪzˈeɪʃən",
       "translations": [
         "организация"
       ],
@@ -782,7 +782,7 @@
       "form": "organise",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɔːgɐnˌaɪz",
       "translations": [
         "организовать"
       ],
@@ -812,7 +812,7 @@
       "form": "outdoor",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "aʊtdˈɔː",
       "translations": [
         "находящийся вне дома",
         "внешний"
@@ -828,7 +828,7 @@
       "form": "outrage",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈaʊtreɪdʒ",
       "translations": [
         "возмущать",
         "шокировать"
@@ -844,7 +844,7 @@
       "form": "overfishing",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌəʊvəfˈɪʃɪŋ",
       "translations": [
         "перелов (рыбы)"
       ],
@@ -859,7 +859,7 @@
       "form": "own",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈəʊn",
       "translations": [
         "владеть",
         "иметь в собственности"
@@ -965,7 +965,7 @@
       "form": "paint",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pˈeɪnt",
       "translations": [
         "красить"
       ],
@@ -980,7 +980,7 @@
       "form": "palace",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈælɪs",
       "translations": [
         "дворец"
       ],
@@ -995,7 +995,7 @@
       "form": "panic",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pˈænɪk",
       "translations": [
         "паниковать"
       ],
@@ -1010,7 +1010,7 @@
       "form": "parachute",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈærəʃˌuːt",
       "translations": [
         "парашют"
       ],
@@ -1025,7 +1025,7 @@
       "form": "parade",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pərˈeɪd",
       "translations": [
         "парад"
       ],
@@ -1040,7 +1040,7 @@
       "form": "paradise",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈærədˌaɪs",
       "translations": [
         "рай"
       ],
@@ -1055,7 +1055,7 @@
       "form": "paramedic",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˌærəmˈɛdɪk",
       "translations": [
         "фельдшер"
       ],
@@ -1070,7 +1070,7 @@
       "form": "parcel",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɑːsəl",
       "translations": [
         "посылка"
       ],
@@ -1085,7 +1085,7 @@
       "form": "park",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɑːk",
       "translations": [
         "парк"
       ],
@@ -1115,7 +1115,7 @@
       "form": "participate",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pɑːtˈɪsɪpˌeɪt",
       "translations": [
         "участвовать"
       ],
@@ -1130,7 +1130,7 @@
       "form": "passion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈæʃən",
       "translations": [
         "страсть"
       ],
@@ -1145,7 +1145,7 @@
       "form": "passport",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɑːspɔːt",
       "translations": [
         "паспорт"
       ],
@@ -1160,7 +1160,7 @@
       "form": "pasta",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɑːstɐ",
       "translations": [
         "макаронные изделия"
       ],
@@ -1175,7 +1175,7 @@
       "form": "patrol",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pɐtrˈəʊl",
       "translations": [
         "патрулировать",
         "охранять"
@@ -1191,7 +1191,7 @@
       "form": "pavement",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈeɪvmənt",
       "translations": [
         "тротуар"
       ],
@@ -1206,7 +1206,7 @@
       "form": "peace",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈiːs",
       "translations": [
         "мир"
       ],
@@ -1221,7 +1221,7 @@
       "form": "pear",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈeə",
       "translations": [
         "груша"
       ],
@@ -1236,7 +1236,7 @@
       "form": "pedestrian",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pədˈɛstriən",
       "translations": [
         "пешеход"
       ],
@@ -1251,7 +1251,7 @@
       "form": "peel",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pˈiːl",
       "translations": [
         "снимать кожуру",
         "очищать"
@@ -1267,7 +1267,7 @@
       "form": "peg",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɛg",
       "translations": [
         "крючок"
       ],
@@ -1282,7 +1282,7 @@
       "form": "penthouse",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɛnthaʊs",
       "translations": [
         "пентхаус (элитное жильё на последних этажах дома)"
       ],
@@ -1297,7 +1297,7 @@
       "form": "pepper",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pˈɛpɐ",
       "translations": [
         "перец"
       ],
@@ -1327,7 +1327,7 @@
       "form": "percussionist",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "pəkˈʌʃənˌɪst",
       "translations": [
         "ударник"
       ],
@@ -1357,7 +1357,7 @@
       "form": "perform",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "pəfˈɔːm",
       "translations": [
         "выступать"
       ],

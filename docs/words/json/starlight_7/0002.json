@@ -14,7 +14,7 @@
       "form": "awkward",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɔːkwəd",
       "translations": [
         "неуклюжий",
         "неудобный"
@@ -287,7 +287,7 @@
       "form": "babysitter",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈeɪbɪsˌɪtɐ",
       "translations": [
         "нянька"
       ],
@@ -302,7 +302,7 @@
       "form": "background",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈækgraʊnd",
       "translations": [
         "задний план"
       ],
@@ -317,7 +317,7 @@
       "form": "backpack",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈækpæk",
       "translations": [
         "рюкзак"
       ],
@@ -332,7 +332,7 @@
       "form": "backwards",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "bˈækwədz",
       "translations": [
         "назад",
         "в обратную сторону"
@@ -348,7 +348,7 @@
       "form": "backyard",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈækjɑːd",
       "translations": [
         "задний двор"
       ],
@@ -363,7 +363,7 @@
       "form": "bacteria",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bæktˈiərɪɐ",
       "translations": [
         "бактерия"
       ],
@@ -408,7 +408,7 @@
       "form": "bald",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "bˈɔːld",
       "translations": [
         "лысый"
       ],
@@ -423,7 +423,7 @@
       "form": "ballet",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈæleɪ",
       "translations": [
         "балет"
       ],
@@ -438,7 +438,7 @@
       "form": "bandage",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈændɪdʒ",
       "translations": [
         "пластырь"
       ],
@@ -468,7 +468,7 @@
       "form": "bark",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈɑːk",
       "translations": [
         "лаять"
       ],
@@ -498,7 +498,7 @@
       "form": "bathe",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈeɪð",
       "translations": [
         "мыться"
       ],
@@ -528,7 +528,7 @@
       "form": "beard",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈiəd",
       "translations": [
         "борода"
       ],
@@ -543,7 +543,7 @@
       "form": "beat",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈiːt",
       "translations": [
         "бить",
         "ударять",
@@ -575,7 +575,7 @@
       "form": "behave",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bɪhˈeɪv",
       "translations": [
         "вести себя"
       ],
@@ -590,7 +590,7 @@
       "form": "belief",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bɪlˈiːf",
       "translations": [
         "вера"
       ],
@@ -605,7 +605,7 @@
       "form": "bench",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɛntʃ",
       "translations": [
         "скамья"
       ],
@@ -620,7 +620,7 @@
       "form": "bend",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈɛnd",
       "translations": [
         "сгибаться"
       ],
@@ -635,7 +635,7 @@
       "form": "billion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɪliən",
       "translations": [
         "миллиард"
       ],
@@ -650,7 +650,7 @@
       "form": "biodiversity",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˌaɪəʊdaɪvˈɜːsɪti",
       "translations": [
         "разнообразие форм жизни"
       ],
@@ -665,7 +665,7 @@
       "form": "biography",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "baɪˈɒgrəfi",
       "translations": [
         "биография"
       ],
@@ -680,7 +680,7 @@
       "form": "biome",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈaɪəʊm",
       "translations": [
         "биом (совокупность экосистем одной природно-климатической зоны)"
       ],
@@ -710,7 +710,7 @@
       "form": "bite",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈaɪt",
       "translations": [
         "кусать"
       ],
@@ -725,7 +725,7 @@
       "form": "blanket",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "blˈæŋkɪt",
       "translations": [
         "одеяло"
       ],
@@ -740,7 +740,7 @@
       "form": "blind",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "blˈaɪnd",
       "translations": [
         "слепой"
       ],
@@ -755,7 +755,7 @@
       "form": "blizzard",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "blˈɪzəd",
       "translations": [
         "метель",
         "снежная буря"
@@ -771,7 +771,7 @@
       "form": "blog",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "blˈɒg",
       "translations": [
         "блог"
       ],
@@ -786,7 +786,7 @@
       "form": "blogger",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "blˈɒgɐ",
       "translations": [
         "блоггер"
       ],
@@ -861,7 +861,7 @@
       "form": "blossom",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "blˈɒsəm",
       "translations": [
         "цвести"
       ],
@@ -876,7 +876,7 @@
       "form": "blow",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "blˈəʊ",
       "translations": [
         "дуть"
       ],
@@ -906,7 +906,7 @@
       "form": "blush",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "blˈʌʃ",
       "translations": [
         "румянец, краска смущения",
         "краснеть, смущаться"
@@ -922,7 +922,7 @@
       "form": "board",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɔːd",
       "translations": [
         "доска"
       ],
@@ -952,7 +952,7 @@
       "form": "bobcat",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɒbkæt",
       "translations": [
         "рысь"
       ],
@@ -1012,7 +1012,7 @@
       "form": "boil",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈɔɪl",
       "translations": [
         "варить"
       ],
@@ -1042,7 +1042,7 @@
       "form": "bonfire",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɒnfaɪə",
       "translations": [
         "костёр"
       ],
@@ -1057,7 +1057,7 @@
       "form": "book",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈʊk",
       "translations": [
         "бронировать"
       ],
@@ -1072,7 +1072,7 @@
       "form": "boost",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈuːst",
       "translations": [
         "повышать"
       ],
@@ -1087,7 +1087,7 @@
       "form": "borrow",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈɒrəʊ",
       "translations": [
         "заимствовать",
         "одолжить"
@@ -1103,7 +1103,7 @@
       "form": "bother",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n, v",
-      "transcription": null,
+      "transcription": "bˈɒðɐ",
       "translations": [
         "беспокойство",
         "беспокоить"
@@ -1119,7 +1119,7 @@
       "form": "bottom",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "bˈɒtəm",
       "translations": [
         "дно"
       ],
@@ -1134,7 +1134,7 @@
       "form": "bounce",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "bˈaʊns",
       "translations": [
         "швырять",
         "подкидывать"
@@ -1150,7 +1150,7 @@
       "form": "brain",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "brˈeɪn",
       "translations": [
         "мозг"
       ],
@@ -1165,7 +1165,7 @@
       "form": "brainchild",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "brˈeɪntʃaɪld",
       "translations": [
         "идея",
         "замысел"
@@ -1181,7 +1181,7 @@
       "form": "branch",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "brˈɑːntʃ",
       "translations": [
         "ветка"
       ],
@@ -1196,7 +1196,7 @@
       "form": "brave",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "brˈeɪv",
       "translations": [
         "смелый"
       ],
@@ -1211,7 +1211,7 @@
       "form": "bravely",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "brˈeɪvli",
       "translations": [
         "смело"
       ],
@@ -1226,7 +1226,7 @@
       "form": "bravery",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "brˈeɪvəri",
       "translations": [
         "смелость"
       ],
@@ -1256,7 +1256,7 @@
       "form": "breathtaking",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "brˈɛθteɪkɪŋ",
       "translations": [
         "захватывающий дух"
       ],
@@ -1271,7 +1271,7 @@
       "form": "breeze",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "brˈiːz",
       "translations": [
         "бриз",
         "лёгкий ветерок"

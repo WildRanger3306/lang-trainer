@@ -451,7 +451,7 @@
       "form": "ice",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈaɪs",
       "translations": [
         "лёд"
       ],
@@ -556,7 +556,7 @@
       "form": "icon",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈaɪkɒn",
       "translations": [
         "икона"
       ],
@@ -571,7 +571,7 @@
       "form": "idea",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "aɪdˈiə",
       "translations": [
         "идея"
       ],
@@ -586,7 +586,7 @@
       "form": "ideal",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "aɪdˈiəl",
       "translations": [
         "идеальный"
       ],
@@ -601,7 +601,7 @@
       "form": "identify",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "aɪdˈɛntɪfˌaɪ",
       "translations": [
         "идентифицировать"
       ],
@@ -616,7 +616,7 @@
       "form": "identity",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "aɪdˈɛntɪti",
       "translations": [
         "идентичность",
         "отличительные черты"
@@ -647,7 +647,7 @@
       "form": "ignore",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪgnˈɔː",
       "translations": [
         "игнорировать"
       ],
@@ -662,7 +662,7 @@
       "form": "illegal",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪlˈiːgəl",
       "translations": [
         "нелегальный",
         "противозаконный"
@@ -693,7 +693,7 @@
       "form": "illogical",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪlˈɒdʒɪkəl",
       "translations": [
         "нелогичный"
       ],
@@ -708,7 +708,7 @@
       "form": "immediately",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "ɪmˈiːdɪətli",
       "translations": [
         "моментально",
         "тут же"
@@ -739,7 +739,7 @@
       "form": "impolite",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪmpəlˈaɪt",
       "translations": [
         "невежливый"
       ],
@@ -754,7 +754,7 @@
       "form": "impossible",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪmpˈɒsəbəl",
       "translations": [
         "невозможный"
       ],
@@ -769,7 +769,7 @@
       "form": "improve",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪmprˈuːv",
       "translations": [
         "улучшать"
       ],
@@ -784,7 +784,7 @@
       "form": "inaccurate",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪnˈækjʊrət",
       "translations": [
         "неаккуратный"
       ],
@@ -799,7 +799,7 @@
       "form": "income",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɪnkʌm",
       "translations": [
         "доход"
       ],
@@ -830,7 +830,7 @@
       "form": "incredible",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪnkrˈɛdɪbəl",
       "translations": [
         "невероятный"
       ],
@@ -845,7 +845,7 @@
       "form": "independent",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˌɪndɪpˈɛndənt",
       "translations": [
         "независимый"
       ],
@@ -875,7 +875,7 @@
       "form": "indigestion",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌɪndɪdʒˈɛstʃən",
       "translations": [
         "несварение"
       ],
@@ -890,7 +890,7 @@
       "form": "infant",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɪnfənt",
       "translations": [
         "младенец"
       ],
@@ -905,7 +905,7 @@
       "form": "infect",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪnfˈɛkt",
       "translations": [
         "заражать"
       ],
@@ -920,7 +920,7 @@
       "form": "infected",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪnfˈɛktɪd",
       "translations": [
         "заражённый"
       ],
@@ -935,7 +935,7 @@
       "form": "infectious",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪnfˈɛkʃəs",
       "translations": [
         "заразный"
       ],
@@ -950,7 +950,7 @@
       "form": "inflatable",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪnflˈeɪtəbəl",
       "translations": [
         "надувной"
       ],
@@ -965,7 +965,7 @@
       "form": "informal",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪnfˈɔːməl",
       "translations": [
         "неофициальный"
       ],
@@ -980,7 +980,7 @@
       "form": "initiation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪnˌɪʃɪˈeɪʃən",
       "translations": [
         "посвящение"
       ],
@@ -995,7 +995,7 @@
       "form": "inject",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪndʒˈɛkt",
       "translations": [
         "делать укол"
       ],
@@ -1010,7 +1010,7 @@
       "form": "injection",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪndʒˈɛkʃən",
       "translations": [
         "укол",
         "инъекция"
@@ -1026,7 +1026,7 @@
       "form": "injure",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˈɪndʒɐ",
       "translations": [
         "ранить"
       ],
@@ -1041,7 +1041,7 @@
       "form": "injury",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˈɪndʒəri",
       "translations": [
         "травма"
       ],
@@ -1071,7 +1071,7 @@
       "form": "innovative",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˈɪnəvˌeɪtɪv",
       "translations": [
         "инновационный"
       ],
@@ -1101,7 +1101,7 @@
       "form": "insincere",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ˌɪnsɪnsˈiə",
       "translations": [
         "неискренний"
       ],
@@ -1116,7 +1116,7 @@
       "form": "insist",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪnsˈɪst",
       "translations": [
         "настаивать"
       ],
@@ -1131,7 +1131,7 @@
       "form": "insomnia",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ɪnsˈɒmniɐ",
       "translations": [
         "бессонница"
       ],
@@ -1146,7 +1146,7 @@
       "form": "inspiration",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "ˌɪnspərˈeɪʃən",
       "translations": [
         "вдохновение"
       ],
@@ -1161,7 +1161,7 @@
       "form": "inspired",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪnspˈaɪəd",
       "translations": [
         "вдохновлённый"
       ],
@@ -1176,7 +1176,7 @@
       "form": "install",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ɪnstˈɔːl",
       "translations": [
         "устанавливать"
       ],
@@ -1206,7 +1206,7 @@
       "form": "intense",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "ɪntˈɛns",
       "translations": [
         "интенсивный"
       ],
@@ -1221,7 +1221,7 @@
       "form": "interact",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "ˌɪntərˈækt",
       "translations": [
         "взаимодействовать"
       ],

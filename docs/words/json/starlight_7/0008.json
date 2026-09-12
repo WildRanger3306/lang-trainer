@@ -44,7 +44,7 @@
       "form": "final",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fˈaɪnəl",
       "translations": [
         "последний"
       ],
@@ -59,7 +59,7 @@
       "form": "finale",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fɪnˈɑːli",
       "translations": [
         "завершение",
         "конец (представления)"
@@ -90,7 +90,7 @@
       "form": "fingerprint",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɪŋgəprˌɪnt",
       "translations": [
         "отпечаток пальцев"
       ],
@@ -135,7 +135,7 @@
       "form": "firefighter",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈaɪəfaɪtɐ",
       "translations": [
         "пожарный"
       ],
@@ -195,7 +195,7 @@
       "form": "fit",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fˈɪt",
       "translations": [
         "в хорошей форме"
       ],
@@ -210,7 +210,7 @@
       "form": "flashlight",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈæʃlaɪt",
       "translations": [
         "карманный фонарик"
       ],
@@ -225,7 +225,7 @@
       "form": "flat",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈæt",
       "translations": [
         "квартира"
       ],
@@ -255,7 +255,7 @@
       "form": "flip",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "flˈɪp",
       "translations": [
         "переворачивать"
       ],
@@ -270,7 +270,7 @@
       "form": "flipper",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈɪpɐ",
       "translations": [
         "плавник"
       ],
@@ -285,7 +285,7 @@
       "form": "float",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "flˈəʊt",
       "translations": [
         "плавать"
       ],
@@ -300,7 +300,7 @@
       "form": "flood",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈʌd",
       "translations": [
         "наводнение"
       ],
@@ -315,7 +315,7 @@
       "form": "flora",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈɔːrɐ",
       "translations": [
         "флора"
       ],
@@ -330,7 +330,7 @@
       "form": "flow",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈəʊ",
       "translations": [
         "приливать"
       ],
@@ -345,7 +345,7 @@
       "form": "flu",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈuː",
       "translations": [
         "грипп"
       ],
@@ -360,7 +360,7 @@
       "form": "fluid",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈuːɪd",
       "translations": [
         "жидкость"
       ],
@@ -375,7 +375,7 @@
       "form": "flying",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "flˈaɪɪŋ",
       "translations": [
         "полёт"
       ],
@@ -405,7 +405,7 @@
       "form": "follower",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɒləʊɐ",
       "translations": [
         "последователь",
         "подписчик"
@@ -421,7 +421,7 @@
       "form": "fool",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈuːl",
       "translations": [
         "дурак"
       ],
@@ -436,7 +436,7 @@
       "form": "foolish",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fˈuːlɪʃ",
       "translations": [
         "глупый"
       ],
@@ -451,7 +451,7 @@
       "form": "footpath",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈʊtpɑːθ",
       "translations": [
         "тропинка"
       ],
@@ -466,7 +466,7 @@
       "form": "footwear",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈʊtweə",
       "translations": [
         "обувь"
       ],
@@ -481,7 +481,7 @@
       "form": "forbidden",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fəbˈɪdən",
       "translations": [
         "запрещённый"
       ],
@@ -496,7 +496,7 @@
       "form": "foreign",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fˈɒrən",
       "translations": [
         "иностранный"
       ],
@@ -541,7 +541,7 @@
       "form": "forgetful",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fəgˈɛtfəl",
       "translations": [
         "забывчивый"
       ],
@@ -556,7 +556,7 @@
       "form": "form",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "fˈɔːm",
       "translations": [
         "формировать"
       ],
@@ -571,7 +571,7 @@
       "form": "formal",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fˈɔːməl",
       "translations": [
         "официальный"
       ],
@@ -586,7 +586,7 @@
       "form": "formation",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fɔːmˈeɪʃən",
       "translations": [
         "образование",
         "формация"
@@ -602,7 +602,7 @@
       "form": "fortunately",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "fˈɔːtʃənətli",
       "translations": [
         "к счастью"
       ],
@@ -632,7 +632,7 @@
       "form": "freckles",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "pl n",
-      "transcription": null,
+      "transcription": "frˈɛkəlz",
       "translations": [
         "веснушки"
       ],
@@ -692,7 +692,7 @@
       "form": "frostbite",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "frˈɒstbaɪt",
       "translations": [
         "обморожение"
       ],
@@ -707,7 +707,7 @@
       "form": "frustrating",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "frʌstrˈeɪtɪŋ",
       "translations": [
         "раздражающий"
       ],
@@ -737,7 +737,7 @@
       "form": "fuel",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fjˈuːəl",
       "translations": [
         "топливо"
       ],
@@ -767,7 +767,7 @@
       "form": "function",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈʌŋkʃən",
       "translations": [
         "функция"
       ],
@@ -782,7 +782,7 @@
       "form": "funding",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈʌndɪŋ",
       "translations": [
         "финансирование"
       ],
@@ -797,7 +797,7 @@
       "form": "furious",
       "partOfSpeech": "adjective",
       "partOfSpeechCode": "adj",
-      "transcription": null,
+      "transcription": "fjˈɔːrɪəs",
       "translations": [
         "разъярённый",
         "взбешённый"
@@ -813,7 +813,7 @@
       "form": "furniture",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "fˈɜːnɪtʃɐ",
       "translations": [
         "мебель"
       ],
@@ -828,7 +828,7 @@
       "form": "further",
       "partOfSpeech": "adverb",
       "partOfSpeechCode": "adv",
-      "transcription": null,
+      "transcription": "fˈɜːðɐ",
       "translations": [
         "далее"
       ],
@@ -1176,7 +1176,7 @@
       "form": "gale",
       "partOfSpeech": "noun",
       "partOfSpeechCode": "n",
-      "transcription": null,
+      "transcription": "gˈeɪl",
       "translations": [
         "сильный ветер",
         "буря"
@@ -1192,7 +1192,7 @@
       "form": "gallop",
       "partOfSpeech": "verb",
       "partOfSpeechCode": "v",
-      "transcription": null,
+      "transcription": "gˈæləp",
       "translations": [
         "скакать галопом"
       ],
