@@ -7,7 +7,7 @@
 Строка английского вордлиста: `форма — /транскрипция/ — (код) — перевод`.  
 Французский (L'oiseau bleu): `форма m/f` + перевод; род → поле `gender`.
 
-Материалы репетитора: `raw/fr_trainer/` → `json/fr_trainer/`, учебник **FR Trainer**, темы `frt_all` + `frt_aliments`, `frt_routine`, …
+Материалы репетитора: `raw/fr_trainer/` → `json/fr_trainer/`, учебник **FR Trainer**, тема `frt_all`.
 
 Транскрипции в JSON сейчас не заполняем (кроме пилота EN).
 
