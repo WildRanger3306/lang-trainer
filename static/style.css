@@ -544,10 +544,69 @@ legend {
 
 .line-chart .line-all { stroke: var(--accent); }
 .line-chart .line-review { stroke: var(--know); stroke-dasharray: 5 4; }
+.line-chart .line-again { stroke: var(--forget); }
+.line-chart .line-pass { stroke: var(--know); stroke-dasharray: 5 4; }
+
+.stats-inline {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem 1rem;
+  margin: 0.35rem 0 0.75rem;
+  padding: 0;
+  list-style: none;
+  background: transparent;
+  border: 0;
+}
+
+.stats-inline li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  border: 0;
+  padding: 0;
+}
+
+.stats-inline .muted { font-size: 0.85rem; font-weight: 400; }
+
+.adapt-note {
+  margin: 0.5rem 0 0;
+  font-weight: 650;
+}
+
+.advice-strip {
+  display: flex;
+  gap: 2px;
+  height: 1.25rem;
+  margin-top: 0.35rem;
+}
+
+.advice-cell {
+  flex: 1 1 0;
+  min-width: 0;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--line) 70%, transparent);
+}
+
+.advice-lower, .swatch.advice-lower { background: var(--forget); }
+.advice-keep, .swatch.advice-keep { background: var(--accent); }
+.advice-raise, .swatch.advice-raise { background: var(--know); }
+.advice-empty { background: color-mix(in srgb, var(--line) 55%, transparent); }
+
+.rating-again, .swatch.rating-again { background: var(--forget); }
+.rating-hard, .swatch.rating-hard { background: var(--doubt); }
+.rating-good, .swatch.rating-good { background: var(--know); }
+.rating-easy, .swatch.rating-easy {
+  background: color-mix(in srgb, var(--know) 70%, #0a0 30%);
+}
+.rating-unrated, .swatch.rating-unrated { background: var(--line); }
+
+.swatch-again-line { background: var(--forget); }
+.swatch-pass-line { background: var(--know); }
 
 @media (min-width: 720px) {
   html, body { font-size: 18px; }
   .page { padding: 2rem 1.5rem 3rem; }
   .card, .card-inner, .card-front { min-height: 18rem; }
   .card-face { padding: 2rem; }
+  .stats-inline { grid-template-columns: repeat(4, 1fr); }
 }

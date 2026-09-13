@@ -12,12 +12,13 @@ from fastapi.templating import Jinja2Templates
 from app.auth import AuthStore
 from app.cards import card_view
 from app.db import connect
+from app.load_limits import get_new_per_day
 from app.progress import count_introduced_today, save_assessment, save_grade
 from app.queue import build_assessment_cards, build_session_cards
 from app.repository import fetch_filter_options, fetch_queue_preview
-from app.scheduler import ASSESS_BATCH, ASSESS_KNOW_INTERVAL, ASSESS_VERDICTS, new_per_day, preferred_direction
+from app.scheduler import ASSESS_BATCH, ASSESS_KNOW_INTERVAL, ASSESS_VERDICTS, preferred_direction
 from app.session import SessionFilter
-from app.stats import build_language_summary
+from app.stats import build_language_summary, refresh_adaptive_load
 from app.store import SessionStore
 from app.user_filters import (
     filter_summary,
@@ -26,7 +27,7 @@ from app.user_filters import (
     save_user_filter,
     set_last_language,
 )
-from app.users import User, authenticate
+from app.users import User, authenticate, get_user_by_id
 
 ROOT = Path(__file__).resolve().parents[1]
 COOKIE = "train_session"
@@ -48,7 +49,11 @@ def _format_duration(seconds: int) -> str:
 
 def _current_user(request: Request) -> User | None:
     session = auth_store.get(request.cookies.get(AUTH_COOKIE))
-    return session.user if session else None
+    if session is None:
+        return None
+    with connect() as conn:
+        fresh = get_user_by_id(conn, session.user.id)
+    return fresh or session.user
 
 
 def _require_user(request: Request) -> User | RedirectResponse:
@@ -121,8 +126,10 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
         return user
     with connect() as conn:
         language = _resolve_language(request, user, conn)
+        refresh_adaptive_load(conn, user.id, language)
         flt = get_user_filter(conn, user.id, language)
         preview = fetch_queue_preview(conn, flt, user.id)
+        daily_new = get_new_per_day(conn, user.id, language)
     return templates.TemplateResponse(
         request,
         "filter.html",
@@ -132,7 +139,7 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
             "language": language,
             "filter_label": filter_summary(flt),
             "preview": preview,
-            "new_per_day": new_per_day(language),
+            "new_per_day": daily_new,
             "preferred_direction": preferred_direction(language),
             "assess_batch": ASSESS_BATCH,
             "assess_know_interval": ASSESS_KNOW_INTERVAL,
@@ -204,6 +211,7 @@ def start_session(
 
     with connect() as conn:
         set_last_language(conn, user.id, language)
+        refresh_adaptive_load(conn, user.id, language)
         flt = get_user_filter(conn, user.id, language)
         picked, due_n, new_n = build_session_cards(conn, flt, user.id, random.Random())
 
@@ -444,7 +452,7 @@ def stats_page(
             **_nav(user),
             "language": language,
             "summary": summary,
-            "new_per_day": new_per_day(language),
+            "new_per_day": summary.load.new_per_day,
             "preferred_direction": preferred_direction(language),
         },
     )
@@ -474,8 +482,10 @@ def create_session_json(
 
     rng = random.Random(seed)
     with connect() as conn:
+        refresh_adaptive_load(conn, user.id, flt.language)
         picked, due_n, new_n = build_session_cards(conn, flt, user.id, rng)
         introduced = count_introduced_today(conn, user.id, flt.language)
+        daily_new = get_new_per_day(conn, user.id, flt.language)
 
     return {
         "filter": {
@@ -488,7 +498,7 @@ def create_session_json(
         "due_count": due_n,
         "new_in_session": new_n,
         "introduced_today": introduced,
-        "new_per_day": new_per_day(flt.language),
+        "new_per_day": daily_new,
         "preferred_direction": preferred_direction(flt.language),
         "cards": [
             {

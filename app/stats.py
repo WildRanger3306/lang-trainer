@@ -10,7 +10,17 @@ from statistics import median
 import psycopg
 from psycopg.rows import dict_row
 
-from app.scheduler import new_per_day
+from app.load_limits import (
+    AdaptResult,
+    HYSTERESIS_DAYS,
+    advice_streak,
+    clamp_new_per_day,
+    ensure_load_limit,
+    fetch_advice_series,
+    get_new_per_day,
+    record_advice_day,
+    try_apply_hysteresis,
+)
 
 
 @dataclass(frozen=True)
@@ -56,9 +66,63 @@ class PerformanceStats:
     remember_rate_new_7: float | None
     remember_rate_review_7: float | None
     again_rate_7: float | None
-    reset_to_one_7: int
     mature_reviews_7: int
     mature_again_rate_7: float | None
+    rating_again: int
+    rating_hard: int
+    rating_good: int
+    rating_easy: int
+    rating_unrated: int
+
+    @property
+    def rating_total(self) -> int:
+        return (
+            self.rating_again
+            + self.rating_hard
+            + self.rating_good
+            + self.rating_easy
+            + self.rating_unrated
+        )
+
+    def rating_stack(self) -> tuple[dict[str, float | int | str], ...]:
+        total = max(self.rating_total, 1)
+        parts = (
+            ("again", "Again", self.rating_again),
+            ("hard", "Hard", self.rating_hard),
+            ("good", "Good", self.rating_good),
+            ("easy", "Easy", self.rating_easy),
+            ("unrated", "без рейтинга", self.rating_unrated),
+        )
+        return tuple(
+            {
+                "key": key,
+                "label": label,
+                "count": count,
+                "pct": round(100.0 * count / total, 1),
+            }
+            for key, label, count in parts
+            if count > 0 or key != "unrated"
+        )
+
+
+@dataclass(frozen=True)
+class AutoloadStatus:
+    new_per_day: int
+    base_new_per_day: int
+    updated_via: str
+    last_change_on: date | None
+    advice_status: str
+    streak_status: str | None
+    streak_days: int
+    needed_days: int
+    note: str | None
+    advice_days: tuple[tuple[date, str | None], ...]
+
+    @property
+    def streak_label(self) -> str:
+        if self.streak_status is None or self.streak_days <= 0:
+            return "серия не копится"
+        return f"{self.streak_status} {self.streak_days}/{self.needed_days}"
 
 
 @dataclass(frozen=True)
@@ -108,20 +172,19 @@ class ActivityDay:
 
 
 @dataclass(frozen=True)
-class RememberDay:
+class QualityDay:
     day: date
     label: str
-    rate_all: float | None
-    rate_review: float | None
     reviews: int
-    review_reviews: int
+    again_rate: float | None
+    pass_rate: float | None  # Good+Easy among rated
 
 
 @dataclass(frozen=True)
 class StatsCharts:
     corpus: CorpusSegments
     activity: tuple[ActivityDay, ...]
-    remember: tuple[RememberDay, ...]
+    quality: tuple[QualityDay, ...]
 
     @property
     def activity_max(self) -> int:
@@ -132,7 +195,7 @@ class StatsCharts:
         total = max(self.corpus.total, 1)
         parts = (
             ("new", "новые", self.corpus.new),
-            ("learning", "< 7 дн", self.corpus.learning),
+            ("learning", "повтор ≤6 дн", self.corpus.learning),
             ("young", "7–20 дн", self.corpus.young),
             ("mature", "≥ 21 дн", self.corpus.mature),
         )
@@ -147,10 +210,10 @@ class StatsCharts:
             for key, label, count in parts
         )
 
-    def remember_svg(
+    def quality_svg(
         self, *, width: float = 600.0, height: float = 160.0, pad: float = 18.0
     ) -> dict[str, str | float | list[dict[str, float | str | None]]]:
-        n = len(self.remember)
+        n = len(self.quality)
         inner_w = width - 2 * pad
         inner_h = height - 2 * pad
         xs = [
@@ -166,7 +229,7 @@ class StatsCharts:
         def polyline(attr: str) -> str:
             parts: list[str] = []
             pen_down = False
-            for i, day in enumerate(self.remember):
+            for i, day in enumerate(self.quality):
                 rate = getattr(day, attr)
                 if rate is None:
                     pen_down = False
@@ -185,17 +248,15 @@ class StatsCharts:
             {
                 "x": xs[i],
                 "label": day.label,
-                "y_all": y_of(day.rate_all),
-                "y_review": y_of(day.rate_review),
             }
-            for i, day in enumerate(self.remember)
+            for i, day in enumerate(self.quality)
             if i % 7 == 0 or i == n - 1
         ]
         return {
             "width": width,
             "height": height,
-            "all": polyline("rate_all"),
-            "review": polyline("rate_review"),
+            "again": polyline("again_rate"),
+            "pass": polyline("pass_rate"),
             "ticks": ticks,
             "labels": labels,
         }
@@ -210,6 +271,9 @@ class LanguageSummary:
     advice: LoadAdvice
     horizon: HorizonStats
     charts: StatsCharts
+    autoload: AutoloadStatus
+    answers_yesterday: int
+    adapt_note: str | None = None
 
 
 def _pct(part: int, whole: int) -> float:
@@ -274,9 +338,9 @@ def build_horizon(
         days_to_mature_lag=mature_lag_days,
         label_first_pass_plus_mature=format_horizon(first_plus_mature),
         note=(
-            "«Освоить» здесь = первый показ всех оставшихся карточек при ежедневных занятиях. "
-            "Удержание (interval ≥ 21) у последних карточек — примерно ещё +3 недели после этого; "
-            "повторы после ввода новых продолжаются всегда."
+            "«Освоить» = первый показ оставшихся карточек при ежедневных занятиях. "
+            "Удержание (повтор ≥ 21 дн) у последних — примерно ещё +3 недели после этого; "
+            "повторы после ввода новых продолжаются всегда. Лимит может менять авто."
         ),
     )
 
@@ -344,8 +408,15 @@ def fetch_load_stats(
     user_id: int,
     language: str,
     today: date | None = None,
+    *,
+    new_per_day: int | None = None,
 ) -> LoadStats:
     today = today or date.today()
+    limit = (
+        new_per_day
+        if new_per_day is not None
+        else get_new_per_day(conn, user_id, language)
+    )
     with conn.cursor(row_factory=dict_row) as cur:
         cur.execute(
             """
@@ -400,7 +471,7 @@ def fetch_load_stats(
         due_tomorrow=int(due_row["due_tomorrow"]),
         due_in_3_days=int(due_row["due_in_3_days"]),
         introduced_today=int(due_row["introduced_today"]),
-        new_per_day=new_per_day(language),
+        new_per_day=limit,
         answers_last_7=sum(vals_7),
         answers_last_30=sum(vals_30),
         median_answers_per_day_7=float(median(active_7)) if active_7 else 0.0,
@@ -429,13 +500,15 @@ def fetch_performance_stats(
               count(*) FILTER (WHERE NOT was_new) AS review_reviews,
               count(*) FILTER (WHERE NOT was_new AND remembered) AS review_remembered,
               count(*) FILTER (WHERE NOT remembered) AS again,
-              count(*) FILTER (
-                WHERE NOT remembered AND interval_after <= 1
-              ) AS reset_to_one,
               count(*) FILTER (WHERE NOT was_new AND interval_before >= 21) AS mature,
               count(*) FILTER (
                 WHERE NOT was_new AND interval_before >= 21 AND NOT remembered
-              ) AS mature_again
+              ) AS mature_again,
+              count(*) FILTER (WHERE rating = 1) AS rating_again,
+              count(*) FILTER (WHERE rating = 2) AS rating_hard,
+              count(*) FILTER (WHERE rating = 3) AS rating_good,
+              count(*) FILTER (WHERE rating = 4) AS rating_easy,
+              count(*) FILTER (WHERE rating IS NULL) AS rating_unrated
             FROM card_reviews r
             JOIN entries e ON e.id = r.entry_id
             WHERE r.user_id = %s
@@ -459,9 +532,13 @@ def fetch_performance_stats(
         remember_rate_new_7=_rate(int(row["new_remembered"]), new_reviews),
         remember_rate_review_7=_rate(int(row["review_remembered"]), review_reviews),
         again_rate_7=_rate(again, reviews),
-        reset_to_one_7=int(row["reset_to_one"]),
         mature_reviews_7=mature,
         mature_again_rate_7=_rate(int(row["mature_again"]), mature),
+        rating_again=int(row["rating_again"]),
+        rating_hard=int(row["rating_hard"]),
+        rating_good=int(row["rating_good"]),
+        rating_easy=int(row["rating_easy"]),
+        rating_unrated=int(row["rating_unrated"]),
     )
 
 
@@ -469,11 +546,12 @@ def advise_load(
     corpus: CorpusStats,
     load: LoadStats,
     performance: PerformanceStats,
+    *,
+    language: str = "en",
 ) -> LoadAdvice:
     review_ok = performance.remember_rate_review_7
     again = performance.again_rate_7
     due = load.due_today
-    new_left = max(0, load.new_per_day - load.introduced_today)
 
     # Need some review signal; otherwise keep.
     if performance.reviews_7 >= 20 and (
@@ -481,11 +559,18 @@ def advise_load(
         or (again is not None and again > 0.20)
         or due >= max(40, load.median_answers_per_day_7 * 1.5)
     ):
-        suggested = max(5, load.new_per_day - 5)
+        suggested = clamp_new_per_day(language, load.new_per_day - 5)
+        if suggested == load.new_per_day:
+            return LoadAdvice(
+                status="keep",
+                label="Лимит на минимуме",
+                detail="Сигналы к снижению есть, но ниже рамки языка уже нельзя.",
+                suggested_new_per_day=load.new_per_day,
+            )
         return LoadAdvice(
             status="lower",
-            label="Снизить нагрузку",
-            detail="Много again по повторам или due давит. Убавьте порцию новых.",
+            label="Авто склонно снизить",
+            detail="Again/Hard или due давят. Лимит новых снизится после 3 дней подряд.",
             suggested_new_per_day=suggested,
         )
 
@@ -498,20 +583,55 @@ def advise_load(
         and load.introduced_today < load.new_per_day
         and corpus.new_cards > 0
     ):
-        suggested = min(30, load.new_per_day + 5)
+        suggested = clamp_new_per_day(language, load.new_per_day + 5)
+        if suggested == load.new_per_day:
+            return LoadAdvice(
+                status="keep",
+                label="Лимит на максимуме",
+                detail="Сигналы к усилению есть, но выше рамки языка уже нельзя.",
+                suggested_new_per_day=load.new_per_day,
+            )
         return LoadAdvice(
             status="raise",
-            label="Можно усилить",
-            detail="Повторы стабильны, due небольшой, квота новых недобирается.",
+            label="Авто склонно усилить",
+            detail="Повторы стабильны, due небольшой. Лимит вырастет после 3 дней подряд.",
             suggested_new_per_day=suggested,
         )
 
     return LoadAdvice(
         status="keep",
-        label="Оставить как есть",
-        detail="Очередь и again в норме. Лимит новых менять не обязательно.",
+        label="Лимит без изменений",
+        detail="Очередь и Again в норме — авто оставляет квоту как есть.",
         suggested_new_per_day=load.new_per_day,
     )
+
+
+def refresh_adaptive_load(
+    conn: psycopg.Connection,
+    user_id: int,
+    language: str,
+    today: date | None = None,
+) -> AdaptResult:
+    """Record today's advice and maybe change the user×language limit."""
+    today = today or date.today()
+    current = get_new_per_day(conn, user_id, language)
+    corpus = fetch_corpus_stats(conn, user_id, language)
+    load = fetch_load_stats(conn, user_id, language, today, new_per_day=current)
+    performance = fetch_performance_stats(conn, user_id, language, today)
+    advice = advise_load(corpus, load, performance, language=language)
+    record_advice_day(
+        conn, user_id, language, today, advice.status, advice.suggested_new_per_day
+    )
+    result = try_apply_hysteresis(
+        conn,
+        user_id,
+        language,
+        today,
+        current=current,
+        today_suggested=advice.suggested_new_per_day,
+    )
+    conn.commit()
+    return result
 
 
 def corpus_segments(corpus: CorpusStats) -> CorpusSegments:
@@ -584,13 +704,13 @@ def fetch_activity_series(
     return tuple(out)
 
 
-def fetch_remember_series(
+def fetch_quality_series(
     conn: psycopg.Connection,
     user_id: int,
     language: str,
     today: date,
     days: int = 30,
-) -> tuple[RememberDay, ...]:
+) -> tuple[QualityDay, ...]:
     since = today - timedelta(days=days - 1)
     with conn.cursor(row_factory=dict_row) as cur:
         cur.execute(
@@ -598,9 +718,10 @@ def fetch_remember_series(
             SELECT
               answered_on AS day,
               count(*) AS reviews,
-              count(*) FILTER (WHERE remembered) AS remembered,
-              count(*) FILTER (WHERE NOT was_new) AS review_reviews,
-              count(*) FILTER (WHERE NOT was_new AND remembered) AS review_remembered
+              count(*) FILTER (WHERE rating = 1 OR (rating IS NULL AND NOT remembered))
+                AS again_n,
+              count(*) FILTER (WHERE rating IN (3, 4)) AS pass_n,
+              count(*) FILTER (WHERE rating IS NOT NULL) AS rated_n
             FROM card_reviews r
             JOIN entries e ON e.id = r.entry_id
             WHERE r.user_id = %s
@@ -614,32 +735,30 @@ def fetch_remember_series(
         )
         by_day = {row["day"]: row for row in cur.fetchall()}
 
-    out: list[RememberDay] = []
+    out: list[QualityDay] = []
     for i in range(days):
         day = since + timedelta(days=i)
         row = by_day.get(day)
         if row is None:
             out.append(
-                RememberDay(
+                QualityDay(
                     day=day,
                     label=_day_label(day),
-                    rate_all=None,
-                    rate_review=None,
                     reviews=0,
-                    review_reviews=0,
+                    again_rate=None,
+                    pass_rate=None,
                 )
             )
             continue
         reviews = int(row["reviews"])
-        review_reviews = int(row["review_reviews"])
+        rated = int(row["rated_n"])
         out.append(
-            RememberDay(
+            QualityDay(
                 day=day,
                 label=_day_label(day),
-                rate_all=_rate(int(row["remembered"]), reviews),
-                rate_review=_rate(int(row["review_remembered"]), review_reviews),
                 reviews=reviews,
-                review_reviews=review_reviews,
+                again_rate=_rate(int(row["again_n"]), reviews),
+                pass_rate=_rate(int(row["pass_n"]), rated) if rated else None,
             )
         )
     return tuple(out)
@@ -655,7 +774,32 @@ def build_stats_charts(
     return StatsCharts(
         corpus=corpus_segments(corpus),
         activity=fetch_activity_series(conn, user_id, language, today),
-        remember=fetch_remember_series(conn, user_id, language, today),
+        quality=fetch_quality_series(conn, user_id, language, today),
+    )
+
+
+def build_autoload_status(
+    conn: psycopg.Connection,
+    user_id: int,
+    language: str,
+    today: date,
+    advice: LoadAdvice,
+    *,
+    note: str | None,
+) -> AutoloadStatus:
+    row = ensure_load_limit(conn, user_id, language)
+    streak_status, streak_days = advice_streak(conn, user_id, language, today)
+    return AutoloadStatus(
+        new_per_day=row.new_per_day,
+        base_new_per_day=row.base_new_per_day,
+        updated_via=row.updated_via,
+        last_change_on=row.last_change_on,
+        advice_status=advice.status,
+        streak_status=streak_status,
+        streak_days=streak_days,
+        needed_days=HYSTERESIS_DAYS,
+        note=note,
+        advice_days=fetch_advice_series(conn, user_id, language, today),
     )
 
 
@@ -668,13 +812,22 @@ def build_language_summary(
     if language not in ("en", "fr"):
         raise ValueError("language must be en or fr")
     today = today or date.today()
+    adapt = refresh_adaptive_load(conn, user_id, language, today)
+    current = adapt.new_per_day
     corpus = fetch_corpus_stats(conn, user_id, language)
-    load = fetch_load_stats(conn, user_id, language, today)
+    load = fetch_load_stats(conn, user_id, language, today, new_per_day=current)
     performance = fetch_performance_stats(conn, user_id, language, today)
-    advice = advise_load(corpus, load, performance)
+    advice = advise_load(corpus, load, performance, language=language)
     introduced_7 = fetch_introduced_last_days(conn, user_id, language, today, 7)
     horizon = build_horizon(corpus.new_cards, load.new_per_day, introduced_7)
     charts = build_stats_charts(conn, user_id, language, corpus, today)
+    autoload = build_autoload_status(
+        conn, user_id, language, today, advice, note=adapt.note
+    )
+    yesterday = today - timedelta(days=1)
+    answers_yesterday = next(
+        (d.answers for d in charts.activity if d.day == yesterday), 0
+    )
     return LanguageSummary(
         language=language,
         corpus=corpus,
@@ -683,4 +836,7 @@ def build_language_summary(
         advice=advice,
         horizon=horizon,
         charts=charts,
+        autoload=autoload,
+        answers_yesterday=answers_yesterday,
+        adapt_note=adapt.note,
     )

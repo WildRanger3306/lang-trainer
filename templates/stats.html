@@ -4,7 +4,7 @@
   <header class="header header-row">
     <div>
       <h1>Сводка</h1>
-      <p class="lead">Прогресс корпуса и нагрузка — чтобы решить, менять ли лимит новых.</p>
+      <p class="lead">Сегодняшняя очередь, автолимит и качество по FSRS.</p>
     </div>
     <a class="nav-link" href="/?language={{ language }}">К тренировке</a>
   </header>
@@ -14,61 +14,111 @@
     <a class="chip {% if language == 'fr' %}is-active{% endif %}" href="/stats?language=fr">французский</a>
   </nav>
 
-  <section class="banner banner-{{ summary.advice.status }}">
-    <p class="advice-label">{{ summary.advice.label }}</p>
-    <p class="muted">{{ summary.advice.detail }}</p>
-    <p>Сейчас лимит <strong>{{ new_per_day }}</strong> новых/день
-      ({% if language == 'en' %}EN{% else %}FR{% endif %}; приоритет
-      {% if preferred_direction == 'native_to_foreign' %}RU→язык{% else %}язык→RU{% endif %}).
-      Совет: <strong>{{ summary.advice.suggested_new_per_day }}</strong>
-      (меняется вручную в коде, автоподстройки нет).</p>
-  </section>
-
   {% set c = summary.corpus %}
   {% set l = summary.load %}
   {% set p = summary.performance %}
   {% set h = summary.horizon %}
+  {% set a = summary.autoload %}
   {% set charts = summary.charts %}
   {% set stack = charts.corpus_stack() %}
   {% set amax = charts.activity_max %}
-  {% set rem = charts.remember_svg() %}
+  {% set qsvg = charts.quality_svg() %}
+  {% set ratings = p.rating_stack() %}
 
-  <section class="panel">
-    <h2 class="section-title">Горизонт</h2>
-    <ul class="stats">
-      <li><span>осталось новых</span><strong>{{ h.remaining_new }}</strong></li>
-      <li><span>при лимите {{ l.new_per_day }}/день</span><strong>{{ h.label_at_limit }}{% if h.days_at_limit is not none and h.days_at_limit > 0 %} · {{ h.days_at_limit }} дн{% endif %}</strong></li>
-      <li><span>по темпу 7 дн ({{ '%.1f'|format(h.pace_new_per_day_7) }}/день)</span><strong>{% if h.label_at_pace %}{{ h.label_at_pace }}{% if h.days_at_pace is not none and h.days_at_pace > 0 %} · {{ h.days_at_pace }} дн{% endif %}{% else %}мало данных{% endif %}</strong></li>
-      <li><span>первый показ + ≥21 дн</span><strong>{{ h.label_first_pass_plus_mature }}</strong></li>
+  <section class="banner banner-{{ a.advice_status }}">
+    <p class="advice-label">Сегодня</p>
+    <ul class="stats stats-inline">
+      <li><span>due</span><strong>{{ l.due_today }}</strong></li>
+      <li><span>новых</span><strong>{{ l.introduced_today }} / {{ l.new_per_day }}</strong></li>
+      <li><span>ответов вчера</span><strong>{{ summary.answers_yesterday }}</strong></li>
+      <li><span>лимит</span><strong>{{ a.new_per_day }}</strong>
+        <span class="muted">база {{ a.base_new_per_day }} · {{ a.streak_label }}</span></li>
     </ul>
-    <p class="muted horizon-note">{{ h.note }}</p>
+    <p class="muted">{{ summary.advice.detail }}</p>
+    {% if a.note %}
+    <p class="adapt-note">{{ a.note }}</p>
+    {% endif %}
   </section>
 
   <section class="panel">
-    <h2 class="section-title">Корпус</h2>
-    <div class="chart-block" role="img" aria-label="Состав корпуса: новые, обучение, молодые, зрелые">
-      <div class="stack-bar">
-        {% for seg in stack %}
-          <div
-            class="stack-seg stack-{{ seg.key }}"
-            style="flex-grow: {{ seg.count if seg.count > 0 else 0.0001 }}; flex-basis: 0"
-            title="{{ seg.label }}: {{ seg.count }} ({{ seg.pct }}%)"
-          ></div>
+    <h2 class="section-title">Autoload</h2>
+    <ul class="stats">
+      <li><span>статус совета</span><strong>{{ summary.advice.label }}</strong></li>
+      <li><span>серия к смене</span><strong>{{ a.streak_label }}</strong></li>
+      <li><span>последняя смена</span><strong>{% if a.last_change_on %}{{ a.last_change_on.strftime('%d.%m.%Y') }}{% else %}ещё не было{% endif %}</strong></li>
+      <li><span>рамки</span><strong>{% if language == 'en' %}EN 5–20{% else %}FR 10–30{% endif %}, шаг 5</strong></li>
+    </ul>
+    <div class="chart-block" role="img" aria-label="Статусы совета autoload за 30 дней">
+      <p class="chart-caption muted">30 дней · совет (lower / keep / raise)</p>
+      <div class="advice-strip">
+        {% for day, status in a.advice_days %}
+          <span
+            class="advice-cell {% if status %}advice-{{ status }}{% else %}advice-empty{% endif %}"
+            title="{{ day.strftime('%d.%m') }}{% if status %}: {{ status }}{% else %}: нет{% endif %}"
+          ></span>
         {% endfor %}
       </div>
       <ul class="chart-legend">
-        {% for seg in stack %}
-          <li><span class="swatch stack-{{ seg.key }}"></span>{{ seg.label }} · {{ seg.count }} ({{ '%.0f'|format(seg.pct) }}%)</li>
-        {% endfor %}
+        <li><span class="swatch advice-lower"></span>lower</li>
+        <li><span class="swatch advice-keep"></span>keep</li>
+        <li><span class="swatch advice-raise"></span>raise</li>
       </ul>
     </div>
-    <ul class="stats">
-      <li><span>карточек всего</span><strong>{{ c.total_cards }}</strong></li>
-      <li><span>ещё новые</span><strong>{{ c.new_cards }}</strong></li>
-      <li><span>уже в системе</span><strong>{{ c.in_system }} ({{ '%.0f'|format(c.in_system_pct) }}%)</strong></li>
-      <li><span>интервал ≥ 7 дн</span><strong>{{ c.interval_ge_7 }} ({{ '%.0f'|format(c.ge7_pct) }}%)</strong></li>
-      <li><span>интервал ≥ 21 дн</span><strong>{{ c.interval_ge_21 }} ({{ '%.0f'|format(c.ge21_pct) }}%)</strong></li>
-    </ul>
+  </section>
+
+  <section class="panel">
+    <h2 class="section-title">Качество · FSRS · 7 дней</h2>
+    {% if p.reviews_7 == 0 %}
+      <p class="muted">Пока нет ответов за неделю — после тренировок появятся Again / Hard / Good / Easy.</p>
+    {% else %}
+      <div class="chart-block" role="img" aria-label="Распределение оценок FSRS">
+        <div class="stack-bar rating-bar">
+          {% for seg in ratings %}
+            <div
+              class="stack-seg rating-{{ seg.key }}"
+              style="flex-grow: {{ seg.count if seg.count > 0 else 0.0001 }}; flex-basis: 0"
+              title="{{ seg.label }}: {{ seg.count }} ({{ seg.pct }}%)"
+            ></div>
+          {% endfor %}
+        </div>
+        <ul class="chart-legend">
+          {% for seg in ratings %}
+            <li><span class="swatch rating-{{ seg.key }}"></span>{{ seg.label }} · {{ seg.count }} ({{ '%.0f'|format(seg.pct) }}%)</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <ul class="stats">
+        <li><span>ответов</span><strong>{{ p.reviews_7 }}</strong></li>
+        <li><span>Again rate</span><strong>{% if p.again_rate_7 is not none %}{{ '%.0f'|format(p.again_rate_7 * 100) }}%{% else %}—{% endif %}</strong></li>
+        <li><span>mature Again (≥21)</span><strong>{% if p.mature_again_rate_7 is not none %}{{ '%.0f'|format(p.mature_again_rate_7 * 100) }}% ({{ p.mature_reviews_7 }}){% else %}— ({{ p.mature_reviews_7 }}){% endif %}</strong></li>
+      </ul>
+    {% endif %}
+    <div class="chart-block" role="img" aria-label="Again% и Good+Easy% за 30 дней">
+      <p class="chart-caption muted">30 дней · Again% и Good+Easy%</p>
+      {% if charts.quality | selectattr('reviews') | list | length == 0 %}
+        <p class="muted">Пока нет ответов за месяц.</p>
+      {% else %}
+        <svg class="line-chart" viewBox="0 0 {{ qsvg.width }} {{ qsvg.height }}" preserveAspectRatio="none" aria-hidden="true">
+          {% for t in qsvg.ticks %}
+            <line class="grid" x1="18" x2="{{ qsvg.width - 18 }}" y1="{{ t.y }}" y2="{{ t.y }}"></line>
+            <text class="axis" x="4" y="{{ t.y + 4 }}">{{ t.label }}</text>
+          {% endfor %}
+          {% if qsvg.pass %}
+            <path class="line line-pass" d="{{ qsvg.pass }}" fill="none"></path>
+          {% endif %}
+          {% if qsvg.again %}
+            <path class="line line-again" d="{{ qsvg.again }}" fill="none"></path>
+          {% endif %}
+          {% for pt in qsvg.labels %}
+            <text class="axis axis-x" x="{{ pt.x }}" y="{{ qsvg.height - 2 }}" text-anchor="middle">{{ pt.label }}</text>
+          {% endfor %}
+        </svg>
+        <ul class="chart-legend">
+          <li><span class="swatch swatch-again-line"></span>Again%</li>
+          <li><span class="swatch swatch-pass-line"></span>Good+Easy%</li>
+        </ul>
+      {% endif %}
+    </div>
   </section>
 
   <section class="panel">
@@ -99,7 +149,6 @@
       <li><span>due сегодня</span><strong>{{ l.due_today }}</strong></li>
       <li><span>due ≤ завтра</span><strong>{{ l.due_tomorrow }}</strong></li>
       <li><span>due ≤ +3 дня</span><strong>{{ l.due_in_3_days }}</strong></li>
-      <li><span>новых сегодня</span><strong>{{ l.introduced_today }} / {{ l.new_per_day }}</strong></li>
       <li><span>ответов за 7 дн</span><strong>{{ l.answers_last_7 }}</strong></li>
       <li><span>медиана/день (7)</span><strong>{{ '%.0f'|format(l.median_answers_per_day_7) }} · {{ l.active_days_7 }} дн</strong></li>
       <li><span>ответов за 30 дн</span><strong>{{ l.answers_last_30 }}</strong></li>
@@ -108,45 +157,40 @@
   </section>
 
   <section class="panel">
-    <h2 class="section-title">Перформанс · 7 дней</h2>
-    <div class="chart-block" role="img" aria-label="Доля «помню» за 30 дней">
-      <p class="chart-caption muted">30 дней · доля «помню»</p>
-      {% if charts.remember | selectattr('reviews') | list | length == 0 %}
-        <p class="muted">Пока нет ответов за месяц — линия появится после тренировок.</p>
-      {% else %}
-        <svg class="line-chart" viewBox="0 0 {{ rem.width }} {{ rem.height }}" preserveAspectRatio="none" aria-hidden="true">
-          {% for t in rem.ticks %}
-            <line class="grid" x1="18" x2="{{ rem.width - 18 }}" y1="{{ t.y }}" y2="{{ t.y }}"></line>
-            <text class="axis" x="4" y="{{ t.y + 4 }}">{{ t.label }}</text>
-          {% endfor %}
-          {% if rem.review %}
-            <path class="line line-review" d="{{ rem.review }}" fill="none"></path>
-          {% endif %}
-          {% if rem.all %}
-            <path class="line line-all" d="{{ rem.all }}" fill="none"></path>
-          {% endif %}
-          {% for pt in rem.labels %}
-            <text class="axis axis-x" x="{{ pt.x }}" y="{{ rem.height - 2 }}" text-anchor="middle">{{ pt.label }}</text>
-          {% endfor %}
-        </svg>
-        <ul class="chart-legend">
-          <li><span class="swatch swatch-all"></span>все</li>
-          <li><span class="swatch swatch-review"></span>только повторы</li>
-        </ul>
-      {% endif %}
-    </div>
-    {% if p.reviews_7 == 0 %}
-      <p class="muted">Пока нет ответов за неделю — потренируйтесь, и здесь появятся again rate и доли «помню».</p>
-    {% else %}
-      <ul class="stats">
-        <li><span>ответов</span><strong>{{ p.reviews_7 }}</strong></li>
-        <li><span>«помню» все</span><strong>{% if p.remember_rate_all_7 is not none %}{{ '%.0f'|format(p.remember_rate_all_7 * 100) }}%{% else %}—{% endif %}</strong></li>
-        <li><span>«помню» новые</span><strong>{% if p.remember_rate_new_7 is not none %}{{ '%.0f'|format(p.remember_rate_new_7 * 100) }}%{% else %}—{% endif %}</strong></li>
-        <li><span>«помню» повторы</span><strong>{% if p.remember_rate_review_7 is not none %}{{ '%.0f'|format(p.remember_rate_review_7 * 100) }}%{% else %}—{% endif %}</strong></li>
-        <li><span>again rate</span><strong>{% if p.again_rate_7 is not none %}{{ '%.0f'|format(p.again_rate_7 * 100) }}%{% else %}—{% endif %}</strong></li>
-        <li><span>сброс на interval 1</span><strong>{{ p.reset_to_one_7 }}</strong></li>
-        <li><span>mature again (≥21)</span><strong>{% if p.mature_again_rate_7 is not none %}{{ '%.0f'|format(p.mature_again_rate_7 * 100) }}% ({{ p.mature_reviews_7 }}){% else %}— ({{ p.mature_reviews_7 }}){% endif %}</strong></li>
+    <h2 class="section-title">Корпус</h2>
+    <div class="chart-block" role="img" aria-label="Состав корпуса">
+      <div class="stack-bar">
+        {% for seg in stack %}
+          <div
+            class="stack-seg stack-{{ seg.key }}"
+            style="flex-grow: {{ seg.count if seg.count > 0 else 0.0001 }}; flex-basis: 0"
+            title="{{ seg.label }}: {{ seg.count }} ({{ seg.pct }}%)"
+          ></div>
+        {% endfor %}
+      </div>
+      <ul class="chart-legend">
+        {% for seg in stack %}
+          <li><span class="swatch stack-{{ seg.key }}"></span>{{ seg.label }} · {{ seg.count }} ({{ '%.0f'|format(seg.pct) }}%)</li>
+        {% endfor %}
       </ul>
-    {% endif %}
+    </div>
+    <ul class="stats">
+      <li><span>карточек всего</span><strong>{{ c.total_cards }}</strong></li>
+      <li><span>ещё новые</span><strong>{{ c.new_cards }}</strong></li>
+      <li><span>уже в системе</span><strong>{{ c.in_system }} ({{ '%.0f'|format(c.in_system_pct) }}%)</strong></li>
+      <li><span>повтор ≥ 7 дн</span><strong>{{ c.interval_ge_7 }} ({{ '%.0f'|format(c.ge7_pct) }}%)</strong></li>
+      <li><span>повтор ≥ 21 дн</span><strong>{{ c.interval_ge_21 }} ({{ '%.0f'|format(c.ge21_pct) }}%)</strong></li>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <h2 class="section-title">Горизонт</h2>
+    <ul class="stats">
+      <li><span>осталось новых</span><strong>{{ h.remaining_new }}</strong></li>
+      <li><span>при лимите {{ l.new_per_day }}/день</span><strong>{{ h.label_at_limit }}{% if h.days_at_limit is not none and h.days_at_limit > 0 %} · {{ h.days_at_limit }} дн{% endif %}</strong></li>
+      <li><span>по темпу 7 дн ({{ '%.1f'|format(h.pace_new_per_day_7) }}/день)</span><strong>{% if h.label_at_pace %}{{ h.label_at_pace }}{% if h.days_at_pace is not none and h.days_at_pace > 0 %} · {{ h.days_at_pace }} дн{% endif %}{% else %}мало данных{% endif %}</strong></li>
+      <li><span>первый показ + ≥21 дн</span><strong>{{ h.label_first_pass_plus_mature }}</strong></li>
+    </ul>
+    <p class="muted horizon-note">{{ h.note }}</p>
   </section>
 {% endblock %}

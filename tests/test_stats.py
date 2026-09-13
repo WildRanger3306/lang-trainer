@@ -52,9 +52,13 @@ def perf(**kwargs) -> PerformanceStats:
         remember_rate_new_7=0.75,
         remember_rate_review_7=0.92,
         again_rate_7=0.08,
-        reset_to_one_7=3,
         mature_reviews_7=5,
         mature_again_rate_7=0.0,
+        rating_again=3,
+        rating_hard=4,
+        rating_good=25,
+        rating_easy=8,
+        rating_unrated=0,
     )
     data.update(kwargs)
     return PerformanceStats(**data)
@@ -62,7 +66,9 @@ def perf(**kwargs) -> PerformanceStats:
 
 class AdviseTests(unittest.TestCase):
     def test_raise_when_stable_and_due_small(self) -> None:
-        advice = advise_load(corpus(), load(due_today=5, introduced_today=3), perf())
+        advice = advise_load(
+            corpus(), load(due_today=5, introduced_today=3), perf(), language="en"
+        )
         self.assertEqual(advice.status, "raise")
         self.assertEqual(advice.suggested_new_per_day, 20)
 
@@ -71,13 +77,34 @@ class AdviseTests(unittest.TestCase):
             corpus(),
             load(due_today=10),
             perf(remember_rate_review_7=0.7, again_rate_7=0.3),
+            language="en",
         )
         self.assertEqual(advice.status, "lower")
         self.assertEqual(advice.suggested_new_per_day, 10)
 
     def test_keep_when_little_data(self) -> None:
-        advice = advise_load(corpus(), load(), perf(reviews_7=5))
+        advice = advise_load(corpus(), load(), perf(reviews_7=5), language="en")
         self.assertEqual(advice.status, "keep")
+
+    def test_keep_at_en_max(self) -> None:
+        advice = advise_load(
+            corpus(),
+            load(due_today=5, introduced_today=3, new_per_day=20),
+            perf(),
+            language="en",
+        )
+        self.assertEqual(advice.status, "keep")
+        self.assertEqual(advice.suggested_new_per_day, 20)
+
+    def test_fr_lower_clamped_to_min(self) -> None:
+        advice = advise_load(
+            corpus(),
+            load(new_per_day=10),
+            perf(remember_rate_review_7=0.7, again_rate_7=0.3),
+            language="fr",
+        )
+        self.assertEqual(advice.status, "keep")
+        self.assertEqual(advice.suggested_new_per_day, 10)
 
 
 class HorizonTests(unittest.TestCase):

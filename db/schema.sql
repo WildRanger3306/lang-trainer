@@ -81,6 +81,31 @@ CREATE TABLE user_language_filters (
   PRIMARY KEY (user_id, language)
 );
 
+CREATE TABLE user_load_limits (
+  user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
+  language language_code NOT NULL,
+  new_per_day INT NOT NULL,
+  base_new_per_day INT NOT NULL,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  updated_via TEXT NOT NULL DEFAULT 'default',
+  last_change_on DATE,
+  PRIMARY KEY (user_id, language),
+  CHECK (new_per_day > 0),
+  CHECK (base_new_per_day > 0),
+  CHECK (updated_via IN ('default', 'auto', 'manual'))
+);
+
+CREATE TABLE load_advice_days (
+  user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
+  language language_code NOT NULL,
+  day DATE NOT NULL,
+  status TEXT NOT NULL,
+  suggested INT NOT NULL,
+  PRIMARY KEY (user_id, language, day),
+  CHECK (status IN ('lower', 'keep', 'raise')),
+  CHECK (suggested > 0)
+);
+
 CREATE TABLE card_progress (
   user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
   entry_id BIGINT NOT NULL REFERENCES entries (id) ON DELETE CASCADE,

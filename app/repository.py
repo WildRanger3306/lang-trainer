@@ -6,7 +6,7 @@ from datetime import date
 import psycopg
 from psycopg.rows import dict_row
 
-from app.scheduler import new_per_day
+from app.load_limits import get_new_per_day
 from app.session import DIRECTIONS, CardCandidate, QueuePreview, SessionFilter
 
 
@@ -207,7 +207,9 @@ def fetch_queue_preview(
     due = fetch_due_candidates(conn, flt, user_id, today)
     new = fetch_new_candidates(conn, flt, user_id)
     introduced = count_introduced_today(conn, user_id, flt.language, today)
-    remaining = new_limit_for_day(introduced, new_per_day(flt.language))
+    remaining = new_limit_for_day(
+        introduced, get_new_per_day(conn, user_id, flt.language)
+    )
     return QueuePreview(
         due_count=len(due),
         new_available=len(new),

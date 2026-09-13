@@ -160,9 +160,65 @@ def migrate() -> None:
             """
         )
         conn.commit()
-    migrate_users()
-    migrate_user_filters()
-    migrate_fsrs()
+        migrate_users()
+        migrate_user_filters()
+        migrate_fsrs()
+        migrate_load_limits()
+        seed_display_names()
+
+
+KNOWN_DISPLAY_NAMES = {
+    "serafima": "Серафима",
+    "pavel": "Павел",
+}
+
+
+def seed_display_names() -> None:
+    with connect() as conn:
+        for login, name in KNOWN_DISPLAY_NAMES.items():
+            conn.execute(
+                "UPDATE users SET display_name = %s WHERE login = %s",
+                (name, login),
+            )
+        conn.commit()
+
+
+def migrate_load_limits() -> None:
+    """Per-user×language new_per_day and advice history for adaptive load (§011)."""
+    with connect() as conn:
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS user_load_limits (
+              user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
+              language language_code NOT NULL,
+              new_per_day INT NOT NULL,
+              base_new_per_day INT NOT NULL,
+              updated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+              updated_via TEXT NOT NULL DEFAULT 'default',
+              last_change_on DATE,
+              PRIMARY KEY (user_id, language),
+              CHECK (new_per_day > 0),
+              CHECK (base_new_per_day > 0),
+              CHECK (updated_via IN ('default', 'auto', 'manual'))
+            )
+            """
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS load_advice_days (
+              user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
+              language language_code NOT NULL,
+              day DATE NOT NULL,
+              status TEXT NOT NULL,
+              suggested INT NOT NULL,
+              PRIMARY KEY (user_id, language, day),
+              CHECK (status IN ('lower', 'keep', 'raise')),
+              CHECK (suggested > 0)
+            )
+            """
+        )
+        conn.commit()
+        print("user_load_limits ready", flush=True)
 
 
 def migrate_fsrs() -> None:
@@ -304,11 +360,18 @@ def migrate_users() -> None:
             "SELECT id FROM users WHERE login = %s", ("serafima",)
         ).fetchone()
         if row is None:
-            user = create_user(conn, "serafima", "serafima123")
+            user = create_user(
+                conn, "serafima", "serafima123", display_name="Серафима"
+            )
             user_id = user.id
             print(f"created default user serafima id={user_id}", flush=True)
         else:
             user_id = int(row[0])
+            conn.execute(
+                "UPDATE users SET display_name = %s WHERE login = %s",
+                ("Серафима", "serafima"),
+            )
+            conn.commit()
 
         prog, rev = assign_orphan_progress(conn, user_id)
         if prog or rev:
