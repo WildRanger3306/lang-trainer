@@ -16,6 +16,10 @@ class TrainingSession:
     known: int = 0
     doubt: int = 0
     unknown: int = 0
+    again: int = 0
+    hard: int = 0
+    good: int = 0
+    easy: int = 0
     due_at_start: int = 0
     new_at_start: int = 0
     unassessed_at_start: int = 0
@@ -47,7 +51,9 @@ class TrainingSession:
 
     @property
     def answered(self) -> int:
-        return self.known + self.doubt + self.unknown
+        if self.mode == "assess":
+            return self.known + self.doubt + self.unknown
+        return self.again + self.hard + self.good + self.easy
 
     def requeue(self, card: CardCandidate) -> None:
         """Append forgotten card to the end of today's queue."""

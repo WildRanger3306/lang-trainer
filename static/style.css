@@ -288,6 +288,16 @@ legend {
   margin-top: 1rem;
 }
 
+.grade-fsrs {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.grade-fsrs .btn {
+  padding: 0.7rem 0.35rem;
+  font-size: 0.92rem;
+}
+
 .grade-assess {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -295,6 +305,16 @@ legend {
 .btn-know { background: var(--know); border-color: var(--know); color: #fff; }
 .btn-doubt { background: var(--doubt); border-color: var(--doubt); color: #fff; }
 .btn-forget { background: var(--forget); border-color: var(--forget); color: #fff; }
+.btn-hard {
+  background: color-mix(in srgb, var(--doubt) 70%, #fff 30%);
+  border-color: var(--doubt);
+  color: #fff;
+}
+.btn-easy {
+  background: color-mix(in srgb, var(--know) 75%, #0a0 25%);
+  border-color: var(--know);
+  color: #fff;
+}
 
 .btn-secondary {
   margin-top: 0.75rem;

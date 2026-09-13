@@ -1,6 +1,14 @@
-# Алгоритм повтора (упрощённый Anki)
+# Алгоритм повтора
 
-Код: `app/scheduler.py`. Решения: [4-decisions.md](4-decisions.md) §005, §007, §008.
+**Актуально: FSRS** — [12-fsrs.md](12-fsrs.md), код `app/scheduler.py` (пакет `fsrs`).
+
+Ниже — **прежний** упрощённый Anki (Again/Good), для истории до §012.
+
+---
+
+## Legacy: упрощённый Anki
+
+Код раньше: interval × ease. Решения: [4-decisions.md](4-decisions.md) §005 (заменено §012).
 
 Не полный SM-2 / FSRS — только **Again / Good** («Не помню» / «Помню»).
 

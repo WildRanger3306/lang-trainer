@@ -162,6 +162,87 @@ def migrate() -> None:
         conn.commit()
     migrate_users()
     migrate_user_filters()
+    migrate_fsrs()
+
+
+def migrate_fsrs() -> None:
+    """Add FSRS columns and convert legacy interval/ease when needed."""
+    with connect() as conn:
+        conn.execute(
+            """
+            ALTER TABLE card_progress
+              ADD COLUMN IF NOT EXISTS stability DOUBLE PRECISION,
+              ADD COLUMN IF NOT EXISTS difficulty DOUBLE PRECISION,
+              ADD COLUMN IF NOT EXISTS fsrs_state SMALLINT,
+              ADD COLUMN IF NOT EXISTS fsrs_step SMALLINT,
+              ADD COLUMN IF NOT EXISTS last_review TIMESTAMPTZ
+            """
+        )
+        conn.execute(
+            """
+            ALTER TABLE card_reviews
+              ADD COLUMN IF NOT EXISTS rating SMALLINT
+            """
+        )
+        # Convert rows that still lack FSRS fields (legacy Anki-lite).
+        has_ease = conn.execute(
+            """
+            SELECT 1 FROM information_schema.columns
+            WHERE table_name = 'card_progress' AND column_name = 'ease'
+            """
+        ).fetchone()
+        if has_ease:
+            conn.execute(
+                """
+                UPDATE card_progress SET
+                  stability = GREATEST(0.1, interval_days),
+                  difficulty = LEAST(10.0, GREATEST(1.0, 11.0 - ease * 2.0)),
+                  fsrs_state = 2,
+                  fsrs_step = NULL,
+                  last_review = (
+                    (due_on - (GREATEST(0, floor(interval_days))::int
+                      * INTERVAL '1 day')) AT TIME ZONE 'UTC'
+                  )
+                WHERE stability IS NULL
+                """
+            )
+        else:
+            conn.execute(
+                """
+                UPDATE card_progress SET
+                  stability = GREATEST(0.1, COALESCE(stability, interval_days, 0.1)),
+                  difficulty = COALESCE(difficulty, 5.0),
+                  fsrs_state = COALESCE(fsrs_state, 2)
+                WHERE stability IS NULL OR difficulty IS NULL OR fsrs_state IS NULL
+                """
+            )
+        conn.execute(
+            """
+            UPDATE card_progress SET
+              stability = COALESCE(stability, 0.1),
+              difficulty = COALESCE(difficulty, 5.0),
+              fsrs_state = COALESCE(fsrs_state, 2)
+            """
+        )
+        conn.execute(
+            """
+            ALTER TABLE card_progress
+              ALTER COLUMN stability SET DEFAULT 0.1,
+              ALTER COLUMN difficulty SET DEFAULT 5.0,
+              ALTER COLUMN fsrs_state SET DEFAULT 2
+            """
+        )
+        conn.execute(
+            "ALTER TABLE card_progress ALTER COLUMN stability SET NOT NULL"
+        )
+        conn.execute(
+            "ALTER TABLE card_progress ALTER COLUMN difficulty SET NOT NULL"
+        )
+        conn.execute(
+            "ALTER TABLE card_progress ALTER COLUMN fsrs_state SET NOT NULL"
+        )
+        conn.commit()
+        print("fsrs columns ready", flush=True)
 
 
 def migrate_user_filters() -> None:

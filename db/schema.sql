@@ -88,8 +88,13 @@ CREATE TABLE card_progress (
   due_on DATE NOT NULL,
   interval_days DOUBLE PRECISION NOT NULL DEFAULT 1
     CHECK (interval_days >= 1),
-  ease DOUBLE PRECISION NOT NULL DEFAULT 2.5
-    CHECK (ease >= 1.3),
+  stability DOUBLE PRECISION NOT NULL DEFAULT 0.1
+    CHECK (stability > 0),
+  difficulty DOUBLE PRECISION NOT NULL DEFAULT 5.0
+    CHECK (difficulty >= 1 AND difficulty <= 10),
+  fsrs_state SMALLINT NOT NULL DEFAULT 2,
+  fsrs_step SMALLINT,
+  last_review TIMESTAMPTZ,
   introduced_on DATE NOT NULL,
   introduced_via TEXT NOT NULL DEFAULT 'train'
     CHECK (introduced_via IN ('train', 'assess')),
@@ -114,7 +119,9 @@ CREATE TABLE card_reviews (
   interval_after DOUBLE PRECISION NOT NULL
     CHECK (interval_after >= 0),
   source TEXT NOT NULL DEFAULT 'train'
-    CHECK (source IN ('train', 'assess'))
+    CHECK (source IN ('train', 'assess')),
+  rating SMALLINT
+    CHECK (rating IS NULL OR rating BETWEEN 1 AND 4)
 );
 
 CREATE INDEX idx_card_reviews_answered_at ON card_reviews (answered_at);

@@ -4,7 +4,6 @@ import unittest
 from datetime import date
 
 from app.cards import card_view
-from app.scheduler import DEFAULT_EASE
 from app.session import CardCandidate
 
 
@@ -22,7 +21,7 @@ def card(**kwargs) -> CardCandidate:
         is_new=True,
         due_on=None,
         interval_days=0.0,
-        ease=DEFAULT_EASE,
+        ease=0.0,
     )
     data.update(kwargs)
     return CardCandidate(**data)

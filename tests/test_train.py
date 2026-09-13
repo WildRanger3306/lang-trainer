@@ -111,7 +111,7 @@ class TrainFlowTests(unittest.TestCase):
 
         grade = self.client.post(
             "/grade",
-            data={"remembered": "1"},
+            data={"rating": "good"},
             follow_redirects=False,
         )
         self.assertEqual(grade.status_code, 303)
@@ -122,7 +122,7 @@ class TrainFlowTests(unittest.TestCase):
             reviews = conn.execute("SELECT count(*) FROM card_reviews").fetchone()[0]
             row = conn.execute(
                 """
-                SELECT remembered, was_new, interval_before, interval_after, user_id
+                SELECT remembered, was_new, interval_before, interval_after, user_id, rating
                 FROM card_reviews
                 ORDER BY id DESC
                 LIMIT 1
@@ -130,7 +130,7 @@ class TrainFlowTests(unittest.TestCase):
             ).fetchone()
             prog = conn.execute(
                 """
-                SELECT interval_days, ease, user_id
+                SELECT interval_days, stability, difficulty, fsrs_state, user_id
                 FROM card_progress
                 ORDER BY introduced_on DESC, entry_id DESC
                 LIMIT 1
@@ -145,11 +145,14 @@ class TrainFlowTests(unittest.TestCase):
         self.assertTrue(row[0])
         self.assertTrue(row[1])
         self.assertEqual(float(row[2]), 0.0)
-        self.assertEqual(float(row[3]), 1.0)
+        self.assertGreaterEqual(float(row[3]), 1.0)
         self.assertEqual(int(row[4]), int(uid))
-        self.assertEqual(float(prog[0]), 1.0)
-        self.assertEqual(float(prog[1]), 2.5)
-        self.assertEqual(int(prog[2]), int(uid))
+        self.assertEqual(int(row[5]), 3)
+        self.assertGreaterEqual(float(prog[0]), 1.0)
+        self.assertGreater(float(prog[1]), 0.0)
+        self.assertGreaterEqual(float(prog[2]), 1.0)
+        self.assertEqual(int(prog[3]), 2)
+        self.assertEqual(int(prog[4]), int(uid))
 
     def test_stats_page_renders(self) -> None:
         response = self.client.get("/stats?language=en")

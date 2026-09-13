@@ -2,15 +2,15 @@ from __future__ import annotations
 
 import random
 import unittest
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
+
+from fsrs import State
 
 from app.scheduler import (
     ASSESS_KNOW_INTERVAL,
-    DEFAULT_EASE,
-    MIN_EASE,
     apply_assessment,
-    apply_grade,
-    next_interval,
+    apply_rating,
+    convert_legacy_progress,
     new_per_day,
     preferred_direction,
 )
@@ -42,39 +42,52 @@ def candidate(
         is_new=is_new,
         due_on=None if is_new else date(2026, 9, 11),
         interval_days=0.0 if is_new else 1.0,
-        ease=DEFAULT_EASE,
+        ease=0.0,
     )
 
 
 class SchedulerTests(unittest.TestCase):
-    def test_new_good_due_tomorrow(self) -> None:
+    def test_new_good_schedules_future_day(self) -> None:
         today = date(2026, 9, 11)
-        state = apply_grade(None, True, today)
-        self.assertEqual(state.due_on, today + timedelta(days=1))
-        self.assertEqual(state.interval_days, 1.0)
-        self.assertEqual(state.ease, DEFAULT_EASE)
+        now = datetime(2026, 9, 11, 12, 0, tzinfo=timezone.utc)
+        state = apply_rating(None, "good", today, now=now)
+        self.assertGreaterEqual(state.due_on, today + timedelta(days=1))
+        self.assertGreaterEqual(state.interval_days, 1.0)
         self.assertEqual(state.introduced_on, today)
+        self.assertEqual(state.fsrs_state, int(State.Review))
+        self.assertGreater(state.stability, 0)
 
-    def test_new_again_due_tomorrow(self) -> None:
+    def test_new_again_due_tomorrow_and_low_stability(self) -> None:
         today = date(2026, 9, 11)
-        state = apply_grade(None, False, today)
+        now = datetime(2026, 9, 11, 12, 0, tzinfo=timezone.utc)
+        state = apply_rating(None, "again", today, now=now)
         self.assertEqual(state.due_on, today + timedelta(days=1))
         self.assertEqual(state.interval_days, 1.0)
 
-    def test_intervals_grow(self) -> None:
-        self.assertEqual(next_interval(1, 2.5), 3.0)
-        self.assertEqual(next_interval(3, 2.5), 8.0)
-
-    def test_again_resets_interval_and_lowers_ease(self) -> None:
+    def test_good_grows_interval_over_reviews(self) -> None:
         today = date(2026, 9, 11)
-        first = apply_grade(None, True, today)
-        grown = apply_grade(first, True, today + timedelta(days=1))
-        self.assertEqual(grown.interval_days, 3.0)
-        failed = apply_grade(grown, False, today + timedelta(days=4))
-        self.assertEqual(failed.interval_days, 1.0)
-        self.assertEqual(failed.due_on, today + timedelta(days=5))
-        self.assertAlmostEqual(failed.ease, DEFAULT_EASE - 0.2)
-        self.assertGreaterEqual(failed.ease, MIN_EASE)
+        now = datetime(2026, 9, 11, 12, 0, tzinfo=timezone.utc)
+        first = apply_rating(None, "good", today, now=now)
+        later = today + timedelta(days=int(first.interval_days))
+        grown = apply_rating(
+            first,
+            "good",
+            later,
+            now=datetime.combine(later, datetime.min.time(), tzinfo=timezone.utc),
+        )
+        self.assertGreaterEqual(grown.stability, first.stability)
+        self.assertGreaterEqual(grown.interval_days, 1.0)
+
+    def test_legacy_conversion(self) -> None:
+        state = convert_legacy_progress(
+            due_on=date(2026, 9, 20),
+            interval_days=8.0,
+            ease=2.5,
+            introduced_on=date(2026, 9, 1),
+        )
+        self.assertEqual(state.stability, 8.0)
+        self.assertEqual(state.fsrs_state, int(State.Review))
+        self.assertAlmostEqual(state.difficulty, 6.0)
 
 
 class AssessmentSchedulerTests(unittest.TestCase):
@@ -83,7 +96,7 @@ class AssessmentSchedulerTests(unittest.TestCase):
         state = apply_assessment("know", today)
         self.assertEqual(state.interval_days, float(ASSESS_KNOW_INTERVAL))
         self.assertEqual(state.due_on, today + timedelta(days=ASSESS_KNOW_INTERVAL))
-        self.assertEqual(state.ease, DEFAULT_EASE)
+        self.assertEqual(state.stability, float(ASSESS_KNOW_INTERVAL))
 
     def test_doubt_and_unknown_due_tomorrow(self) -> None:
         today = date(2026, 9, 11)

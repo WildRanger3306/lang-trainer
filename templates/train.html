@@ -31,9 +31,11 @@
     </div>
   </section>
 
-  <form class="grade" id="grade" method="post" action="/grade" hidden>
-    <button class="btn btn-forget" name="remembered" value="0" type="submit">Не помню</button>
-    <button class="btn btn-know" name="remembered" value="1" type="submit">Помню</button>
+  <form class="grade grade-fsrs" id="grade" method="post" action="/grade" hidden>
+    <button class="btn btn-forget" name="rating" value="again" type="submit">Снова</button>
+    <button class="btn btn-hard" name="rating" value="hard" type="submit">Трудно</button>
+    <button class="btn btn-know" name="rating" value="good" type="submit">Хорошо</button>
+    <button class="btn btn-easy" name="rating" value="easy" type="submit">Легко</button>
   </form>
 
   <form class="finish" method="post" action="/finish">

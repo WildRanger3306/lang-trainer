@@ -311,7 +311,7 @@ def assess_page(request: Request) -> HTMLResponse | RedirectResponse:
 
 
 @app.post("/grade")
-def grade_card(request: Request, remembered: str = Form(...)) -> RedirectResponse:
+def grade_card(request: Request, rating: str = Form(...)) -> RedirectResponse:
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
         return user
@@ -324,20 +324,27 @@ def grade_card(request: Request, remembered: str = Form(...)) -> RedirectRespons
     ):
         return RedirectResponse("/", status_code=303)
 
-    card = session.current
-    knew = remembered == "1"
-    with connect() as conn:
-        save_grade(conn, user.id, card, knew)
+    from app.scheduler import TRAIN_RATINGS
 
-    if knew:
-        session.known += 1
-        session.index += 1
-    else:
-        session.unknown += 1
-        session.index += 1
+    if rating not in TRAIN_RATINGS:
+        return RedirectResponse("/train", status_code=303)
+
+    card = session.current
+    with connect() as conn:
+        save_grade(conn, user.id, card, rating)
+
+    session.index += 1
+    if rating == "again":
+        session.again += 1
         from dataclasses import replace
 
         session.requeue(replace(card, is_new=False))
+    elif rating == "hard":
+        session.hard += 1
+    elif rating == "good":
+        session.good += 1
+    else:
+        session.easy += 1
 
     if session.done:
         session.finished_at = datetime.now()
@@ -408,6 +415,10 @@ def done_page(request: Request) -> HTMLResponse | RedirectResponse:
             "known": session.known,
             "doubt": session.doubt,
             "unknown": session.unknown,
+            "again": session.again,
+            "hard": session.hard,
+            "good": session.good,
+            "easy": session.easy,
             "total": session.answered,
             "started_at": session.started_at.strftime("%d.%m.%Y %H:%M"),
             "duration": _format_duration(session.duration_seconds),

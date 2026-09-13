@@ -5,7 +5,12 @@ from datetime import date, datetime, timezone
 import psycopg
 from psycopg.rows import dict_row
 
-from app.scheduler import ScheduleState, apply_assessment, apply_grade
+from app.scheduler import (
+    ProgressState,
+    TRAIN_RATINGS,
+    apply_assessment,
+    apply_rating,
+)
 from app.session import CardCandidate
 
 
@@ -14,11 +19,12 @@ def _load_state(
     user_id: int,
     entry_id: int,
     direction: str,
-) -> ScheduleState | None:
+) -> ProgressState | None:
     with conn.cursor(row_factory=dict_row) as cur:
         cur.execute(
             """
-            SELECT due_on, interval_days, ease, introduced_on
+            SELECT due_on, interval_days, stability, difficulty,
+                   fsrs_state, fsrs_step, last_review, introduced_on
             FROM card_progress
             WHERE user_id = %s AND entry_id = %s AND direction = %s
             """,
@@ -27,10 +33,14 @@ def _load_state(
         row = cur.fetchone()
     if row is None:
         return None
-    return ScheduleState(
+    return ProgressState(
         due_on=row["due_on"],
         interval_days=float(row["interval_days"]),
-        ease=float(row["ease"]),
+        stability=float(row["stability"]),
+        difficulty=float(row["difficulty"]),
+        fsrs_state=int(row["fsrs_state"]),
+        fsrs_step=row["fsrs_step"],
+        last_review=row["last_review"],
         introduced_on=row["introduced_on"],
     )
 
@@ -39,7 +49,7 @@ def _upsert_progress(
     conn: psycopg.Connection,
     user_id: int,
     card: CardCandidate,
-    nxt: ScheduleState,
+    nxt: ProgressState,
     *,
     introduced_via: str,
     remembered: bool,
@@ -48,19 +58,25 @@ def _upsert_progress(
     source: str,
     answered_at: datetime,
     today: date,
+    rating: int | None,
 ) -> None:
     with conn.cursor() as cur:
         cur.execute(
             """
             INSERT INTO card_progress (
-              user_id, entry_id, direction, due_on, interval_days, ease,
+              user_id, entry_id, direction, due_on, interval_days,
+              stability, difficulty, fsrs_state, fsrs_step, last_review,
               introduced_on, introduced_via
-            ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             ON CONFLICT (user_id, entry_id, direction)
             DO UPDATE SET
               due_on = EXCLUDED.due_on,
               interval_days = EXCLUDED.interval_days,
-              ease = EXCLUDED.ease
+              stability = EXCLUDED.stability,
+              difficulty = EXCLUDED.difficulty,
+              fsrs_state = EXCLUDED.fsrs_state,
+              fsrs_step = EXCLUDED.fsrs_step,
+              last_review = EXCLUDED.last_review
             """,
             (
                 user_id,
@@ -68,7 +84,11 @@ def _upsert_progress(
                 card.direction,
                 nxt.due_on,
                 nxt.interval_days,
-                nxt.ease,
+                nxt.stability,
+                nxt.difficulty,
+                nxt.fsrs_state,
+                nxt.fsrs_step,
+                nxt.last_review,
                 nxt.introduced_on,
                 introduced_via,
             ),
@@ -77,8 +97,8 @@ def _upsert_progress(
             """
             INSERT INTO card_reviews (
               user_id, entry_id, direction, answered_at, answered_on, remembered,
-              was_new, interval_before, interval_after, source
-            ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+              was_new, interval_before, interval_after, source, rating
+            ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             """,
             (
                 user_id,
@@ -91,6 +111,7 @@ def _upsert_progress(
                 interval_before,
                 nxt.interval_days,
                 source,
+                rating,
             ),
         )
 
@@ -99,28 +120,32 @@ def save_grade(
     conn: psycopg.Connection,
     user_id: int,
     card: CardCandidate,
-    remembered: bool,
+    rating_name: str,
     today: date | None = None,
     answered_at: datetime | None = None,
-) -> ScheduleState:
+) -> ProgressState:
+    if rating_name not in TRAIN_RATINGS:
+        raise ValueError(f"unknown rating: {rating_name}")
     today = today or date.today()
     answered_at = answered_at or datetime.now(timezone.utc)
     current = _load_state(conn, user_id, card.entry_id, card.direction)
     was_new = current is None
     interval_before = 0.0 if current is None else float(current.interval_days)
-    nxt = apply_grade(current, remembered, today)
+    nxt = apply_rating(current, rating_name, today, now=answered_at)
+    rating_int = {"again": 1, "hard": 2, "good": 3, "easy": 4}[rating_name]
     _upsert_progress(
         conn,
         user_id,
         card,
         nxt,
         introduced_via="train",
-        remembered=remembered,
+        remembered=rating_name != "again",
         was_new=was_new,
         interval_before=interval_before,
         source="train",
         answered_at=answered_at,
         today=today,
+        rating=rating_int,
     )
     conn.commit()
     return nxt
@@ -133,7 +158,7 @@ def save_assessment(
     verdict: str,
     today: date | None = None,
     answered_at: datetime | None = None,
-) -> ScheduleState:
+) -> ProgressState:
     """Introduce a new card via assessment. Does not count toward daily new quota."""
     today = today or date.today()
     answered_at = answered_at or datetime.now(timezone.utc)
@@ -154,6 +179,7 @@ def save_assessment(
         source="assess",
         answered_at=answered_at,
         today=today,
+        rating=None,
     )
     conn.commit()
     return nxt

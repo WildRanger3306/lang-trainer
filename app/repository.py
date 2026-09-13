@@ -114,7 +114,7 @@ def _row_to_card(row: dict, *, is_new: bool) -> CardCandidate:
         is_new=is_new,
         due_on=row.get("due_on"),
         interval_days=float(row["interval_days"]) if row.get("interval_days") is not None else 0.0,
-        ease=float(row["ease"]) if row.get("ease") is not None else 2.5,
+        ease=float(row["difficulty"]) if row.get("difficulty") is not None else 0.0,
     )
 
 
@@ -137,7 +137,8 @@ def fetch_due_candidates(
           e.gender,
           p.due_on,
           p.interval_days,
-          p.ease,
+          p.stability,
+          p.difficulty,
           array_agg(tr.text ORDER BY tr.position) AS translations
         FROM entries e
         CROSS JOIN unnest(%s::card_direction[]) AS d(direction)
@@ -146,7 +147,7 @@ def fetch_due_candidates(
           ON p.entry_id = e.id AND p.direction = d.direction AND p.user_id = %s
         {_filter_clause()}
           AND p.due_on <= %s
-        GROUP BY e.id, d.direction, p.due_on, p.interval_days, p.ease
+        GROUP BY e.id, d.direction, p.due_on, p.interval_days, p.stability, p.difficulty
         ORDER BY e.id, d.direction
     """
     with conn.cursor(row_factory=dict_row) as cur:
@@ -174,7 +175,8 @@ def fetch_new_candidates(
           e.gender,
           NULL::date AS due_on,
           NULL::double precision AS interval_days,
-          NULL::double precision AS ease,
+          NULL::double precision AS stability,
+          NULL::double precision AS difficulty,
           array_agg(tr.text ORDER BY tr.position) AS translations
         FROM entries e
         CROSS JOIN unnest(%s::card_direction[]) AS d(direction)

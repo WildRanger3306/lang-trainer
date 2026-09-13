@@ -166,10 +166,12 @@ def dedupe_db() -> tuple[int, int]:
                 conn.execute(
                     """
                     INSERT INTO card_progress (
-                      user_id, entry_id, direction, due_on, interval_days, ease,
+                      user_id, entry_id, direction, due_on, interval_days,
+                      stability, difficulty, fsrs_state, fsrs_step, last_review,
                       introduced_on, introduced_via
                     )
-                    SELECT user_id, %s, direction, due_on, interval_days, ease,
+                    SELECT user_id, %s, direction, due_on, interval_days,
+                           stability, difficulty, fsrs_state, fsrs_step, last_review,
                            introduced_on, introduced_via
                     FROM card_progress
                     WHERE entry_id = %s

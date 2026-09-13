@@ -62,14 +62,17 @@
 |---|---|
 | `user_id` | чей прогресс |
 | `due_on` | дата следующего показа |
-| `interval_days` | текущий интервал (дней) |
-| `ease` | множитель (≥ 1.3, старт 2.5) |
+| `interval_days` | дней до due (для сводки / горизонта) |
+| `stability` | FSRS stability |
+| `difficulty` | FSRS difficulty (1…10) |
+| `fsrs_state` | Learning / Review / Relearning |
+| `last_review` | время последнего ответа |
 | `introduced_on` | день первого показа |
 | `introduced_via` | `train` (квота новых) или `assess` (оценка, квоту не жжёт) |
 
 PK: `(user_id, entry_id, direction)`.
 
-Сессия: все due по фильтру + до N новых в день на язык (EN 10 / FR 20; только `introduced_via = train` этого пользователя). Внутри групп — приоритет направления по языку.
+Сессия: все due по фильтру + до N новых в день на язык (EN 10 / FR 20; только `introduced_via = train` этого пользователя). Внутри групп — приоритет направления по языку. Планировщик train — FSRS ([12-fsrs.md](12-fsrs.md)).
 
 ## Ответ (`card_review`)
 
@@ -81,7 +84,8 @@ PK: `(user_id, entry_id, direction)`.
 | `entry_id`, `direction` | какая карточка |
 | `answered_at` | когда ответили (timestamp) |
 | `answered_on` | календарный день ответа (для 7/30д) |
-| `remembered` | помню / не помню (в оценке: знаю|сомневаюсь → true, не знаю → false) |
+| `remembered` | не Again (train) / знаю|сомневаюсь (assess) |
+| `rating` | FSRS 1–4 в train; в assess null |
 | `was_new` | до ответа не было строки прогресса |
 | `interval_before` | интервал до ответа (0 если новая) |
 | `interval_after` | интервал после применения алгоритма |
