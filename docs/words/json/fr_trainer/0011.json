@@ -1,0 +1,179 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0011.jpg",
+    "page": "Liste (message)"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une.",
+    "Тема: frt_all (тематические frt_* сняты).",
+    "Источник — список в сообщении; repondre → répondre."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "femme",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "fam",
+      "gender": "f",
+      "translations": [
+        "женщина",
+        "жена"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "homme",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ɔm",
+      "gender": "m",
+      "translations": [
+        "мужчина",
+        "человек"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "demander",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "dəmɑ̃de",
+      "gender": null,
+      "translations": [
+        "спрашивать; просить"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "répondre",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ʁepɔ̃dʁ",
+      "gender": null,
+      "translations": [
+        "отвечать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "vite",
+      "partOfSpeech": "adverb",
+      "partOfSpeechCode": "adv",
+      "transcription": "vit",
+      "gender": null,
+      "translations": [
+        "быстро"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "beaucoup de",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "много"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "peu de",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "мало"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "assez de",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "gender": null,
+      "translations": [
+        "достаточно"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "commencer",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kɔmɑ̃se",
+      "gender": null,
+      "translations": [
+        "начинать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}

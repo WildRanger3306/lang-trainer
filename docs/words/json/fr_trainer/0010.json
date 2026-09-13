@@ -1,0 +1,375 @@
+{
+  "source": {
+    "scan": "docs/words/raw/fr_trainer/0010.jpg",
+    "page": "École / chambre / actions"
+  },
+  "notes": [
+    "Транскрипции не заполнены.",
+    "Учебник: FR Trainer (материалы репетитора).",
+    "Существительные без артикля; род из le/la/un/une.",
+    "Тема: frt_all (тематические frt_* сняты).",
+    "Глаголы с подписей elle danse / il chante → инфинитивы danser / chanter."
+  ],
+  "entries": [
+    {
+      "language": "fr",
+      "form": "poisson",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pwasɔ̃",
+      "gender": "m",
+      "translations": [
+        "рыба"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "règle",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʁɛgl",
+      "gender": "f",
+      "translations": [
+        "линейка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "montre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mɔ̃tʁ",
+      "gender": "f",
+      "translations": [
+        "часы (наручные)"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "trousse",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "tʁus",
+      "gender": "f",
+      "translations": [
+        "пенал"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "gomme",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "gɔm",
+      "gender": "f",
+      "translations": [
+        "ластик"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "sac à dos",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "рюкзак"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "école",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ekɔl",
+      "gender": "f",
+      "translations": [
+        "школа"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "tableau noir",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "gender": "m",
+      "translations": [
+        "классная доска"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "classe",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "klas",
+      "gender": "f",
+      "translations": [
+        "класс"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chambre",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ʃɑ̃bʁ",
+      "gender": "f",
+      "translations": [
+        "комната; спальня"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "mur",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "myʁ",
+      "gender": "m",
+      "translations": [
+        "стена"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "lit",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "li",
+      "gender": "m",
+      "translations": [
+        "кровать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "maîtresse",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mɛtʁɛs",
+      "gender": "f",
+      "translations": [
+        "учительница"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "maître",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mɛtʁ",
+      "gender": "m",
+      "translations": [
+        "учитель (младших классов)"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "fillette",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "fijɛt",
+      "gender": "f",
+      "translations": [
+        "девочка"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "vélo",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "velo",
+      "gender": "m",
+      "translations": [
+        "велосипед"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "garçon",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "gaʁsɔ̃",
+      "gender": "m",
+      "translations": [
+        "мальчик"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "portable",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pɔʁtabl",
+      "gender": "m",
+      "translations": [
+        "мобильный телефон"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "danser",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "dɑ̃se",
+      "gender": null,
+      "translations": [
+        "танцевать"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    },
+    {
+      "language": "fr",
+      "form": "chanter",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ʃɑ̃te",
+      "gender": null,
+      "translations": [
+        "петь"
+      ],
+      "level": null,
+      "topics": [
+        "frt_all"
+      ],
+      "textbooks": [
+        "FR Trainer"
+      ]
+    }
+  ]
+}
