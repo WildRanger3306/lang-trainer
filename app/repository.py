@@ -11,6 +11,72 @@ from app.session import DIRECTIONS, CardCandidate, QueuePreview, SessionFilter
 
 
 @dataclass(frozen=True)
+class TextbookBank:
+    name: str
+    lexemes: int
+
+
+@dataclass(frozen=True)
+class LanguageBanks:
+    language: str
+    label: str
+    textbooks: tuple[TextbookBank, ...]
+    unique_total: int
+
+
+def fetch_textbook_banks(conn: psycopg.Connection) -> tuple[LanguageBanks, ...]:
+    """Learner-facing corpus sizes; skip FR Trainer and similar service sets."""
+    with conn.cursor(row_factory=dict_row) as cur:
+        cur.execute(
+            """
+            SELECT e.language::text AS language, t.name, count(DISTINCT e.id) AS lexemes
+            FROM textbooks t
+            JOIN entry_textbooks et ON et.textbook_id = t.id
+            JOIN entries e ON e.id = et.entry_id
+            WHERE t.name NOT ILIKE '%trainer%'
+            GROUP BY 1, 2
+            ORDER BY 1, 2
+            """
+        )
+        by_lang: dict[str, list[TextbookBank]] = {"en": [], "fr": []}
+        for row in cur.fetchall():
+            lang = str(row["language"])
+            if lang not in by_lang:
+                continue
+            by_lang[lang].append(
+                TextbookBank(name=str(row["name"]), lexemes=int(row["lexemes"]))
+            )
+
+        out: list[LanguageBanks] = []
+        labels = {"en": "Английский (Starlight)", "fr": "Французский (Loiseau Blue)"}
+        for lang, label in labels.items():
+            cur.execute(
+                """
+                SELECT count(*) FROM entries e
+                WHERE e.language = %s
+                  AND EXISTS (
+                    SELECT 1
+                    FROM entry_textbooks et
+                    JOIN textbooks t ON t.id = et.textbook_id
+                    WHERE et.entry_id = e.id
+                      AND t.name NOT ILIKE '%%trainer%%'
+                  )
+                """,
+                (lang,),
+            )
+            unique_total = int(cur.fetchone()["count"])
+            out.append(
+                LanguageBanks(
+                    language=lang,
+                    label=label,
+                    textbooks=tuple(by_lang.get(lang, [])),
+                    unique_total=unique_total,
+                )
+            )
+    return tuple(out)
+
+
+@dataclass(frozen=True)
 class FilterOptions:
     textbooks: tuple[str, ...]
     topics: tuple[str, ...]

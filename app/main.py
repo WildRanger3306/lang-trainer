@@ -11,14 +11,22 @@ from fastapi.templating import Jinja2Templates
 
 from app.auth import AuthStore
 from app.cards import card_view
+from app.coach import coach_message, days_since_activity
 from app.db import connect
 from app.load_limits import get_new_per_day
 from app.progress import count_introduced_today, save_assessment, save_grade
 from app.queue import build_assessment_cards, build_session_cards
-from app.repository import fetch_filter_options, fetch_queue_preview
+from app.repository import fetch_filter_options, fetch_queue_preview, fetch_textbook_banks
 from app.scheduler import ASSESS_BATCH, ASSESS_KNOW_INTERVAL, ASSESS_VERDICTS, preferred_direction
 from app.session import SessionFilter
-from app.stats import build_language_summary, refresh_adaptive_load
+from app.stats import (
+    advise_load,
+    build_language_summary,
+    fetch_corpus_stats,
+    fetch_load_stats,
+    fetch_performance_stats,
+    refresh_adaptive_load,
+)
 from app.store import SessionStore
 from app.user_filters import (
     filter_summary,
@@ -126,10 +134,24 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
         return user
     with connect() as conn:
         language = _resolve_language(request, user, conn)
-        refresh_adaptive_load(conn, user.id, language)
+        adapt = refresh_adaptive_load(conn, user.id, language)
         flt = get_user_filter(conn, user.id, language)
         preview = fetch_queue_preview(conn, flt, user.id)
         daily_new = get_new_per_day(conn, user.id, language)
+        load = fetch_load_stats(conn, user.id, language, new_per_day=daily_new)
+        performance = fetch_performance_stats(conn, user.id, language)
+        corpus = fetch_corpus_stats(conn, user.id, language)
+        advice = advise_load(corpus, load, performance, language=language)
+        since = days_since_activity(conn, user.id, language)
+        coach = coach_message(
+            user,
+            language=language,
+            load=load,
+            advice=advice,
+            performance=performance,
+            days_since_active=since,
+            adapt_note=adapt.note,
+        )
     return templates.TemplateResponse(
         request,
         "filter.html",
@@ -143,6 +165,7 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
             "preferred_direction": preferred_direction(language),
             "assess_batch": ASSESS_BATCH,
             "assess_know_interval": ASSESS_KNOW_INTERVAL,
+            "coach": coach,
         },
     )
 
@@ -431,6 +454,20 @@ def done_page(request: Request) -> HTMLResponse | RedirectResponse:
             "started_at": session.started_at.strftime("%d.%m.%Y %H:%M"),
             "duration": _format_duration(session.duration_seconds),
         },
+    )
+
+
+@app.get("/about", response_class=HTMLResponse, response_model=None)
+def about_page(request: Request) -> HTMLResponse | RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
+    with connect() as conn:
+        banks = fetch_textbook_banks(conn)
+    return templates.TemplateResponse(
+        request,
+        "about.html",
+        {**_nav(user), "banks": banks},
     )
 
 

@@ -9,6 +9,7 @@
     <div class="nav-links">
       <a class="nav-link" href="/filters?language={{ language }}">Фильтры</a>
       <a class="nav-link" href="/stats?language={{ language }}">Сводка</a>
+      <a class="nav-link" href="/about">О приложении</a>
     </div>
   </header>
 
@@ -16,14 +17,14 @@
     <p class="banner banner-error">{{ error }}</p>
   {% endif %}
 
-  <p class="banner">
-    Сейчас для
-    {% if language == "en" %}английского{% else %}французского{% endif %}:
-    <strong>{{ preview.due_count }}</strong> due,
-    новых осталось сегодня <strong>{{ preview.new_remaining_today }}</strong>
-    (уже введено {{ preview.introduced_today }} / {{ new_per_day }}),
-    без прогресса <strong>{{ preview.new_available }}</strong>.
-  </p>
+  <section class="banner banner-coach banner-coach-{{ coach.tone }}">
+    <p class="coach-text">{{ coach.text }}</p>
+    <p class="coach-meta muted">
+      due <strong>{{ preview.due_count }}</strong>
+      · новых <strong>{{ preview.introduced_today }} / {{ new_per_day }}</strong>
+      · без прогресса <strong>{{ preview.new_available }}</strong>
+    </p>
+  </section>
 
   <p class="hint-text">
     Фильтр:

@@ -11,6 +11,10 @@ from app.scheduler import new_per_day
 
 
 @unittest.skipUnless(os.environ.get("RUN_DB_TESTS") == "1", "set RUN_DB_TESTS=1")
+@unittest.skipUnless(
+    os.environ.get("ALLOW_DB_TRUNCATE") == "1",
+    "refuses to wipe live progress; set ALLOW_DB_TRUNCATE=1 only on disposable DB",
+)
 class TrainFlowTests(unittest.TestCase):
     def setUp(self) -> None:
         self.client = TestClient(app)
@@ -43,10 +47,14 @@ class TrainFlowTests(unittest.TestCase):
         self.assertNotIn('name="textbook"', response.text)
         self.assertIn("due", response.text)
         self.assertIn("Серафима", response.text)
+        self.assertIn("coach-text", response.text)
+        self.assertIn("новых", response.text)
 
         fr = self.client.get("/?language=fr")
         self.assertEqual(fr.status_code, 200)
-        self.assertIn("французского", fr.text)
+        self.assertIn("французский", fr.text)
+        self.assertIn("Серафима", fr.text)
+        self.assertIn("coach-text", fr.text)
 
     def test_filters_persist_per_user(self) -> None:
         page = self.client.get("/filters?language=en")
