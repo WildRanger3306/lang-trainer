@@ -430,7 +430,9 @@
         "рисковать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -520,7 +522,9 @@
         "роботостроение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -535,7 +539,9 @@
         "альпинизм"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -610,7 +616,9 @@
         "крыша"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -956,7 +964,9 @@
         "записывать информацию"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1107,7 +1117,9 @@
         "зарплата"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

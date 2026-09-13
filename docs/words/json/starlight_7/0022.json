@@ -110,7 +110,9 @@
         "водитель такси"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -140,7 +142,9 @@
         "телескоп"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -626,7 +630,9 @@
         "отслеживание торнадо"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -671,7 +677,9 @@
         "сложная работа"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -822,7 +830,9 @@
         "тренировка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1020,7 +1030,9 @@
         "по-настоящему"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1141,7 +1153,9 @@
         "начать (заниматься чем-либо)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

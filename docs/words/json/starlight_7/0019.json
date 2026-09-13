@@ -368,7 +368,9 @@
         "тайный покупатель"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -383,7 +385,9 @@
         "секретарь"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -822,7 +826,9 @@
         "ледяной покров"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -900,7 +906,9 @@
         "продавец"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1036,7 +1044,9 @@
         "сжиматься"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1066,7 +1076,9 @@
         "случай наблюдения"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

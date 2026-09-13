@@ -183,14 +183,23 @@ def collect_entries(paths: list[Path]) -> list[dict]:
     entries: list[dict] = []
     for path in paths:
         if path.is_dir():
-            files = sorted(path.glob("*.json"))
+            files = sorted(
+                f
+                for f in path.glob("*.json")
+                if "registry" not in f.name.lower()
+                and not f.name.endswith("_additional.json")
+            )
             if not files:
                 raise SystemExit(f"no JSON files in {path}")
             for file in files:
                 payload = json.loads(file.read_text())
+                if payload.get("kind") == "registry":
+                    continue
                 entries.extend(payload["entries"])
         else:
             payload = json.loads(path.read_text())
+            if payload.get("kind") == "registry":
+                raise SystemExit(f"skip registry file (not for load): {path}")
             entries.extend(payload["entries"])
     return entries
 

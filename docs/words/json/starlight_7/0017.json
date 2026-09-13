@@ -157,7 +157,9 @@
         "гасить (огонь)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -549,7 +551,9 @@
         "рафтинг"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

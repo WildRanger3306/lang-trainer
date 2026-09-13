@@ -517,7 +517,9 @@
         "баллон со сжатым воздухом"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -608,7 +610,9 @@
         "анализировать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1030,7 +1034,9 @@
         "артист"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1227,7 +1233,9 @@
         "доступный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1272,7 +1280,9 @@
         "средняя зарплата"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m1"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

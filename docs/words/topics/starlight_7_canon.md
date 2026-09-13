@@ -11,6 +11,9 @@
 - Phrasal / word formation — только если форма явно из списка учебника; иначе тематическая метка.
 - Общие глаголы/наречия без явной темы → `topics: []` (не выдумывать).
 - Пилот: `docs/words/json/starlight_7/0001.json` (WL 1), `0012.json` (WL 12).
+- Матчинг Starter + M1 ↔ банк WL (без правок данных): [starlight_7_starter_m1_match.md](starlight_7_starter_m1_match.md).
+- Реестр лексем M1+VB (полный список): `docs/words/json/starlight_7/m1_registry.json`.
+- В WL проставлен топик `sl7_m1` на формах, точно совпавших со сканами; отсутствующие: `docs/words/json/starlight_7/sl7_m1_additional.json`.
 
 ## Календарь модулей (сент → май)
 
