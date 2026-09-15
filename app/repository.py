@@ -77,9 +77,15 @@ def fetch_textbook_banks(conn: psycopg.Connection) -> tuple[LanguageBanks, ...]:
 
 
 @dataclass(frozen=True)
+class TopicOption:
+    name: str
+    count: int
+
+
+@dataclass(frozen=True)
 class FilterOptions:
     textbooks: tuple[str, ...]
-    topics: tuple[str, ...]
+    topics: tuple[TopicOption, ...]
     levels: tuple[str, ...]
 
 
@@ -100,16 +106,17 @@ def fetch_filter_options(conn: psycopg.Connection, language: str) -> FilterOptio
         textbooks = tuple(row[0] for row in cur.fetchall())
         cur.execute(
             """
-            SELECT DISTINCT tp.name
+            SELECT tp.name, COUNT(DISTINCT e.id)::int
             FROM topics tp
             JOIN entry_topics eto ON eto.topic_id = tp.id
             JOIN entries e ON e.id = eto.entry_id
             WHERE e.language = %s
+            GROUP BY tp.name
             ORDER BY tp.name
             """,
             (language,),
         )
-        topics = tuple(row[0] for row in cur.fetchall())
+        topics = tuple(TopicOption(name=row[0], count=row[1]) for row in cur.fetchall())
         cur.execute(
             """
             SELECT DISTINCT level

@@ -47,14 +47,23 @@
     {% endif %}
 
     {% if options.topics %}
-    <fieldset>
+    <fieldset class="topic-field">
       <legend>Тема</legend>
-      {% for name in options.topics %}
-        <label class="choice">
-          <input type="checkbox" name="topic" value="{{ name }}" {% if name in selected_topics %}checked{% endif %}>
-          {{ name }}
-        </label>
-      {% endfor %}
+      <div class="topic-chips">
+        {% for topic in options.topics %}
+          <label class="topic-chip">
+            <input
+              type="checkbox"
+              class="topic-chip-input"
+              name="topic"
+              value="{{ topic.name }}"
+              {% if topic.name in selected_topics %}checked{% endif %}
+            >
+            <span class="topic-chip-name">{{ topic.name }}</span>
+            <span class="topic-chip-count">{{ topic.count }}</span>
+          </label>
+        {% endfor %}
+      </div>
     </fieldset>
     {% else %}
     <p class="hint-text">Тем для этого языка пока нет.</p>
