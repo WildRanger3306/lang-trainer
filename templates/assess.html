@@ -32,9 +32,9 @@
   </section>
 
   <form class="grade grade-assess" id="grade" method="post" action="/assess/grade" hidden>
-    <button class="btn btn-know" name="verdict" value="know" type="submit">Знаю</button>
-    <button class="btn btn-doubt" name="verdict" value="doubt" type="submit">Сомневаюсь</button>
     <button class="btn btn-forget" name="verdict" value="unknown" type="submit">Не знаю</button>
+    <button class="btn btn-doubt" name="verdict" value="doubt" type="submit">Сомневаюсь</button>
+    <button class="btn btn-know" name="verdict" value="know" type="submit">Знаю</button>
   </form>
   <p class="hint-text">«Знаю» — повтор через {{ know_interval }} дн. Не жжёт лимит новых.</p>
 
