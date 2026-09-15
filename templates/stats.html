@@ -24,8 +24,8 @@
   {% set a = summary.autoload %}
   {% set charts = summary.charts %}
   {% set stack = charts.corpus_stack() %}
-  {% set amax = charts.activity_max %}
   {% set qsvg = charts.quality_svg() %}
+  {% set asvg = charts.activity_svg() %}
   {% set ratings = p.rating_stack() %}
 
   <section class="banner banner-{{ a.advice_status }}">
@@ -128,21 +128,23 @@
     <h2 class="section-title">Нагрузка</h2>
     <div class="chart-block" role="img" aria-label="Ответы и новые карточки за 30 дней">
       <p class="chart-caption muted">30 дней · ответы и новые (train)</p>
-      <div class="bar-chart">
-        {% for d in charts.activity %}
-          <div class="bar-col" title="{{ d.label }}: ответов {{ d.answers }}, новых {{ d.introduced }}">
-            <div class="bar-pair">
-              <div class="bar bar-answers" style="height: {{ (100 * d.answers / amax)|round(1) }}%"></div>
-              <div class="bar bar-intro" style="height: {{ (100 * d.introduced / amax)|round(1) }}%"></div>
-            </div>
-            {% if loop.index0 % 7 == 0 or loop.last %}
-              <span class="bar-label">{{ d.label }}</span>
-            {% else %}
-              <span class="bar-label is-blank" aria-hidden="true"></span>
-            {% endif %}
-          </div>
+      <svg class="bar-chart-svg" viewBox="0 0 {{ asvg.width }} {{ asvg.height }}" preserveAspectRatio="none" aria-hidden="true">
+        <style>
+          .bar-answers { fill: var(--accent); }
+          .bar-intro { fill: var(--doubt); }
+          .axis-line { stroke: var(--line); stroke-width: 1; }
+          .axis { fill: var(--muted); font: 10px system-ui, sans-serif; }
+        </style>
+        <line class="axis-line" x1="{{ asvg.pad_x }}" x2="{{ asvg.width - asvg.pad_x }}" y1="{{ asvg.baseline }}" y2="{{ asvg.baseline }}"></line>
+        {% for b in asvg.bars %}
+          <rect class="{{ b.class }}" style="{{ b.fill_style }}" x="{{ b.x }}" y="{{ b.y }}" width="{{ b.w }}" height="{{ b.h }}" rx="1.5">
+            <title>{{ b.title }}</title>
+          </rect>
         {% endfor %}
-      </div>
+        {% for pt in asvg.labels %}
+          <text class="axis axis-x" x="{{ pt.x }}" y="{{ asvg.height - 8 }}" text-anchor="middle">{{ pt.label }}</text>
+        {% endfor %}
+      </svg>
       <ul class="chart-legend">
         <li><span class="swatch swatch-answers"></span>ответы</li>
         <li><span class="swatch swatch-intro"></span>новые</li>

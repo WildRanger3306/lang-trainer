@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import unittest
-from datetime import date
+from datetime import date, timedelta
 
 from app.stats import (
+    ActivityDay,
     CorpusStats,
     LoadStats,
     PerformanceStats,
+    StatsCharts,
     advise_load,
     build_horizon,
     corpus_segments,
@@ -138,6 +140,32 @@ class CorpusSegmentsTests(unittest.TestCase):
         self.assertEqual(seg.young, 80)
         self.assertEqual(seg.mature, 40)
         self.assertEqual(seg.total, 1000)
+
+
+class ActivitySvgTests(unittest.TestCase):
+    def test_bars_share_baseline_and_labels_keep_month(self) -> None:
+        start = date(2026, 8, 17)
+        days = tuple(
+            ActivityDay(
+                day=start + timedelta(days=i),
+                label=(start + timedelta(days=i)).strftime("%d.%m"),
+                answers=50 if i >= 28 else 0,
+                introduced=25 if i >= 28 else 0,
+            )
+            for i in range(30)
+        )
+        charts = StatsCharts(corpus=corpus_segments(corpus()), activity=days, quality=())
+        svg = charts.activity_svg()
+        self.assertEqual(svg["baseline"], 152.0)
+        for bar in svg["bars"]:
+            self.assertAlmostEqual(
+                float(bar["y"]) + float(bar["h"]), float(svg["baseline"]), places=2
+            )
+        labels = [pt["label"] for pt in svg["labels"]]
+        self.assertTrue(all(len(lab) == 5 and lab[2] == "." for lab in labels))
+        self.assertEqual(labels[0], days[0].label)
+        self.assertEqual(labels[-1], days[28].label)
+        self.assertNotIn(days[-1].label, labels)
 
 
 if __name__ == "__main__":

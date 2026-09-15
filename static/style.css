@@ -508,52 +508,12 @@ legend {
 .swatch-all { background: var(--accent); }
 .swatch-review { background: var(--know); }
 
-.bar-chart {
-  display: grid;
-  grid-template-columns: repeat(30, minmax(0, 1fr));
-  align-items: end;
-  gap: 0.12rem;
-  height: 9rem;
-  padding: 0.25rem 0 0;
-}
-
-.bar-col {
-  display: grid;
-  grid-template-rows: 1fr auto;
-  align-items: end;
-  min-width: 0;
-  height: 100%;
-}
-
-.bar-pair {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: end;
-  gap: 1px;
-  height: 100%;
-}
-
-.bar {
+.bar-chart-svg {
   width: 100%;
-  min-height: 0;
-  border-radius: 2px 2px 0 0;
-}
-
-.bar-answers { background: var(--accent); }
-.bar-intro { background: var(--doubt); }
-
-.bar-label {
+  height: 10rem;
   display: block;
-  margin-top: 0.2rem;
-  font-size: 0.62rem;
-  color: var(--muted);
-  text-align: center;
-  line-height: 1;
-  white-space: nowrap;
-  overflow: hidden;
+  overflow: visible;
 }
-
-.bar-label.is-blank { visibility: hidden; }
 
 .line-chart {
   width: 100%;

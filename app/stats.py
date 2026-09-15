@@ -244,13 +244,17 @@ class StatsCharts:
             {"y": pad + inner_h * 0.5, "label": "50%"},
             {"y": pad + inner_h, "label": "0%"},
         ]
+        q_label_indices: list[int] = list(range(0, n, 7))
+        if n:
+            qlast = n - 1
+            if qlast not in q_label_indices and q_label_indices and qlast - q_label_indices[-1] >= 4:
+                q_label_indices.append(qlast)
         labels = [
             {
                 "x": xs[i],
-                "label": day.label,
+                "label": self.quality[i].label,
             }
-            for i, day in enumerate(self.quality)
-            if i % 7 == 0 or i == n - 1
+            for i in q_label_indices
         ]
         return {
             "width": width,
@@ -258,6 +262,78 @@ class StatsCharts:
             "again": polyline("again_rate"),
             "pass": polyline("pass_rate"),
             "ticks": ticks,
+            "labels": labels,
+        }
+
+    def activity_svg(
+        self,
+        *,
+        width: float = 600.0,
+        height: float = 180.0,
+        pad_x: float = 10.0,
+        pad_top: float = 10.0,
+        pad_bottom: float = 28.0,
+    ) -> dict[str, float | list[dict[str, float | int | str]]]:
+        """SVG bar chart: answers + introduced aligned to a shared baseline."""
+        n = len(self.activity)
+        peak = self.activity_max
+        plot_top = pad_top
+        plot_bottom = height - pad_bottom
+        plot_h = max(plot_bottom - plot_top, 1.0)
+        inner_w = width - 2 * pad_x
+        slot = inner_w / n if n else inner_w
+        gap = min(1.2, slot * 0.08)
+        bar_w = max((slot - gap) / 2.0, 0.8)
+
+        def bar_h(value: int) -> float:
+            if value <= 0:
+                return 0.0
+            return plot_h * (value / peak)
+
+        bars: list[dict[str, float | int | str]] = []
+        for i, day in enumerate(self.activity):
+            x0 = pad_x + slot * i + gap / 2.0
+            for kind, value, css, fill in (
+                ("answers", day.answers, "bar-answers", "var(--accent)"),
+                ("introduced", day.introduced, "bar-intro", "var(--doubt)"),
+            ):
+                h = bar_h(value)
+                if h <= 0:
+                    continue
+                x = x0 if kind == "answers" else x0 + bar_w
+                bars.append(
+                    {
+                        "x": round(x, 2),
+                        "y": round(plot_bottom - h, 2),
+                        "w": round(bar_w, 2),
+                        "h": round(h, 2),
+                        "class": css,
+                        "fill_style": f"fill:{fill}",
+                        "title": (
+                            f"{day.label}: ответов {day.answers}, "
+                            f"новых {day.introduced}"
+                        ),
+                    }
+                )
+
+        label_indices: list[int] = list(range(0, n, 7))
+        if n:
+            last = n - 1
+            if last not in label_indices and label_indices and last - label_indices[-1] >= 4:
+                label_indices.append(last)
+        labels = [
+            {
+                "x": round(pad_x + slot * i + slot / 2.0, 2),
+                "label": self.activity[i].label,
+            }
+            for i in label_indices
+        ]
+        return {
+            "width": width,
+            "height": height,
+            "baseline": plot_bottom,
+            "pad_x": pad_x,
+            "bars": bars,
             "labels": labels,
         }
 
