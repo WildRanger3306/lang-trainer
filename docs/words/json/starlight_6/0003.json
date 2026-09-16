@@ -1671,7 +1671,7 @@
     {
       "language": "en",
       "form": "call off",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -1688,7 +1688,7 @@
     {
       "language": "en",
       "form": "cut down",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -1705,7 +1705,7 @@
     {
       "language": "en",
       "form": "cut (sb) off",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [

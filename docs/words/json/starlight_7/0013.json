@@ -484,7 +484,7 @@
     {
       "language": "en",
       "form": "look after",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -499,7 +499,7 @@
     {
       "language": "en",
       "form": "look down (on)",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -514,7 +514,7 @@
     {
       "language": "en",
       "form": "look for",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -529,7 +529,7 @@
     {
       "language": "en",
       "form": "look through",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -544,7 +544,7 @@
     {
       "language": "en",
       "form": "look up",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [

@@ -164,6 +164,7 @@ def migrate() -> None:
         migrate_user_filters()
         migrate_fsrs()
         migrate_load_limits()
+        migrate_phrasal_verb_pos()
         seed_display_names()
 
 
@@ -171,6 +172,39 @@ KNOWN_DISPLAY_NAMES = {
     "serafima": "Серафима",
     "pavel": "Павел",
 }
+
+
+def migrate_phrasal_verb_pos() -> None:
+    """Add phrasal_verb enum and recode entries with textbook code phr v."""
+    with connect() as conn:
+        exists = conn.execute(
+            """
+            SELECT 1
+            FROM pg_enum e
+            JOIN pg_type t ON t.oid = e.enumtypid
+            WHERE t.typname = 'part_of_speech' AND e.enumlabel = 'phrasal_verb'
+            """
+        ).fetchone()
+        if not exists:
+            # ADD VALUE cannot run inside a transaction block on older PG;
+            # commit first, then add, then update in a new connection scope.
+            conn.commit()
+            conn.execute("ALTER TYPE part_of_speech ADD VALUE 'phrasal_verb'")
+            conn.commit()
+            print("part_of_speech enum +phrasal_verb", flush=True)
+        updated = conn.execute(
+            """
+            UPDATE entries
+            SET part_of_speech = 'phrasal_verb'
+            WHERE part_of_speech_code = 'phr v'
+              AND part_of_speech IS DISTINCT FROM 'phrasal_verb'
+            """
+        )
+        conn.commit()
+        print(
+            f"phrasal_verb POS recode: {updated.rowcount} rows",
+            flush=True,
+        )
 
 
 def seed_display_names() -> None:

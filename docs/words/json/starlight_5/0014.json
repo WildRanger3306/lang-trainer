@@ -803,7 +803,7 @@
     {
       "language": "en",
       "form": "take part in",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -820,7 +820,7 @@
     {
       "language": "en",
       "form": "try out",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -837,7 +837,7 @@
     {
       "language": "en",
       "form": "turn into",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -854,7 +854,7 @@
     {
       "language": "en",
       "form": "turn off",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [

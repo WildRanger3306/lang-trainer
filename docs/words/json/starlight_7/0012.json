@@ -749,7 +749,7 @@
     {
       "language": "en",
       "form": "keep away from",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -764,7 +764,7 @@
     {
       "language": "en",
       "form": "keep off",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [

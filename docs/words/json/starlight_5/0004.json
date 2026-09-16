@@ -44,7 +44,7 @@
     {
       "language": "en",
       "form": "date back (to)",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -1116,7 +1116,7 @@
     {
       "language": "en",
       "form": "end up with",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [

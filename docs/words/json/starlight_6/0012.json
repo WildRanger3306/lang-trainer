@@ -1481,7 +1481,7 @@
     {
       "language": "en",
       "form": "set out",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -1498,7 +1498,7 @@
     {
       "language": "en",
       "form": "settle in",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -1516,7 +1516,7 @@
     {
       "language": "en",
       "form": "show up",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [

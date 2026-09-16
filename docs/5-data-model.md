@@ -38,14 +38,16 @@
 
 ## Часть речи
 
-Значения `partOfSpeech`: `noun`, `adjective`, `verb`, `pronoun`, `numeral`, `adverb`, `phrase`, `other`.
+Значения `partOfSpeech`: `noun`, `adjective`, `verb`, `pronoun`, `numeral`, `adverb`, `phrase`, `phrasal_verb`, `other`.
 
-`phrase` — уточнение к требованиям («слово, выражение или фраза»): для `(phr)` писать «другое» неудобно.
+`phrase` — уточнение к требованиям («слово, выражение или фраза»): для `(phr)` писать «другое» неудобно.  
+`phrasal_verb` — фразовые глаголы учебника (`phr v`).
 
 Коды Starlight / похожих вордлистов:
 
 - `n`, `pl n` → `noun`
-- `v`, `phr v` → `verb` (`phr v` остаётся в `partOfSpeechCode`)
+- `v` → `verb`
+- `phr v` → `phrasal_verb` (`phr v` остаётся в `partOfSpeechCode`)
 - `adj` → `adjective`
 - `adv` → `adverb`
 - `pron` → `pronoun`

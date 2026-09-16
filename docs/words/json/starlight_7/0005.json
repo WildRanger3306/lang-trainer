@@ -744,7 +744,7 @@
     {
       "language": "en",
       "form": "carry on",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -761,7 +761,7 @@
     {
       "language": "en",
       "form": "carry out",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -776,7 +776,7 @@
     {
       "language": "en",
       "form": "cheer up",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -792,7 +792,7 @@
     {
       "language": "en",
       "form": "come up with",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -807,7 +807,7 @@
     {
       "language": "en",
       "form": "cut off (from)",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [

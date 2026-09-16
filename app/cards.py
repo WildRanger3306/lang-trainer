@@ -12,6 +12,7 @@ POS_LABELS = {
     "numeral": "числительное",
     "adverb": "наречие",
     "phrase": "фраза",
+    "phrasal_verb": "фразовый глагол",
     "other": "другое",
 }
 

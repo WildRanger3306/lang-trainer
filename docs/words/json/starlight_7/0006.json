@@ -947,7 +947,7 @@
     {
       "language": "en",
       "form": "deal with",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -962,7 +962,7 @@
     {
       "language": "en",
       "form": "die out",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -1148,7 +1148,7 @@
     {
       "language": "en",
       "form": "eat away",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [

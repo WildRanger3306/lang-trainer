@@ -7,6 +7,7 @@ CREATE TYPE part_of_speech AS ENUM (
   'numeral',
   'adverb',
   'phrase',
+  'phrasal_verb',
   'other'
 );
 CREATE TYPE cefr_level AS ENUM ('A1', 'A2', 'B1', 'B2');

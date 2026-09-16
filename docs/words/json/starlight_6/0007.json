@@ -410,7 +410,7 @@
     {
       "language": "en",
       "form": "hand in",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -428,7 +428,7 @@
     {
       "language": "en",
       "form": "hang out",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -1438,7 +1438,7 @@
     {
       "language": "en",
       "form": "join in",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [

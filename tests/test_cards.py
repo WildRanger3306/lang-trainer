@@ -144,6 +144,21 @@ class CardViewTests(unittest.TestCase):
         )
         self.assertEqual(view.prompt, "manger")
 
+    def test_phrasal_verb_hint(self) -> None:
+        view = card_view(
+            card(
+                language="en",
+                form="bring up",
+                part_of_speech="phrasal_verb",
+                part_of_speech_code="phr v",
+                transcription=None,
+                gender=None,
+                translations=("воспитывать (детей)",),
+            )
+        )
+        self.assertEqual(view.hint, "фразовый глагол")
+        self.assertEqual(view.prompt, "bring up")
+
     def test_fr_noun_without_gender_no_article(self) -> None:
         view = card_view(
             card(

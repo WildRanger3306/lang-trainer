@@ -704,7 +704,7 @@
     {
       "language": "en",
       "form": "break into",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -719,7 +719,7 @@
     {
       "language": "en",
       "form": "bring (sth) about",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
@@ -736,7 +736,7 @@
     {
       "language": "en",
       "form": "burn down",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "phrasal_verb",
       "partOfSpeechCode": "phr v",
       "transcription": null,
       "translations": [
