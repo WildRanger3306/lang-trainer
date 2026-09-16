@@ -1,0 +1,19 @@
+FROM postgres:16
+
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends zip tzdata \
+  && rm -rf /var/lib/apt/lists/*
+
+COPY scripts/docker_backup.sh /scripts/docker_backup.sh
+COPY scripts/docker_backup_loop.sh /scripts/docker_backup_loop.sh
+RUN chmod +x /scripts/docker_backup.sh /scripts/docker_backup_loop.sh
+
+ENV TZ=Europe/Moscow \
+    BACKUP_DIR=/backups \
+    KEEP_DAYS=30 \
+    PGHOST=db \
+    PGPORT=5432 \
+    PGUSER=lang \
+    PGDATABASE=lang_trainer
+
+CMD ["/scripts/docker_backup_loop.sh"]
