@@ -646,7 +646,7 @@ def advise_load(
         return LoadAdvice(
             status="lower",
             label="Авто склонно снизить",
-            detail="Again/Hard или due давят. Лимит новых снизится после 3 дней подряд.",
+            detail="Again/Hard или повторы давят. Лимит новых снизится после 3 дней подряд.",
             suggested_new_per_day=suggested,
         )
 
@@ -670,7 +670,7 @@ def advise_load(
         return LoadAdvice(
             status="raise",
             label="Авто склонно усилить",
-            detail="Повторы стабильны, due небольшой. Лимит вырастет после 3 дней подряд.",
+            detail="Повторы стабильны, очередь небольшая. Лимит вырастет после 3 дней подряд.",
             suggested_new_per_day=suggested,
         )
 

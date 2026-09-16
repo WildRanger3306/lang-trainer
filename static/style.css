@@ -122,6 +122,10 @@ html, body {
 .header h1,
 .header .progress {
   margin: 0 0 0.35rem;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.25rem;
 }
 
 .header-row {
@@ -230,6 +234,27 @@ html, body {
 .coach-meta {
   margin: 0;
   font-size: 0.95rem;
+}
+
+.meta-icon {
+  display: inline-block;
+  width: 1.05em;
+  height: 1.05em;
+  vertical-align: -0.15em;
+  margin-right: 0.15em;
+  color: var(--know);
+  flex-shrink: 0;
+}
+
+.meta-icon-due {
+  background: currentColor;
+  -webkit-mask: url("/static/icon-due.svg") center / contain no-repeat;
+  mask: url("/static/icon-due.svg") center / contain no-repeat;
+}
+
+.meta-new {
+  color: var(--accent);
+  font-weight: 700;
 }
 
 .banner-coach-calm {
@@ -522,6 +547,13 @@ legend {
   gap: 1rem;
   padding: 0.85rem 0;
   border-bottom: 1px solid var(--line);
+}
+
+.stats li > span:first-child {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--muted);
 }
 
 .stats li:last-child { border-bottom: 0; }

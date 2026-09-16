@@ -31,8 +31,8 @@
   <section class="banner banner-{{ a.advice_status }}">
     <p class="advice-label">Сегодня</p>
     <ul class="stats stats-inline">
-      <li><span>due</span><strong>{{ l.due_today }}</strong></li>
-      <li><span>новых</span><strong>{{ l.introduced_today }} / {{ l.new_per_day }}</strong></li>
+      <li><span><span class="meta-icon meta-icon-due" aria-hidden="true"></span>Повтор</span><strong>{{ l.due_today }}</strong></li>
+      <li><span><span class="meta-new" aria-hidden="true">➕</span> новых</span><strong>{{ l.introduced_today }} / {{ l.new_per_day }}</strong></li>
       <li><span>ответов вчера</span><strong>{{ summary.answers_yesterday }}</strong></li>
       <li><span>лимит</span><strong>{{ a.new_per_day }}</strong>
         <span class="muted">база {{ a.base_new_per_day }} · {{ a.streak_label }}</span></li>
@@ -151,9 +151,9 @@
       </ul>
     </div>
     <ul class="stats">
-      <li><span>due сегодня</span><strong>{{ l.due_today }}</strong></li>
-      <li><span>due ≤ завтра</span><strong>{{ l.due_tomorrow }}</strong></li>
-      <li><span>due ≤ +3 дня</span><strong>{{ l.due_in_3_days }}</strong></li>
+      <li><span>повтор сегодня</span><strong>{{ l.due_today }}</strong></li>
+      <li><span>повтор ≤ завтра</span><strong>{{ l.due_tomorrow }}</strong></li>
+      <li><span>повтор ≤ +3 дня</span><strong>{{ l.due_in_3_days }}</strong></li>
       <li><span>ответов за 7 дн</span><strong>{{ l.answers_last_7 }}</strong></li>
       <li><span>медиана/день (7)</span><strong>{{ '%.0f'|format(l.median_answers_per_day_7) }} · {{ l.active_days_7 }} дн</strong></li>
       <li><span>ответов за 30 дн</span><strong>{{ l.answers_last_30 }}</strong></li>

@@ -45,7 +45,7 @@ class TrainFlowTests(unittest.TestCase):
         self.assertIn("Фильтры", response.text)
         self.assertIn("весь язык", response.text)
         self.assertNotIn('name="textbook"', response.text)
-        self.assertIn("due", response.text)
+        self.assertIn("Повтор", response.text)
         self.assertIn("Серафима", response.text)
         self.assertIn("coach-text", response.text)
         self.assertIn("новых", response.text)

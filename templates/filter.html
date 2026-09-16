@@ -4,7 +4,7 @@
   <header class="header header-row">
     <div>
       <h1>Тренировка</h1>
-      <p class="lead">Очередь: due + до {{ new_per_day }} новых/день. Сначала {% if preferred_direction == 'native_to_foreign' %}RU→язык{% else %}язык→RU{% endif %}.</p>
+      <p class="lead">Очередь: повторы + до {{ new_per_day }} новых/день. Сначала {% if preferred_direction == 'native_to_foreign' %}RU→язык{% else %}язык→RU{% endif %}.</p>
     </div>
     <div class="nav-links">
       <a class="nav-link" href="/filters?language={{ language }}">Фильтры</a>
@@ -20,8 +20,8 @@
   <section class="banner banner-coach banner-coach-{{ coach.tone }}">
     <p class="coach-text">{{ coach.text }}</p>
     <p class="coach-meta muted">
-      due <strong>{{ preview.due_count }}</strong>
-      · новых <strong>{{ preview.introduced_today }} / {{ new_per_day }}</strong>
+      <span class="meta-icon meta-icon-due" title="Повтор" aria-hidden="true"></span>Повтор <strong>{{ preview.due_count }}</strong>
+      · <span class="meta-new" title="новые" aria-hidden="true">➕</span> новых <strong>{{ preview.introduced_today }} / {{ new_per_day }}</strong>
       · без прогресса <strong>{{ preview.new_available }}</strong>
     </p>
   </section>

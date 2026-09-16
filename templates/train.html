@@ -2,7 +2,15 @@
 {% block title %}Карточка {{ number }} из {{ total }}{% endblock %}
 {% block body %}
   <header class="header header-row">
-    <p class="progress">{{ number }} / {{ total }}{% if is_new %} · новая{% endif %}</p>
+    <p class="progress">
+      {{ number }} / {{ total }}
+      ·
+      {% if is_new %}
+        <span class="meta-new" aria-hidden="true">➕</span> Новые
+      {% else %}
+        <span class="meta-icon meta-icon-due" aria-hidden="true"></span> Повтор
+      {% endif %}
+    </p>
     <p class="direction-flags" title="{{ view.direction_label }}">{{ view.direction_flags }}</p>
   </header>
 

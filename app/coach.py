@@ -78,7 +78,7 @@ def coach_message(
             tone="soft",
             text=(
                 f"{name}, лимит новых только что подстроился. "
-                f"Сегодня по {lang}: {due} due и ещё {new_left} новых."
+                f"Сегодня по {lang}: {due} повторов и ещё {new_left} новых."
             ),
         )
 
@@ -88,7 +88,7 @@ def coach_message(
             tone="start",
             text=(
                 f"{name}, по {lang} ещё не начинали — "
-                f"сегодня можно взять due {due} и до {new_left} новых."
+                f"сегодня можно взять {due} повторов и до {new_left} новых."
             ),
         )
 
@@ -98,7 +98,7 @@ def coach_message(
             tone="welcome",
             text=(
                 f"{name}, давно не виделись ({days_since_active} дн.). "
-                f"Начни с due — сегодня {due} повторов и до {new_left} новых."
+                f"Начни с повторов — сегодня {due} и до {new_left} новых."
             ),
         )
 
@@ -116,7 +116,7 @@ def coach_message(
             tone="soft",
             text=(
                 f"{name}, неделька была плотная — ты молодец. "
-                f"Сегодня лучше добить due ({due}), новых осталось {new_left}."
+                f"Сегодня лучше добить повторы ({due}), новых осталось {new_left}."
             ),
         )
 
@@ -125,7 +125,7 @@ def coach_message(
             tone="boost",
             text=(
                 f"{name}, повторы стабильные — можно чуть прибавить. "
-                f"Сегодня due мало ({due}), новых до {new_left}."
+                f"Сегодня повторов мало ({due}), новых до {new_left}."
             ),
         )
 
@@ -141,7 +141,7 @@ def coach_message(
     return CoachMessage(
         tone="push",
         text=(
-            f"{name}, due поднажало ({due}) — ты справишься. "
+            f"{name}, повторы поднажали ({due}) — ты справишься. "
             f"Новых сегодня до {new_left}."
         ),
     )
