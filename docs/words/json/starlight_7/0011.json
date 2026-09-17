@@ -624,7 +624,9 @@
         "отличительные черты"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -854,7 +856,9 @@
         "независимый"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1170,7 +1174,9 @@
         "вдохновлённый"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1230,7 +1236,9 @@
         "взаимодействовать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

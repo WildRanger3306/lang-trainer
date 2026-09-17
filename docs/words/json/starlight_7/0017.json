@@ -294,7 +294,9 @@
         "играть на слух"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -887,7 +889,9 @@
         "отказ"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

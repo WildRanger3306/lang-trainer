@@ -1,0 +1,2285 @@
+{
+  "kind": "registry",
+  "topic": "sl7_m2",
+  "source": {
+    "module": "Starlight 7 Module 2 Culture & Stories",
+    "note": "Лексемы со сканов M2+VB4–5, которых нет (точным form) в алфавитном WL SL7",
+    "book_pages": "docs/words/raw/Starlight_7_Book/0025.jpg–0039.jpg",
+    "vocabulary_bank": [
+      "docs/words/raw/Starlight_7_Book/VB4.jpg",
+      "docs/words/raw/Starlight_7_Book/VB5.jpg"
+    ]
+  },
+  "notes": [
+    "Реестр недостающих в WL лексем M2. Не обогащён переводами.",
+    "Топик: sl7_m2. *registry* / *_additional.json не загружается load_entries."
+  ],
+  "count": 151,
+  "entries": [
+    {
+      "language": "en",
+      "form": "a bore to read",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "a dull story",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "a fair amount",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "a waste of time",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "access",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "adventure novel",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "advertisement",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "advisor",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "AFAICT",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "AFC",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "afraid",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "aggressive",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "AIR",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "amazing",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "an unexpected twist",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ancient cathedral",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "antivirus",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "antivirus software",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "appearance",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "arrival",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "As far as I can tell",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "As I recall",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "As soon as possible",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "As we speak",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ASAP",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "at",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "attraction",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "away from keyboard",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "AWS",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "balalaika",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "blow strongly",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "boring",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bright colours",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "buzz around",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "campaign",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "carry over",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "cellar",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "chapter",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "character",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "city walls",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "classical music",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "cobbled",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "cobbled streets",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "colon",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "comic",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "contact",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "crash",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "dance",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "disbelieving",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "dot",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "dream of",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ebook",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "email",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "email address",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "emotional",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "engine",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "eruption",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ethical brand",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "extremely",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "F2F",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Face to face",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fall in love with",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fantastic",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fantasy novel",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "FAQ",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fast",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "for me",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "forum",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "founded",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "frequently asked questions",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "gender equality",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get along with",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get away",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get off",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ghost story",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ghost walk",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ghostly",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "give off",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "give out",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go on stage",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go online",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grab the attention",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hardware",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "head back to",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "heavy metal",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hip hop",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "historical",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "holiday destination",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "horrible",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "in a hurry",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "influential",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "interested",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "jazz",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lead singer",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "link",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lively",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "look down on",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "loud",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "magazine",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "medieval",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "medieval castle",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "metal",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "monotonous",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "name",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "newspaper",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Not really",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "noticed",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "observed",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "officially became",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "on a business trip",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "on a guided tour",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "on the screen",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "passport",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "plot",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "plumber",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pop",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "popular with",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "powerful",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "punk",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "R&B (rhythm and blues)",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "rectangular",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "reggae",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "relaxing",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "rock 'n' roll",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "role",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "scan",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "search",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "server",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "set in",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "slash",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "slow",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "social",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "software",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "square",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stage prop",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "surprise",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "surprised",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sustainable fashion",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Talk to you later",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "techno",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "temporary stage",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "TTYL",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "twist",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "underscore",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "user name",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wandering",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "web page/website",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "website",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "What was it like?",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "written",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "you'll love it",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    }
+  ]
+}

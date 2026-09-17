@@ -14,6 +14,7 @@
 - Матчинг Starter + M1 ↔ банк WL (без правок данных): [starlight_7_starter_m1_match.md](starlight_7_starter_m1_match.md).
 - Реестр лексем M1+VB (полный список): `docs/words/json/starlight_7/m1_registry.json`.
 - В WL проставлен топик `sl7_m1` на формах, точно совпавших со сканами; отсутствующие: `docs/words/json/starlight_7/sl7_m1_additional.json`.
+- Реестр M2+VB4–5: `docs/words/json/starlight_7/m2_registry.json`; в WL топик `sl7_m2`; дыры: `docs/words/json/starlight_7/sl7_m2_additional.json`.
 
 ## Календарь модулей (сент → май)
 

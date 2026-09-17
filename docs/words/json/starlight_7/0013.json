@@ -188,7 +188,9 @@
         "освещение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -341,7 +343,9 @@
         "имя пользователя"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -386,7 +390,9 @@
         "удлинённая лодка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -446,7 +452,9 @@
         "преданность"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -903,7 +911,9 @@
         "макияж"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1053,7 +1063,9 @@
         "мультимедийные данные"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

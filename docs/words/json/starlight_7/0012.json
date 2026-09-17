@@ -20,7 +20,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m1"
+        "sl7_m1",
+        "sl7_m2"
       ],
       "textbooks": [
         "Starlight 7"
@@ -238,7 +239,9 @@
         "спонсор"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -573,7 +576,9 @@
         "в глуши"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -726,7 +731,9 @@
         "калейдоскоп"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -999,7 +1006,9 @@
         "фонарь"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

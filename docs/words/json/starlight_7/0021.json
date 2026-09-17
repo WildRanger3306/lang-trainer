@@ -36,7 +36,9 @@
         "струна"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -696,7 +698,9 @@
         "выделяться"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -711,7 +715,9 @@
         "начинать(ся)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

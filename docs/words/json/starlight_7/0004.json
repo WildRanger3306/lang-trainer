@@ -252,7 +252,9 @@
         "зябкий"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -327,7 +329,9 @@
         "классический роман"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -357,7 +361,9 @@
         "концерт классической музыки"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -664,7 +670,9 @@
         "обязательство"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -682,7 +690,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m1"
+        "sl7_m1",
+        "sl7_m2"
       ],
       "textbooks": [
         "Starlight 7"
@@ -879,7 +888,9 @@
         "сложный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1135,7 +1146,9 @@
         "связь"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
