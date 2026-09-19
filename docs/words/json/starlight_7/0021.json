@@ -474,7 +474,9 @@
         "выживать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

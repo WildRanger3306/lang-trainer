@@ -367,7 +367,9 @@
         "угрожать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1222,7 +1224,9 @@
         "выбрасывать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

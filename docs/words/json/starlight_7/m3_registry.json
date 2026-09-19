@@ -18,7 +18,7 @@
     "Топик: sl7_m3. Переводы и POS не заполнены (partOfSpeech=other).",
     "Файл *registry*.json не загружается в БД скриптом load_entries."
   ],
-  "count": 335,
+  "count": 371,
   "entries": [
     {
       "language": "en",
@@ -83,6 +83,66 @@
     {
       "language": "en",
       "form": "adapt",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "adapted",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "adjust",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "adventure camp",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "air quality",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -173,6 +233,21 @@
     {
       "language": "en",
       "form": "ash",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "atmosphere",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -323,6 +398,21 @@
     {
       "language": "en",
       "form": "bird watching",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bird watching in a nature reserve",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -667,6 +757,21 @@
     },
     {
       "language": "en",
+      "form": "car exhaust",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "carbon dioxide",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -683,6 +788,21 @@
     {
       "language": "en",
       "form": "carbon footprint",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "cards in the park",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -728,6 +848,21 @@
     {
       "language": "en",
       "form": "chilly",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "Chinese frying pan",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -1447,6 +1582,21 @@
     },
     {
       "language": "en",
+      "form": "extreme temperatures",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "extreme weather",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2077,6 +2227,21 @@
     },
     {
       "language": "en",
+      "form": "high winds",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "hike",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2093,6 +2258,21 @@
     {
       "language": "en",
       "form": "hold",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hold the record",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -2422,7 +2602,37 @@
     },
     {
       "language": "en",
+      "form": "keep the score",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "kit",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "kite",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -2827,6 +3037,21 @@
     },
     {
       "language": "en",
+      "form": "natural habitats",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "nature reserve",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2932,6 +3157,21 @@
     },
     {
       "language": "en",
+      "form": "overcast skies",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "overfishing",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2977,7 +3217,37 @@
     },
     {
       "language": "en",
+      "form": "ozone layer",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "paintballing",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "paintballing in a forest",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -3157,6 +3427,36 @@
     },
     {
       "language": "en",
+      "form": "power plant",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "power plants",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "protective",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -3308,6 +3608,21 @@
     {
       "language": "en",
       "form": "reach",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "reach a high",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -3697,6 +4012,21 @@
     },
     {
       "language": "en",
+      "form": "sea levels rise",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "seal",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -3713,6 +4043,21 @@
     {
       "language": "en",
       "form": "self-catering apartment",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "self-catering flat",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -3788,6 +4133,21 @@
     {
       "language": "en",
       "form": "shore",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "shorter showers",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -4012,6 +4372,21 @@
     },
     {
       "language": "en",
+      "form": "slopes",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "snorkel",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4147,7 +4522,37 @@
     },
     {
       "language": "en",
+      "form": "stalactites",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "stalagmite",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stalagmites",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -4432,6 +4837,21 @@
     },
     {
       "language": "en",
+      "form": "survive",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "sweep",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4597,7 +5017,67 @@
     },
     {
       "language": "en",
+      "form": "threaten",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "threatened",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "throw away",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "throwing away",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "thunder and lightning",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -4658,6 +5138,21 @@
     {
       "language": "en",
       "form": "tornado",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "track",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -5017,6 +5512,21 @@
     },
     {
       "language": "en",
+      "form": "yoga on the beach",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "youth hostel",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -5033,6 +5543,36 @@
     {
       "language": "en",
       "form": "zip-lining",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "zip-lining through the jungle",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m3"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "zorbing",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
