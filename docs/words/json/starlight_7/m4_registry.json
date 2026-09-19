@@ -17,7 +17,7 @@
     "Топик: sl7_m4. Переводы и POS не заполнены (partOfSpeech=other).",
     "Файл *registry*.json не загружается в БД скриптом load_entries."
   ],
-  "count": 352,
+  "count": 397,
   "entries": [
     {
       "language": "en",
@@ -37,6 +37,21 @@
     {
       "language": "en",
       "form": "a problem shared is a problem halved",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "a skin infection",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -306,6 +321,21 @@
     },
     {
       "language": "en",
+      "form": "arguing",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "as fit as a fiddle",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -337,6 +367,21 @@
     {
       "language": "en",
       "form": "as white as a sheet",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "at all costs",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -576,6 +621,21 @@
     },
     {
       "language": "en",
+      "form": "bend",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "bite",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -726,6 +786,21 @@
     },
     {
       "language": "en",
+      "form": "broken bones",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "bruise",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -742,6 +817,21 @@
     {
       "language": "en",
       "form": "bucket",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bump into",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -862,6 +952,21 @@
     {
       "language": "en",
       "form": "cell",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "choose your own style",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -1101,6 +1206,21 @@
     },
     {
       "language": "en",
+      "form": "curable",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "cure",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -1252,6 +1372,21 @@
     {
       "language": "en",
       "form": "distinguish",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "distinguish between",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -1431,6 +1566,36 @@
     },
     {
       "language": "en",
+      "form": "enclosed spaces",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "escape from danger",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "excited",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -1596,6 +1761,21 @@
     },
     {
       "language": "en",
+      "form": "fall out",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "fallen out with",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -1716,6 +1896,21 @@
     },
     {
       "language": "en",
+      "form": "find a hobby and join a club",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "first aid",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -1777,6 +1972,21 @@
     {
       "language": "en",
       "form": "forgetful",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "frequent breaks",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -1941,6 +2151,21 @@
     },
     {
       "language": "en",
+      "form": "get rid of",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "get stuck",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2046,7 +2271,52 @@
     },
     {
       "language": "en",
+      "form": "grab",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grip",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "grumpy",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hang",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -2436,6 +2706,21 @@
     },
     {
       "language": "en",
+      "form": "ignore them",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "illegal",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2676,6 +2961,21 @@
     },
     {
       "language": "en",
+      "form": "jellyfish",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "keep their distance",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2721,6 +3021,21 @@
     },
     {
       "language": "en",
+      "form": "kneel",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "lachanophobia",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2752,6 +3067,21 @@
     {
       "language": "en",
       "form": "ladle",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "laugh at",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -2841,6 +3171,21 @@
     },
     {
       "language": "en",
+      "form": "make a study plan",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "make compromises",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2857,6 +3202,21 @@
     {
       "language": "en",
       "form": "make ethical choices",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "make friends",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -2976,6 +3336,36 @@
     },
     {
       "language": "en",
+      "form": "miss out on",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "miss out on opportunities",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "motion",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -3037,6 +3427,21 @@
     {
       "language": "en",
       "form": "natural remedy",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "need money",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -3306,6 +3711,21 @@
     },
     {
       "language": "en",
+      "form": "pet a dog",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "phobophobia",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -3381,6 +3801,21 @@
     },
     {
       "language": "en",
+      "form": "poisonous bite",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "poisonous spike",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -3426,6 +3861,21 @@
     },
     {
       "language": "en",
+      "form": "practise meditation to achieve peace of mind",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "prescription",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -3457,6 +3907,21 @@
     {
       "language": "en",
       "form": "prevent",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "public building",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -3547,6 +4012,21 @@
     {
       "language": "en",
       "form": "put out",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "put sb through",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -3801,6 +4281,21 @@
     },
     {
       "language": "en",
+      "form": "restriction of movement",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "ridiculous",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -3996,6 +4491,21 @@
     },
     {
       "language": "en",
+      "form": "set the volume",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "shake",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4176,6 +4686,21 @@
     },
     {
       "language": "en",
+      "form": "skin infections",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "slippery surface",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4267,6 +4792,21 @@
     {
       "language": "en",
       "form": "solve crosswords",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "solve crosswords & exercise your mind",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -4626,6 +5166,21 @@
     },
     {
       "language": "en",
+      "form": "suffer from vertigo",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "sunburn",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4791,6 +5346,21 @@
     },
     {
       "language": "en",
+      "form": "talk it through",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "tannin",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4821,6 +5391,21 @@
     },
     {
       "language": "en",
+      "form": "teased",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "temperature",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4837,6 +5422,21 @@
     {
       "language": "en",
       "form": "tense",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "tense muscles",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -4956,6 +5556,21 @@
     },
     {
       "language": "en",
+      "form": "thumb arthritis",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "thunderstorms",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4972,6 +5587,21 @@
     {
       "language": "en",
       "form": "tickle in my throat",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "too strict",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -5092,6 +5722,21 @@
     {
       "language": "en",
       "form": "use some eye drops",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "use some eye/ear/nose drops",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -5257,6 +5902,36 @@
     {
       "language": "en",
       "form": "work up to",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "world issues",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m4"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "worst fear",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,

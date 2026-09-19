@@ -79,7 +79,7 @@ Starlight 7 как раз сидит в зоне A2+/B1. Догнать лини
 | **Module 1** Work & Play | сен – сер. окт | тема **`sl7_m1`** (~171 в WL; +additional позже) | ≈171 |
 | **Module 2** Culture & Stories | сер. окт – кон. ноя | тема **`sl7_m2`** (~164 в WL; +additional 151) | ≈164 |
 | **Module 3** Mother Nature | дек – сер. янв | тема **`sl7_m3`** (~232 в WL; +additional 139) | ≈232 |
-| **Module 4** Healthy mind… | сер. янв – кон. фев | тема **`sl7_m4`** (~197 в WL; +additional 155) | ≈197 |
+| **Module 4** Healthy mind… | сер. янв – кон. фев | тема **`sl7_m4`** (~211 в WL; +additional 186) | ≈211 |
 | **Module 5** Life experiences | мар – сер. апр | | |
 | **Module 6** Crime & community | сер. апр – кон. мая | закрыть год; лето — due | |
 
