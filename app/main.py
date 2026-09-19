@@ -151,6 +151,9 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
             performance=performance,
             days_since_active=since,
             adapt_note=adapt.note,
+            # Same scope as chips below the text (active filter), not whole language.
+            queue_due=preview.due_count,
+            queue_new_left=preview.new_remaining_today,
         )
     return templates.TemplateResponse(
         request,

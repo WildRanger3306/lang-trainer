@@ -144,6 +144,22 @@ class CoachTests(unittest.TestCase):
         self.assertEqual(msg.tone, "soft")
         self.assertIn("подстроился", msg.text)
 
+    def test_queue_overrides_spoken_counts(self) -> None:
+        msg = coach_message(
+            USER,
+            language="en",
+            load=load(due_today=8, introduced_today=5, new_per_day=5),
+            advice=advice("keep"),
+            performance=perf(),
+            days_since_active=0,
+            queue_due=0,
+            queue_new_left=0,
+        )
+        self.assertEqual(msg.tone, "calm")
+        self.assertIn("0 повторов", msg.text)
+        self.assertIn("ещё 0 новых", msg.text)
+        self.assertNotIn("8 повторов", msg.text)
+
 
 if __name__ == "__main__":
     unittest.main()

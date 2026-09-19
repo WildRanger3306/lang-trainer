@@ -67,10 +67,21 @@ def coach_message(
     performance: PerformanceStats,
     days_since_active: int | None,
     adapt_note: str | None = None,
+    queue_due: int | None = None,
+    queue_new_left: int | None = None,
 ) -> CoachMessage:
+    """Build home coach copy.
+
+    ``load`` drives adaptive-load advice; optional ``queue_*`` override the
+    spoken due/new counts so they match the filtered queue chips on home.
+    """
     name = user.label
-    due = load.due_today
-    new_left = max(0, load.new_per_day - load.introduced_today)
+    due = load.due_today if queue_due is None else queue_due
+    new_left = (
+        max(0, load.new_per_day - load.introduced_today)
+        if queue_new_left is None
+        else max(0, queue_new_left)
+    )
     lang = "английскому" if language == "en" else "французскому"
 
     if adapt_note:
