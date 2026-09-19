@@ -102,7 +102,9 @@
         "скользкая поверхность"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -214,7 +216,9 @@
         "чихать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -437,7 +441,9 @@
         "уменьшить"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -688,7 +694,9 @@
         "шип"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -818,7 +826,9 @@
         "посыпать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -850,7 +860,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m2"
+        "sl7_m2",
+        "sl7_m4"
       ],
       "textbooks": [
         "Starlight 7"
@@ -1087,7 +1098,9 @@
         "жалить"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1102,7 +1115,9 @@
         "желудочный сок"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1183,7 +1198,9 @@
         "печка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1231,7 +1248,9 @@
         "напряжение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1293,7 +1312,9 @@
         "находящийся в стрессе"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

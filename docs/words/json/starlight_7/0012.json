@@ -829,7 +829,9 @@
         "пинать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -967,7 +969,9 @@
         "весло"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

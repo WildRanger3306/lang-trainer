@@ -15,7 +15,8 @@
 - Реестр лексем M1+VB (полный список): `docs/words/json/starlight_7/m1_registry.json`.
 - В WL проставлен топик `sl7_m1` на формах, точно совпавших со сканами; отсутствующие: `docs/words/json/starlight_7/sl7_m1_additional.json`.
 - Реестр M2+VB4–5: `docs/words/json/starlight_7/m2_registry.json`; в WL топик `sl7_m2`; дыры: `docs/words/json/starlight_7/sl7_m2_additional.json`.
-- Реестр M3+VB6–9: `docs/words/json/starlight_7/m3_registry.json`; в WL топик `sl7_m3`; дыры: `docs/words/json/starlight_7/sl7_m3_additional.json`. (VB10 = Health / M4.)
+- Реестр M3+VB6–9: `docs/words/json/starlight_7/m3_registry.json`; в WL топик `sl7_m3`; дыры: `docs/words/json/starlight_7/sl7_m3_additional.json`.
+- Реестр M4+VB10–12: `docs/words/json/starlight_7/m4_registry.json`; в WL топик `sl7_m4`; дыры: `docs/words/json/starlight_7/sl7_m4_additional.json`.
 
 ## Календарь модулей (сент → май)
 

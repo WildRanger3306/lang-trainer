@@ -35,7 +35,9 @@
         "пугающий"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -212,7 +214,9 @@
         "царапать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -537,7 +541,9 @@
         "самозащита"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -613,7 +619,9 @@
         "чувствовать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -740,7 +748,9 @@
         "дрожать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -802,7 +812,9 @@
         "акула"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1013,7 +1025,9 @@
         "уменьшать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1028,7 +1042,9 @@
         "напряжение в плече"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1141,7 +1157,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m3"
+        "sl7_m3",
+        "sl7_m4"
       ],
       "textbooks": [
         "Starlight 7"
@@ -1346,7 +1363,9 @@
         "кожная инфекция"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

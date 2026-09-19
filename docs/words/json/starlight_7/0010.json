@@ -188,7 +188,9 @@
         "отправиться в больницу на рентген"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -505,7 +507,9 @@
         "излечивать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -535,7 +539,9 @@
         "потеря слуха"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -551,7 +557,9 @@
         "частота сердцебиений"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -695,7 +703,9 @@
         "высота"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -980,7 +990,9 @@
         "мёд"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

@@ -381,7 +381,9 @@
         "клаустрофобия (боязнь замкнутого пространства)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -559,7 +561,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m3"
+        "sl7_m3",
+        "sl7_m4"
       ],
       "textbooks": [
         "Starlight 7"
@@ -984,7 +987,9 @@
         "концентрироваться"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1014,7 +1019,9 @@
         "бетон"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1059,7 +1066,9 @@
         "уверенный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1074,7 +1083,9 @@
         "закрытое пространство"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

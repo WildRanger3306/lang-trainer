@@ -211,7 +211,9 @@
         "депрессия"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -226,7 +228,9 @@
         "дерматолог"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -779,7 +783,9 @@
         "сухой"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -847,7 +853,8 @@
       "level": null,
       "topics": [
         "sl7_m1",
-        "sl7_m3"
+        "sl7_m3",
+        "sl7_m4"
       ],
       "textbooks": [
         "Starlight 7"
@@ -1131,7 +1138,9 @@
         "ушной канал"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1301,7 +1310,9 @@
         "изысканный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

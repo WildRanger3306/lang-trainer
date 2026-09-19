@@ -364,7 +364,9 @@
         "задний двор"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -379,7 +381,9 @@
         "бактерия"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -394,7 +398,9 @@
         "плохой запах изо рта"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -409,7 +415,9 @@
         "пищевая сода"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -456,7 +464,9 @@
         "пластырь"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -518,7 +528,9 @@
         "мыться"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -567,7 +579,8 @@
       "level": null,
       "topics": [
         "sl7_m1",
-        "sl7_m3"
+        "sl7_m3",
+        "sl7_m4"
       ],
       "textbooks": [
         "Starlight 7"
@@ -630,7 +643,9 @@
         "скамья"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -744,7 +759,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m2"
+        "sl7_m2",
+        "sl7_m4"
       ],
       "textbooks": [
         "Starlight 7"
@@ -877,7 +893,9 @@
         "кровообращение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -939,7 +957,9 @@
         "мутное зрение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1019,7 +1039,9 @@
         "функция тела"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1144,7 +1166,9 @@
         "одолжить"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1210,7 +1234,9 @@
         "мозг"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1376,7 +1402,9 @@
         "сломанная кость"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m4"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
