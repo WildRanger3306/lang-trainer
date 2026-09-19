@@ -306,7 +306,9 @@
         "железо"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -321,7 +323,9 @@
         "гладильная доска"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -840,7 +844,9 @@
         "кайтинг"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1068,7 +1074,9 @@
         "лава"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

@@ -19,7 +19,9 @@
         "санки"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -34,7 +36,9 @@
         "спальный мешок"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -49,7 +53,9 @@
         "дождь со снегом"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -64,7 +70,9 @@
         "скольжение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -109,7 +117,9 @@
         "склон холма"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -250,7 +260,9 @@
         "снежная буря"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -518,7 +530,9 @@
         "специальное предложение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -548,7 +562,9 @@
         "виды животных"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -770,7 +786,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m1"
+        "sl7_m1",
+        "sl7_m3"
       ],
       "textbooks": [
         "Starlight 7"
@@ -879,7 +896,9 @@
         "сталактит"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -894,7 +913,9 @@
         "сталагмит"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -924,7 +945,9 @@
         "голодать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1015,7 +1038,9 @@
         "шаг"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1045,7 +1070,9 @@
         "палка"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1121,7 +1148,9 @@
         "гроза"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

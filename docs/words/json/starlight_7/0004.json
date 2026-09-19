@@ -64,7 +64,9 @@
         "мел"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -253,7 +255,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m2"
+        "sl7_m2",
+        "sl7_m3"
       ],
       "textbooks": [
         "Starlight 7"
@@ -426,7 +429,9 @@
         "обрыв"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -441,7 +446,9 @@
         "климат"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -517,7 +524,9 @@
         "прибрежный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -549,7 +558,9 @@
         "холодный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -594,7 +605,9 @@
         "колонна"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -769,7 +782,9 @@
         "компас"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -845,7 +860,9 @@
         "конкурент"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1103,7 +1120,9 @@
         "хвойный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1245,7 +1264,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m1"
+        "sl7_m1",
+        "sl7_m3"
       ],
       "textbooks": [
         "Starlight 7"

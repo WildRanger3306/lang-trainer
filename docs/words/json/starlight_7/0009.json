@@ -114,7 +114,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m2"
+        "sl7_m2",
+        "sl7_m3"
       ],
       "textbooks": [
         "Starlight 7"
@@ -254,7 +255,9 @@
         "ледник"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -284,7 +287,9 @@
         "глобальное потепление"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -502,7 +507,9 @@
         "газ, вызывающий парниковый эффект"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -623,7 +630,9 @@
         "рост"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -670,7 +679,9 @@
         "вести"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -833,7 +844,9 @@
         "портиться (о продуктах)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -848,7 +861,9 @@
         "тщательно изучать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1075,7 +1090,9 @@
         "потеряться"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m3"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
