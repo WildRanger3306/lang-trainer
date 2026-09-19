@@ -217,7 +217,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m4"
+        "sl7_m4",
+        "sl7_m5"
       ],
       "textbooks": [
         "Starlight 7"
@@ -234,7 +235,9 @@
         "храпеть"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -281,7 +284,9 @@
         "этические нормы"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -296,7 +301,9 @@
         "социальная проблема"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -377,7 +384,9 @@
         "солнечная батарея"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -489,7 +498,9 @@
         "спам"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -632,7 +643,9 @@
         "превышение скорости"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -663,7 +676,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m2"
+        "sl7_m2",
+        "sl7_m5"
       ],
       "textbooks": [
         "Starlight 7"
@@ -711,7 +725,9 @@
         "дух"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -989,7 +1005,9 @@
         "воровать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1019,7 +1037,9 @@
         "очень жаркий"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1034,7 +1054,9 @@
         "сталь"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1082,7 +1104,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m3"
+        "sl7_m3",
+        "sl7_m5"
       ],
       "textbooks": [
         "Starlight 7"
@@ -1132,7 +1155,9 @@
         "сотрудник службы безопасности магазина"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1215,7 +1240,9 @@
         "прямой"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1329,7 +1356,9 @@
         "растягивать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

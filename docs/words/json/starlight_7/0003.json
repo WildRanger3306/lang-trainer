@@ -53,7 +53,9 @@
         "бронежилет"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -135,7 +137,9 @@
         "ограбление"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -229,7 +233,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m1"
+        "sl7_m1",
+        "sl7_m5"
       ],
       "textbooks": [
         "Starlight 7"
@@ -263,7 +268,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m1"
+        "sl7_m1",
+        "sl7_m6"
       ],
       "textbooks": [
         "Starlight 7"
@@ -314,7 +320,9 @@
         "разукрасить"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -638,7 +646,9 @@
         "узнавать"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -760,7 +770,9 @@
         "покупать дом"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1116,7 +1128,9 @@
         "резьба по дереву"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

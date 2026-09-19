@@ -143,7 +143,9 @@
         "«фишинг» (вид банковского мошенничества в Интернете, используемый для кражи секретных банковских данных пользователя)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -173,7 +175,9 @@
         "фотография"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -205,7 +209,9 @@
         "улика"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -220,7 +226,9 @@
         "карманная кража"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -374,7 +382,9 @@
         "пухлый"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -451,7 +461,9 @@
         "полицейский детектив"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -484,7 +496,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m1"
+        "sl7_m1",
+        "sl7_m5"
       ],
       "textbooks": [
         "Starlight 7"
@@ -500,7 +513,9 @@
         "пыльца"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -719,7 +734,9 @@
         "керамика"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -849,7 +866,9 @@
         "создание гравюр и эстампов"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -864,7 +883,9 @@
         "тюремный надзиратель"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -879,7 +900,9 @@
         "частный детектив"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -994,7 +1017,8 @@
       "level": null,
       "topics": [
         "sl7_m1",
-        "sl7_m2"
+        "sl7_m2",
+        "sl7_m6"
       ],
       "textbooks": [
         "Starlight 7"
@@ -1043,7 +1067,9 @@
         "благополучие"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1137,7 +1163,9 @@
         "интернет-провайдер"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1201,7 +1229,9 @@
         "общественное мнение"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1232,7 +1262,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m3"
+        "sl7_m3",
+        "sl7_m6"
       ],
       "textbooks": [
         "Starlight 7"

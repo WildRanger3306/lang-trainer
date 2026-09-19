@@ -53,7 +53,9 @@
         "среднего возраста"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -377,7 +379,9 @@
         "усы"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -422,7 +426,9 @@
         "уличное ограбление"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -453,7 +459,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m4"
+        "sl7_m4",
+        "sl7_m5"
       ],
       "textbooks": [
         "Starlight 7"
@@ -694,7 +701,9 @@
         "устанавливать зрительный контакт"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -816,7 +825,9 @@
         "опасный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1029,7 +1040,9 @@
         "заброшенный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -1059,7 +1072,9 @@
         "«присмотр за соседями» (добровольная организация, занимающаяся присмотром за домом или имуществом соседей для предотвращения преступлений)"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

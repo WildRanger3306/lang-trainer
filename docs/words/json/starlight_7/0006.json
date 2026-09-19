@@ -52,7 +52,9 @@
         "защитник"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -150,7 +152,8 @@
       ],
       "level": null,
       "topics": [
-        "sl7_m1"
+        "sl7_m1",
+        "sl7_m5"
       ],
       "textbooks": [
         "Starlight 7"
@@ -181,7 +184,9 @@
         "зависеть от"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -292,7 +297,9 @@
         "упорство"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -384,7 +391,9 @@
         "директория"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -462,7 +471,9 @@
         "нечестный"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -494,7 +505,9 @@
         "неудовлетворённый"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -592,7 +605,9 @@
         "разделять"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -623,7 +638,9 @@
         "анализ ДНК"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -753,7 +770,9 @@
         "яркий арест"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -768,7 +787,9 @@
         "рисунок"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m6"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -905,7 +926,9 @@
         "наркоман"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -937,7 +960,9 @@
         "пыль"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -969,7 +994,9 @@
         "красить волосы"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
@@ -984,7 +1011,9 @@
         "иметь дело с"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m5"
+      ],
       "textbooks": [
         "Starlight 7"
       ]
