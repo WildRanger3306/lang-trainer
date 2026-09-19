@@ -722,7 +722,9 @@
         "повозка, в которую запряжён вол"
       ],
       "level": null,
-      "topics": [],
+      "topics": [
+        "sl7_m2"
+      ],
       "textbooks": [
         "Starlight 7"
       ]

@@ -3,20 +3,20 @@
   "topic": "sl7_m2",
   "source": {
     "module": "Starlight 7 Module 2 Culture & Stories",
-    "book_pages": "docs/words/raw/Starlight_7_Book/0025.jpg–0039.jpg",
+    "book_pages": "docs/words/raw/Starlight_7_Book/0025.jpg–0042.jpg",
     "vocabulary_bank": [
       "docs/words/raw/Starlight_7_Book/VB4.jpg",
       "docs/words/raw/Starlight_7_Book/VB5.jpg"
     ],
     "contents": "Vocabulary column Module 2 + VB4–5 (Internet / Types of books / Music)",
-    "note": "Book p.34 missing from scan set (jump 33→35)."
+    "note": "Filenames = printed book pages. Complete M2 body set 25–42 (incl. 25–26, 34)."
   },
   "notes": [
     "Реестр лексем со сканов M2 + VB4–5. Не обогащён из алфавитного WL.",
     "Топик: sl7_m2. Переводы и POS не заполнены (partOfSpeech=other).",
     "Файл *registry*.json не загружается в БД скриптом load_entries."
   ],
-  "count": 315,
+  "count": 350,
   "entries": [
     {
       "language": "en",
@@ -365,6 +365,21 @@
     },
     {
       "language": "en",
+      "form": "ancient wall",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "annoyance",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -560,6 +575,21 @@
     },
     {
       "language": "en",
+      "form": "attending a rock concert",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "attraction",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -605,6 +635,36 @@
     },
     {
       "language": "en",
+      "form": "backpack",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bad weather",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "balalaika",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -621,6 +681,21 @@
     {
       "language": "en",
       "form": "ballet",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ballet lesson",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -696,6 +771,21 @@
     {
       "language": "en",
       "form": "blow strongly",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "boat trip",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -905,6 +995,21 @@
     },
     {
       "language": "en",
+      "form": "catch the wrong bus",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "catchy",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -1041,6 +1146,21 @@
     {
       "language": "en",
       "form": "cobbled",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "cobbled street",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -1670,6 +1790,21 @@
     },
     {
       "language": "en",
+      "form": "explore",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "extremely",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -1895,6 +2030,36 @@
     },
     {
       "language": "en",
+      "form": "find out",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "flute",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "for me",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2075,6 +2240,36 @@
     },
     {
       "language": "en",
+      "form": "get bitten by mosquitoes",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get caught in bad weather",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "get off",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2091,6 +2286,36 @@
     {
       "language": "en",
       "form": "get on",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get seasick",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get stolen",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -2180,6 +2405,21 @@
     },
     {
       "language": "en",
+      "form": "ghostly attraction",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "give away",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2226,6 +2466,36 @@
     {
       "language": "en",
       "form": "give up",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go missing",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go on a boat trip",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -2315,6 +2585,21 @@
     },
     {
       "language": "en",
+      "form": "guided tour",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "hack",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2376,6 +2661,21 @@
     {
       "language": "en",
       "form": "haunted",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "having a ballet lesson",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -2810,6 +3110,21 @@
     },
     {
       "language": "en",
+      "form": "locals",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "login name",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2900,7 +3215,37 @@
     },
     {
       "language": "en",
+      "form": "make friends with the locals",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "make-up",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "march",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -2960,6 +3305,21 @@
     },
     {
       "language": "en",
+      "form": "medieval cathedral",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "metal",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -2976,6 +3336,21 @@
     {
       "language": "en",
       "form": "monotonous",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "mosquito",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -3275,6 +3650,21 @@
     },
     {
       "language": "en",
+      "form": "oxcart",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "pass by",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -3515,6 +3905,21 @@
     },
     {
       "language": "en",
+      "form": "practising playing the flute",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "profile",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -3725,6 +4130,21 @@
     },
     {
       "language": "en",
+      "form": "rock concert",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "role",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -3891,6 +4311,21 @@
     {
       "language": "en",
       "form": "search engine",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "seasick",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -4145,6 +4580,21 @@
     },
     {
       "language": "en",
+      "form": "spooky",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "square",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4310,6 +4760,21 @@
     },
     {
       "language": "en",
+      "form": "taking a guided tour of a museum",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "Talk to you later",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4415,6 +4880,36 @@
     },
     {
       "language": "en",
+      "form": "traditional dancing",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "travel on an oxcart",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
       "form": "trend",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
@@ -4431,6 +4926,21 @@
     {
       "language": "en",
       "form": "triangular",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "try spicy food",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,
@@ -4626,6 +5136,21 @@
     {
       "language": "en",
       "form": "warrior",
+      "partOfSpeech": "other",
+      "partOfSpeechCode": null,
+      "transcription": null,
+      "translations": [],
+      "level": null,
+      "topics": [
+        "sl7_m2"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "watching traditional dancing",
       "partOfSpeech": "other",
       "partOfSpeechCode": null,
       "transcription": null,

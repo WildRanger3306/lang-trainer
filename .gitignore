@@ -28,6 +28,6 @@ __pycache__/
 hs_err_pid*
 replay_pid*
 
-docs/words/raw
+# docs/words/raw
 # DB dumps
 backups/
