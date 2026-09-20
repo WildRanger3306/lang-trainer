@@ -1,12 +1,9 @@
 {% extends "base.html" %}
 {% block title %}О приложении{% endblock %}
 {% block body %}
-  <header class="header header-row">
-    <div>
-      <h1>О приложении</h1>
-      <p class="lead">Краткий гайд: алгоритм, кнопки и как читать прогресс.</p>
-    </div>
-    <a class="nav-link" href="/">К тренировке</a>
+  <header class="header">
+    <h1>О приложении</h1>
+    <p class="lead">Краткий гайд: алгоритм, кнопки и как читать прогресс.</p>
   </header>
 
   <section class="panel about-section">
@@ -39,7 +36,7 @@
       <li>Оцениваешь, насколько уверенно вспомнил (4 кнопки).</li>
       <li>FSRS ставит следующий <strong>повтор</strong>: увереннее → позже; тяжелее → раньше.</li>
       <li>В день: все просроченные + лимит <strong>новых</strong> (EN&nbsp;~10, FR&nbsp;~20; может менять <strong>autoload</strong>).</li>
-      <li><strong>Again</strong> ещё возвращает карточку в конец сегодняшней сессии.</li>
+      <li><strong>Снова</strong> (Again) ещё возвращает карточку в конец сегодняшней сессии.</li>
     </ol>
     <p><strong>Оценка знаний</strong> — быстрый триаж «знаю / сомневаюсь / не знаю», не жжёт лимит новых; дальше карточки идут в обычную тренировку по FSRS.</p>
   </section>
@@ -48,7 +45,7 @@
     <h2 class="section-title">Основные термины</h2>
     <ul class="stats">
       <li><span><span class="meta-icon meta-icon-due" aria-hidden="true"></span>Повтор</span><strong>пора повторить сегодня</strong></li>
-      <li><span><span class="meta-new" aria-hidden="true">➕</span> Новые</span><strong>ещё не в твоём прогрессе</strong></li>
+      <li><span><span class="meta-icon meta-icon-new" aria-hidden="true"></span>Новые</span><strong>ещё не в твоём прогрессе</strong></li>
       <li><span>Лимит новых</span><strong>сколько новых за день</strong></li>
       <li><span>Без прогресса</span><strong>нетронутые в фильтре</strong></li>
       <li><span>Фильтр</span><strong>учебник / темы</strong></li>
@@ -71,22 +68,23 @@
     <ol class="about-list">
       <li>Лицо карточки → вспоминаешь.</li>
       <li>Переворот — сверка.</li>
-      <li>Одна из четырёх кнопок.</li>
+      <li>Одна из четырёх кнопок (или клавиши <code>1</code>–<code>4</code>).</li>
       <li>В конце — итог сессии.</li>
     </ol>
   </section>
 
   <section class="panel about-section">
-    <h2 class="section-title">Кнопки Again / Hard / Good / Easy</h2>
+    <h2 class="section-title">Кнопки Снова / Трудно / Хорошо / Легко</h2>
     <p>Оценивай <strong>этот момент</strong>, не «насколько слово важное».</p>
+    <p class="muted">В сводке и в алгоритме те же оценки называются Again / Hard / Good / Easy.</p>
     <ul class="stats">
-      <li><span>Again</span><strong>не вспомнил → скоро снова + ещё в сессии</strong></li>
-      <li><span>Hard</span><strong>с трудом → короткий интервал</strong></li>
-      <li><span>Good</span><strong>нормально → обычный срок</strong></li>
-      <li><span>Easy</span><strong>мгновенно → позже</strong></li>
+      <li><span>Снова</span><strong>не вспомнил → скоро снова + ещё в сессии</strong></li>
+      <li><span>Трудно</span><strong>с трудом → короткий интервал</strong></li>
+      <li><span>Хорошо</span><strong>нормально → обычный срок</strong></li>
+      <li><span>Легко</span><strong>мгновенно → позже</strong></li>
     </ul>
-    <p><strong>В первый раз:</strong> чаще Good, реже Hard, Again если не зацепилось. Easy почти не ставь — только если слово и так давно знаешь.</p>
-    <p class="muted">На повторах будь честен: лишний Easy размазывает интервалы, лишний Again забивает очередь.</p>
+    <p><strong>В первый раз:</strong> чаще «Хорошо», реже «Трудно», «Снова» если не зацепилось. «Легко» почти не ставь — только если слово и так давно знаешь.</p>
+    <p class="muted">На повторах будь честен: лишнее «Легко» размазывает интервалы, лишнее «Снова» забивает очередь.</p>
   </section>
 
   <section class="panel about-section">
@@ -106,7 +104,7 @@
     <ol class="about-list">
       <li>Сначала добей <strong>повторы</strong>.</li>
       <li>Потом новые в пределах лимита.</li>
-      <li>На кнопках будь честен; на новых по умолчанию <strong>Good</strong>.</li>
+      <li>На кнопках будь честен; на новых по умолчанию <strong>«Хорошо»</strong>.</li>
       <li>Раз в несколько дней глянь <strong>Сводку</strong>.</li>
     </ol>
   </section>

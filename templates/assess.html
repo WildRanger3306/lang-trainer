@@ -1,9 +1,20 @@
 {% extends "base.html" %}
 {% block title %}Оценка {{ number }} из {{ total }}{% endblock %}
+{% block tabbar %}{% endblock %}
 {% block body %}
+  <div class="progress-bar" role="progressbar" aria-label="Прогресс оценки" aria-valuemin="0" aria-valuemax="{{ total }}" aria-valuenow="{{ number - 1 }}">
+    <i style="width: {{ ((number - 1) * 100 / total) | round(1) }}%"></i>
+  </div>
   <header class="header header-row">
     <p class="progress">{{ number }} / {{ total }} · оценка</p>
-    <p class="direction-flags" title="{{ view.direction_label }}">{{ view.direction_flags }}</p>
+    <div class="header-tools">
+      <p class="direction-flags" title="{{ view.direction_label }}">{{ view.direction_flags }}</p>
+      <form method="post" action="/finish">
+        <button class="icon-btn" type="submit" title="Завершить оценку" aria-label="Завершить оценку">
+          <svg class="ic" aria-hidden="true"><use href="#i-x"/></svg>
+        </button>
+      </form>
+    </div>
   </header>
 
   <section class="card" id="card" tabindex="0" role="button" aria-pressed="false">
@@ -18,7 +29,7 @@
         {% endif %}
         <p class="flip-hint">нажмите, чтобы перевернуть</p>
       </div>
-      <div class="card-face card-back">
+      <div class="card-face card-back" aria-hidden="true">
         <p class="prompt">{{ view.answer }}</p>
         {% if view.answer_hint %}
           <p class="hint">{{ view.answer_hint }}</p>
@@ -26,7 +37,6 @@
         {% if view.answer_ipa %}
           <p class="ipa">{{ view.answer_ipa }}</p>
         {% endif %}
-        <p class="flip-hint">нажмите, чтобы перевернуть</p>
       </div>
     </div>
   </section>
@@ -37,11 +47,8 @@
     <button class="btn btn-know" name="verdict" value="know" type="submit">Знаю</button>
   </form>
   <p class="hint-text">«Знаю» — повтор через {{ know_interval }} дн. Не жжёт лимит новых.</p>
-
-  <form class="finish" method="post" action="/finish">
-    <button class="btn btn-secondary" type="submit">Завершить</button>
-  </form>
+  <p class="hint-text kbd-hint">Пробел — перевернуть · 1–3 — оценить</p>
 {% endblock %}
 {% block scripts %}
-  <script src="/static/train.js"></script>
+  <script src="{{ asset('train.js') }}"></script>
 {% endblock %}

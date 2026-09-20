@@ -44,6 +44,18 @@ AUTH_COOKIE = "auth_session"
 app = FastAPI(title="lang-trainer")
 app.mount("/static", StaticFiles(directory=ROOT / "static"), name="static")
 templates = Jinja2Templates(directory=str(ROOT / "templates"))
+
+
+def _asset(path: str) -> str:
+    """Static URL with an mtime version so browsers never reuse a stale copy."""
+    try:
+        version = int((ROOT / "static" / path).stat().st_mtime)
+    except OSError:
+        version = 0
+    return f"/static/{path}?v={version}"
+
+
+templates.env.globals["asset"] = _asset
 store = SessionStore()
 auth_store = AuthStore()
 

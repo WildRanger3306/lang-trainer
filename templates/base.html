@@ -5,9 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}Тренажёр{% endblock %}</title>
   <link rel="icon" href="/static/logo.png" type="image/png">
-  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="{{ asset('style.css') }}">
 </head>
 <body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5l10.5 6.5L8 18.5z"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h9M19 7h1M4 17h1M11 17h9"/><circle cx="16" cy="7" r="2.2"/><circle cx="8" cy="17" r="2.2"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M5 20V11M12 20V4M19 20v-6"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.01"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  </svg>
   <div class="page">
     {% if user is defined and user %}
     <div class="userbar">
@@ -19,6 +26,24 @@
         <button class="linkish" type="submit">Выйти</button>
       </form>
     </div>
+    {% block tabbar %}
+    {% set path = request.url.path %}
+    {% set lq = ("?language=" ~ language) if language is defined and language else "" %}
+    <nav class="tabbar" aria-label="Разделы">
+      <a class="tab{% if path == '/' %} is-active{% endif %}" href="/{{ lq }}"{% if path == '/' %} aria-current="page"{% endif %}>
+        <svg class="ic" aria-hidden="true"><use href="#i-play"/></svg><span>Тренировка</span>
+      </a>
+      <a class="tab{% if path == '/filters' %} is-active{% endif %}" href="/filters{{ lq }}"{% if path == '/filters' %} aria-current="page"{% endif %}>
+        <svg class="ic" aria-hidden="true"><use href="#i-sliders"/></svg><span>Фильтры</span>
+      </a>
+      <a class="tab{% if path == '/stats' %} is-active{% endif %}" href="/stats{{ lq }}"{% if path == '/stats' %} aria-current="page"{% endif %}>
+        <svg class="ic" aria-hidden="true"><use href="#i-chart"/></svg><span>Сводка</span>
+      </a>
+      <a class="tab{% if path == '/about' %} is-active{% endif %}" href="/about"{% if path == '/about' %} aria-current="page"{% endif %}>
+        <svg class="ic" aria-hidden="true"><use href="#i-info"/></svg><span>Гайд</span>
+      </a>
+    </nav>
+    {% endblock %}
     {% endif %}
     {% block body %}{% endblock %}
   </div>

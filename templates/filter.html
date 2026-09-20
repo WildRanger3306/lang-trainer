@@ -1,16 +1,13 @@
 {% extends "base.html" %}
 {% block title %}Тренировка{% endblock %}
 {% block body %}
-  <header class="header header-row">
-    <div>
+  <header class="header">
+    <div class="header-row">
       <h1>Тренировка</h1>
-      <p class="lead">Очередь: повторы + до {{ new_per_day }} новых/день. Сначала {% if preferred_direction == 'native_to_foreign' %}RU→язык{% else %}язык→RU{% endif %}.</p>
+      {% set lang_path = "/" %}
+      {% include "_lang_switch.html" %}
     </div>
-    <div class="nav-links">
-      <a class="nav-link" href="/filters?language={{ language }}">Фильтры</a>
-      <a class="nav-link" href="/stats?language={{ language }}">Сводка</a>
-      <a class="nav-link" href="/about">О приложении</a>
-    </div>
+    <p class="lead">Очередь: повторы + до {{ new_per_day }} новых/день. Сначала {% if preferred_direction == 'native_to_foreign' %}RU→язык{% else %}язык→RU{% endif %}.</p>
   </header>
 
   {% if error %}
@@ -19,11 +16,11 @@
 
   <section class="banner banner-coach banner-coach-{{ coach.tone }}">
     <p class="coach-text">{{ coach.text }}</p>
-    <p class="coach-meta muted">
-      <span class="meta-icon meta-icon-due" title="Повтор" aria-hidden="true"></span>Повтор <strong>{{ preview.due_count }}</strong>
-      · <span class="meta-new" title="новые" aria-hidden="true">➕</span> новых <strong>{{ preview.introduced_today }} / {{ new_per_day }}</strong>
-      · без прогресса <strong>{{ preview.new_available }}</strong>
-    </p>
+    <ul class="meta-grid">
+      <li><span class="meta-label"><span class="meta-icon meta-icon-due" aria-hidden="true"></span>Повтор</span><strong>{{ preview.due_count }}</strong></li>
+      <li><span class="meta-label"><span class="meta-icon meta-icon-new" aria-hidden="true"></span>Новые</span><strong>{{ preview.introduced_today }}<span class="meta-of"> / {{ new_per_day }}</span></strong></li>
+      <li><span class="meta-label">Без прогресса</span><strong>{{ preview.new_available }}</strong></li>
+    </ul>
   </section>
 
   <p class="hint-text">
@@ -33,20 +30,7 @@
   </p>
 
   <form class="panel" method="post" action="/start">
-    <fieldset>
-      <legend>Язык</legend>
-      <label class="choice">
-        <input type="radio" name="language" value="en" required {% if language == "en" %}checked{% endif %}
-               onchange="location.href='/?language=en'">
-        английский
-      </label>
-      <label class="choice">
-        <input type="radio" name="language" value="fr" {% if language == "fr" %}checked{% endif %}
-               onchange="location.href='/?language=fr'">
-        французский
-      </label>
-    </fieldset>
-
+    <input type="hidden" name="language" value="{{ language }}">
     <div class="actions">
       <button class="btn btn-primary" type="submit">Тренировка</button>
       <button class="btn btn-secondary" type="submit" formaction="/assess/start">

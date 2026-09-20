@@ -1,21 +1,14 @@
 {% extends "base.html" %}
 {% block title %}Сводка — тренажёр{% endblock %}
 {% block body %}
-  <header class="header header-row">
-    <div>
+  <header class="header">
+    <div class="header-row">
       <h1>Сводка</h1>
-      <p class="lead">Сегодняшняя очередь, автолимит и качество по FSRS.</p>
+      {% set lang_path = "/stats" %}
+      {% include "_lang_switch.html" %}
     </div>
-    <div class="nav-links">
-      <a class="nav-link" href="/?language={{ language }}">К тренировке</a>
-      <a class="nav-link" href="/about">О приложении</a>
-    </div>
+    <p class="lead">Сегодняшняя очередь, автолимит и качество по FSRS.</p>
   </header>
-
-  <nav class="lang-switch">
-    <a class="chip {% if language == 'en' %}is-active{% endif %}" href="/stats?language=en">английский</a>
-    <a class="chip {% if language == 'fr' %}is-active{% endif %}" href="/stats?language=fr">французский</a>
-  </nav>
 
   {% set c = summary.corpus %}
   {% set l = summary.load %}
@@ -32,7 +25,7 @@
     <p class="advice-label">Сегодня</p>
     <ul class="stats stats-inline">
       <li><span><span class="meta-icon meta-icon-due" aria-hidden="true"></span>Повтор</span><strong>{{ l.due_today }}</strong></li>
-      <li><span><span class="meta-new" aria-hidden="true">➕</span> новых</span><strong>{{ l.introduced_today }} / {{ l.new_per_day }}</strong></li>
+      <li><span><span class="meta-icon meta-icon-new" aria-hidden="true"></span>Новые</span><strong>{{ l.introduced_today }} / {{ l.new_per_day }}</strong></li>
       <li><span>ответов вчера</span><strong>{{ summary.answers_yesterday }}</strong></li>
       <li><span>лимит</span><strong>{{ a.new_per_day }}</strong>
         <span class="muted">база {{ a.base_new_per_day }} · {{ a.streak_label }}</span></li>
