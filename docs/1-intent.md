@@ -6,4 +6,6 @@
 
 **Для ученика:** краткий гайд — [15-user-guide.md](15-user-guide.md).
 
+**Интерфейс:** ревизия и предложения — [16-ui-review.md](16-ui-review.md).
+
 Поведение — [2-requirements.md](2-requirements.md). Рамки — [3-constraints.md](3-constraints.md). Решения — [4-decisions.md](4-decisions.md). Модель — [5-data-model.md](5-data-model.md). Срез работ — [6-iterations.md](6-iterations.md). Стратегия занятий — [7-strategy.md](7-strategy.md).

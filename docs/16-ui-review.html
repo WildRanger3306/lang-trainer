@@ -1,0 +1,1124 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Ревизия интерфейса lang-trainer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --ground: #eceeea;
+  --surface: #f6f7f4;
+  --ink: #1b211e;
+  --muted: #5b665f;
+  --line: #d2d8d1;
+  --accent: #2f5d50;
+  --accent-soft: #dbe7e1;
+  --bad: #8a3b2c;
+  --bad-soft: #f2ded8;
+  --warn: #7a5b1e;
+  --warn-soft: #efe4c9;
+  --font: "Golos Text", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --m-bg: #f4f1ea;
+  --m-ink: #1c1916;
+  --m-muted: #6b645c;
+  --m-panel: #fffdf8;
+  --m-line: #d9d0c4;
+  --m-accent: #2f5d50;
+  --m-doubt: #8a6a2c;
+  --m-forget: #8a3b2c;
+  --m-on-cur: #ffffff;
+  --m-on-ok: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #111513;
+    --surface: #191e1b;
+    --ink: #e6ebe7;
+    --muted: #98a49d;
+    --line: #2b332e;
+    --accent: #7eb8a6;
+    --accent-soft: #1f3129;
+    --bad: #e09a8c;
+    --bad-soft: #3a2621;
+    --warn: #d4b06a;
+    --warn-soft: #362d18;
+
+    --m-bg: #1b1916;
+    --m-ink: #f4efe6;
+    --m-muted: #b3aa9e;
+    --m-panel: #26221d;
+    --m-line: #3d372f;
+    --m-accent: #7eb8a6;
+    --m-doubt: #d4b06a;
+    --m-forget: #e09a8c;
+    --m-on-cur: #ffffff;
+    --m-on-ok: #10201a;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ground: #111513;
+  --surface: #191e1b;
+  --ink: #e6ebe7;
+  --muted: #98a49d;
+  --line: #2b332e;
+  --accent: #7eb8a6;
+  --accent-soft: #1f3129;
+  --bad: #e09a8c;
+  --bad-soft: #3a2621;
+  --warn: #d4b06a;
+  --warn-soft: #362d18;
+
+  --m-bg: #1b1916;
+  --m-ink: #f4efe6;
+  --m-muted: #b3aa9e;
+  --m-panel: #26221d;
+  --m-line: #3d372f;
+  --m-accent: #7eb8a6;
+  --m-doubt: #d4b06a;
+  --m-forget: #e09a8c;
+  --m-on-cur: #ffffff;
+  --m-on-ok: #10201a;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font: 400 16px/1.6 var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-inline: clamp(16px, 4vw, 32px);
+  padding-block: 44px 80px;
+}
+
+.eyebrow {
+  font: 500 0.72rem/1.2 var(--mono);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 5.4vw, 3.15rem);
+  line-height: 1.06;
+  letter-spacing: -0.025em;
+  font-weight: 700;
+  text-wrap: balance;
+  margin: 0.7rem 0 1.1rem;
+}
+
+h2 {
+  font-size: clamp(1.4rem, 3vw, 1.75rem);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+  margin: 0.5rem 0 0.5rem;
+  text-wrap: balance;
+}
+
+h3 { font-size: 1.05rem; line-height: 1.3; margin: 0 0 0.3rem; font-weight: 650; }
+
+p { margin: 0; }
+.lede { font-size: 1.14rem; line-height: 1.55; max-width: 62ch; }
+.sub { color: var(--muted); max-width: 64ch; }
+.mono { font-family: var(--mono); font-size: 0.86em; }
+
+section { padding-block: 3rem 0.5rem; margin-top: 2.5rem; border-top: 1px solid var(--line); }
+header + section { margin-top: 2.25rem; }
+
+.note {
+  margin-top: 1.4rem;
+  padding: 0.7rem 0.95rem;
+  border-radius: 8px;
+  background: var(--accent-soft);
+  font-size: 0.95rem;
+  max-width: 64ch;
+}
+
+/* ---------- facts + tokens ---------- */
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2.25rem; margin-top: 1.5rem; }
+@media (max-width: 760px) { .two { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; } }
+
+dl.facts { margin: 0; display: grid; grid-template-columns: 8.2rem minmax(0, 1fr); gap: 0.6rem 1rem; }
+dl.facts dt { font: 500 0.74rem/1.6 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding-top: 0.15rem; }
+dl.facts dd { margin: 0; font-size: 0.97rem; }
+dl.facts code, .where { font-family: var(--mono); font-size: 0.85em; }
+
+.tokens { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 0.7rem; }
+.tk { display: grid; gap: 0.35rem; font-size: 0.82rem; }
+.tk-chip { display: grid; grid-template-columns: 1fr 1fr; height: 38px; border-radius: 6px; overflow: hidden; border: 1px solid var(--line); }
+.tk b { font-weight: 600; }
+.tk span { font: 400 0.72rem/1.3 var(--mono); color: var(--muted); }
+
+/* ---------- findings ---------- */
+.finds { list-style: none; margin: 1.6rem 0 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+.find { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); gap: 0.4rem 1.25rem; padding-block: 1.15rem; border-bottom: 1px solid var(--line); }
+@media (max-width: 620px) { .find { grid-template-columns: minmax(0, 1fr); } }
+.sev { justify-self: start; align-self: start; font: 500 0.7rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; padding: 0.42rem 0.55rem; border-radius: 4px; }
+.sev-bad { background: var(--bad-soft); color: var(--bad); }
+.sev-warn { background: var(--warn-soft); color: var(--warn); }
+.sev-low { background: color-mix(in srgb, var(--line) 60%, transparent); color: var(--muted); }
+.find p { color: var(--muted); font-size: 0.97rem; max-width: 66ch; }
+.find p + p { margin-top: 0.35rem; }
+.find .where { color: var(--muted); opacity: 0.85; }
+
+.scroll { overflow-x: auto; margin-top: 1.1rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+th, td { text-align: left; padding: 0.6rem 0.85rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 500 0.72rem/1.3 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { font-variant-numeric: tabular-nums; }
+.cr { font-family: var(--mono); font-variant-numeric: tabular-nums; display: inline-flex; align-items: center; gap: 0.45rem; }
+.cr::before { content: ""; width: 0.55rem; height: 0.55rem; border-radius: 50%; background: currentColor; }
+.cr.ok { color: var(--accent); }
+.cr.fail { color: var(--bad); }
+
+/* ---------- variants ---------- */
+.cmp td:first-child { white-space: nowrap; font-weight: 650; }
+.cmp { min-width: 720px; }
+
+.variant { margin-top: 3.25rem; padding-top: 2rem; border-top: 1px dashed var(--line); }
+.vhead { display: flex; gap: 1rem; align-items: baseline; }
+.vtag { flex: none; font: 600 0.95rem/1 var(--mono); width: 2rem; height: 2rem; display: grid; place-items: center; border-radius: 6px; background: var(--accent); color: var(--surface); }
+.vcols { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 1.75rem; margin-top: 1.1rem; }
+@media (max-width: 760px) { .vcols { grid-template-columns: minmax(0, 1fr); gap: 1.1rem; } }
+.vcols h4 { font: 500 0.72rem/1.3 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.45rem; }
+.vcols ul { margin: 0; padding-left: 1.15rem; display: grid; gap: 0.35rem; font-size: 0.97rem; }
+.vcols p { font-size: 0.97rem; color: var(--muted); }
+.vcols p + h4 { margin-top: 1rem; }
+
+.phones { display: flex; flex-wrap: wrap; gap: 1.5rem 1.4rem; margin-top: 1.75rem; }
+.fig { margin: 0; display: grid; gap: 0.6rem; }
+.fig figcaption { font: 400 0.75rem/1.4 var(--mono); color: var(--muted); max-width: 292px; }
+.fig figcaption b { color: var(--ink); font-weight: 500; }
+
+.pick { margin-top: 3rem; padding: 1.5rem 1.5rem 1.6rem; border-radius: 10px; background: var(--surface); border: 1px solid var(--line); }
+.pick p { max-width: 64ch; }
+.pick p + p { margin-top: 0.6rem; }
+
+/* ---------- icons ---------- */
+.ic { width: 1.15em; height: 1.15em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.ic-fill { fill: currentColor; stroke: none; }
+
+/* ---------- mock: phone ---------- */
+.mock { --m-on: var(--m-on-ok); }
+.mock.cur { --m-on: var(--m-on-cur); }
+
+.phone {
+  width: 292px; min-height: 470px;
+  background: var(--m-bg); color: var(--m-ink);
+  border: 1px solid var(--line); border-radius: 26px;
+  padding: 14px 13px 12px;
+  display: flex; flex-direction: column; gap: 9px;
+  font: 400 12.5px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+.m-bar { display: flex; justify-content: space-between; align-items: center; gap: 8px; color: var(--m-muted); font-size: 12px; }
+.m-brand { display: inline-flex; align-items: center; gap: 6px; }
+.m-logo { width: 22px; height: 22px; border-radius: 50%; background: var(--m-accent); display: block; }
+.m-h1 { font-size: 18px; font-weight: 700; margin: 0; line-height: 1.2; }
+.m-lead { color: var(--m-muted); margin: 0; font-size: 12px; }
+.m-nav { display: flex; gap: 10px; flex-wrap: wrap; color: var(--m-accent); font-weight: 650; }
+.m-u { color: var(--m-accent); text-decoration: underline; }
+.m-banner { background: color-mix(in srgb, var(--m-accent) 12%, var(--m-panel)); border-radius: 12px; padding: 9px 11px; display: grid; gap: 6px; }
+.m-banner b { font-size: 13px; line-height: 1.3; font-weight: 650; }
+.m-meta { color: var(--m-muted); font-size: 11.5px; display: flex; flex-wrap: wrap; gap: 2px 6px; align-items: center; }
+.m-panel { background: var(--m-panel); border: 1px solid var(--m-line); border-radius: 12px; padding: 10px 11px; display: grid; gap: 8px; }
+.m-legend { font-weight: 650; }
+.m-radio { display: flex; align-items: center; gap: 7px; min-height: 26px; }
+.m-radio i { width: 13px; height: 13px; border-radius: 50%; border: 1.5px solid var(--m-muted); position: relative; display: block; }
+.m-radio i.on { border-color: var(--m-accent); }
+.m-radio i.on::after { content: ""; position: absolute; inset: 2px; border-radius: 50%; background: var(--m-accent); }
+.m-btn { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 36px; border-radius: 9px; border: 1px solid var(--m-line); background: var(--m-panel); color: var(--m-ink); font-weight: 600; padding: 0 8px; text-align: center; }
+.m-btn.pri { background: var(--m-accent); border-color: var(--m-accent); color: var(--m-on); }
+.m-btn.ghost { background: transparent; color: var(--m-muted); font-weight: 400; }
+.m-btn.big { min-height: 46px; font-size: 14px; border-radius: 12px; }
+.m-hint { color: var(--m-muted); font-size: 11px; margin: 0; }
+.m-card { background: var(--m-panel); border: 1px solid var(--m-line); border-radius: 14px; flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 16px 10px; min-height: 190px; gap: 4px; }
+.m-word { font-size: 27px; font-weight: 650; line-height: 1.15; }
+.m-ipa { color: var(--m-muted); font-size: 14px; }
+.m-flip { color: var(--m-muted); font-size: 11px; margin-top: 12px; }
+.m-grade { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 5px; }
+.m-grade .m-btn { flex-direction: column; gap: 0; min-height: 38px; font-size: 11.5px; padding: 3px 2px; color: var(--m-on); }
+.m-grade.tall .m-btn { min-height: 54px; border-radius: 11px; font-size: 12.5px; }
+.m-grade small { font-weight: 400; font-size: 10px; opacity: 0.92; }
+.m-grade .again { background: var(--m-forget); border-color: var(--m-forget); }
+.m-grade .hard { background: color-mix(in srgb, var(--m-doubt) 70%, #fff 30%); border-color: var(--m-doubt); }
+.m-grade .good { background: var(--m-accent); border-color: var(--m-accent); }
+.m-grade .easy { background: color-mix(in srgb, var(--m-accent) 75%, #0a0 25%); border-color: var(--m-accent); }
+.m-tabs { margin: auto -13px -12px; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--m-line); padding: 7px 6px 9px; background: var(--m-panel); }
+.m-tab { display: flex; flex-direction: column; align-items: center; gap: 2px; font-size: 10px; color: var(--m-muted); }
+.m-tab.on { color: var(--m-accent); font-weight: 650; }
+.m-tab .ic { width: 18px; height: 18px; }
+.m-seg { display: inline-grid; grid-auto-flow: column; background: color-mix(in srgb, var(--m-line) 55%, transparent); border-radius: 9px; padding: 2px; font-weight: 650; font-size: 11.5px; }
+.m-seg span { padding: 3px 12px; border-radius: 7px; color: var(--m-muted); }
+.m-seg .on { background: var(--m-panel); color: var(--m-ink); box-shadow: 0 1px 2px rgb(0 0 0 / 0.16); }
+.m-progress { height: 4px; border-radius: 2px; background: color-mix(in srgb, var(--m-line) 70%, transparent); overflow: hidden; }
+.m-progress i { display: block; height: 100%; background: var(--m-accent); }
+.m-ticks { display: grid; grid-template-columns: repeat(20, 1fr); gap: 2px; height: 4px; }
+.m-ticks i { background: color-mix(in srgb, var(--m-line) 80%, transparent); border-radius: 1px; }
+.m-ticks i.d { background: var(--m-accent); }
+.m-stats3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.m-stat { display: grid; gap: 1px; background: color-mix(in srgb, var(--m-panel) 78%, transparent); border-radius: 8px; padding: 6px 7px; }
+.m-stat small { color: var(--m-muted); font-size: 10px; display: flex; align-items: center; gap: 3px; line-height: 1.2; }
+.m-stat b { font-size: 16px; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.m-stat b em { font-style: normal; color: var(--m-muted); font-size: 11px; font-weight: 500; }
+.m-chip { display: inline-flex; align-items: center; gap: 5px; border-radius: 999px; border: 1px solid var(--m-line); padding: 4px 10px; background: var(--m-panel); font-size: 11.5px; align-self: flex-start; }
+.m-chip .ic { width: 13px; height: 13px; color: var(--m-accent); }
+.m-sp { flex: 1; }
+.m-center { display: grid; justify-items: center; gap: 4px; text-align: center; }
+.m-ring { position: relative; width: 138px; height: 138px; display: grid; place-items: center; margin-block: 8px 2px; }
+.m-ring svg { position: absolute; inset: 0; width: 100%; height: 100%; transform: rotate(-90deg); }
+.m-ring b { font-size: 38px; line-height: 1; font-variant-numeric: tabular-nums; }
+.m-ring span { color: var(--m-muted); font-size: 11px; display: block; }
+.m-swipe { display: flex; justify-content: space-between; color: var(--m-muted); font-size: 10.5px; }
+.m-ic { width: 1.1em; height: 1.1em; vertical-align: -0.18em; }
+.m-plus { color: var(--m-accent); font-weight: 700; }
+
+/* ---------- mock: desktop ---------- */
+.desk-scroll { overflow-x: auto; margin-top: 1.75rem; border-radius: 14px; }
+.desk { min-width: 700px; display: grid; grid-template-columns: 176px minmax(0, 1fr); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--m-bg); color: var(--m-ink); font: 400 12.5px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; --m-on: var(--m-on-ok); }
+.d-side { border-right: 1px solid var(--m-line); padding: 14px 10px; display: flex; flex-direction: column; gap: 3px; background: color-mix(in srgb, var(--m-panel) 60%, var(--m-bg)); }
+.d-nav { display: flex; align-items: center; gap: 9px; padding: 8px 10px; border-radius: 8px; color: var(--m-muted); font-weight: 550; }
+.d-nav.on { background: color-mix(in srgb, var(--m-accent) 16%, transparent); color: var(--m-accent); font-weight: 650; }
+.d-nav .ic { width: 16px; height: 16px; }
+.d-user { margin-top: auto; padding: 10px; display: flex; align-items: center; gap: 8px; color: var(--m-muted); font-size: 12px; }
+.d-main { padding: 16px 20px 20px; display: grid; gap: 14px; align-content: start; }
+.d-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.d-head h3 { margin: 0; font-size: 20px; font-weight: 700; }
+.d-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 14px; }
+.d-start { background: var(--m-panel); border: 1px solid var(--m-line); border-radius: 14px; padding: 16px; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 16px; align-items: center; }
+.d-start .m-ring { margin: 0; width: 118px; height: 118px; }
+.d-start .m-ring b { font-size: 32px; }
+.d-start .col { display: grid; gap: 8px; }
+.d-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.d-tile { background: var(--m-panel); border: 1px solid var(--m-line); border-radius: 12px; padding: 10px 12px; display: grid; gap: 2px; align-content: start; }
+.d-tile small { color: var(--m-muted); font-size: 11px; }
+.d-tile b { font-size: 22px; line-height: 1.15; font-variant-numeric: tabular-nums; }
+.d-tile b em { font-style: normal; color: var(--m-muted); font-size: 13px; font-weight: 500; }
+.d-tile.wide { grid-column: 1 / -1; }
+.d-bars { display: flex; align-items: flex-end; gap: 3px; height: 54px; margin-top: 6px; }
+.d-bars i { flex: 1; background: var(--m-accent); border-radius: 2px 2px 0 0; opacity: 0.85; min-width: 0; }
+.d-bars i.n { background: var(--m-doubt); opacity: 1; }
+.d-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.d-strip .d-tile b { font-size: 17px; }
+.d-strip .ok { color: var(--m-accent); }
+
+/* ---------- page: jump nav ---------- */
+.jump { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.3rem; }
+.jump a { font: 500 0.78rem/1 var(--mono); letter-spacing: 0.04em; padding: 0.6rem 0.85rem; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); text-decoration: none; background: var(--surface); }
+.jump a:hover { border-color: var(--accent); color: var(--accent); }
+section[id] { scroll-margin-top: 1rem; }
+
+/* ---------- mock: filters ---------- */
+.m-radio i.sq { border-radius: 3px; }
+.m-radio i.sq.on::after { inset: 0; border-radius: 1px; }
+.m-tchips { display: flex; flex-wrap: wrap; gap: 6px; }
+.m-tchip { display: inline-flex; align-items: center; gap: 6px; min-height: 28px; padding: 3px 6px 3px 10px; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--m-line) 85%, var(--m-ink)); background: var(--m-bg); font-weight: 600; font-size: 11.5px; white-space: nowrap; }
+.m-tchip.on { border-color: color-mix(in srgb, var(--m-accent) 75%, var(--m-line)); background: color-mix(in srgb, var(--m-accent) 22%, var(--m-bg)); }
+.m-tchip small { font-weight: 650; font-size: 10.5px; padding: 1px 6px; border-radius: 999px; background: color-mix(in srgb, var(--m-accent) 16%, var(--m-panel)); color: var(--m-muted); font-variant-numeric: tabular-nums; }
+.m-tchip.blue small { color: color-mix(in srgb, var(--m-accent) 55%, #6b8cff); }
+.m-tchip.pad { padding-left: 7px; }
+.m-tchip .ic { width: 12px; height: 12px; color: var(--m-accent); }
+.m-group { display: grid; gap: 7px; }
+.m-gh { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-weight: 650; }
+.m-gh small { color: var(--m-muted); font-weight: 400; font-size: 11px; }
+.m-sum { margin: auto -13px -12px; background: var(--m-panel); border-top: 1px solid var(--m-line); padding: 9px 13px 12px; display: grid; gap: 6px; }
+.m-sum .line { display: flex; justify-content: space-between; gap: 8px; font-size: 11.5px; color: var(--m-muted); }
+.m-sum .line b { color: var(--m-ink); font-variant-numeric: tabular-nums; }
+.m-track { display: grid; grid-template-columns: repeat(6, 1fr); position: relative; margin-block: 2px 4px; }
+.m-track::before { content: ""; position: absolute; left: 8.33%; right: 8.33%; top: 10px; height: 2px; background: var(--m-line); }
+.m-track .fill { position: absolute; left: 8.33%; width: 33.34%; top: 10px; height: 2px; background: var(--m-accent); }
+.m-node { display: grid; justify-items: center; gap: 3px; font-size: 10.5px; color: var(--m-muted); position: relative; z-index: 1; }
+.m-node i { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--m-line); background: var(--m-bg); display: grid; place-items: center; font-style: normal; font-weight: 700; font-size: 10px; color: var(--m-muted); }
+.m-node.on i { background: var(--m-accent); border-color: var(--m-accent); color: var(--m-on); }
+.m-node.now i { box-shadow: 0 0 0 3px color-mix(in srgb, var(--m-accent) 30%, transparent); }
+.m-mrows { display: grid; }
+.m-mrow { display: grid; grid-template-columns: 14px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 6px 0; border-top: 1px solid var(--m-line); }
+.m-mrow .nm { display: grid; gap: 4px; min-width: 0; }
+.m-mrow .nm b { font-weight: 600; font-size: 12px; }
+.m-mrow .ct { color: var(--m-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.m-mrow.out { opacity: 0.55; }
+.m-mrow .ic { width: 13px; height: 13px; color: var(--m-accent); }
+.m-bar2 { height: 5px; border-radius: 3px; display: flex; overflow: hidden; background: color-mix(in srgb, var(--m-line) 60%, transparent); }
+.m-bar2 i { display: block; height: 100%; }
+.s-m { background: var(--m-accent); }
+.s-y { background: color-mix(in srgb, var(--m-accent) 70%, #fff); }
+.s-l { background: var(--m-doubt); }
+.rel { position: relative; }
+.m-dim { position: absolute; inset: 0; background: rgb(0 0 0 / 0.38); }
+.m-sheet { position: absolute; left: 0; right: 0; bottom: 0; background: var(--m-panel); border-top: 1px solid var(--m-line); border-radius: 18px 18px 0 0; padding: 8px 13px 14px; display: grid; gap: 9px; }
+.m-grab { width: 34px; height: 4px; border-radius: 2px; background: var(--m-line); justify-self: center; }
+.vtag.wide { width: auto; min-width: 2rem; padding-inline: 0.5rem; }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-repeat" viewBox="0 0 24 24"><g class="ic-fill"><path d="M19.2 8.2c-1.35-2.05-3.7-3.4-6.35-3.4-2.55 0-4.8 1.25-6.2 3.15L5.2 6.7V11h4.35L7.9 9.35C8.9 7.85 10.55 6.9 12.85 6.9c1.9 0 3.55.95 4.45 2.4l1.9-1.1z"/><path d="M4.8 15.8c1.35 2.05 3.7 3.4 6.35 3.4 2.55 0 4.8-1.25 6.2-3.15l1.45 1.25V13H14.45l1.65 1.65c-1 1.5-2.65 2.45-4.95 2.45-1.9 0-3.55-.95-4.45-2.4L4.8 15.8z"/></g></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5l10.5 6.5L8 18.5z"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h9M19 7h1M4 17h1M11 17h9"/><circle cx="16" cy="7" r="2.2"/><circle cx="8" cy="17" r="2.2"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M5 20V11M12 20V4M19 20v-6"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8v.01"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-stack" viewBox="0 0 24 24"><path d="M4 8l8-4 8 4-8 4zM4 12.5l8 4 8-4M4 16.5l8 4 8-4"/></symbol>
+</svg>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">lang-trainer · разбор по исходникам · 20.09.2026</p>
+  <h1>Ревизия интерфейса lang-trainer</h1>
+  <p class="lede">Интерфейс аккуратный и последовательный по цвету, но собран из страниц-островов: у каждой своя шапка со своими ссылками, язык переключается тремя разными способами, а главный экран — карточка — беднее, чем у Anki. Есть один настоящий дефект: в тёмной теме текст на цветных кнопках почти не читается.</p>
+  <p class="note">Смотрел шаблоны <span class="mono">templates/*.html</span>, <span class="mono">static/style.css</span> и <span class="mono">static/train.js</span>; для фильтров ещё <span class="mono">app/main.py</span>, <span class="mono">app/repository.py</span>, <span class="mono">app/user_filters.py</span>, <span class="mono">docs/7-strategy.md</span> и JSON со словарём. Приложение не запускал — макеты нарисованы по разметке и токенам, а не сняты со скриншота.</p>
+  <nav class="jump" aria-label="Разделы"><a href="#ui">Общий интерфейс</a><a href="#filters">Фильтры</a></nav>
+</header>
+
+<section id="ui">
+  <p class="eyebrow">Как сделано сейчас</p>
+  <h2>Jinja-страницы, один CSS-файл, 19 строк JS</h2>
+  <div class="two">
+    <dl class="facts">
+      <dt>Стек</dt><dd>FastAPI + Jinja2, без сборки и фреймворков</dd>
+      <dt>Экраны</dt><dd>8 экранов и общий <code>base.html</code>: вход, главная, фильтры, карточка, оценка знаний, итог, сводка, о приложении</dd>
+      <dt>Стили</dt><dd><code>style.css</code>, 742 строки, токены в <code>:root</code></dd>
+      <dt>Скрипт</dt><dd><code>train.js</code>: переворот карточки по клику, Enter или Space</dd>
+      <dt>Темы</dt><dd>светлая и тёмная через <code>prefers-color-scheme</code></dd>
+      <dt>Ширина</dt><dd>одна колонка 42rem на всех экранах, шрифт system-ui 18px</dd>
+      <dt>Ввод</dt><dd>цель нажатия 48px, кнопки на всю ширину</dd>
+    </dl>
+    <div>
+      <div class="tokens" role="list" aria-label="Токены цвета: светлая и тёмная тема">
+        <div class="tk" role="listitem"><div class="tk-chip"><i style="background:#f4f1ea"></i><i style="background:#1b1916"></i></div><b>--bg</b><span>#f4f1ea · #1b1916</span></div>
+        <div class="tk" role="listitem"><div class="tk-chip"><i style="background:#fffdf8"></i><i style="background:#26221d"></i></div><b>--panel</b><span>#fffdf8 · #26221d</span></div>
+        <div class="tk" role="listitem"><div class="tk-chip"><i style="background:#1c1916"></i><i style="background:#f4efe6"></i></div><b>--ink</b><span>#1c1916 · #f4efe6</span></div>
+        <div class="tk" role="listitem"><div class="tk-chip"><i style="background:#6b645c"></i><i style="background:#b3aa9e"></i></div><b>--muted</b><span>#6b645c · #b3aa9e</span></div>
+        <div class="tk" role="listitem"><div class="tk-chip"><i style="background:#2f5d50"></i><i style="background:#7eb8a6"></i></div><b>--accent / --know</b><span>#2f5d50 · #7eb8a6</span></div>
+        <div class="tk" role="listitem"><div class="tk-chip"><i style="background:#8a6a2c"></i><i style="background:#d4b06a"></i></div><b>--doubt</b><span>#8a6a2c · #d4b06a</span></div>
+        <div class="tk" role="listitem"><div class="tk-chip"><i style="background:#8a3b2c"></i><i style="background:#e09a8c"></i></div><b>--forget / --error</b><span>#8a3b2c · #e09a8c</span></div>
+        <div class="tk" role="listitem"><div class="tk-chip"><i style="background:#d9d0c4"></i><i style="background:#3d372f"></i></div><b>--line</b><span>#d9d0c4 · #3d372f</span></div>
+      </div>
+      <p class="sub" style="margin-top:0.9rem;font-size:0.9rem">Половинки: слева светлая тема, справа тёмная. Палитра цельная — её я во всех вариантах сохраняю.</p>
+    </div>
+  </div>
+
+  <div class="phones">
+    <figure class="fig">
+      <div class="phone mock cur">
+        <div class="m-bar"><span class="m-brand"><i class="m-logo"></i>anna</span><span class="m-u">Выйти</span></div>
+        <div>
+          <h3 class="m-h1">Тренировка</h3>
+          <p class="m-lead">Очередь: повторы + до 10 новых/день. Сначала EN→RU.</p>
+        </div>
+        <div class="m-nav"><span>Фильтры</span><span>Сводка</span><span>О приложении</span></div>
+        <div class="m-banner">
+          <b>Хороший темп: на сегодня 12 повторов и 3 новых.</b>
+          <div class="m-meta"><svg class="ic m-ic" style="color:var(--m-accent)"><use href="#i-repeat"/></svg>Повтор <b style="font-size:11.5px;color:var(--m-ink)">12</b> · <span class="m-plus">➕</span> новых <b style="font-size:11.5px;color:var(--m-ink)">3 / 10</b> · без прогресса <b style="font-size:11.5px;color:var(--m-ink)">240</b></div>
+        </div>
+        <p class="m-hint" style="font-size:12px">Фильтр: <b>Starlight 7</b> · <span class="m-u">изменить</span></p>
+        <div class="m-panel">
+          <div class="m-legend">Язык</div>
+          <div class="m-radio"><i class="on"></i>английский</div>
+          <div class="m-radio"><i></i>французский</div>
+          <div class="m-btn pri">Тренировка</div>
+          <div class="m-btn ghost">Оценка знаний</div>
+          <p class="m-hint">Оценка: до 20 карточек без прогресса. «Знаю» → интервал 30 дн.</p>
+        </div>
+      </div>
+      <figcaption><b>Главная · сейчас.</b> Три ссылки в шапке, язык радио-кнопкой, эмодзи ➕ рядом с SVG-иконкой.</figcaption>
+    </figure>
+
+    <figure class="fig">
+      <div class="phone mock cur">
+        <div class="m-bar"><span class="m-brand"><i class="m-logo"></i>anna</span><span class="m-u">Выйти</span></div>
+        <div class="m-bar" style="color:var(--m-ink);font-size:14px"><span>3 / 20 · <svg class="ic m-ic" style="color:var(--m-accent)"><use href="#i-repeat"/></svg> Повтор</span><span>EN→RU</span></div>
+        <div class="m-card">
+          <div class="m-word">древний</div>
+          <div class="m-ipa" style="font-size:13px">ancient</div>
+          <div class="m-flip">нажмите, чтобы перевернуть</div>
+        </div>
+        <div class="m-grade">
+          <div class="m-btn again">Again</div>
+          <div class="m-btn hard">Hard</div>
+          <div class="m-btn good">Good</div>
+          <div class="m-btn easy">Easy</div>
+        </div>
+        <div class="m-btn ghost">Завершить</div>
+      </div>
+      <figcaption><b>Карточка · сейчас</b> (оборот). Прогресс только числом, подписи кнопок английские, подсказка «перевернуть» осталась и на обороте.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">Что мешает</p>
+  <h2>Восемь замечаний, от дефекта к мелочам</h2>
+  <p class="sub">Порядок — по влиянию на ежедневное использование. Всё, кроме первого пункта, — про удобство, а не про поломку.</p>
+
+  <ol class="finds">
+    <li class="find">
+      <span class="sev sev-bad">Ошибка</span>
+      <div>
+        <h3>В тёмной теме белый текст на светлых кнопках — контраст 1,6–2,5 : 1</h3>
+        <p>Цвета кнопок в тёмной теме осветляются (<span class="mono">#7eb8a6</span>, <span class="mono">#d4b06a</span>), а цвет текста остаётся <span class="mono">#fff</span>. Порог для обычного текста — 4,5 : 1. Страдают «Тренировка», все четыре кнопки оценки и три кнопки оценки знаний. Кнопка Hard плохо читается и в светлой теме.</p>
+        <div class="scroll">
+          <table>
+            <thead><tr><th>Кнопка (белый текст)</th><th class="num">Светлая</th><th class="num">Тёмная</th></tr></thead>
+            <tbody>
+              <tr><td>Тренировка · Good · Знаю</td><td class="num"><span class="cr ok">7,5 : 1</span></td><td class="num"><span class="cr fail">2,3 : 1</span></td></tr>
+              <tr><td>Again · Не знаю</td><td class="num"><span class="cr ok">7,7 : 1</span></td><td class="num"><span class="cr fail">2,3 : 1</span></td></tr>
+              <tr><td>Сомневаюсь</td><td class="num"><span class="cr ok">5,0 : 1</span></td><td class="num"><span class="cr fail">2,1 : 1</span></td></tr>
+              <tr><td>Hard</td><td class="num"><span class="cr fail">2,8 : 1</span></td><td class="num"><span class="cr fail">1,6 : 1</span></td></tr>
+              <tr><td>Easy</td><td class="num"><span class="cr ok">6,1 : 1</span></td><td class="num"><span class="cr fail">≈2,5 : 1</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="where" style="margin-top:0.6rem">static/style.css:17–30, 418–457</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-warn">Важно</span>
+      <div>
+        <h3>Навигации нет — у каждой страницы свои ссылки в шапке</h3>
+        <p>На главной три ссылки, в «Сводке» две, в «Фильтрах» и «О приложении» одна («К тренировке»). Из сводки в фильтры не попасть без возврата на главную, а на телефоне ссылки в шапке — самое неудобное место для большого пальца.</p>
+        <p class="where">templates/*.html · .header-row, .nav-links</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-warn">Важно</span>
+      <div>
+        <h3>Экран карточки беднее, чем мог бы быть</h3>
+        <p>Прогресс только текстом «3 / 20». На кнопках нет интервалов («Хорошо · 6 дн»), хотя FSRS их считает. Подписи Again/Hard/Good/Easy английские при русском интерфейсе (в итоге сессии те же оценки уже по-русски: «снова / трудно / хорошо / легко»). Горячих клавиш нет — <span class="mono">train.js</span> знает только Enter и Space для переворота.</p>
+        <p class="where">templates/train.html · templates/assess.html · static/train.js</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-warn">Важно</span>
+      <div>
+        <h3>Язык переключается тремя способами</h3>
+        <p>На главной — радио-кнопки, которые сразу перезагружают страницу через <span class="mono">onchange="location.href=…"</span>. В фильтрах — те же радио с тем же трюком. В сводке — чипы-ссылки. Радио, которое уходит на другую страницу, ломает ожидания и клавиатурную навигацию.</p>
+        <p class="where">templates/filter.html · templates/filters.html · templates/stats.html</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-warn">Важно</span>
+      <div>
+        <h3>«Сводка» — длинная лента из пяти панелей и четырёх таблиц</h3>
+        <p>Верх страницы («Сегодня») хороший, дальше подряд идут Autoload, Качество, Нагрузка, Корпус, Горизонт — почти все как списки «подпись — число». Оба SVG-графика заданы с <span class="mono">preserveAspectRatio="none"</span>: при ширине, отличной от viewBox, подписи осей растягиваются (по коду, без проверки на экране). Классы <span class="mono">.section-title</span> и <span class="mono">.adapt-note</span> используются в шаблонах, но в CSS не определены — заголовки панелей получают стиль браузера по умолчанию.</p>
+        <p class="where">templates/stats.html · static/style.css</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-low">Мелочь</span>
+      <div>
+        <h3>Иконки трёх видов и цвет вне палитры</h3>
+        <p>«Повтор» — SVG-маска, «новые» — эмодзи ➕, направление — эмодзи-флаги; эмодзи выглядят по-разному на Android, iOS и Linux. Счётчик в чипе темы подмешивает голубой <span class="mono">#6b8cff</span>, которого нет в токенах.</p>
+        <p class="where">static/style.css:394–399 · static/icon-due.svg</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-low">Мелочь</span>
+      <div>
+        <h3>На компьютере — «растянутый телефон»</h3>
+        <p>Всё живёт в колонке 42rem по центру, кнопки на всю ширину. Для одного пользователя с телефоном это нормально; за компьютером остаётся много пустого места, а сводка вытянута вниз, хотя могла бы лечь в две колонки.</p>
+        <p class="where">static/style.css:42–46, 736–742</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-low">Мелочь</span>
+      <div>
+        <h3>Доступность: нет стилей фокуса, обе стороны карточки читаются скринридером</h3>
+        <p>В CSS нет ни одного <span class="mono">:focus-visible</span>. Карточка — <span class="mono">role="button"</span> с <span class="mono">aria-pressed</span>, но обе грани в DOM, а <span class="mono">backface-visibility</span> их от скринридера не прячет: вопрос и ответ прочитаются подряд.</p>
+        <p class="where">static/style.css · templates/train.html</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section>
+  <p class="eyebrow">Варианты</p>
+  <h2>Три направления: полировка, фокус, приложение</h2>
+  <p class="sub">Варианты вложены друг в друга: B и C опираются на исправления из A. Палитру и тон интерфейса везде оставляю прежними.</p>
+
+  <div class="scroll">
+    <table class="cmp">
+      <thead><tr><th>Вариант</th><th>Что получаете</th><th>Что трогаем</th><th>Цена</th></tr></thead>
+      <tbody>
+        <tr><td>A · Полировка</td><td>Закрывает дефект тёмной темы и большинство замечаний: постоянная навигация, один переключатель языка, интервалы и горячие клавиши на карточке</td><td>style.css, base.html и шаблоны, train.js (≈+40 строк)</td><td>Малая. Бэкенд не меняется</td></tr>
+        <tr><td>B · Фокус</td><td>Главная — «Сегодня» с одной большой кнопкой; тренировка на весь экран, ответы под большим пальцем, свайпы</td><td>A плюс index/train/assess.html, train.js (≈+100 строк)</td><td>Средняя. Меняется привычка «тап по карточке»</td></tr>
+        <tr><td>C · Приложение</td><td>Каркас: боковое меню на компьютере, нижняя панель на телефоне, «Сводка» сеткой плиток</td><td>A плюс base.html, все шаблоны, stats.html, разбиение style.css</td><td>Большая. Оправдана, если работаете с компьютера</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- A -->
+  <div class="variant">
+    <div class="vhead"><span class="vtag" aria-hidden="true">A</span><div><h2 style="margin-top:0">Полировка</h2><p class="sub">Тот же интерфейс, но без шероховатостей.</p></div></div>
+    <div class="vcols">
+      <div>
+        <h4>Что меняется</h4>
+        <ul>
+          <li>Нижняя панель на телефоне: Тренировка · Фильтры · Сводка · Гайд. Шапки со ссылками уходят.</li>
+          <li>Один сегмент «EN | FR» вместо радио и чипов; это обычные ссылки, без перезагрузки через <span class="mono">onchange</span>.</li>
+          <li>Токен <span class="mono">--on-accent</span>: тёмный текст на светлых кнопках в тёмной теме; Hard светлой темы затемняется.</li>
+          <li>Карточка: полоса прогресса, интервалы на кнопках, подписи по-русски, клавиши <span class="mono">Space</span> и <span class="mono">1–4</span>; панель на время тренировки скрыта.</li>
+          <li>Один набор SVG-иконок вместо эмодзи ➕ и голубого <span class="mono">#6b8cff</span>; определены <span class="mono">.section-title</span> и <span class="mono">:focus-visible</span>.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Цена и компромисс</h4>
+        <p>Меняется CSS и шаблоны, поведение приложения — нет. Риск низкий: любой экран можно откатить отдельно.</p>
+        <h4>Не решает</h4>
+        <p>Десктоп остаётся колонкой, сводка остаётся длинной лентой.</p>
+      </div>
+    </div>
+
+    <div class="phones">
+      <figure class="fig">
+        <div class="phone mock">
+          <div class="m-bar"><span class="m-brand"><i class="m-logo"></i>anna</span><span class="m-seg"><span class="on">EN</span><span>FR</span></span></div>
+          <h3 class="m-h1">Тренировка</h3>
+          <div class="m-banner">
+            <b>Хороший темп: на сегодня 12 повторов и 3 новых.</b>
+            <div class="m-stats3">
+              <div class="m-stat"><small><svg class="ic"><use href="#i-repeat"/></svg>Повтор</small><b>12</b></div>
+              <div class="m-stat"><small><svg class="ic"><use href="#i-plus"/></svg>Новые</small><b>3<em> / 10</em></b></div>
+              <div class="m-stat"><small>Без прогресса</small><b>240</b></div>
+            </div>
+          </div>
+          <span class="m-chip"><svg class="ic"><use href="#i-sliders"/></svg>Starlight 7 · изменить</span>
+          <div class="m-btn pri"><svg class="ic"><use href="#i-play"/></svg>Начать · 15 карточек</div>
+          <div class="m-btn ghost">Оценка знаний</div>
+          <p class="m-hint">Оценка: до 20 новых карточек, дневную квоту не тратит.</p>
+          <div class="m-tabs">
+            <span class="m-tab on"><svg class="ic"><use href="#i-play"/></svg>Тренировка</span>
+            <span class="m-tab"><svg class="ic"><use href="#i-sliders"/></svg>Фильтры</span>
+            <span class="m-tab"><svg class="ic"><use href="#i-chart"/></svg>Сводка</span>
+            <span class="m-tab"><svg class="ic"><use href="#i-info"/></svg>Гайд</span>
+          </div>
+        </div>
+        <figcaption><b>A · Главная.</b> Три числа вместо строки с эмодзи, кнопка называет действие и число карточек, навигация внизу.</figcaption>
+      </figure>
+
+      <figure class="fig">
+        <div class="phone mock">
+          <div class="m-progress"><i style="width:15%"></i></div>
+          <div class="m-bar" style="color:var(--m-ink);font-size:13px"><span>3 / 20 · <svg class="ic m-ic" style="color:var(--m-accent)"><use href="#i-repeat"/></svg> Повтор</span><span style="display:inline-flex;gap:10px;align-items:center;color:var(--m-muted)">EN→RU<svg class="ic"><use href="#i-x"/></svg></span></div>
+          <div class="m-card">
+            <div class="m-word">древний</div>
+            <div class="m-ipa" style="font-size:13px">ancient · /ˈeɪnʃənt/</div>
+          </div>
+          <div class="m-grade">
+            <div class="m-btn again">Снова<small>&lt; 1 мин</small></div>
+            <div class="m-btn hard">Трудно<small>2 дн</small></div>
+            <div class="m-btn good">Хорошо<small>6 дн</small></div>
+            <div class="m-btn easy">Легко<small>15 дн</small></div>
+          </div>
+          <p class="m-hint" style="text-align:center">Space — перевернуть · 1–4 — оценить</p>
+        </div>
+        <figcaption><b>A · Карточка.</b> Прогресс-полоса, интервалы, «Завершить» стало крестиком. Тёмный текст на пастельных кнопках в тёмной теме — переключите тему страницы и сравните с «сейчас».</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- B -->
+  <div class="variant">
+    <div class="vhead"><span class="vtag" aria-hidden="true">B</span><div><h2 style="margin-top:0">Фокус</h2><p class="sub">Главная отвечает на один вопрос: «что делать сегодня». Тренировка занимает весь экран.</p></div></div>
+    <div class="vcols">
+      <div>
+        <h4>Что меняется (сверх A)</h4>
+        <ul>
+          <li>Главная превращается в «Сегодня»: кольцо «осталось 15 карточек», разбивка «12 повторов · 3 новых», одна большая кнопка «Начать». Оценка знаний и сводка — второстепенные кнопки под ней.</li>
+          <li>Тренировка без нижней панели и лишнего текста: тонкая лента из 20 делений, крестик, крупное слово.</li>
+          <li>Перед переворотом внизу одна кнопка «Показать ответ»; после — четыре кнопки оценки под большим пальцем. Тап по карточке по-прежнему переворачивает.</li>
+          <li>Необязательные свайпы: вправо — «Хорошо», влево — «Снова».</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Цена и компромисс</h4>
+        <p>Логика на сервере та же, растёт <span class="mono">train.js</span> и шаблоны главной и карточки. Свайп у левого края конфликтует с жестом «назад» в iOS Safari, поэтому свайпы делаю выключаемыми, а кнопки остаются основным способом.</p>
+        <h4>Не решает</h4>
+        <p>Десктоп и сводку — это уже C.</p>
+      </div>
+    </div>
+
+    <div class="phones">
+      <figure class="fig">
+        <div class="phone mock">
+          <div class="m-bar"><span class="m-brand"><i class="m-logo"></i>anna</span><span class="m-seg"><span class="on">EN</span><span>FR</span></span></div>
+          <div class="m-center" style="margin-top:6px">
+            <p class="m-lead" style="font-size:12.5px">Сегодня</p>
+            <div class="m-ring">
+              <svg viewBox="0 0 138 138" aria-hidden="true"><circle cx="69" cy="69" r="60" fill="none" stroke="color-mix(in srgb, var(--m-line) 80%, transparent)" stroke-width="9"/><circle cx="69" cy="69" r="60" fill="none" stroke="var(--m-accent)" stroke-width="9" stroke-linecap="round" stroke-dasharray="63 377"/></svg>
+              <div><b>15</b><span>карточек осталось</span></div>
+            </div>
+            <div class="m-meta" style="justify-content:center;font-size:12.5px"><svg class="ic m-ic" style="color:var(--m-accent)"><use href="#i-repeat"/></svg>12 повторов · <svg class="ic m-ic" style="color:var(--m-accent)"><use href="#i-plus"/></svg>3 новых</div>
+          </div>
+          <span class="m-chip" style="align-self:center"><svg class="ic"><use href="#i-sliders"/></svg>Starlight 7 · изменить</span>
+          <div class="m-sp"></div>
+          <div class="m-btn pri big">Начать</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">
+            <div class="m-btn ghost">Оценка знаний</div>
+            <div class="m-btn ghost">Сводка</div>
+          </div>
+        </div>
+        <figcaption><b>B · Сегодня.</b> Один вопрос, одно действие. Фильтры и гайд — через меню в углу или по ссылкам.</figcaption>
+      </figure>
+
+      <figure class="fig">
+        <div class="phone mock">
+          <div class="m-ticks" aria-hidden="true"><i class="d"></i><i class="d"></i><i class="d"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="m-bar"><span>3 / 20</span><svg class="ic"><use href="#i-x"/></svg></div>
+          <div class="m-card">
+            <div class="m-ipa" style="font-size:11px;letter-spacing:.06em">EN → RU</div>
+            <div class="m-word" style="font-size:32px">ancient</div>
+            <div class="m-ipa">/ˈeɪnʃənt/</div>
+          </div>
+          <div class="m-btn pri big">Показать ответ</div>
+          <p class="m-hint" style="text-align:center">Space или тап по карточке</p>
+        </div>
+        <figcaption><b>B · Вопрос.</b> Ничего лишнего: лента, крестик, слово, одна кнопка.</figcaption>
+      </figure>
+
+      <figure class="fig">
+        <div class="phone mock">
+          <div class="m-ticks" aria-hidden="true"><i class="d"></i><i class="d"></i><i class="d"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="m-bar"><span>3 / 20</span><svg class="ic"><use href="#i-x"/></svg></div>
+          <div class="m-card">
+            <div class="m-ipa" style="font-size:11px;letter-spacing:.06em">ancient</div>
+            <div class="m-word" style="font-size:32px">древний</div>
+          </div>
+          <div class="m-swipe"><span>← Снова</span><span>Хорошо →</span></div>
+          <div class="m-grade tall">
+            <div class="m-btn again">Снова<small>&lt; 1 мин</small></div>
+            <div class="m-btn hard">Трудно<small>2 дн</small></div>
+            <div class="m-btn good">Хорошо<small>6 дн</small></div>
+            <div class="m-btn easy">Легко<small>15 дн</small></div>
+          </div>
+        </div>
+        <figcaption><b>B · Ответ.</b> Кнопки выше и ближе к большому пальцу, под карточкой подсказка про свайпы.</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- C -->
+  <div class="variant">
+    <div class="vhead"><span class="vtag" aria-hidden="true">C</span><div><h2 style="margin-top:0">Приложение</h2><p class="sub">Один каркас на все экраны: на компьютере боковое меню, на телефоне нижняя панель из A.</p></div></div>
+    <div class="vcols">
+      <div>
+        <h4>Что меняется (сверх A)</h4>
+        <ul>
+          <li>В <span class="mono">base.html</span> появляется каркас: от 900px — боковое меню слева и рабочая область до 1100px; уже — нижняя панель.</li>
+          <li>«Сегодня» на компьютере: кольцо и кнопка слева, справа плитки «Повтор / Новые / Ответов вчера / Лимит» и столбики за 30 дней.</li>
+          <li>«Сводка»: сверху лента из четырёх главных чисел, ниже панели по две в ряд; Autoload, Корпус и Горизонт сворачиваются в «Подробнее».</li>
+          <li>Графики рисуются с реальными пропорциями, без <span class="mono">preserveAspectRatio="none"</span>.</li>
+          <li><span class="mono">style.css</span> разбивается на токены, каркас и компоненты — 742 строки в одном файле уже трудно держать в голове.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Цена и компромисс</h4>
+        <p>Трогает все шаблоны сразу, поэтому проверять придётся все восемь экранов в обеих темах и на двух ширинах. Если вы занимаетесь только с телефона, выигрыш будет в основном от сводки.</p>
+      </div>
+    </div>
+
+    <div class="desk-scroll">
+      <div class="desk mock" role="img" aria-label="Макет: главная на компьютере с боковым меню, кольцом дня, плитками и графиком за 30 дней">
+        <div class="d-side">
+          <span class="m-brand" style="padding:2px 10px 12px;font-weight:650;font-size:13px"><i class="m-logo"></i>Тренажёр</span>
+          <span class="d-nav on"><svg class="ic"><use href="#i-play"/></svg>Тренировка</span>
+          <span class="d-nav"><svg class="ic"><use href="#i-sliders"/></svg>Фильтры</span>
+          <span class="d-nav"><svg class="ic"><use href="#i-chart"/></svg>Сводка</span>
+          <span class="d-nav"><svg class="ic"><use href="#i-info"/></svg>Гайд</span>
+          <div class="d-user"><i class="m-logo" style="width:20px;height:20px"></i>anna · <span class="m-u">выйти</span></div>
+        </div>
+        <div class="d-main">
+          <div class="d-head"><h3>Сегодня</h3><span class="m-seg"><span class="on">EN</span><span>FR</span></span></div>
+          <div class="d-grid">
+            <div class="d-start">
+              <div class="m-ring">
+                <svg viewBox="0 0 138 138" aria-hidden="true"><circle cx="69" cy="69" r="60" fill="none" stroke="color-mix(in srgb, var(--m-line) 80%, transparent)" stroke-width="9"/><circle cx="69" cy="69" r="60" fill="none" stroke="var(--m-accent)" stroke-width="9" stroke-linecap="round" stroke-dasharray="63 377"/></svg>
+                <div style="text-align:center"><b>15</b><span>осталось</span></div>
+              </div>
+              <div class="col">
+                <div class="m-meta" style="font-size:12.5px"><svg class="ic m-ic" style="color:var(--m-accent)"><use href="#i-repeat"/></svg>12 повторов · <svg class="ic m-ic" style="color:var(--m-accent)"><use href="#i-plus"/></svg>3 новых</div>
+                <div class="m-btn pri big"><svg class="ic"><use href="#i-play"/></svg>Начать</div>
+                <div class="m-btn ghost">Оценка знаний</div>
+                <span class="m-chip"><svg class="ic"><use href="#i-sliders"/></svg>Starlight 7</span>
+              </div>
+            </div>
+            <div class="d-tiles">
+              <div class="d-tile"><small>Ответов вчера</small><b>38</b></div>
+              <div class="d-tile"><small>Лимит новых</small><b>10<em> /день</em></b></div>
+              <div class="d-tile wide">
+                <small>Ответы и новые · 30 дней</small>
+                <div class="d-bars" aria-hidden="true">
+                  <i style="height:40%"></i><i style="height:55%"></i><i style="height:35%"></i><i style="height:60%"></i><i style="height:70%"></i><i style="height:45%"></i><i style="height:20%"></i><i style="height:65%"></i><i style="height:50%"></i><i style="height:75%"></i><i style="height:60%"></i><i style="height:55%"></i><i style="height:30%"></i><i style="height:70%"></i><i style="height:80%"></i><i style="height:65%"></i><i style="height:40%"></i><i style="height:55%"></i><i style="height:60%"></i><i style="height:72%"></i><i style="height:48%"></i><i style="height:35%"></i><i style="height:66%"></i><i style="height:58%"></i><i style="height:78%"></i><i style="height:62%"></i><i style="height:50%"></i><i style="height:70%"></i><i style="height:64%"></i><i class="n" style="height:82%"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-strip">
+            <div class="d-tile"><small>Again за 7 дней</small><b>14%</b></div>
+            <div class="d-tile"><small>Ответов за 7 дней</small><b>246</b></div>
+            <div class="d-tile"><small>Уже в системе</small><b>38%</b></div>
+            <div class="d-tile"><small>Совет по лимиту</small><b class="ok">оставить</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="fig" style="margin-top:0.6rem"><span class="mono" style="font-size:0.75rem;color:var(--muted)"><b style="color:var(--ink);font-weight:500">C · Главная на компьютере.</b> Цифры из «Сводки» видны сразу, не уходя с главной. На телефоне тот же экран складывается в макет A.</span></p>
+  </div>
+</section>
+
+<section id="filters">
+  <p class="eyebrow">Фильтры</p>
+  <h2>Фильтр показывает устройство базы, а нужен вам как «окно модулей»</h2>
+  <p class="sub">Экран простой и работает. Но он выдаёт внутреннюю кухню: коды тем вместо названий, скрытое «И» между блоками и плоский список, хотя по стратегии вы каждые полтора месяца просто добавляете следующий модуль или юнит.</p>
+
+  <div class="two">
+    <dl class="facts">
+      <dt>Модель</dt><dd>учебники (любой из выбранных) <b>И</b> темы (любая из выбранных); пустой блок — без ограничения</dd>
+      <dt>Хранение</dt><dd>по паре «пользователь + язык», один фильтр на «Тренировку» и «Оценку знаний»</dd>
+      <dt>Темы EN</dt><dd><code>bridge_sl5</code>, <code>bridge_sl6</code>, <code>sl7_m1</code> … <code>sl7_m6</code></dd>
+      <dt>Темы FR</dt><dd><code>frt_all</code>, <code>lb5_all</code>, <code>lb6_u01</code> … <code>lb6_u12</code></dd>
+      <dt>Уровень</dt><dd>CEFR есть в коде (<code>SessionFilter.levels</code>), но в JSON учебников он пуст, поэтому в UI его правильно нет</dd>
+      <dt>Как вы им пользуетесь</dt><dd>окно накапливается: «добавляем следующий <code>lb6_uNN</code>, старые не выключаем» (<code>docs/7-strategy.md</code>)</dd>
+    </dl>
+    <div>
+      <p class="sub" style="font-size:0.95rem">Данные и маршруты, на которые опирается разбор: <span class="mono">app/repository.py:92–153</span> (варианты и условие отбора), <span class="mono">app/main.py:176–224</span> (страница и сохранение), <span class="mono">app/user_filters.py</span> (подпись фильтра на главной).</p>
+    </div>
+  </div>
+
+  <div class="phones">
+    <figure class="fig">
+      <div class="phone mock cur">
+        <div class="m-bar"><span class="m-brand"><i class="m-logo"></i>anna</span><span class="m-u">Выйти</span></div>
+        <div>
+          <h3 class="m-h1">Фильтры</h3>
+          <p class="m-lead">Для английского: учебник и темы. Пустой блок — без ограничения. Сохраняется для вашего логина.</p>
+        </div>
+        <div class="m-nav"><span>К тренировке</span></div>
+        <div class="m-banner" style="background:none;padding:2px 0">Сохранено.</div>
+        <div class="m-panel">
+          <div class="m-legend">Язык настроек</div>
+          <div class="m-radio"><i class="on"></i>английский</div>
+          <div class="m-radio"><i></i>французский</div>
+          <div class="m-legend" style="margin-top:4px">Учебник</div>
+          <div class="m-radio"><i class="sq"></i>Starlight 5</div>
+          <div class="m-radio"><i class="sq on"></i>Starlight 6</div>
+          <div class="m-radio"><i class="sq"></i>Starlight 7</div>
+          <div class="m-legend" style="margin-top:4px">Тема</div>
+          <div class="m-tchips">
+            <span class="m-tchip blue">bridge_sl5<small>1 020</small></span>
+            <span class="m-tchip blue">bridge_sl6<small>1 090</small></span>
+            <span class="m-tchip on blue">sl7_m1<small>214</small></span>
+            <span class="m-tchip blue">sl7_m2<small>268</small></span>
+            <span class="m-tchip blue">sl7_m3<small>251</small></span>
+            <span class="m-tchip blue">sl7_m4<small>272</small></span>
+            <span class="m-tchip blue">sl7_m5<small>231</small></span>
+            <span class="m-tchip blue">sl7_m6<small>158</small></span>
+          </div>
+          <div class="m-btn pri">Сохранить</div>
+          <div class="m-btn ghost">Отмена</div>
+        </div>
+      </div>
+      <figcaption><b>Фильтры · сейчас.</b> Отмечены «Starlight 6» и <span class="mono">sl7_m1</span>: пересечение пусто, но сохранится без предупреждений. Числа условные.</figcaption>
+    </figure>
+  </div>
+
+  <ol class="finds">
+    <li class="find">
+      <span class="sev sev-warn">Важно</span>
+      <div>
+        <h3>Темы называются кодами: <span class="mono">sl7_m1</span>, <span class="mono">lb6_u03</span></h3>
+        <p>Чип и подпись «Фильтр: …» на главной показывают то, что лежит в таблице <span class="mono">topics</span>. Настоящие названия у вас уже есть — «Module 1 Work &amp; Play» и т. д. в каноне Starlight 7. Когда окно вырастет до шести юнитов, строка на главной превратится в «lb6_u01, lb6_u02, lb6_u03, …».</p>
+        <p class="where">app/repository.py:107–119 · app/user_filters.py (filter_summary)</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-warn">Важно</span>
+      <div>
+        <h3>Блоки соединяются по «И», и можно собрать пустой фильтр</h3>
+        <p>«Starlight 6» вместе с <span class="mono">sl7_m1</span> даёт ноль карточек: слова темы принадлежат Starlight 7. Форма это сохранит, а об ошибке вы узнаете только при старте: «Нет карточек на сегодня». Подсказка «Пустой блок — без ограничения» про «И» ничего не говорит.</p>
+        <p class="where">app/repository.py:133–153 · app/main.py (start_session)</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-warn">Важно</span>
+      <div>
+        <h3>Нет предпросмотра результата, а число на чипе не про вас</h3>
+        <p>Счётчик на чипе — сколько слов в теме на весь язык. Он не говорит, сколько из них новых, сколько уже в системе и что попадёт в очередь сегодня. Ещё это слова, а карточек будет больше: каждая лексема даёт две (в обе стороны). Итог фильтра виден только на главной, после сохранения.</p>
+        <p class="where">app/repository.py:107–119 · templates/filters.html</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-warn">Важно</span>
+      <div>
+        <h3>Форма плоская, а окно накопительное</h3>
+        <p>Чтобы добавить следующий юнит FR, нужно найти нужный чип среди 14 (порядок по алфавиту, служебные <span class="mono">frt_all</span> и <span class="mono">lb5_all</span> перемешаны с <span class="mono">lb6_uNN</span>). Нет «до юнита N», «выбрать всё» и «сбросить». Темы, которые принадлежат разным учебникам, лежат в одном списке.</p>
+        <p class="where">docs/7-strategy.md · templates/filters.html</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-warn">Важно</span>
+      <div>
+        <h3>Смена языка стирает несохранённый выбор</h3>
+        <p>Радио «английский / французский» внутри формы срабатывает через <span class="mono">onchange="location.href=…"</span> и сразу уходит на другую страницу. Всё, что вы успели отметить, теряется без вопроса.</p>
+        <p class="where">templates/filters.html</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-low">Мелочь</span>
+      <div>
+        <h3>После «Сохранить» вы остаётесь на странице</h3>
+        <p>Сервер возвращает на <span class="mono">/filters?saved=1</span> с надписью «Сохранено.», и до тренировки нужен ещё один переход по ссылке «К тренировке». У этой плашки в CSS нет фона, так что она выглядит как обычная строка текста и легко теряется.</p>
+        <p class="where">app/main.py:201–224</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-low">Мелочь</span>
+      <div>
+        <h3>Чипы: фокус не виден, выбор передан только цветом</h3>
+        <p>Чекбокс внутри чипа скрыт (<span class="mono">clip</span>, <span class="mono">appearance: none</span>), а стиля <span class="mono">:focus-visible</span> для чипа нет — с клавиатуры не видно, где вы. Выбранный чип отличается лишь тоном фона и рамки, без галочки; счётчик подмешивает голубой <span class="mono">#6b8cff</span> вне палитры.</p>
+        <p class="where">static/style.css:336–400</p>
+      </div>
+    </li>
+
+    <li class="find">
+      <span class="sev sev-low">Мелочь</span>
+      <div>
+        <h3>Учебники — чекбоксы, темы — чипы; «FR Trainer» виден</h3>
+        <p>Близкие по смыслу сущности выглядят по-разному. Служебный набор «FR Trainer» в списке учебников есть, а на «О приложении» служебные наборы скрыты.</p>
+        <p class="where">templates/filters.html · templates/about.html</p>
+      </div>
+    </li>
+  </ol>
+
+  <div class="scroll" style="margin-top:2rem">
+    <table class="cmp">
+      <thead><tr><th>Вариант</th><th>Что получаете</th><th>Что трогаем</th><th>Цена</th></tr></thead>
+      <tbody>
+        <tr><td>F1 · Порядок</td><td>Названия вместо кодов, темы под своим учебником, итог выбора до сохранения, галочки и фокус на чипах</td><td>filters.html, style.css, fetch_filter_options, маленький JSON-маршрут и ≈30 строк JS</td><td>Средняя. Нужны названия тем (поле или словарь)</td></tr>
+        <tr><td>F2 · Окно модулей</td><td>Выбор «дойти до модуля N» одним касанием и прогресс по каждому модулю; на главной «M1–M3» вместо списка кодов</td><td>F1 плюс порядок тем и запрос прогресса по теме</td><td>Средняя. Порядок нужно задать для SL7 и LB6</td></tr>
+        <tr><td>F3 · Панель на главной</td><td>Фильтр открывается шторкой на главной и применяется сразу, отдельная страница не нужна</td><td>F1 плюс index-шаблон, JS и автосохранение</td><td>Средняя. Пропадает кнопка «Сохранить»</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- F1 -->
+  <div class="variant">
+    <div class="vhead"><span class="vtag wide" aria-hidden="true">F1</span><div><h2 style="margin-top:0">Порядок</h2><p class="sub">Тот же экран, но говорящий на языке учебника.</p></div></div>
+    <div class="vcols">
+      <div>
+        <h4>Что меняется</h4>
+        <ul>
+          <li>Темы называются по-человечески: «M1 Work &amp; Play», «U3». Для этого нужно поле <span class="mono">title</span> у темы или словарь в коде.</li>
+          <li>Темы стоят под своим учебником. Кнопка «весь учебник» и чипы модулей — один блок, поэтому сочетание «Starlight 6 + sl7_m1» собрать нельзя. Мосты (<span class="mono">bridge_*</span>, <span class="mono">lb5_all</span>) идут отдельной группой.</li>
+          <li>Внизу полоса-итог: «выбрано 1 модуль · 214 слов», «сегодня 12 повторов + до 3 новых». Считает маленький JSON-маршрут на базе <span class="mono">fetch_queue_preview</span>; без JS итог показывается после сохранения.</li>
+          <li>Галочка и видимый фокус на выбранных чипах, «сбросить» у каждой группы.</li>
+          <li>Язык переключается сегментом из A; смена языка при несохранённом выборе спрашивает подтверждение.</li>
+          <li>«Сохранить» возвращает на главную.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Цена и компромисс</h4>
+        <p>Логика отбора в базе не меняется. Появляются данные про названия и принадлежность темы учебнику (её можно вывести из <span class="mono">entry_textbooks</span>).</p>
+        <h4>Не решает</h4>
+        <p>Накопление окна: чтобы охватить шесть юнитов, всё ещё нужно тапнуть шесть чипов — это F2.</p>
+      </div>
+    </div>
+    <div class="phones">
+      <figure class="fig">
+        <div class="phone mock">
+          <div class="m-bar"><span class="m-brand"><i class="m-logo"></i>anna</span><span class="m-seg"><span class="on">EN</span><span>FR</span></span></div>
+          <div>
+            <h3 class="m-h1">Фильтры</h3>
+            <p class="m-lead">Что войдёт в тренировку и оценку знаний.</p>
+          </div>
+          <div class="m-group">
+            <div class="m-gh"><span>Starlight 7</span><small>1 885 слов</small></div>
+            <div class="m-tchips">
+              <span class="m-tchip on pad"><svg class="ic"><use href="#i-check"/></svg>M1 Work &amp; Play<small>214</small></span>
+              <span class="m-tchip"><span style="padding-left:3px">M2 Culture &amp; Stories</span><small>268</small></span>
+              <span class="m-tchip"><span style="padding-left:3px">M3 Mother Nature</span><small>251</small></span>
+              <span class="m-tchip"><span style="padding-left:3px">M4 Healthy mind, healthy body</span><small>272</small></span>
+              <span class="m-tchip"><span style="padding-left:3px">M5 Life experiences</span><small>231</small></span>
+              <span class="m-tchip"><span style="padding-left:3px">M6 Crime &amp; community</span><small>158</small></span>
+            </div>
+            <p class="m-hint"><span class="m-u">Весь учебник</span> · <span class="m-u">Сбросить</span></p>
+          </div>
+          <div class="m-group">
+            <div class="m-gh"><span>Мосты</span><small>слова прошлых лет</small></div>
+            <div class="m-tchips">
+              <span class="m-tchip"><span style="padding-left:3px">Starlight 6</span><small>1 090</small></span>
+              <span class="m-tchip"><span style="padding-left:3px">Starlight 5</span><small>1 020</small></span>
+            </div>
+          </div>
+          <div class="m-sum">
+            <div class="line"><span>Выбрано</span><b>M1 · 214 слов</b></div>
+            <div class="line"><span>Сегодня</span><b>12 повторов · до 3 новых</b></div>
+            <div class="m-btn pri">Сохранить</div>
+          </div>
+        </div>
+        <figcaption><b>F1.</b> Названия, группы по учебнику, итог внизу. Числа условные.</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- F2 -->
+  <div class="variant">
+    <div class="vhead"><span class="vtag wide" aria-hidden="true">F2</span><div><h2 style="margin-top:0">Окно модулей</h2><p class="sub">Выбираете не набор чипов, а «дойти до модуля 3».</p></div></div>
+    <div class="vcols">
+      <div>
+        <h4>Что меняется (сверх F1)</h4>
+        <ul>
+          <li>Для последовательных тем (<span class="mono">sl7_m1…m6</span>, <span class="mono">lb6_u01…u12</span>) — лента модулей: тап по M3 включает M1–M3. Отдельные модули можно выключить точечно.</li>
+          <li>Под лентой строки модулей с полосой прогресса: сколько слов уже зрелые, молодые, в изучении. Сразу видно, что M2 ещё нетронут.</li>
+          <li>Метка «сейчас по календарю» из канона (M1 — сент–окт) подсказывает, докуда идти.</li>
+          <li>На главной вместо «sl7_m1, sl7_m2, sl7_m3» — «Starlight 7 · M1–M3».</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Цена и компромисс</h4>
+        <p>Нужен явный порядок тем и запрос прогресса по теме — он уже есть на уровне корпуса (<span class="mono">fetch_corpus_stats</span>), его надо сузить до темы. Порядок придётся задать вручную для SL7 и LB6; для мостов остаются обычные чипы.</p>
+        <h4>Не решает</h4>
+        <p>Если фильтр нужно менять часто (например, EN: сначала оценка SL7, потом мост SL6), лишний переход на страницу всё ещё остаётся — это F3.</p>
+      </div>
+    </div>
+    <div class="phones">
+      <figure class="fig">
+        <div class="phone mock">
+          <div class="m-bar"><span class="m-brand"><i class="m-logo"></i>anna</span><span class="m-seg"><span class="on">EN</span><span>FR</span></span></div>
+          <div>
+            <h3 class="m-h1">Фильтры</h3>
+            <p class="m-lead">Окно: всё до выбранного модуля.</p>
+          </div>
+          <div class="m-group">
+            <div class="m-gh"><span>Starlight 7 · дойти до</span><small>M1–M3</small></div>
+            <div class="m-track" role="img" aria-label="Лента модулей, выбраны M1–M3">
+              <span class="fill"></span>
+              <span class="m-node on now"><i>1</i>M1</span>
+              <span class="m-node on"><i>2</i>M2</span>
+              <span class="m-node on"><i>3</i>M3</span>
+              <span class="m-node"><i>4</i>M4</span>
+              <span class="m-node"><i>5</i>M5</span>
+              <span class="m-node"><i>6</i>M6</span>
+            </div>
+            <p class="m-hint">Сейчас по календарю: M1, сент–окт</p>
+            <div class="m-mrows">
+              <div class="m-mrow"><svg class="ic"><use href="#i-check"/></svg><div class="nm"><b>M1 Work &amp; Play</b><div class="m-bar2"><i class="s-m" style="width:30%"></i><i class="s-y" style="width:22%"></i><i class="s-l" style="width:10%"></i></div></div><span class="ct">62% · 214</span></div>
+              <div class="m-mrow"><svg class="ic"><use href="#i-check"/></svg><div class="nm"><b>M2 Culture &amp; Stories</b><div class="m-bar2"><i class="s-l" style="width:8%"></i></div></div><span class="ct">8% · 268</span></div>
+              <div class="m-mrow"><svg class="ic"><use href="#i-check"/></svg><div class="nm"><b>M3 Mother Nature</b><div class="m-bar2"></div></div><span class="ct">0% · 251</span></div>
+              <div class="m-mrow out"><span></span><div class="nm"><b>M4 Healthy mind, healthy body</b><div class="m-bar2"></div></div><span class="ct">0% · 272</span></div>
+            </div>
+            <p class="m-hint">Ещё M5 и M6 · полоса: зрелые, молодые, в изучении</p>
+          </div>
+          <div class="m-sum">
+            <div class="line"><span>Выбрано</span><b>M1–M3 · 733 слова</b></div>
+            <div class="m-btn pri">Сохранить</div>
+          </div>
+        </div>
+        <figcaption><b>F2.</b> Лента и прогресс по модулям. Числа и проценты условные.</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- F3 -->
+  <div class="variant">
+    <div class="vhead"><span class="vtag wide" aria-hidden="true">F3</span><div><h2 style="margin-top:0">Панель на главной</h2><p class="sub">Фильтр правится там, где им пользуются, без отдельной страницы.</p></div></div>
+    <div class="vcols">
+      <div>
+        <h4>Что меняется (сверх F1)</h4>
+        <ul>
+          <li>Чип «Starlight 7 · M1–M3» на главной открывает шторку с теми же контролами.</li>
+          <li>Каждое касание сразу сохраняется, а счётчики «повторов и новых» на главной обновляются за шторкой. Кнопки «Сохранить» нет, есть «Готово».</li>
+          <li>Из навигации из A вкладка «Фильтры» уходит — остаётся три пункта.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Цена и компромисс</h4>
+        <p>Больше всего JS из трёх вариантов: автосохранение и обновление счётчиков. Пропадает явный «сохранить», и случайное касание меняет очередь на сегодня. Оправдано, если фильтр меняется чаще раза в месяц.</p>
+      </div>
+    </div>
+    <div class="phones">
+      <figure class="fig">
+        <div class="phone mock rel">
+          <div class="m-bar"><span class="m-brand"><i class="m-logo"></i>anna</span><span class="m-seg"><span class="on">EN</span><span>FR</span></span></div>
+          <h3 class="m-h1">Тренировка</h3>
+          <div class="m-banner">
+            <b>Хороший темп: на сегодня 12 повторов и 3 новых.</b>
+            <div class="m-stats3">
+              <div class="m-stat"><small>Повтор</small><b>12</b></div>
+              <div class="m-stat"><small>Новые</small><b>3<em> / 10</em></b></div>
+              <div class="m-stat"><small>Без прогресса</small><b>733</b></div>
+            </div>
+          </div>
+          <span class="m-chip">Starlight 7 · M1–M3</span>
+          <div class="m-btn pri">Начать · 15 карточек</div>
+          <div class="m-dim"></div>
+          <div class="m-sheet">
+            <span class="m-grab"></span>
+            <div class="m-gh"><span>Фильтр · английский</span><span class="m-u" style="font-weight:600">Готово</span></div>
+            <div class="m-group">
+              <div class="m-gh"><span>Starlight 7</span><small>дойти до M3</small></div>
+              <div class="m-track" role="img" aria-label="Лента модулей, выбраны M1–M3">
+                <span class="fill"></span>
+                <span class="m-node on now"><i>1</i>M1</span>
+                <span class="m-node on"><i>2</i>M2</span>
+                <span class="m-node on"><i>3</i>M3</span>
+                <span class="m-node"><i>4</i>M4</span>
+                <span class="m-node"><i>5</i>M5</span>
+                <span class="m-node"><i>6</i>M6</span>
+              </div>
+            </div>
+            <div class="m-tchips">
+              <span class="m-tchip"><span style="padding-left:3px">Starlight 6</span><small>1 090</small></span>
+              <span class="m-tchip"><span style="padding-left:3px">Starlight 5</span><small>1 020</small></span>
+            </div>
+            <div class="line" style="display:flex;justify-content:space-between;font-size:11.5px;color:var(--m-muted)"><span>Сегодня</span><b style="color:var(--m-ink)">12 повторов · до 3 новых</b></div>
+          </div>
+        </div>
+        <figcaption><b>F3.</b> Шторка поверх главной; счётчики за ней обновляются при каждом касании.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">Что дальше</p>
+  <div class="pick">
+    <h2 style="margin-top:0">A и F1 сразу, затем экран карточки из B и окно модулей F2</h2>
+    <p>Вариант A закрывает единственный дефект (тёмная тема) и самые частые неудобства, при этом не меняет привычек. Экран тренировки из B — самая заметная выгода для ежедневного использования; он ложится поверх A без переделок. C имеет смысл, только если вы заметную часть времени занимаетесь за компьютером.</p>
+    <p>В фильтрах F1 убирает коды и пустые сочетания, а F2 ложится на вашу стратегию «добавляем следующий модуль»: раз в полтора месяца это один тап. F3 берите, только если фильтр меняется чаще раза в месяц — например, при оценке SL7, а затем моста SL6.</p>
+    <p>Скажите, что делаем в первую очередь — могу собрать A и F1 отдельным набором изменений, чтобы вы посмотрели их в браузере.</p>
+  </div>
+</section>
+
+</div>
+
+</body></html>
