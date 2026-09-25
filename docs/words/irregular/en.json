@@ -1,0 +1,4638 @@
+{
+  "kind": "irregular_verbs",
+  "language": "en",
+  "variant": "UK",
+  "source": {
+    "list": "https://englishexplained.ru/wp_files/wp-content/uploads/2018/09/irregular-verbs-list-by-frequency-and-cefr-level.pdf",
+    "ipa": "docs/words/ipa/en_UK.txt"
+  },
+  "notes": [
+    "Канон неправильных глаголов EN, британский вариант. Решение: docs/4-decisions.md §015, детали: docs/8-irregular-verbs.md.",
+    "Основа — частотный список 143 глаголов (rank, level = приближённый CEFR).",
+    "Убраны: strip, melt, sneak, dare, prove, fit, thrive — в BrE спрягаются по правилу.",
+    "Добавлены (B2): sting, creep, mistake, spoil, rebuild, sew, stink.",
+    "Формы UK: британский вариант первым, формы только NAmE (gotten, proven, dove, snuck) не включены.",
+    "cue — подсказка для лица карточки forms (перевод → три формы) у глаголов с общими значениями; без cue на лице translations.",
+    "IPA из en_UK; омографы (read, lead, tear, wind/wound) и пропуски en_UK вписаны вручную."
+  ],
+  "verbs": [
+    {
+      "language": "en",
+      "form": "be",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈiː",
+      "translations": [
+        "быть",
+        "являться"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 1,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "was",
+          "ipa": "wˈɒz"
+        },
+        {
+          "form": "were",
+          "ipa": "wˈɜː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "been",
+          "ipa": "bˈiːn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "have",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "hˈæv",
+      "translations": [
+        "иметь"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 2,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "had",
+          "ipa": "hˈæd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "had",
+          "ipa": "hˈæd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "do",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "dˈuː",
+      "translations": [
+        "делать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 3,
+      "pattern": "ABC",
+      "cue": "делать (уроки, работу)",
+      "past": [
+        {
+          "form": "did",
+          "ipa": "dˈɪd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "done",
+          "ipa": "dˈʌn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "say",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sˈeɪ",
+      "translations": [
+        "сказать",
+        "говорить"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 4,
+      "pattern": "ABB",
+      "cue": "сказать (что-то)",
+      "past": [
+        {
+          "form": "said",
+          "ipa": "sˈɛd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "said",
+          "ipa": "sˈɛd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "go",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "gˈəʊ",
+      "translations": [
+        "идти",
+        "ехать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 5,
+      "pattern": "ABC",
+      "cue": "идти, ехать",
+      "past": [
+        {
+          "form": "went",
+          "ipa": "wˈɛnt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "gone",
+          "ipa": "gˈɒn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "get",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "gˈɛt",
+      "translations": [
+        "получать",
+        "становиться"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 6,
+      "pattern": "ABB",
+      "cue": "получать, доставать",
+      "past": [
+        {
+          "form": "got",
+          "ipa": "gˈɒt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "got",
+          "ipa": "gˈɒt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "make",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "mˈeɪk",
+      "translations": [
+        "делать",
+        "изготавливать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 7,
+      "pattern": "ABB",
+      "cue": "делать, изготавливать (торт, чай)",
+      "past": [
+        {
+          "form": "made",
+          "ipa": "mˈeɪd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "made",
+          "ipa": "mˈeɪd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "know",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "nˈəʊ",
+      "translations": [
+        "знать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 8,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "knew",
+          "ipa": "njˈuː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "known",
+          "ipa": "nˈəʊn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "think",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "θˈɪŋk",
+      "translations": [
+        "думать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 9,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "thought",
+          "ipa": "θˈɔːt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "thought",
+          "ipa": "θˈɔːt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "take",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "tˈeɪk",
+      "translations": [
+        "брать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 10,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "took",
+          "ipa": "tˈʊk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "taken",
+          "ipa": "tˈeɪkən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "see",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sˈiː",
+      "translations": [
+        "видеть"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 11,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "saw",
+          "ipa": "sˈɔː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "seen",
+          "ipa": "sˈiːn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "come",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kˈʌm",
+      "translations": [
+        "приходить"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_aba"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 12,
+      "pattern": "ABA",
+      "past": [
+        {
+          "form": "came",
+          "ipa": "kˈeɪm"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "come",
+          "ipa": "kˈʌm"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "find",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "fˈaɪnd",
+      "translations": [
+        "находить"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 13,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "found",
+          "ipa": "fˈaʊnd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "found",
+          "ipa": "fˈaʊnd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "give",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "gˈɪv",
+      "translations": [
+        "давать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 14,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "gave",
+          "ipa": "gˈeɪv"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "given",
+          "ipa": "gˈɪvən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "tell",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "tˈɛl",
+      "translations": [
+        "рассказывать",
+        "сказать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 15,
+      "pattern": "ABB",
+      "cue": "рассказать, сказать (кому-то)",
+      "past": [
+        {
+          "form": "told",
+          "ipa": "tˈəʊld"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "told",
+          "ipa": "tˈəʊld"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "feel",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "fˈiːl",
+      "translations": [
+        "чувствовать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 16,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "felt",
+          "ipa": "fˈɛlt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "felt",
+          "ipa": "fˈɛlt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "become",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bɪkˈʌm",
+      "translations": [
+        "становиться"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_aba"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 17,
+      "pattern": "ABA",
+      "cue": "становиться (кем-то)",
+      "past": [
+        {
+          "form": "became",
+          "ipa": "bɪkˈeɪm"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "become",
+          "ipa": "bɪkˈʌm"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "leave",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈiːv",
+      "translations": [
+        "оставлять",
+        "покидать",
+        "уезжать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 18,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "left",
+          "ipa": "lˈɛft"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "left",
+          "ipa": "lˈɛft"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "put",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "pˈʊt",
+      "translations": [
+        "класть",
+        "ставить"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 19,
+      "pattern": "AAA",
+      "cue": "класть, ставить (куда-то)",
+      "past": [
+        {
+          "form": "put",
+          "ipa": "pˈʊt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "put",
+          "ipa": "pˈʊt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "mean",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "mˈiːn",
+      "translations": [
+        "значить",
+        "иметь в виду"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 20,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "meant",
+          "ipa": "mˈɛnt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "meant",
+          "ipa": "mˈɛnt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "keep",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kˈiːp",
+      "translations": [
+        "хранить",
+        "держать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 21,
+      "pattern": "ABB",
+      "cue": "хранить, сохранять",
+      "past": [
+        {
+          "form": "kept",
+          "ipa": "kˈɛpt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "kept",
+          "ipa": "kˈɛpt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "let",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈɛt",
+      "translations": [
+        "позволять",
+        "разрешать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 22,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "let",
+          "ipa": "lˈɛt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "let",
+          "ipa": "lˈɛt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "begin",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bɪgˈɪn",
+      "translations": [
+        "начинать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 23,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "began",
+          "ipa": "bɪgˈæn"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "begun",
+          "ipa": "bɪgˈʌn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "show",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ʃˈəʊ",
+      "translations": [
+        "показывать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 24,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "showed",
+          "ipa": "ʃˈəʊd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "shown",
+          "ipa": "ʃˈəʊn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hear",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "hˈɪə",
+      "translations": [
+        "слышать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 25,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "heard",
+          "ipa": "hˈɜːd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "heard",
+          "ipa": "hˈɜːd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "run",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "rˈʌn",
+      "translations": [
+        "бежать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_aba"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 26,
+      "pattern": "ABA",
+      "cue": "бегать, бежать",
+      "past": [
+        {
+          "form": "ran",
+          "ipa": "rˈæn"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "run",
+          "ipa": "rˈʌn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hold",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "hˈəʊld",
+      "translations": [
+        "держать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 27,
+      "pattern": "ABB",
+      "cue": "держать (в руках)",
+      "past": [
+        {
+          "form": "held",
+          "ipa": "hˈɛld"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "held",
+          "ipa": "hˈɛld"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bring",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "brˈɪŋ",
+      "translations": [
+        "приносить"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 28,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "brought",
+          "ipa": "brˈɔːt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "brought",
+          "ipa": "brˈɔːt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "write",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "rˈaɪt",
+      "translations": [
+        "писать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 29,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "wrote",
+          "ipa": "rˈəʊt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "written",
+          "ipa": "rˈɪtən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sit",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sˈɪt",
+      "translations": [
+        "сидеть"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 30,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "sat",
+          "ipa": "sˈæt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "sat",
+          "ipa": "sˈæt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stand",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "stˈænd",
+      "translations": [
+        "стоять"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 31,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "stood",
+          "ipa": "stˈʊd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "stood",
+          "ipa": "stˈʊd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lose",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈuːz",
+      "translations": [
+        "терять",
+        "проигрывать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 32,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "lost",
+          "ipa": "lˈɒst"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "lost",
+          "ipa": "lˈɒst"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "pay",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "pˈeɪ",
+      "translations": [
+        "платить"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 33,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "paid",
+          "ipa": "pˈeɪd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "paid",
+          "ipa": "pˈeɪd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "meet",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "mˈiːt",
+      "translations": [
+        "встречать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 34,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "met",
+          "ipa": "mˈɛt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "met",
+          "ipa": "mˈɛt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "set",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sˈɛt",
+      "translations": [
+        "устанавливать",
+        "ставить",
+        "заходить (о солнце)"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 35,
+      "pattern": "AAA",
+      "cue": "устанавливать; заходить (о солнце)",
+      "past": [
+        {
+          "form": "set",
+          "ipa": "sˈɛt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "set",
+          "ipa": "sˈɛt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "learn",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈɜːn",
+      "translations": [
+        "учить",
+        "узнавать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 36,
+      "pattern": "ABB",
+      "cue": "учить (сам), узнавать",
+      "past": [
+        {
+          "form": "learnt",
+          "ipa": "lˈɜːnt"
+        },
+        {
+          "form": "learned",
+          "ipa": "lˈɜːnd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "learnt",
+          "ipa": "lˈɜːnt"
+        },
+        {
+          "form": "learned",
+          "ipa": "lˈɜːnd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lead",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈiːd",
+      "translations": [
+        "вести",
+        "руководить"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 37,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "led",
+          "ipa": "lˈɛd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "led",
+          "ipa": "lˈɛd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "understand",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ˌʌndəstˈænd",
+      "translations": [
+        "понимать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 38,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "understood",
+          "ipa": "ˌʌndəstˈʊd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "understood",
+          "ipa": "ˌʌndəstˈʊd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "speak",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "spˈiːk",
+      "translations": [
+        "говорить"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 39,
+      "pattern": "ABC",
+      "cue": "говорить (на языке), разговаривать",
+      "past": [
+        {
+          "form": "spoke",
+          "ipa": "spˈəʊk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "spoken",
+          "ipa": "spˈəʊkən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "read",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "rˈiːd",
+      "translations": [
+        "читать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 40,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "read",
+          "ipa": "rˈɛd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "read",
+          "ipa": "rˈɛd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spend",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "spˈɛnd",
+      "translations": [
+        "тратить",
+        "проводить (время)"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 41,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "spent",
+          "ipa": "spˈɛnt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "spent",
+          "ipa": "spˈɛnt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "grow",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "grˈəʊ",
+      "translations": [
+        "расти",
+        "выращивать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 42,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "grew",
+          "ipa": "grˈuː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "grown",
+          "ipa": "grˈəʊn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "win",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "wˈɪn",
+      "translations": [
+        "выигрывать",
+        "побеждать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 43,
+      "pattern": "ABB",
+      "cue": "выигрывать (игру, приз)",
+      "past": [
+        {
+          "form": "won",
+          "ipa": "wˈʌn"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "won",
+          "ipa": "wˈʌn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "buy",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈaɪ",
+      "translations": [
+        "покупать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 44,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "bought",
+          "ipa": "bˈɔːt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "bought",
+          "ipa": "bˈɔːt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "send",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sˈɛnd",
+      "translations": [
+        "посылать",
+        "отправлять"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 45,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "sent",
+          "ipa": "sˈɛnt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "sent",
+          "ipa": "sˈɛnt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "build",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈɪld",
+      "translations": [
+        "строить"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 46,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "built",
+          "ipa": "bˈɪlt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "built",
+          "ipa": "bˈɪlt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fall",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "fˈɔːl",
+      "translations": [
+        "падать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 47,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "fell",
+          "ipa": "fˈɛl"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "fallen",
+          "ipa": "fˈɔːlən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "cut",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kˈʌt",
+      "translations": [
+        "резать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 48,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "cut",
+          "ipa": "kˈʌt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "cut",
+          "ipa": "kˈʌt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sell",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sˈɛl",
+      "translations": [
+        "продавать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 49,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "sold",
+          "ipa": "sˈəʊld"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "sold",
+          "ipa": "sˈəʊld"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "light",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈaɪt",
+      "translations": [
+        "зажигать",
+        "освещать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 50,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "lit",
+          "ipa": "lˈɪt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "lit",
+          "ipa": "lˈɪt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "drive",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "drˈaɪv",
+      "translations": [
+        "водить (машину)",
+        "ехать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 51,
+      "pattern": "ABC",
+      "cue": "водить машину",
+      "past": [
+        {
+          "form": "drove",
+          "ipa": "drˈəʊv"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "driven",
+          "ipa": "drˈɪvən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "break",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "brˈeɪk",
+      "translations": [
+        "ломать",
+        "разбивать"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 52,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "broke",
+          "ipa": "brˈəʊk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "broken",
+          "ipa": "brˈəʊkən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wear",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "wˈeə",
+      "translations": [
+        "носить (одежду)"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 53,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "wore",
+          "ipa": "wˈɔː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "worn",
+          "ipa": "wˈɔːn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hit",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "hˈɪt",
+      "translations": [
+        "ударять"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 54,
+      "pattern": "AAA",
+      "cue": "ударять, попадать (в цель)",
+      "past": [
+        {
+          "form": "hit",
+          "ipa": "hˈɪt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "hit",
+          "ipa": "hˈɪt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "eat",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ˈiːt",
+      "translations": [
+        "есть"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 55,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "ate",
+          "ipa": "ˈɛt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "eaten",
+          "ipa": "ˈiːtən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "teach",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "tˈiːtʃ",
+      "translations": [
+        "учить",
+        "преподавать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 56,
+      "pattern": "ABB",
+      "cue": "учить (кого-то), преподавать",
+      "past": [
+        {
+          "form": "taught",
+          "ipa": "tˈɔːt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "taught",
+          "ipa": "tˈɔːt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "cost",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kˈɒst",
+      "translations": [
+        "стоить"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 57,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "cost",
+          "ipa": "kˈɒst"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "cost",
+          "ipa": "kˈɒst"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "catch",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kˈætʃ",
+      "translations": [
+        "ловить",
+        "поймать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 58,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "caught",
+          "ipa": "kˈɔːt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "caught",
+          "ipa": "kˈɔːt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "draw",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "drˈɔː",
+      "translations": [
+        "рисовать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 59,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "drew",
+          "ipa": "drˈuː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "drawn",
+          "ipa": "drˈɔːn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "choose",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "tʃˈuːz",
+      "translations": [
+        "выбирать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 60,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "chose",
+          "ipa": "tʃˈəʊz"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "chosen",
+          "ipa": "tʃˈəʊzən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "seek",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sˈiːk",
+      "translations": [
+        "искать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 61,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "sought",
+          "ipa": "sˈɔːt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "sought",
+          "ipa": "sˈɔːt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "deal",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "dˈiːl",
+      "translations": [
+        "иметь дело (с)",
+        "раздавать (карты)"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 62,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "dealt",
+          "ipa": "dˈɛlt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "dealt",
+          "ipa": "dˈɛlt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fight",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "fˈaɪt",
+      "translations": [
+        "драться",
+        "сражаться"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 63,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "fought",
+          "ipa": "fˈɔːt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "fought",
+          "ipa": "fˈɔːt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "throw",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "θrˈəʊ",
+      "translations": [
+        "бросать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 64,
+      "pattern": "ABC",
+      "cue": "бросать, кидать",
+      "past": [
+        {
+          "form": "threw",
+          "ipa": "θrˈuː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "thrown",
+          "ipa": "θrˈəʊn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "rise",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "rˈaɪz",
+      "translations": [
+        "подниматься",
+        "вставать (о солнце)"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 65,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "rose",
+          "ipa": "rˈəʊz"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "risen",
+          "ipa": "rˈɪzən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "shoot",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ʃˈuːt",
+      "translations": [
+        "стрелять"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 66,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "shot",
+          "ipa": "ʃˈɒt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "shot",
+          "ipa": "ʃˈɒt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lie",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈaɪ",
+      "translations": [
+        "лежать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 67,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "lay",
+          "ipa": "lˈeɪ"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "lain",
+          "ipa": "lˈeɪn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lay",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈeɪ",
+      "translations": [
+        "класть",
+        "накрывать (на стол)"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 68,
+      "pattern": "ABB",
+      "cue": "накрывать на стол, класть (горизонтально)",
+      "past": [
+        {
+          "form": "laid",
+          "ipa": "lˈeɪd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "laid",
+          "ipa": "lˈeɪd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hang",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "hˈæŋ",
+      "translations": [
+        "висеть",
+        "вешать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 70,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "hung",
+          "ipa": "hˈʌŋ"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "hung",
+          "ipa": "hˈʌŋ"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "forget",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "fəgˈɛt",
+      "translations": [
+        "забывать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 71,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "forgot",
+          "ipa": "fəgˈɒt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "forgotten",
+          "ipa": "fəgˈɒtən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spring",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sprˈɪŋ",
+      "translations": [
+        "прыгать",
+        "вскакивать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 72,
+      "pattern": "ABC",
+      "cue": "вскакивать",
+      "past": [
+        {
+          "form": "sprang",
+          "ipa": "sprˈæŋ"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "sprung",
+          "ipa": "sprˈʌŋ"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "shake",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ʃˈeɪk",
+      "translations": [
+        "трясти"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 73,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "shook",
+          "ipa": "ʃˈʊk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "shaken",
+          "ipa": "ʃˈeɪkən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fly",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "flˈaɪ",
+      "translations": [
+        "летать"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 74,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "flew",
+          "ipa": "flˈuː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "flown",
+          "ipa": "flˈəʊn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "dream",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "drˈiːm",
+      "translations": [
+        "мечтать",
+        "видеть сон"
+      ],
+      "level": "A2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 75,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "dreamt",
+          "ipa": "drˈɛmt"
+        },
+        {
+          "form": "dreamed",
+          "ipa": "drˈiːmd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "dreamt",
+          "ipa": "drˈɛmt"
+        },
+        {
+          "form": "dreamed",
+          "ipa": "drˈiːmd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sing",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sˈɪŋ",
+      "translations": [
+        "петь"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 76,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "sang",
+          "ipa": "sˈæŋ"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "sung",
+          "ipa": "sˈʌŋ"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "beat",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈiːt",
+      "translations": [
+        "бить",
+        "побеждать"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_aab"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 77,
+      "pattern": "AAB",
+      "cue": "побеждать (соперника), бить",
+      "past": [
+        {
+          "form": "beat",
+          "ipa": "bˈiːt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "beaten",
+          "ipa": "bˈiːtən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wind",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "wˈaɪnd",
+      "translations": [
+        "заводить (часы)",
+        "виться"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 78,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "wound",
+          "ipa": "wˈaʊnd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "wound",
+          "ipa": "wˈaʊnd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hurt",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "hˈɜːt",
+      "translations": [
+        "причинять боль",
+        "ранить"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 79,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "hurt",
+          "ipa": "hˈɜːt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "hurt",
+          "ipa": "hˈɜːt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "strike",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "strˈaɪk",
+      "translations": [
+        "ударять",
+        "бастовать"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 80,
+      "pattern": "ABB",
+      "cue": "наносить удар; бить (о часах, молнии)",
+      "past": [
+        {
+          "form": "struck",
+          "ipa": "strˈʌk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "struck",
+          "ipa": "strˈʌk"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sleep",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "slˈiːp",
+      "translations": [
+        "спать"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 81,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "slept",
+          "ipa": "slˈɛpt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "slept",
+          "ipa": "slˈɛpt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stick",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "stˈɪk",
+      "translations": [
+        "приклеивать",
+        "втыкать"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 82,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "stuck",
+          "ipa": "stˈʌk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "stuck",
+          "ipa": "stˈʌk"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "drink",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "drˈɪŋk",
+      "translations": [
+        "пить"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 83,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "drank",
+          "ipa": "drˈæŋk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "drunk",
+          "ipa": "drˈʌŋk"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hide",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "hˈaɪd",
+      "translations": [
+        "прятать",
+        "прятаться"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 84,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "hid",
+          "ipa": "hˈɪd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "hidden",
+          "ipa": "hˈɪdən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ride",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "rˈaɪd",
+      "translations": [
+        "ездить верхом",
+        "кататься"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 85,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "rode",
+          "ipa": "rˈəʊd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "ridden",
+          "ipa": "rˈɪdən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "feed",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "fˈiːd",
+      "translations": [
+        "кормить"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 86,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "fed",
+          "ipa": "fˈɛd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "fed",
+          "ipa": "fˈɛd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spread",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sprˈɛd",
+      "translations": [
+        "распространять",
+        "намазывать"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 88,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "spread",
+          "ipa": "sprˈɛd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "spread",
+          "ipa": "sprˈɛd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "speed",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "spˈiːd",
+      "translations": [
+        "мчаться"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 89,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "sped",
+          "ipa": "spˈɛd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "sped",
+          "ipa": "spˈɛd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "blow",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "blˈəʊ",
+      "translations": [
+        "дуть"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 90,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "blew",
+          "ipa": "blˈuː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "blown",
+          "ipa": "blˈəʊn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "burn",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈɜːn",
+      "translations": [
+        "гореть",
+        "жечь"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 91,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "burnt",
+          "ipa": "bˈɜːnt"
+        },
+        {
+          "form": "burned",
+          "ipa": "bˈɜːnd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "burnt",
+          "ipa": "bˈɜːnt"
+        },
+        {
+          "form": "burned",
+          "ipa": "bˈɜːnd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lean",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈiːn",
+      "translations": [
+        "наклоняться",
+        "опираться"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 92,
+      "pattern": "ABB",
+      "cue": "опираться, прислоняться",
+      "past": [
+        {
+          "form": "leant",
+          "ipa": "lˈɛnt"
+        },
+        {
+          "form": "leaned",
+          "ipa": "lˈiːnd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "leant",
+          "ipa": "lˈɛnt"
+        },
+        {
+          "form": "leaned",
+          "ipa": "lˈiːnd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "shut",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ʃˈʌt",
+      "translations": [
+        "закрывать"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 93,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "shut",
+          "ipa": "ʃˈʌt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "shut",
+          "ipa": "ʃˈʌt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bear",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈeə",
+      "translations": [
+        "выносить",
+        "терпеть",
+        "рождать"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 94,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "bore",
+          "ipa": "bˈɔː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "borne",
+          "ipa": "bˈɔːn"
+        },
+        {
+          "form": "born",
+          "ipa": "bˈɔːn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ring",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "rˈɪŋ",
+      "translations": [
+        "звонить"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 95,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "rang",
+          "ipa": "rˈæŋ"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "rung",
+          "ipa": "rˈʌŋ"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wake",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "wˈeɪk",
+      "translations": [
+        "просыпаться",
+        "будить"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 96,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "woke",
+          "ipa": "wˈəʊk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "woken",
+          "ipa": "wˈəʊkən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "steal",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "stˈiːl",
+      "translations": [
+        "красть"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 97,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "stole",
+          "ipa": "stˈəʊl"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "stolen",
+          "ipa": "stˈəʊlən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "tear",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "tˈeə",
+      "translations": [
+        "рвать"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 98,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "tore",
+          "ipa": "tˈɔː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "torn",
+          "ipa": "tˈɔːn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "cast",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kˈɑːst",
+      "translations": [
+        "бросать",
+        "отбрасывать (тень)"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 99,
+      "pattern": "AAA",
+      "cue": "отбрасывать (тень), бросать (взгляд)",
+      "past": [
+        {
+          "form": "cast",
+          "ipa": "kˈɑːst"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "cast",
+          "ipa": "kˈɑːst"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "slide",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "slˈaɪd",
+      "translations": [
+        "скользить"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 100,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "slid",
+          "ipa": "slˈɪd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "slid",
+          "ipa": "slˈɪd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bend",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈɛnd",
+      "translations": [
+        "сгибать",
+        "наклоняться"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 101,
+      "pattern": "ABB",
+      "cue": "сгибать, гнуть",
+      "past": [
+        {
+          "form": "bent",
+          "ipa": "bˈɛnt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "bent",
+          "ipa": "bˈɛnt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "smell",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "smˈɛl",
+      "translations": [
+        "пахнуть",
+        "нюхать"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 102,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "smelt",
+          "ipa": "smˈɛlt"
+        },
+        {
+          "form": "smelled",
+          "ipa": "smˈɛld"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "smelt",
+          "ipa": "smˈɛlt"
+        },
+        {
+          "form": "smelled",
+          "ipa": "smˈɛld"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "swing",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "swˈɪŋ",
+      "translations": [
+        "качать",
+        "качаться"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 103,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "swung",
+          "ipa": "swˈʌŋ"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "swung",
+          "ipa": "swˈʌŋ"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "dig",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "dˈɪg",
+      "translations": [
+        "копать"
+      ],
+      "level": "B1",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 104,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "dug",
+          "ipa": "dˈʌg"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "dug",
+          "ipa": "dˈʌg"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bind",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈaɪnd",
+      "translations": [
+        "связывать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 105,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "bound",
+          "ipa": "bˈaʊnd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "bound",
+          "ipa": "bˈaʊnd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "quit",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kwˈɪt",
+      "translations": [
+        "бросать",
+        "уходить"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 106,
+      "pattern": "AAA",
+      "cue": "бросать (привычку), уходить (с работы)",
+      "past": [
+        {
+          "form": "quit",
+          "ipa": "kwˈɪt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "quit",
+          "ipa": "kwˈɪt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "arise",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ərˈaɪz",
+      "translations": [
+        "возникать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 107,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "arose",
+          "ipa": "ərˈəʊz"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "arisen",
+          "ipa": "ərˈɪzən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sweep",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "swˈiːp",
+      "translations": [
+        "подметать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 108,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "swept",
+          "ipa": "swˈɛpt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "swept",
+          "ipa": "swˈɛpt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spin",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "spˈɪn",
+      "translations": [
+        "вращать",
+        "кружиться"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 109,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "spun",
+          "ipa": "spˈʌn"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "spun",
+          "ipa": "spˈʌn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bet",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈɛt",
+      "translations": [
+        "держать пари",
+        "ставить"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 110,
+      "pattern": "AAA",
+      "cue": "держать пари",
+      "past": [
+        {
+          "form": "bet",
+          "ipa": "bˈɛt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "bet",
+          "ipa": "bˈɛt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "withdraw",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "wɪðdrˈɔː",
+      "translations": [
+        "отзывать",
+        "снимать (деньги)"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 112,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "withdrew",
+          "ipa": "wɪðdrˈuː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "withdrawn",
+          "ipa": "wɪðdrˈɔːn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "freeze",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "frˈiːz",
+      "translations": [
+        "замерзать",
+        "замораживать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 113,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "froze",
+          "ipa": "frˈəʊz"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "frozen",
+          "ipa": "frˈəʊzən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sink",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sˈɪŋk",
+      "translations": [
+        "тонуть"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 114,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "sank",
+          "ipa": "sˈæŋk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "sunk",
+          "ipa": "sˈʌŋk"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "swim",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "swˈɪm",
+      "translations": [
+        "плавать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 115,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "swam",
+          "ipa": "swˈæm"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "swum",
+          "ipa": "swˈʌm"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "split",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "splˈɪt",
+      "translations": [
+        "раскалывать",
+        "делить"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 116,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "split",
+          "ipa": "splˈɪt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "split",
+          "ipa": "splˈɪt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "flee",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "flˈiː",
+      "translations": [
+        "бежать",
+        "спасаться бегством"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 117,
+      "pattern": "ABB",
+      "cue": "спасаться бегством",
+      "past": [
+        {
+          "form": "fled",
+          "ipa": "flˈɛd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "fled",
+          "ipa": "flˈɛd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "rid",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "rˈɪd",
+      "translations": [
+        "избавлять"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 118,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "rid",
+          "ipa": "rˈɪd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "rid",
+          "ipa": "rˈɪd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "undergo",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ˌʌndəgˈəʊ",
+      "translations": [
+        "подвергаться",
+        "переносить"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 119,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "underwent",
+          "ipa": "ˌʌndəwˈɛnt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "undergone",
+          "ipa": "ˌʌndəgˈɒn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bite",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈaɪt",
+      "translations": [
+        "кусать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 120,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "bit",
+          "ipa": "bˈɪt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "bitten",
+          "ipa": "bˈɪtən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "swear",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "swˈeə",
+      "translations": [
+        "клясться",
+        "ругаться"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 121,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "swore",
+          "ipa": "swˈɔː"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "sworn",
+          "ipa": "swˈɔːn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "shine",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ʃˈaɪn",
+      "translations": [
+        "светить",
+        "сиять"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 123,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "shone",
+          "ipa": "ʃˈɒn"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "shone",
+          "ipa": "ʃˈɒn"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "upset",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ʌpsˈɛt",
+      "translations": [
+        "расстраивать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 124,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "upset",
+          "ipa": "ʌpsˈɛt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "upset",
+          "ipa": "ʌpsˈɛt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lend",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈɛnd",
+      "translations": [
+        "одалживать (кому-то)"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 126,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "lent",
+          "ipa": "lˈɛnt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "lent",
+          "ipa": "lˈɛnt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "burst",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "bˈɜːst",
+      "translations": [
+        "лопаться",
+        "разрываться"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 127,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "burst",
+          "ipa": "bˈɜːst"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "burst",
+          "ipa": "bˈɜːst"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "forgive",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "fəgˈɪv",
+      "translations": [
+        "прощать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 128,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "forgave",
+          "ipa": "fəgˈeɪv"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "forgiven",
+          "ipa": "fəgˈɪvən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "broadcast",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "brˈɔːdkɑːst",
+      "translations": [
+        "транслировать",
+        "передавать в эфир"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 129,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "broadcast",
+          "ipa": "brˈɔːdkɑːst"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "broadcast",
+          "ipa": "brˈɔːdkɑːst"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "leap",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "lˈiːp",
+      "translations": [
+        "прыгать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 130,
+      "pattern": "ABB",
+      "cue": "прыгать (далеко, высоко)",
+      "past": [
+        {
+          "form": "leapt",
+          "ipa": "lˈɛpt"
+        },
+        {
+          "form": "leaped",
+          "ipa": "lˈiːpt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "leapt",
+          "ipa": "lˈɛpt"
+        },
+        {
+          "form": "leaped",
+          "ipa": "lˈiːpt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spill",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "spˈɪl",
+      "translations": [
+        "проливать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 131,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "spilt",
+          "ipa": "spˈɪlt"
+        },
+        {
+          "form": "spilled",
+          "ipa": "spˈɪld"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "spilt",
+          "ipa": "spˈɪlt"
+        },
+        {
+          "form": "spilled",
+          "ipa": "spˈɪld"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "undertake",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ˌʌndətˈeɪk",
+      "translations": [
+        "предпринимать",
+        "браться (за)"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 132,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "undertook",
+          "ipa": "ˌʌndətˈʊk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "undertaken",
+          "ipa": "ˌʌndətˈeɪkən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spell",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "spˈɛl",
+      "translations": [
+        "писать по буквам"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 133,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "spelt",
+          "ipa": "spˈɛlt"
+        },
+        {
+          "form": "spelled",
+          "ipa": "spˈɛld"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "spelt",
+          "ipa": "spˈɛlt"
+        },
+        {
+          "form": "spelled",
+          "ipa": "spˈɛld"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "shed",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ʃˈɛd",
+      "translations": [
+        "сбрасывать",
+        "проливать (слёзы)"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_aaa"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 134,
+      "pattern": "AAA",
+      "past": [
+        {
+          "form": "shed",
+          "ipa": "ʃˈɛd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "shed",
+          "ipa": "ʃˈɛd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "shrink",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "ʃrˈɪŋk",
+      "translations": [
+        "сжиматься",
+        "садиться (о ткани)"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 135,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "shrank",
+          "ipa": "ʃrˈæŋk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "shrunk",
+          "ipa": "ʃrˈʌŋk"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "cling",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "klˈɪŋ",
+      "translations": [
+        "цепляться"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 137,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "clung",
+          "ipa": "klˈʌŋ"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "clung",
+          "ipa": "klˈʌŋ"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "forbid",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "fəbˈɪd",
+      "translations": [
+        "запрещать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 139,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "forbade",
+          "ipa": "fəbˈeɪd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "forbidden",
+          "ipa": "fəbˈɪdən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "swell",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "swˈɛl",
+      "translations": [
+        "опухать",
+        "набухать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 140,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "swelled",
+          "ipa": "swˈɛld"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "swollen",
+          "ipa": "swˈəʊlən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "weave",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "wˈiːv",
+      "translations": [
+        "ткать",
+        "плести"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 141,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "wove",
+          "ipa": "wˈəʊv"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "woven",
+          "ipa": "wˈəʊvən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spit",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "spˈɪt",
+      "translations": [
+        "плевать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 142,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "spat",
+          "ipa": "spˈæt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "spat",
+          "ipa": "spˈæt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "kneel",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "nˈiːl",
+      "translations": [
+        "становиться на колени"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 143,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "knelt",
+          "ipa": "nˈɛlt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "knelt",
+          "ipa": "nˈɛlt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sting",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "stˈɪŋ",
+      "translations": [
+        "жалить"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 144,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "stung",
+          "ipa": "stˈʌŋ"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "stung",
+          "ipa": "stˈʌŋ"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "creep",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "krˈiːp",
+      "translations": [
+        "ползти",
+        "красться"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 145,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "crept",
+          "ipa": "krˈɛpt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "crept",
+          "ipa": "krˈɛpt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "mistake",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "mɪstˈeɪk",
+      "translations": [
+        "ошибаться",
+        "принимать (за другого)"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 146,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "mistook",
+          "ipa": "mɪstˈʊk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "mistaken",
+          "ipa": "mɪstˈeɪkən"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "spoil",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "spˈɔɪl",
+      "translations": [
+        "портить",
+        "баловать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 147,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "spoilt",
+          "ipa": "spˈɔɪlt"
+        },
+        {
+          "form": "spoiled",
+          "ipa": "spˈɔɪld"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "spoilt",
+          "ipa": "spˈɔɪlt"
+        },
+        {
+          "form": "spoiled",
+          "ipa": "spˈɔɪld"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "rebuild",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "rɪbˈɪld",
+      "translations": [
+        "перестраивать",
+        "восстанавливать"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abb"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 148,
+      "pattern": "ABB",
+      "past": [
+        {
+          "form": "rebuilt",
+          "ipa": "rɪbˈɪlt"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "rebuilt",
+          "ipa": "rɪbˈɪlt"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "sew",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "sˈəʊ",
+      "translations": [
+        "шить"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 149,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "sewed",
+          "ipa": "sˈəʊd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "sewn",
+          "ipa": "sˈəʊn"
+        },
+        {
+          "form": "sewed",
+          "ipa": "sˈəʊd"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "stink",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "stˈɪŋk",
+      "translations": [
+        "вонять"
+      ],
+      "level": "B2",
+      "topics": [
+        "irr_abc"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 150,
+      "pattern": "ABC",
+      "past": [
+        {
+          "form": "stank",
+          "ipa": "stˈæŋk"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "stunk",
+          "ipa": "stˈʌŋk"
+        }
+      ]
+    }
+  ]
+}

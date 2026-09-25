@@ -20,6 +20,7 @@ from app.session import (
     build_assessment_queue,
     build_queue,
     new_limit_for_day,
+    order_by_direction,
 )
 
 
@@ -171,3 +172,29 @@ class FilterTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class FormsDirectionTests(unittest.TestCase):
+    def test_forms_enabled_only_with_irregular_textbook(self) -> None:
+        self.assertFalse(SessionFilter(language="en").forms_enabled)
+        self.assertFalse(
+            SessionFilter(language="en", textbooks=("Starlight 7",)).forms_enabled
+        )
+        self.assertTrue(
+            SessionFilter(
+                language="en", textbooks=("Starlight 7", "Irregular verbs")
+            ).forms_enabled
+        )
+
+    def test_forms_groups_with_native_to_foreign(self) -> None:
+        cards = [
+            candidate(1, "foreign_to_native"),
+            candidate(2, "forms"),
+            candidate(3, "native_to_foreign"),
+        ]
+        ordered = order_by_direction(cards, "native_to_foreign", random.Random(1))
+        self.assertEqual(
+            {c.direction for c in ordered[:2]}, {"forms", "native_to_foreign"}
+        )
+        self.assertEqual(ordered[2].direction, "foreign_to_native")
+

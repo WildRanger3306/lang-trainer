@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from app.session import CardCandidate
+from app.session import FORMS, CardCandidate
 
 POS_LABELS = {
     "noun": "существительное",
@@ -29,6 +29,18 @@ FLAGS = {
 
 
 @dataclass(frozen=True)
+class FormColumn:
+    """One column of the forms card back: Inf. / Past Simple / Past Part."""
+
+    label: str
+    form: str
+    ipa: str
+    # Same spelling as the infinitive but a different sound (read [riːd] → [red]).
+    ipa_differs: bool = False
+    alternates: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
 class CardView:
     prompt: str
     hint: str
@@ -38,6 +50,8 @@ class CardView:
     answer_ipa: str
     direction_label: str
     direction_flags: str
+    form_columns: tuple[FormColumn, ...] = ()
+    forms_line: str = ""
 
 
 def _hint_parts(*parts: str) -> str:
@@ -84,7 +98,64 @@ def display_form(card: CardCandidate) -> str:
     return card.form
 
 
+def _bracket(ipa: str | None) -> str:
+    return f"[{ipa}]" if ipa else ""
+
+
+def _form_column(
+    label: str,
+    forms: tuple[str, ...],
+    ipas: tuple[str, ...],
+    card: CardCandidate,
+) -> FormColumn:
+    form, ipa = forms[0], ipas[0]
+    return FormColumn(
+        label=label,
+        form=form,
+        ipa=_bracket(ipa),
+        ipa_differs=(
+            form.casefold() == card.form.casefold()
+            and bool(card.transcription)
+            and ipa != card.transcription
+        ),
+        alternates=tuple(
+            f"{alt} {_bracket(alt_ipa)}".strip()
+            for alt, alt_ipa in zip(forms[1:], ipas[1:])
+        ),
+    )
+
+
+def forms_card_view(card: CardCandidate) -> CardView:
+    """Translation → three forms (§015). Back: Inf. / Past Simple / Past Part."""
+    vf = card.forms
+    assert vf is not None
+    return CardView(
+        prompt=vf.cue or ", ".join(card.translations),
+        hint="неправильный глагол · 3 формы",
+        ipa="",
+        answer=f"{card.form} — {vf.past[0]} — {vf.past_participle[0]}",
+        answer_hint="",
+        answer_ipa="",
+        direction_label="русский → три формы",
+        direction_flags=direction_flags(card.language, "native_to_foreign"),
+        form_columns=(
+            FormColumn(label="Inf.", form=card.form, ipa=_bracket(card.transcription)),
+            _form_column("Past Simple", vf.past, vf.past_ipa, card),
+            _form_column("Past Part.", vf.past_participle, vf.past_participle_ipa, card),
+        ),
+    )
+
+
+def forms_line(card: CardCandidate) -> str:
+    """Reference line on regular cards of an irregular verb: buy — bought — bought."""
+    if card.forms is None:
+        return ""
+    return f"{card.form} — {card.forms.past[0]} — {card.forms.past_participle[0]}"
+
+
 def card_view(card: CardCandidate) -> CardView:
+    if card.direction == FORMS:
+        return forms_card_view(card)
     pos = POS_LABELS.get(card.part_of_speech, card.part_of_speech)
     gender = GENDER_LABELS.get(card.gender or "", "")
     translations = ", ".join(card.translations)
@@ -101,6 +172,7 @@ def card_view(card: CardCandidate) -> CardView:
             answer_ipa="",
             direction_label="иностранный → русский",
             direction_flags=flags,
+            forms_line=forms_line(card),
         )
     return CardView(
         prompt=translations,
@@ -111,4 +183,5 @@ def card_view(card: CardCandidate) -> CardView:
         answer_ipa=ipa,
         direction_label="русский → иностранный",
         direction_flags=flags,
+        forms_line=forms_line(card),
     )

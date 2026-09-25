@@ -11,6 +11,7 @@ COPY static ./static
 COPY scripts ./scripts
 COPY db ./db
 COPY docs/words/json ./docs/words/json
+COPY docs/words/irregular ./docs/words/irregular
 
 ENV PYTHONPATH=/app
 EXPOSE 8000

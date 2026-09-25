@@ -58,11 +58,29 @@ CREATE TABLE entry_textbooks (
   PRIMARY KEY (entry_id, textbook_id)
 );
 
+-- Irregular verb forms (EN, §015): 1:1 to a verb entry. Arrays hold variants
+-- (learnt/learned), IPA arrays run parallel to the forms.
+CREATE TABLE verb_forms (
+  entry_id BIGINT PRIMARY KEY REFERENCES entries (id) ON DELETE CASCADE,
+  past TEXT[] NOT NULL,
+  past_ipa TEXT[] NOT NULL,
+  past_participle TEXT[] NOT NULL,
+  past_participle_ipa TEXT[] NOT NULL,
+  pattern TEXT,
+  rank INT,
+  cue TEXT,
+  CHECK (cardinality(past) >= 1 AND cardinality(past) = cardinality(past_ipa)),
+  CHECK (
+    cardinality(past_participle) >= 1
+    AND cardinality(past_participle) = cardinality(past_participle_ipa)
+  )
+);
+
 CREATE INDEX idx_entries_language ON entries (language);
 CREATE INDEX idx_entries_level ON entries (level);
 CREATE INDEX idx_entries_part_of_speech ON entries (part_of_speech);
 
-CREATE TYPE card_direction AS ENUM ('foreign_to_native', 'native_to_foreign');
+CREATE TYPE card_direction AS ENUM ('foreign_to_native', 'native_to_foreign', 'forms');
 
 CREATE TABLE users (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -123,7 +141,7 @@ CREATE TABLE card_progress (
   last_review TIMESTAMPTZ,
   introduced_on DATE NOT NULL,
   introduced_via TEXT NOT NULL DEFAULT 'train'
-    CHECK (introduced_via IN ('train', 'assess')),
+    CHECK (introduced_via IN ('train', 'assess', 'verbs')),
   PRIMARY KEY (user_id, entry_id, direction)
 );
 
@@ -145,7 +163,7 @@ CREATE TABLE card_reviews (
   interval_after DOUBLE PRECISION NOT NULL
     CHECK (interval_after >= 0),
   source TEXT NOT NULL DEFAULT 'train'
-    CHECK (source IN ('train', 'assess')),
+    CHECK (source IN ('train', 'assess', 'verbs')),
   rating SMALLINT
     CHECK (rating IS NULL OR rating BETWEEN 1 AND 4)
 );

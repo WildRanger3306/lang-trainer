@@ -15,7 +15,7 @@ from app.coach import coach_message, days_since_activity
 from app.db import connect
 from app.load_limits import get_new_per_day
 from app.progress import count_introduced_today, save_assessment, save_grade
-from app.queue import build_assessment_cards, build_session_cards
+from app.queue import build_assessment_cards, build_session_cards, build_verbs_cards
 from app.repository import fetch_filter_options, fetch_queue_preview, fetch_textbook_banks
 from app.scheduler import ASSESS_BATCH, ASSESS_KNOW_INTERVAL, ASSESS_VERDICTS, preferred_direction
 from app.session import SessionFilter
@@ -97,6 +97,10 @@ def _nav(user: User | None) -> dict:
     return {"user": user}
 
 
+# FSRS-graded modes on /train: the daily session and irregular verbs (§016).
+TRAIN_MODES = ("train", "verbs")
+
+
 @app.get("/health")
 def health() -> dict[str, bool]:
     return {"ok": True}
@@ -167,6 +171,10 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
             queue_due=preview.due_count,
             queue_new_left=preview.new_remaining_today,
         )
+        verbs = None
+        if language == "en":
+            _, verbs_due, verbs_new = build_verbs_cards(conn, user.id, random.Random())
+            verbs = {"due": verbs_due, "new": verbs_new}
     return templates.TemplateResponse(
         request,
         "filter.html",
@@ -181,6 +189,7 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
             "assess_batch": ASSESS_BATCH,
             "assess_know_interval": ASSESS_KNOW_INTERVAL,
             "coach": coach,
+            "verbs": verbs,
         },
     )
 
@@ -267,6 +276,28 @@ def start_session(
     return response
 
 
+@app.post("/verbs/start")
+def start_verbs(request: Request) -> RedirectResponse:
+    """Irregular verbs mode (§016): all due + new `forms` cards, no daily limit."""
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
+    with connect() as conn:
+        set_last_language(conn, user.id, "en")
+        picked, due_n, new_n = build_verbs_cards(conn, user.id, random.Random())
+    if not picked:
+        return RedirectResponse(
+            "/?language=en&error=Неправильные+глаголы+на+сегодня+повторены",
+            status_code=303,
+        )
+    token = store.create(
+        picked, user_id=user.id, mode="verbs", due_at_start=due_n, new_at_start=new_n
+    )
+    response = RedirectResponse("/train", status_code=303)
+    response.set_cookie(COOKIE, token, httponly=True, samesite="lax")
+    return response
+
+
 @app.post("/assess/start")
 def start_assessment(
     request: Request,
@@ -310,7 +341,7 @@ def train_page(request: Request) -> HTMLResponse | RedirectResponse:
     session = store.get(request.cookies.get(COOKIE))
     if session is None or session.user_id != user.id:
         return RedirectResponse("/", status_code=303)
-    if session.mode != "train":
+    if session.mode not in TRAIN_MODES:
         return RedirectResponse("/assess", status_code=303)
     if session.done:
         return RedirectResponse("/done", status_code=303)
@@ -325,6 +356,7 @@ def train_page(request: Request) -> HTMLResponse | RedirectResponse:
             "number": session.number,
             "total": session.total,
             "is_new": card.is_new,
+            "mode": session.mode,
         },
     )
 
@@ -365,7 +397,7 @@ def grade_card(request: Request, rating: str = Form(...)) -> RedirectResponse:
     if (
         session is None
         or session.current is None
-        or session.mode != "train"
+        or session.mode not in TRAIN_MODES
         or session.user_id != user.id
     ):
         return RedirectResponse("/", status_code=303)
@@ -377,7 +409,7 @@ def grade_card(request: Request, rating: str = Form(...)) -> RedirectResponse:
 
     card = session.current
     with connect() as conn:
-        save_grade(conn, user.id, card, rating)
+        save_grade(conn, user.id, card, rating, source=session.mode)
 
     session.index += 1
     if rating == "again":

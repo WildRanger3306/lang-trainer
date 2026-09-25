@@ -4,7 +4,7 @@ import unittest
 from datetime import date
 
 from app.cards import card_view
-from app.session import CardCandidate
+from app.session import CardCandidate, VerbForms
 
 
 def card(**kwargs) -> CardCandidate:
@@ -184,3 +184,113 @@ class CardViewTests(unittest.TestCase):
     def test_direction_flags_en_to_ru(self) -> None:
         view = card_view(card())
         self.assertEqual(view.direction_flags, "🇬🇧 → 🇷🇺")
+
+
+def read_forms(**kwargs) -> VerbForms:
+    data = dict(
+        past=("read",),
+        past_ipa=("rˈɛd",),
+        past_participle=("read",),
+        past_participle_ipa=("rˈɛd",),
+        cue=None,
+    )
+    data.update(kwargs)
+    return VerbForms(**data)
+
+
+def verb(**kwargs) -> CardCandidate:
+    data = dict(
+        direction="forms",
+        form="read",
+        part_of_speech="verb",
+        part_of_speech_code="v",
+        transcription="rˈiːd",
+        translations=("читать",),
+        forms=read_forms(),
+    )
+    data.update(kwargs)
+    return card(**data)
+
+
+class FormsCardViewTests(unittest.TestCase):
+    def test_front_is_translation_only(self) -> None:
+        view = card_view(verb())
+        self.assertEqual(view.prompt, "читать")
+        self.assertEqual(view.hint, "неправильный глагол · 3 формы")
+        self.assertEqual(view.ipa, "")
+
+    def test_cue_replaces_translations_on_front(self) -> None:
+        view = card_view(
+            verb(
+                form="make",
+                translations=("делать", "изготавливать"),
+                forms=read_forms(cue="делать, изготавливать (торт, чай)"),
+            )
+        )
+        self.assertEqual(view.prompt, "делать, изготавливать (торт, чай)")
+
+    def test_back_has_three_labelled_columns(self) -> None:
+        view = card_view(verb())
+        self.assertEqual(
+            [c.label for c in view.form_columns], ["Inf.", "Past Simple", "Past Part."]
+        )
+        self.assertEqual([c.form for c in view.form_columns], ["read", "read", "read"])
+        self.assertEqual(view.form_columns[0].ipa, "[rˈiːd]")
+        self.assertEqual(view.form_columns[1].ipa, "[rˈɛd]")
+
+    def test_same_spelling_other_sound_is_flagged(self) -> None:
+        view = card_view(verb())
+        self.assertEqual([c.ipa_differs for c in view.form_columns], [False, True, True])
+
+    def test_same_spelling_same_sound_not_flagged(self) -> None:
+        view = card_view(
+            verb(
+                form="cut",
+                transcription="kˈʌt",
+                forms=read_forms(
+                    past=("cut",),
+                    past_ipa=("kˈʌt",),
+                    past_participle=("cut",),
+                    past_participle_ipa=("kˈʌt",),
+                ),
+            )
+        )
+        self.assertFalse(any(c.ipa_differs for c in view.form_columns))
+
+    def test_variants_go_below_main_form(self) -> None:
+        view = card_view(
+            verb(
+                form="learn",
+                transcription="lˈɜːn",
+                forms=read_forms(
+                    past=("learnt", "learned"),
+                    past_ipa=("lˈɜːnt", "lˈɜːnd"),
+                    past_participle=("learnt", "learned"),
+                    past_participle_ipa=("lˈɜːnt", "lˈɜːnd"),
+                ),
+            )
+        )
+        past = view.form_columns[1]
+        self.assertEqual(past.form, "learnt")
+        self.assertEqual(past.alternates, ("learned [lˈɜːnd]",))
+
+    def test_forms_flags(self) -> None:
+        self.assertEqual(card_view(verb()).direction_flags, "🇷🇺 → 🇬🇧")
+
+
+class FormsLineTests(unittest.TestCase):
+    def test_regular_card_of_irregular_verb_shows_forms_line(self) -> None:
+        forms = read_forms(
+            past=("bought",),
+            past_ipa=("bˈɔːt",),
+            past_participle=("bought",),
+            past_participle_ipa=("bˈɔːt",),
+        )
+        for direction in ("foreign_to_native", "native_to_foreign"):
+            view = card_view(verb(direction=direction, form="buy", forms=forms))
+            self.assertEqual(view.forms_line, "buy — bought — bought")
+            self.assertEqual(view.form_columns, ())
+
+    def test_no_forms_no_line(self) -> None:
+        self.assertEqual(card_view(card()).forms_line, "")
+

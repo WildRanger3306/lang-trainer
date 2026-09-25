@@ -2,7 +2,7 @@
 {% block title %}Итог сессии{% endblock %}
 {% block body %}
   <header class="header">
-    <h1>{% if mode == "assess" %}Итог оценки{% else %}Итог{% endif %}</h1>
+    <h1>{% if mode == "assess" %}Итог оценки{% elif mode == "verbs" %}Итог: неправильные глаголы{% else %}Итог{% endif %}</h1>
     <p class="lead">{{ started_at }} · {{ duration }}</p>
   </header>
 

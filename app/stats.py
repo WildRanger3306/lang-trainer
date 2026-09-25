@@ -460,11 +460,13 @@ def fetch_corpus_stats(
               count(*) FILTER (WHERE p.interval_days >= 21) AS interval_ge_21
             FROM entries e
             CROSS JOIN unnest(
-              ARRAY['foreign_to_native','native_to_foreign']::card_direction[]
+              ARRAY['foreign_to_native','native_to_foreign','forms']::card_direction[]
             ) AS d(direction)
+            LEFT JOIN verb_forms vf ON vf.entry_id = e.id
             LEFT JOIN card_progress p
               ON p.entry_id = e.id AND p.direction = d.direction AND p.user_id = %s
             WHERE e.language = %s
+              AND (d.direction <> 'forms' OR vf.entry_id IS NOT NULL)
             """,
             (user_id, language),
         )

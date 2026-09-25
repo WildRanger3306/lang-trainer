@@ -123,7 +123,11 @@ def save_grade(
     rating_name: str,
     today: date | None = None,
     answered_at: datetime | None = None,
+    *,
+    source: str = "train",
 ) -> ProgressState:
+    """FSRS grade. `source` is train or verbs (§016: verbs mode stays out of
+    the new-card quota, adaptive load and train stats)."""
     if rating_name not in TRAIN_RATINGS:
         raise ValueError(f"unknown rating: {rating_name}")
     today = today or date.today()
@@ -138,11 +142,11 @@ def save_grade(
         user_id,
         card,
         nxt,
-        introduced_via="train",
+        introduced_via=source,
         remembered=rating_name != "again",
         was_new=was_new,
         interval_before=interval_before,
-        source="train",
+        source=source,
         answered_at=answered_at,
         today=today,
         rating=rating_int,

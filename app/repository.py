@@ -7,7 +7,14 @@ import psycopg
 from psycopg.rows import dict_row
 
 from app.load_limits import get_new_per_day
-from app.session import DIRECTIONS, CardCandidate, QueuePreview, SessionFilter
+from app.session import (
+    DIRECTIONS,
+    FORMS,
+    CardCandidate,
+    QueuePreview,
+    SessionFilter,
+    VerbForms,
+)
 
 
 @dataclass(frozen=True)
@@ -158,6 +165,48 @@ def _filter_clause() -> str:
     """
 
 
+def _card_directions() -> list[str]:
+    return [*DIRECTIONS, FORMS]
+
+
+def _direction_clause() -> str:
+    """Card set per entry is computed from the filter (§015): with FORMS_TEXTBOOK
+    selected, a verb with forms gets `forms` instead of native_to_foreign."""
+    return """
+          AND CASE d.direction
+            WHEN 'forms' THEN %s AND vf.entry_id IS NOT NULL
+            WHEN 'native_to_foreign' THEN NOT (%s AND vf.entry_id IS NOT NULL)
+            ELSE TRUE
+          END
+    """
+
+
+def _direction_params(flt: SessionFilter) -> tuple:
+    return (flt.forms_enabled, flt.forms_enabled)
+
+
+_FORMS_COLUMNS = """
+          vf.entry_id AS vf_entry_id,
+          vf.past,
+          vf.past_ipa,
+          vf.past_participle,
+          vf.past_participle_ipa,
+          vf.cue
+"""
+
+
+def _row_forms(row: dict) -> VerbForms | None:
+    if row.get("vf_entry_id") is None:
+        return None
+    return VerbForms(
+        past=tuple(row["past"]),
+        past_ipa=tuple(row["past_ipa"]),
+        past_participle=tuple(row["past_participle"]),
+        past_participle_ipa=tuple(row["past_participle_ipa"]),
+        cue=row["cue"],
+    )
+
+
 def _filter_params(flt: SessionFilter) -> tuple:
     levels = list(flt.levels)
     textbooks = list(flt.textbooks)
@@ -188,6 +237,7 @@ def _row_to_card(row: dict, *, is_new: bool) -> CardCandidate:
         due_on=row.get("due_on"),
         interval_days=float(row["interval_days"]) if row.get("interval_days") is not None else 0.0,
         ease=float(row["difficulty"]) if row.get("difficulty") is not None else 0.0,
+        forms=_row_forms(row),
     )
 
 
@@ -212,20 +262,31 @@ def fetch_due_candidates(
           p.interval_days,
           p.stability,
           p.difficulty,
-          array_agg(tr.text ORDER BY tr.position) AS translations
+          array_agg(tr.text ORDER BY tr.position) AS translations,
+          {_FORMS_COLUMNS}
         FROM entries e
         CROSS JOIN unnest(%s::card_direction[]) AS d(direction)
         JOIN entry_translations tr ON tr.entry_id = e.id
         JOIN card_progress p
           ON p.entry_id = e.id AND p.direction = d.direction AND p.user_id = %s
+        LEFT JOIN verb_forms vf ON vf.entry_id = e.id
         {_filter_clause()}
+        {_direction_clause()}
           AND p.due_on <= %s
-        GROUP BY e.id, d.direction, p.due_on, p.interval_days, p.stability, p.difficulty
+        GROUP BY e.id, d.direction, p.due_on, p.interval_days, p.stability, p.difficulty,
+          vf.entry_id
         ORDER BY e.id, d.direction
     """
     with conn.cursor(row_factory=dict_row) as cur:
         cur.execute(
-            query, (list(DIRECTIONS), user_id, *_filter_params(flt), today)
+            query,
+            (
+                _card_directions(),
+                user_id,
+                *_filter_params(flt),
+                *_direction_params(flt),
+                today,
+            ),
         )
         rows = cur.fetchall()
     return [_row_to_card(row, is_new=False) for row in rows]
@@ -250,19 +311,30 @@ def fetch_new_candidates(
           NULL::double precision AS interval_days,
           NULL::double precision AS stability,
           NULL::double precision AS difficulty,
-          array_agg(tr.text ORDER BY tr.position) AS translations
+          array_agg(tr.text ORDER BY tr.position) AS translations,
+          {_FORMS_COLUMNS}
         FROM entries e
         CROSS JOIN unnest(%s::card_direction[]) AS d(direction)
         JOIN entry_translations tr ON tr.entry_id = e.id
         LEFT JOIN card_progress p
           ON p.entry_id = e.id AND p.direction = d.direction AND p.user_id = %s
+        LEFT JOIN verb_forms vf ON vf.entry_id = e.id
         {_filter_clause()}
+        {_direction_clause()}
           AND p.entry_id IS NULL
-        GROUP BY e.id, d.direction
+        GROUP BY e.id, d.direction, vf.entry_id
         ORDER BY e.id, d.direction
     """
     with conn.cursor(row_factory=dict_row) as cur:
-        cur.execute(query, (list(DIRECTIONS), user_id, *_filter_params(flt)))
+        cur.execute(
+            query,
+            (
+                _card_directions(),
+                user_id,
+                *_filter_params(flt),
+                *_direction_params(flt),
+            ),
+        )
         rows = cur.fetchall()
     return [_row_to_card(row, is_new=True) for row in rows]
 

@@ -36,10 +36,21 @@
       <button class="btn btn-secondary" type="submit" formaction="/assess/start">
         Оценка знаний
       </button>
+      {% if verbs %}
+        <button class="btn btn-secondary" type="submit" formaction="/verbs/start">
+          Непр. глаголы
+        </button>
+      {% endif %}
     </div>
     <p class="hint-text">
       Оценка: до {{ assess_batch }} карточек без прогресса.
       «Знаю» → интервал {{ assess_know_interval }} дн., квоту новых не тратит.
     </p>
+    {% if verbs %}
+      <p class="hint-text">
+        Непр. глаголы: перевод → три формы, вперемешку, без лимита —
+        повторов {{ verbs.due }}, новых {{ verbs.new }}. Квоту и статистику тренировки не трогает.
+      </p>
+    {% endif %}
   </form>
 {% endblock %}

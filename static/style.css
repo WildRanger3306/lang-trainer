@@ -540,6 +540,31 @@ legend {
 }
 .flip-hint { margin-top: 1.4rem; font-size: 0.95rem; }
 
+/* Irregular verb forms card (§015): Inf. / Past Simple / Past Part. */
+.forms-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin: 0;
+}
+.forms-col { min-width: 0; }
+.forms-grid dd { margin: 0; overflow-wrap: anywhere; }
+.forms-label { color: var(--muted); font-size: 0.85rem; margin-bottom: 0.35rem; }
+.forms-form {
+  color: var(--accent);
+  font-size: clamp(1.2rem, 5vw, 1.6rem);
+  font-weight: 650;
+}
+.forms-ipa { margin-top: 0.2rem; font-size: clamp(0.95rem, 3.5vw, 1.1rem); }
+.forms-ipa-differs {
+  display: inline-block;
+  padding: 0 0.3rem;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--doubt) 20%, var(--panel));
+}
+.forms-alt { margin-top: 0.3rem; color: var(--muted); font-size: 0.9rem; }
+.forms-line { margin: 1rem 0 0; color: var(--muted); font-size: 1rem; }
+
 .stats {
   list-style: none;
   margin: 0 0 1.25rem;

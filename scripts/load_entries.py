@@ -5,6 +5,9 @@ Default: replace all entries.
 --append: upsert by (language, lower(form), part_of_speech) — merge translations
 and textbook/topic tags into the existing row (JSON dumps may still contain
 cross-book duplicates; uniqueness lives in the DB).
+
+Irregular verbs (`kind: irregular_verbs`, docs/words/irregular/en.json): each verb
+is upserted like any entry, then its forms go to `verb_forms` (§015).
 """
 
 from __future__ import annotations
@@ -78,8 +81,51 @@ def _rewrite_translations(conn, entry_id: int, translations: list[str]) -> None:
         )
 
 
-def _upsert_entry(conn, entry: dict) -> str:
-    """Insert or merge. Returns 'insert' | 'merge'."""
+def _validate_forms(entry: dict) -> None:
+    for key in ("past", "pastParticiple"):
+        forms = entry.get(key) or []
+        if not forms:
+            raise SystemExit(f"verb {entry['form']!r} has no {key}")
+        for item in forms:
+            if not item.get("form") or not item.get("ipa"):
+                raise SystemExit(
+                    f"verb {entry['form']!r}: {key} needs form and ipa, got {item!r}"
+                )
+
+
+def _upsert_forms(conn, entry_id: int, entry: dict) -> None:
+    past = entry["past"]
+    participle = entry["pastParticiple"]
+    conn.execute(
+        """
+        INSERT INTO verb_forms (
+          entry_id, past, past_ipa, past_participle, past_participle_ipa,
+          pattern, rank, cue
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+        ON CONFLICT (entry_id) DO UPDATE SET
+          past = EXCLUDED.past,
+          past_ipa = EXCLUDED.past_ipa,
+          past_participle = EXCLUDED.past_participle,
+          past_participle_ipa = EXCLUDED.past_participle_ipa,
+          pattern = EXCLUDED.pattern,
+          rank = EXCLUDED.rank,
+          cue = EXCLUDED.cue
+        """,
+        (
+            entry_id,
+            [f["form"] for f in past],
+            [f["ipa"] for f in past],
+            [f["form"] for f in participle],
+            [f["ipa"] for f in participle],
+            entry.get("pattern"),
+            entry.get("rank"),
+            entry.get("cue"),
+        ),
+    )
+
+
+def _upsert_entry(conn, entry: dict) -> tuple[str, int]:
+    """Insert or merge. Returns ('insert' | 'merge', entry id)."""
     existing = conn.execute(
         """
         SELECT id FROM entries
@@ -116,7 +162,7 @@ def _upsert_entry(conn, entry: dict) -> str:
         entry_id = row[0]
         _rewrite_translations(conn, entry_id, incoming_tr)
         _link_tags(conn, entry_id, topics=topics, textbooks=textbooks)
-        return "insert"
+        return "insert", entry_id
 
     entry_id = existing[0]
     old_tr = [
@@ -151,7 +197,7 @@ def _upsert_entry(conn, entry: dict) -> str:
         ),
     )
     _link_tags(conn, entry_id, topics=topics, textbooks=textbooks)
-    return "merge"
+    return "merge", entry_id
 
 
 def load_entries(entries: list[dict], *, replace: bool = True) -> dict[str, int]:
@@ -160,10 +206,12 @@ def load_entries(entries: list[dict], *, replace: bool = True) -> dict[str, int]
     for entry in entries:
         if not entry.get("translations"):
             raise SystemExit(f"entry {entry.get('form')!r} has no translations")
+        if "past" in entry or "pastParticiple" in entry:
+            _validate_forms(entry)
         topics.update(entry.get("topics") or [])
         textbooks.update(entry.get("textbooks") or [])
 
-    inserted = merged = 0
+    inserted = merged = forms = 0
     with connect() as conn:
         with conn.transaction():
             if replace:
@@ -171,12 +219,26 @@ def load_entries(entries: list[dict], *, replace: bool = True) -> dict[str, int]
             _ensure_tags(conn, "topics", topics)
             _ensure_tags(conn, "textbooks", textbooks)
             for entry in entries:
-                action = _upsert_entry(conn, entry)
+                action, entry_id = _upsert_entry(conn, entry)
+                if "past" in entry:
+                    _upsert_forms(conn, entry_id, entry)
+                    forms += 1
                 if action == "insert":
                     inserted += 1
                 else:
                     merged += 1
-    return {"inserted": inserted, "merged": merged, "total": len(entries)}
+    return {
+        "inserted": inserted,
+        "merged": merged,
+        "forms": forms,
+        "total": len(entries),
+    }
+
+
+def _payload_entries(payload: dict) -> list[dict]:
+    if payload.get("kind") == "irregular_verbs":
+        return payload["verbs"]
+    return payload["entries"]
 
 
 def collect_entries(paths: list[Path]) -> list[dict]:
@@ -195,12 +257,12 @@ def collect_entries(paths: list[Path]) -> list[dict]:
                 payload = json.loads(file.read_text())
                 if payload.get("kind") == "registry":
                     continue
-                entries.extend(payload["entries"])
+                entries.extend(_payload_entries(payload))
         else:
             payload = json.loads(path.read_text())
             if payload.get("kind") == "registry":
                 raise SystemExit(f"skip registry file (not for load): {path}")
-            entries.extend(payload["entries"])
+            entries.extend(_payload_entries(payload))
     return entries
 
 
@@ -223,7 +285,8 @@ def main() -> None:
     mode = "appended" if args.append else "loaded"
     print(
         f"{mode} {stats['total']} JSON rows → "
-        f"inserted {stats['inserted']}, merged {stats['merged']}"
+        f"inserted {stats['inserted']}, merged {stats['merged']}, "
+        f"verb forms {stats['forms']}"
     )
 
 

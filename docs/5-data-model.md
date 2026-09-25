@@ -54,9 +54,24 @@
 - `phr` → `phrase`
 - `conj`, `prep`, `pp` и прочее → `other`
 
+## Формы глагола (`verb_forms`)
+
+Неправильные глаголы EN, 1:1 к `entries` (§015, [8-irregular-verbs.md](8-irregular-verbs.md)). Источник — `docs/words/irregular/en.json`.
+
+| Поле | Смысл |
+|---|---|
+| `entry_id` | PK, → инфинитив (`verb`) |
+| `past`, `past_ipa` | Past Simple и IPA, параллельные массивы (`learnt`, `learned`) |
+| `past_participle`, `past_participle_ipa` | Past Participle и IPA |
+| `pattern` | `AAA` / `AAB` / `ABA` / `ABB` / `ABC` |
+| `rank` | место в частотном списке |
+| `cue` | лицо карточки `forms`, если перевод неоднозначен |
+
 ## Карточка (`card`)
 
-Карточка = `entry` × направление `foreign_to_native` | `native_to_foreign`.
+Карточка = `entry` × направление `foreign_to_native` | `native_to_foreign` | `forms`.
+
+`forms` — перевод → три формы неправильного глагола (§015). Выдаётся только глаголам со строкой в `verb_forms` и только если в фильтре выбран учебник `Irregular verbs`; тогда заменяет `native_to_foreign`. Набор направлений считается при выборке, в БД не хранится.
 
 Прогресс не смешивается с текстом единицы и **привязан к пользователю**. Нет строки прогресса у этого user = новая карточка.
 
@@ -70,7 +85,7 @@
 | `fsrs_state` | Learning / Review / Relearning |
 | `last_review` | время последнего ответа |
 | `introduced_on` | день первого показа |
-| `introduced_via` | `train` (квота новых) или `assess` (оценка, квоту не жжёт) |
+| `introduced_via` | `train` (квота новых), `assess` (оценка, квоту не жжёт) или `verbs` (режим «Непр. глаголы», §016, квоту не жжёт) |
 
 PK: `(user_id, entry_id, direction)`.
 
@@ -91,7 +106,7 @@ PK: `(user_id, entry_id, direction)`.
 | `was_new` | до ответа не было строки прогресса |
 | `interval_before` | интервал до ответа (0 если новая) |
 | `interval_after` | интервал после применения алгоритма |
-| `source` | `train` \| `assess` |
+| `source` | `train` \| `assess` \| `verbs` |
 
 Язык для агрегатов брать из `entries`. Учебник в лог не дублируем в первой версии.
 

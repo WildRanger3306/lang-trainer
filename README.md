@@ -14,6 +14,12 @@ docker compose up --build -d
 
 При первом старте, если словарь пуст, загружаются `starlight_5`–`7`, `loiseau_blue_5`/`6`, `fr_trainer`. Повторный `up` данные не затирает.
 
+Неправильные глаголы EN ([docs/words/irregular/en.json](docs/words/irregular/en.json), учебник-метка `Irregular verbs`) загружаются при старте один раз, если таблица `verb_forms` пуста. После правки списка — вручную:
+
+```bash
+docker compose exec app python scripts/load_entries.py --append docs/words/irregular/en.json
+```
+
 Повтор — упрощённый Anki: due + до 15 новых карточек в день на язык.
 
 Postgres с хоста: порт 5433. Сбросить всё: `docker compose down -v`.

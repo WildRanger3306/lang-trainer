@@ -5,6 +5,10 @@ from dataclasses import dataclass
 from datetime import date
 
 DIRECTIONS = ("foreign_to_native", "native_to_foreign")
+# Irregular verb card: translation → three forms (§015). Offered instead of
+# native_to_foreign when the filter includes FORMS_TEXTBOOK.
+FORMS = "forms"
+FORMS_TEXTBOOK = "Irregular verbs"
 
 
 @dataclass(frozen=True)
@@ -17,6 +21,19 @@ class SessionFilter:
     def __post_init__(self) -> None:
         if self.language not in ("en", "fr"):
             raise ValueError("language must be en or fr")
+
+    @property
+    def forms_enabled(self) -> bool:
+        return FORMS_TEXTBOOK in self.textbooks
+
+
+@dataclass(frozen=True)
+class VerbForms:
+    past: tuple[str, ...]
+    past_ipa: tuple[str, ...]
+    past_participle: tuple[str, ...]
+    past_participle_ipa: tuple[str, ...]
+    cue: str | None = None
 
 
 @dataclass(frozen=True)
@@ -34,6 +51,7 @@ class CardCandidate:
     due_on: date | None
     interval_days: float
     ease: float
+    forms: VerbForms | None = None
 
     @property
     def key(self) -> tuple[int, str]:
@@ -48,18 +66,25 @@ class QueuePreview:
     introduced_today: int
 
 
+def _direction_group(direction: str) -> str:
+    return "native_to_foreign" if direction == FORMS else direction
+
+
 def order_by_direction(
     cards: list[CardCandidate],
     preferred: str | None,
     rng: random.Random,
 ) -> list[CardCandidate]:
-    """Shuffle within groups; preferred direction first when set."""
+    """Shuffle within groups; preferred direction first when set.
+
+    `forms` asks from the native side, so it groups with native_to_foreign.
+    """
     if not preferred:
         out = list(cards)
         rng.shuffle(out)
         return out
-    pref = [c for c in cards if c.direction == preferred]
-    other = [c for c in cards if c.direction != preferred]
+    pref = [c for c in cards if _direction_group(c.direction) == preferred]
+    other = [c for c in cards if _direction_group(c.direction) != preferred]
     rng.shuffle(pref)
     rng.shuffle(other)
     return pref + other

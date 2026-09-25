@@ -21,6 +21,7 @@ SEED_DIRS = [
     ROOT / "docs" / "words" / "json" / "loiseau_blue_6",
     ROOT / "docs" / "words" / "json" / "fr_trainer",
 ]
+IRREGULAR_EN = ROOT / "docs" / "words" / "irregular" / "en.json"
 
 
 def wait_for_db() -> None:
@@ -165,6 +166,7 @@ def migrate() -> None:
         migrate_fsrs()
         migrate_load_limits()
         migrate_phrasal_verb_pos()
+        migrate_verb_forms()
         seed_display_names()
 
 
@@ -205,6 +207,61 @@ def migrate_phrasal_verb_pos() -> None:
             f"phrasal_verb POS recode: {updated.rowcount} rows",
             flush=True,
         )
+
+
+def migrate_verb_forms() -> None:
+    """Irregular verb forms table and the `forms` card direction (§015)."""
+    with connect() as conn:
+        exists = conn.execute(
+            """
+            SELECT 1
+            FROM pg_enum e
+            JOIN pg_type t ON t.oid = e.enumtypid
+            WHERE t.typname = 'card_direction' AND e.enumlabel = 'forms'
+            """
+        ).fetchone()
+        if not exists:
+            conn.commit()
+            conn.execute("ALTER TYPE card_direction ADD VALUE 'forms'")
+            conn.commit()
+            print("card_direction enum +forms", flush=True)
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS verb_forms (
+              entry_id BIGINT PRIMARY KEY REFERENCES entries (id) ON DELETE CASCADE,
+              past TEXT[] NOT NULL,
+              past_ipa TEXT[] NOT NULL,
+              past_participle TEXT[] NOT NULL,
+              past_participle_ipa TEXT[] NOT NULL,
+              pattern TEXT,
+              rank INT,
+              cue TEXT,
+              CHECK (cardinality(past) >= 1 AND cardinality(past) = cardinality(past_ipa)),
+              CHECK (
+                cardinality(past_participle) >= 1
+                AND cardinality(past_participle) = cardinality(past_participle_ipa)
+              )
+            )
+            """
+        )
+        # Irregular verbs mode (§016): answers counted apart from train.
+        conn.execute(
+            """
+            ALTER TABLE card_progress
+              DROP CONSTRAINT IF EXISTS card_progress_introduced_via_check,
+              ADD CONSTRAINT card_progress_introduced_via_check
+                CHECK (introduced_via IN ('train', 'assess', 'verbs'))
+            """
+        )
+        conn.execute(
+            """
+            ALTER TABLE card_reviews
+              DROP CONSTRAINT IF EXISTS card_reviews_source_check,
+              ADD CONSTRAINT card_reviews_source_check
+                CHECK (source IN ('train', 'assess', 'verbs'))
+            """
+        )
+        conn.commit()
 
 
 def seed_display_names() -> None:
@@ -533,10 +590,29 @@ def seed_if_empty() -> None:
         first = False
 
 
+def seed_irregular_if_missing() -> None:
+    """Load the irregular verbs list into an existing DB once (merge, no truncate)."""
+    with connect() as conn:
+        count = conn.execute("SELECT count(*) FROM verb_forms").fetchone()[0]
+    if count or not IRREGULAR_EN.is_file():
+        return
+    print(f"loading {IRREGULAR_EN}", flush=True)
+    cmd = [
+        sys.executable,
+        str(ROOT / "scripts" / "load_entries.py"),
+        "--append",
+        str(IRREGULAR_EN),
+    ]
+    result = subprocess.run(cmd, check=False)
+    if result.returncode != 0:
+        raise SystemExit(result.returncode)
+
+
 def main() -> None:
     wait_for_db()
     migrate()
     seed_if_empty()
+    seed_irregular_if_missing()
     raise SystemExit(
         subprocess.run(
             ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
