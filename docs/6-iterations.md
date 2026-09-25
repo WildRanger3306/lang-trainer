@@ -46,6 +46,8 @@
 
 **Неправильные глаголы** — решение §015: [8-irregular-verbs.md](8-irregular-verbs.md).
 
+**Спряжение FR** — черновик, этап 1 Présent + Passé composé: [17-fr-verbs.md](17-fr-verbs.md).
+
 **FR артикль на карточке** — MVP: `le`/`la`/`les` в отображении; [9-fr-articles.md](9-fr-articles.md). Дальше: elision `l'`, убрать `m`/`f` из hint.
 
 **Адаптивная нагрузка** — сделано (§011). **Позже:** ручная крутилка; lock.
