@@ -1,12 +1,13 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import date
 
 import psycopg
 from psycopg.rows import dict_row
 
 from app.load_limits import get_new_per_day
+from app.parts import GROUP_KEYS, expand_parts, group_of
 from app.session import (
     DIRECTIONS,
     FORMS,
@@ -228,6 +229,28 @@ def fetch_filter_banks(
     )
 
 
+def count_parts(
+    conn: psycopg.Connection, flt: SessionFilter, user_id: int
+) -> dict[str, int]:
+    """Words per part-of-speech chip inside the chosen textbooks/topics.
+
+    Ignores the part-of-speech choice itself, so each chip shows what it would add.
+    """
+    rows = conn.execute(
+        f"""
+        SELECT e.part_of_speech::text, COUNT(*)::int
+        FROM entries e
+        {_filter_clause()}
+        GROUP BY 1
+        """,
+        _filter_params(replace(flt, parts=())),
+    ).fetchall()
+    counts = {key: 0 for key in GROUP_KEYS}
+    for part, count in rows:
+        counts[group_of(part)] += int(count)
+    return counts
+
+
 def count_filter_words(
     conn: psycopg.Connection, flt: SessionFilter, user_id: int
 ) -> tuple[int, int]:
@@ -294,6 +317,10 @@ def _filter_clause() -> str:
                 )
               )
             )
+          AND (
+            cardinality(%s::text[]) = 0
+            OR e.part_of_speech::text = ANY(%s::text[])
+          )
     """
 
 
@@ -343,6 +370,7 @@ def _filter_params(flt: SessionFilter) -> tuple:
     levels = list(flt.levels)
     textbooks = list(flt.textbooks)
     topics = list(flt.topics)
+    parts = expand_parts(flt.parts)
     return (
         flt.language,
         levels,
@@ -350,6 +378,8 @@ def _filter_params(flt: SessionFilter) -> tuple:
         textbooks,
         topics,
         topics,
+        parts,
+        parts,
     )
 
 

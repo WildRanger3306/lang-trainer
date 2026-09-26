@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import psycopg
 
+from app.parts import clean_parts, part_label
 from app.session import NO_TOPIC, SessionFilter, make_pick, split_pick
 from app.topics import WHOLE_BANK, compress_topics
 
@@ -82,7 +83,7 @@ def get_user_filter(
         raise ValueError("language must be en or fr")
     row = conn.execute(
         """
-        SELECT textbooks, topics
+        SELECT textbooks, topics, parts_of_speech
         FROM user_language_filters
         WHERE user_id = %s AND language = %s::language_code
         """,
@@ -93,7 +94,12 @@ def get_user_filter(
     textbooks, topics = _upgrade_legacy_topics(
         conn, language, tuple(row[0] or ()), tuple(row[1] or ())
     )
-    return SessionFilter(language=language, textbooks=textbooks, topics=topics)
+    return SessionFilter(
+        language=language,
+        textbooks=textbooks,
+        topics=topics,
+        parts=clean_parts(row[2] or ()),
+    )
 
 
 def save_user_filter(
@@ -102,25 +108,31 @@ def save_user_filter(
     language: str,
     textbooks: list[str] | tuple[str, ...],
     topics: list[str] | tuple[str, ...],
+    parts: list[str] | tuple[str, ...] = (),
 ) -> SessionFilter:
     if language not in ("en", "fr"):
         raise ValueError("language must be en or fr")
     books = list(dict.fromkeys(textbooks))
     # A topic only counts inside a selected textbook.
     tops = [pick for pick in dict.fromkeys(topics) if split_pick(pick)[0] in books]
+    kinds = list(clean_parts(parts))
     conn.execute(
         """
-        INSERT INTO user_language_filters (user_id, language, textbooks, topics)
-        VALUES (%s, %s::language_code, %s::text[], %s::text[])
+        INSERT INTO user_language_filters (user_id, language, textbooks, topics, parts_of_speech)
+        VALUES (%s, %s::language_code, %s::text[], %s::text[], %s::text[])
         ON CONFLICT (user_id, language) DO UPDATE SET
           textbooks = EXCLUDED.textbooks,
-          topics = EXCLUDED.topics
+          topics = EXCLUDED.topics,
+          parts_of_speech = EXCLUDED.parts_of_speech
         """,
-        (user_id, language, books, tops),
+        (user_id, language, books, tops, kinds),
     )
     conn.commit()
     return SessionFilter(
-        language=language, textbooks=tuple(books), topics=tuple(tops)
+        language=language,
+        textbooks=tuple(books),
+        topics=tuple(tops),
+        parts=tuple(kinds),
     )
 
 
@@ -143,4 +155,7 @@ def filter_summary(flt: SessionFilter) -> str:
         if NO_TOPIC in topics:
             labels.append("без темы")
         parts.append(f"{book} ({', '.join(labels)})" if labels else book)
-    return " · ".join(parts)
+    summary = " · ".join(parts)
+    if flt.parts:
+        summary += " · " + ", ".join(part_label(key).lower() for key in flt.parts)
+    return summary

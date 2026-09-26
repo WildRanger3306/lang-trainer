@@ -18,6 +18,7 @@ from app.progress import count_introduced_today, save_assessment, save_grade
 from app.queue import build_assessment_cards, build_session_cards, build_verbs_cards
 from app.repository import (
     count_filter_words,
+    count_parts,
     fetch_filter_banks,
     fetch_queue_preview,
     fetch_textbook_banks,
@@ -40,6 +41,7 @@ from app.user_filters import (
     save_user_filter,
     set_last_language,
 )
+from app.parts import PART_GROUPS, clean_parts
 from app.topics import format_number, topic_title, words_label
 from app.users import User, authenticate, get_user_by_id
 
@@ -204,7 +206,7 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
     )
 
 
-def _filter_preview(conn, flt: SessionFilter, user_id: int) -> dict[str, int]:
+def _filter_preview(conn, flt: SessionFilter, user_id: int) -> dict:
     words, started = count_filter_words(conn, flt, user_id)
     queue = fetch_queue_preview(conn, flt, user_id)
     return {
@@ -212,6 +214,7 @@ def _filter_preview(conn, flt: SessionFilter, user_id: int) -> dict[str, int]:
         "started": started,
         "due": queue.due_count,
         "untouched": queue.new_available,
+        "parts": count_parts(conn, flt, user_id),
     }
 
 
@@ -236,6 +239,11 @@ def filters_page(
             "banks": banks,
             "selected_textbooks": list(flt.textbooks),
             "selected_picks": list(flt.topics),
+            "selected_parts": list(flt.parts),
+            "part_groups": [
+                {"key": key, "label": label, "short": short, "count": preview["parts"][key]}
+                for key, label, short, _values in PART_GROUPS
+            ],
             "preview": preview,
             "saved": saved == "1",
         },
@@ -248,7 +256,8 @@ def filters_preview(
     language: str,
     textbook: list[str] | None = Query(default=None),
     topic: list[str] | None = Query(default=None),
-) -> dict[str, int]:
+    pos: list[str] | None = Query(default=None),
+) -> dict:
     user = _current_user(request)
     if user is None:
         raise HTTPException(status_code=401, detail="login required")
@@ -257,6 +266,7 @@ def filters_preview(
             language=language,
             textbooks=tuple(textbook or ()),
             topics=tuple(topic or ()),
+            parts=clean_parts(pos or ()),
         )
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
@@ -270,6 +280,7 @@ def filters_save(
     language: str = Form(...),
     textbook: list[str] | None = Form(default=None),
     topic: list[str] | None = Form(default=None),
+    pos: list[str] | None = Form(default=None),
 ) -> RedirectResponse:
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
@@ -283,6 +294,7 @@ def filters_save(
             language,
             textbook or [],
             topic or [],
+            pos or [],
         )
         set_last_language(conn, user.id, language)
     return RedirectResponse(

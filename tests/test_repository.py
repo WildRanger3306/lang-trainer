@@ -1,13 +1,14 @@
 from __future__ import annotations
 
-import os
 import random
 import unittest
 
 from app.db import connect
+from tests.support import requires_test_db
 from app.repository import (
     fetch_due_candidates,
     count_filter_words,
+    count_parts,
     fetch_filter_banks,
     fetch_new_candidates,
 )
@@ -15,7 +16,7 @@ from app.scheduler import new_per_day
 from app.session import NO_TOPIC, SessionFilter, build_queue, make_pick, new_limit_for_day
 
 
-@unittest.skipUnless(os.environ.get("RUN_DB_TESTS") == "1", "set RUN_DB_TESTS=1")
+@requires_test_db
 class RepositoryTests(unittest.TestCase):
     def setUp(self) -> None:
         with connect() as conn:
@@ -135,3 +136,20 @@ class RepositoryTests(unittest.TestCase):
                 (self.user_id, book.name),
             ).fetchone()[0]
         self.assertEqual(book.progress.started, direct)
+
+    def test_parts_narrow_and_counts_add_up(self) -> None:
+        with connect() as conn:
+            base = SessionFilter(language="en", textbooks=("Starlight 7",))
+            whole = count_filter_words(conn, base, self.user_id)[0]
+            counts = count_parts(conn, base, self.user_id)
+            self.assertEqual(sum(counts.values()), whole)
+            for key, count in counts.items():
+                narrowed = SessionFilter(
+                    language="en", textbooks=("Starlight 7",), parts=(key,)
+                )
+                self.assertEqual(count_filter_words(conn, narrowed, self.user_id)[0], count)
+            # Counts ignore the part-of-speech choice itself.
+            picked = SessionFilter(
+                language="en", textbooks=("Starlight 7",), parts=("phrase",)
+            )
+            self.assertEqual(count_parts(conn, picked, self.user_id), counts)

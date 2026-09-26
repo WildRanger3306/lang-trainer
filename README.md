@@ -37,5 +37,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 PYTHONPATH=. python3 -m unittest discover -s tests -v
-RUN_DB_TESTS=1 PYTHONPATH=. python3 -m unittest discover -s tests -v
+```
+
+Тесты с базой и ручные проверки идут **только на тестовой базе** `<POSTGRES_DB>_test` на том же сервере Postgres, боевая не трогается. Тесты, которым нужна база, сами отказываются запускаться на базе без суффикса `_test`.
+
+```bash
+python scripts/test_db.py setup           # создать базу, миграции, словарь, тестовых пользователей (serafima / serafima123, pavel / pavel123)
+python scripts/test_db.py setup --reset   # пересоздать с нуля
+python scripts/test_db.py test            # все тесты, включая тесты базы
+python scripts/test_db.py run             # локальное приложение на тестовой базе: http://127.0.0.1:8001
 ```

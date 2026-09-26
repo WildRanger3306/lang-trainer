@@ -505,6 +505,32 @@ html, body {
   border-radius: 2px;
 }
 
+.parts {
+  display: grid;
+  gap: 0.6rem;
+  padding: 0.85rem 1rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+
+.parts-title {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.parts-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.parts .topic-chip { padding-bottom: 0.4rem; }
+.topic-chip.is-zero:not(:has(.topic-chip-input:checked)) { opacity: 0.5; }
+
 .summary {
   display: grid;
   gap: 0.15rem;

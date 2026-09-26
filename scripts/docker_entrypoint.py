@@ -413,6 +413,12 @@ def migrate_user_filters() -> None:
             )
             """
         )
+        conn.execute(
+            """
+            ALTER TABLE user_language_filters
+              ADD COLUMN IF NOT EXISTS parts_of_speech TEXT[] NOT NULL DEFAULT '{}'
+            """
+        )
         conn.commit()
         print("user_language_filters ready", flush=True)
 

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import unittest
 
+from app.parts import clean_parts, expand_parts, group_of, part_label
 from app.repository import WordProgress
 from app.session import NO_TOPIC, SessionFilter, make_pick, split_pick
 from app.topics import compress_topics, topic_title, words_label
@@ -35,6 +36,32 @@ class WordProgressTests(unittest.TestCase):
 
     def test_empty_textbook(self) -> None:
         self.assertEqual(WordProgress(0, 0, 0, 0).shares(), (0.0, 0.0, 0.0))
+
+
+class PartsTests(unittest.TestCase):
+    def test_clean_keeps_known_keys_in_chip_order(self) -> None:
+        self.assertEqual(clean_parts(["phrase", "bogus", "noun", "noun"]), ("noun", "phrase"))
+
+    def test_expand_other_covers_several_values(self) -> None:
+        self.assertEqual(expand_parts(["other"]), ["other", "pronoun", "numeral"])
+        self.assertEqual(expand_parts(["phrasal_verb", "verb"]), ["verb", "phrasal_verb"])
+        self.assertEqual(expand_parts([]), [])
+
+    def test_group_of_unknown_value_falls_into_other(self) -> None:
+        self.assertEqual(group_of("pronoun"), "other")
+        self.assertEqual(group_of("phrasal_verb"), "phrasal_verb")
+        self.assertEqual(group_of("something"), "other")
+
+    def test_summary_lists_parts(self) -> None:
+        flt = SessionFilter(
+            language="en",
+            textbooks=("Starlight 7",),
+            parts=clean_parts(("phrase", "phrasal_verb")),
+        )
+        self.assertEqual(
+            filter_summary(flt), "Starlight 7 · фразовые глаголы, фразы"
+        )
+        self.assertEqual(part_label("adverb"), "Наречия")
 
 
 class PickTests(unittest.TestCase):

@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-import os
 import unittest
 from datetime import date, timedelta
 
 from app.db import connect
+from tests.support import requires_test_db
 from app.load_limits import (
     clamp_new_per_day,
     ensure_load_limit,
@@ -25,7 +25,7 @@ class ClampTests(unittest.TestCase):
         self.assertEqual(clamp_new_per_day("fr", 40), 30)
 
 
-@unittest.skipUnless(os.environ.get("RUN_DB_TESTS") == "1", "set RUN_DB_TESTS=1")
+@requires_test_db
 class HysteresisDbTests(unittest.TestCase):
     def setUp(self) -> None:
         with connect() as conn:

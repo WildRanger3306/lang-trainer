@@ -1,20 +1,16 @@
 from __future__ import annotations
 
-import os
 import unittest
 
 from fastapi.testclient import TestClient
 
 from app.db import connect
+from tests.support import requires_test_db
 from app.main import app
 from app.scheduler import new_per_day
 
 
-@unittest.skipUnless(os.environ.get("RUN_DB_TESTS") == "1", "set RUN_DB_TESTS=1")
-@unittest.skipUnless(
-    os.environ.get("ALLOW_DB_TRUNCATE") == "1",
-    "refuses to wipe live progress; set ALLOW_DB_TRUNCATE=1 only on disposable DB",
-)
+@requires_test_db
 class TrainFlowTests(unittest.TestCase):
     def setUp(self) -> None:
         self.client = TestClient(app)

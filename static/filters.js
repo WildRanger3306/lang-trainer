@@ -13,6 +13,30 @@
   };
   const slot = (name) => summary.querySelector('[data-sum="' + name + '"]');
 
+  const partsAll = form.querySelector("[data-parts-all]");
+  const partChips = () => form.querySelectorAll('.parts-chips input[name="pos"]');
+
+  function syncParts(event) {
+    if (event.target === partsAll) {
+      partChips().forEach((chip) => (chip.checked = false));
+      partsAll.checked = true;
+      return true;
+    }
+    if (event.target.name === "pos") {
+      partsAll.checked = ![...partChips()].some((chip) => chip.checked);
+      return true;
+    }
+    return false;
+  }
+
+  function showPartCounts(counts) {
+    form.querySelectorAll("[data-part]").forEach((label) => {
+      const count = counts[label.dataset.part] || 0;
+      label.querySelector("[data-part-count]").textContent = number(count);
+      label.classList.toggle("is-zero", count === 0);
+    });
+  }
+
   function syncBank(bank) {
     const on = bank.querySelector(".bank-check").checked;
     const chips = bank.querySelectorAll(".topic-chip-input");
@@ -45,6 +69,7 @@
         slot("started").textContent = number(data.started);
         slot("due").textContent = number(data.due);
         slot("untouched").textContent = number(data.untouched);
+        if (data.parts) showPartCounts(data.parts);
         summary.classList.remove("is-stale");
       })
       .catch((error) => {
@@ -63,6 +88,7 @@
   });
 
   form.addEventListener("change", (event) => {
+    syncParts(event);
     const bank = event.target.closest("[data-bank]");
     if (bank) syncBank(bank);
     summary.classList.add("is-stale");

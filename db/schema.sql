@@ -96,6 +96,7 @@ CREATE TABLE user_language_filters (
   language language_code NOT NULL,
   textbooks TEXT[] NOT NULL DEFAULT '{}',
   topics TEXT[] NOT NULL DEFAULT '{}',
+  parts_of_speech TEXT[] NOT NULL DEFAULT '{}',
   PRIMARY KEY (user_id, language)
 );
 

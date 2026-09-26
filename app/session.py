@@ -30,6 +30,7 @@ class SessionFilter:
     levels: tuple[str, ...] = ()
     topics: tuple[str, ...] = ()
     textbooks: tuple[str, ...] = ()
+    parts: tuple[str, ...] = ()
 
     def __post_init__(self) -> None:
         if self.language not in ("en", "fr"):
