@@ -21,13 +21,6 @@ GENDER_LABELS = {
     "f": "f",
 }
 
-FLAGS = {
-    "ru": "🇷🇺",
-    "fr": "🇫🇷",
-    "en": "🇬🇧",
-}
-
-
 @dataclass(frozen=True)
 class FormColumn:
     """One column of the forms card back: Inf. / Past Simple / Past Part."""
@@ -49,7 +42,7 @@ class CardView:
     answer_hint: str
     answer_ipa: str
     direction_label: str
-    direction_flags: str
+    direction_pair: tuple[str, str]
     form_columns: tuple[FormColumn, ...] = ()
     forms_line: str = ""
 
@@ -58,12 +51,11 @@ def _hint_parts(*parts: str) -> str:
     return " · ".join(part for part in parts if part)
 
 
-def direction_flags(language: str, direction: str) -> str:
-    foreign = FLAGS.get(language, language)
-    native = FLAGS["ru"]
+def direction_pair(language: str, direction: str) -> tuple[str, str]:
+    """(from, to) language codes; the template draws a flag for each."""
     if direction == "foreign_to_native":
-        return f"{foreign} → {native}"
-    return f"{native} → {foreign}"
+        return (language, "ru")
+    return ("ru", language)
 
 
 def _is_plural_code(code: str | None) -> bool:
@@ -137,7 +129,7 @@ def forms_card_view(card: CardCandidate) -> CardView:
         answer_hint="",
         answer_ipa="",
         direction_label="русский → три формы",
-        direction_flags=direction_flags(card.language, "native_to_foreign"),
+        direction_pair=direction_pair(card.language, "native_to_foreign"),
         form_columns=(
             FormColumn(label="Inf.", form=card.form, ipa=_bracket(card.transcription)),
             _form_column("Past Simple", vf.past, vf.past_ipa, card),
@@ -160,7 +152,7 @@ def card_view(card: CardCandidate) -> CardView:
     gender = GENDER_LABELS.get(card.gender or "", "")
     translations = ", ".join(card.translations)
     ipa = f"[{card.transcription}]" if card.transcription else ""
-    flags = direction_flags(card.language, card.direction)
+    pair = direction_pair(card.language, card.direction)
     shown = display_form(card)
     if card.direction == "foreign_to_native":
         return CardView(
@@ -171,7 +163,7 @@ def card_view(card: CardCandidate) -> CardView:
             answer_hint="",
             answer_ipa="",
             direction_label="иностранный → русский",
-            direction_flags=flags,
+            direction_pair=pair,
             forms_line=forms_line(card),
         )
     return CardView(
@@ -182,6 +174,6 @@ def card_view(card: CardCandidate) -> CardView:
         answer_hint=gender,
         answer_ipa=ipa,
         direction_label="русский → иностранный",
-        direction_flags=flags,
+        direction_pair=pair,
         forms_line=forms_line(card),
     )

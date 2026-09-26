@@ -171,19 +171,19 @@ class CardViewTests(unittest.TestCase):
         )
         self.assertEqual(view.prompt, "truc")
 
-    def test_direction_flags_ru_to_fr(self) -> None:
+    def test_direction_pair_ru_to_fr(self) -> None:
         view = card_view(
             card(language="fr", direction="native_to_foreign", form="chat", transcription=None)
         )
-        self.assertEqual(view.direction_flags, "🇷🇺 → 🇫🇷")
+        self.assertEqual(view.direction_pair, ("ru", "fr"))
 
-    def test_direction_flags_fr_to_ru(self) -> None:
+    def test_direction_pair_fr_to_ru(self) -> None:
         view = card_view(card(language="fr", form="chat", transcription=None))
-        self.assertEqual(view.direction_flags, "🇫🇷 → 🇷🇺")
+        self.assertEqual(view.direction_pair, ("fr", "ru"))
 
-    def test_direction_flags_en_to_ru(self) -> None:
+    def test_direction_pair_en_to_ru(self) -> None:
         view = card_view(card())
-        self.assertEqual(view.direction_flags, "🇬🇧 → 🇷🇺")
+        self.assertEqual(view.direction_pair, ("en", "ru"))
 
 
 def read_forms(**kwargs) -> VerbForms:
@@ -274,8 +274,8 @@ class FormsCardViewTests(unittest.TestCase):
         self.assertEqual(past.form, "learnt")
         self.assertEqual(past.alternates, ("learned [lˈɜːnd]",))
 
-    def test_forms_flags(self) -> None:
-        self.assertEqual(card_view(verb()).direction_flags, "🇷🇺 → 🇬🇧")
+    def test_forms_direction_pair(self) -> None:
+        self.assertEqual(card_view(verb()).direction_pair, ("ru", "en"))
 
 
 class FormsLineTests(unittest.TestCase):

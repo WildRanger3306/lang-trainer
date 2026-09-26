@@ -17,7 +17,7 @@
       {% if mode == "verbs" %}· непр. глаголы{% endif %}
     </p>
     <div class="header-tools">
-      <p class="direction-flags" title="{{ view.direction_label }}">{{ view.direction_flags }}</p>
+      {% include "_direction.html" %}
       <form method="post" action="/finish">
         <button class="icon-btn" type="submit" title="Завершить сессию" aria-label="Завершить сессию">
           <svg class="ic" aria-hidden="true"><use href="#i-x"/></svg>

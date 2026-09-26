@@ -1,4 +1,4 @@
 <nav class="seg" aria-label="Язык">
-  <a class="seg-item{% if language == 'en' %} is-active{% endif %}" href="{{ lang_path }}?language=en" title="английский" aria-label="английский"{% if language == 'en' %} aria-current="true"{% endif %}>🇬🇧</a>
-  <a class="seg-item{% if language == 'fr' %} is-active{% endif %}" href="{{ lang_path }}?language=fr" title="французский" aria-label="французский"{% if language == 'fr' %} aria-current="true"{% endif %}>🇫🇷</a>
+  <a class="seg-item{% if language == 'en' %} is-active{% endif %}" href="{{ lang_path }}?language=en" title="английский" aria-label="английский"{% if language == 'en' %} aria-current="true"{% endif %}><svg class="flag" aria-hidden="true"><use href="#flag-en"/></svg></a>
+  <a class="seg-item{% if language == 'fr' %} is-active{% endif %}" href="{{ lang_path }}?language=fr" title="французский" aria-label="французский"{% if language == 'fr' %} aria-current="true"{% endif %}><svg class="flag" aria-hidden="true"><use href="#flag-fr"/></svg></a>
 </nav>

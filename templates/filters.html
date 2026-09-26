@@ -1,16 +1,17 @@
 {% extends "base.html" %}
 {% block title %}Фильтры — тренажёр{% endblock %}
 {% block body %}
-  <header class="header header-row">
-    <div>
+  <header class="header">
+    <div class="header-row">
       <h1>Фильтры</h1>
-      <p class="lead">
-        Для
-        {% if language == "en" %}английского{% else %}французского{% endif %}:
-        учебник и темы. Пустой блок — без ограничения. Сохраняется для вашего логина.
-      </p>
+      {% set lang_path = "/filters" %}
+      {% include "_lang_switch.html" %}
     </div>
-    <a class="nav-link" href="/?language={{ language }}">К тренировке</a>
+    <p class="lead">
+      Для
+      {% if language == "en" %}английского{% else %}французского{% endif %}:
+      учебник и темы. Пустой блок — без ограничения. Сохраняется для вашего логина.
+    </p>
   </header>
 
   {% if saved %}
@@ -19,20 +20,6 @@
 
   <form class="panel" method="post" action="/filters">
     <input type="hidden" name="language" value="{{ language }}">
-
-    <fieldset>
-      <legend>Язык настроек</legend>
-      <label class="choice">
-        <input type="radio" name="switch_language" value="en" {% if language == "en" %}checked{% endif %}
-               onchange="location.href='/filters?language=en'">
-        английский
-      </label>
-      <label class="choice">
-        <input type="radio" name="switch_language" value="fr" {% if language == "fr" %}checked{% endif %}
-               onchange="location.href='/filters?language=fr'">
-        французский
-      </label>
-    </fieldset>
 
     {% if options.textbooks %}
     <fieldset>

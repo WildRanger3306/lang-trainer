@@ -143,20 +143,23 @@ html, body {
 
 .direction-flags {
   margin: 0;
-  font-size: 1.35rem;
-  line-height: 1;
-  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--muted);
   white-space: nowrap;
+}
+
+.flag {
+  display: block;
+  flex: none;
+  width: 1.65rem;
+  height: 1.1rem;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 0.22);
 }
 
 .lead { margin: 0 0 1.25rem; }
-
-.nav-link {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 600;
-  white-space: nowrap;
-}
 
 .horizon-note {
   margin: 0.25rem 0 0;
@@ -837,8 +840,6 @@ legend {
   min-height: 2.25rem;
   padding: 0 0.75rem;
   border-radius: 9px;
-  font-size: 1.3rem;
-  line-height: 1;
   text-decoration: none;
   opacity: 0.55;
 }

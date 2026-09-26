@@ -8,7 +8,7 @@
   <header class="header header-row">
     <p class="progress">{{ number }} / {{ total }} · оценка</p>
     <div class="header-tools">
-      <p class="direction-flags" title="{{ view.direction_label }}">{{ view.direction_flags }}</p>
+      {% include "_direction.html" %}
       <form method="post" action="/finish">
         <button class="icon-btn" type="submit" title="Завершить оценку" aria-label="Завершить оценку">
           <svg class="ic" aria-hidden="true"><use href="#i-x"/></svg>
