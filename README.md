@@ -20,7 +20,7 @@ docker compose up --build -d
 docker compose exec app python scripts/load_entries.py --append docs/words/irregular/en.json
 ```
 
-Повтор — упрощённый Anki: due + до 15 новых карточек в день на язык.
+Повтор — интервальное повторение на FSRS (как в современном Anki): все due на сегодня + новые до дневного лимита (EN 10, FR 20, автонагрузка меняет лимит шагом 5).
 
 Postgres с хоста: порт 5433. Сбросить всё: `docker compose down -v`.
 
