@@ -10,10 +10,11 @@
     "Канон неправильных глаголов EN, британский вариант. Решение: docs/4-decisions.md §015, детали: docs/8-irregular-verbs.md.",
     "Основа — частотный список 143 глаголов (rank, level = приближённый CEFR).",
     "Убраны: strip, melt, sneak, dare, prove, fit, thrive — в BrE спрягаются по правилу.",
-    "Добавлены (B2): sting, creep, mistake, spoil, rebuild, sew, stink.",
+    "Добавлены (B2): sting, creep, mistake, spoil, rebuild, sew, stink. По таблице Starlight 6: can (A1, модальный — Past Part. нет, в колонке «(been able to)»).",
     "Формы UK: британский вариант первым, формы только NAmE (gotten, proven, dove, snuck) не включены.",
     "cue — подсказка для лица карточки forms (перевод → три формы) у глаголов с общими значениями; без cue на лице translations.",
-    "IPA из en_UK; омографы (read, lead, tear, wind/wound) и пропуски en_UK вписаны вручную."
+    "IPA из en_UK; омографы (read, lead, tear, wind/wound) и пропуски en_UK вписаны вручную. Сверено со Starlight 6: ate [eɪt], hang — hung (hanged).",
+    "Тема irr_sl6 — 103 глагола из таблицы неправильных глаголов Starlight 6. Темы и поле по типу образования (irr_aaa…, pattern) сняты: тип вычисляется из форм, если понадобится."
   ],
   "verbs": [
     {
@@ -28,13 +29,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 1,
-      "pattern": "ABC",
       "past": [
         {
           "form": "was",
@@ -63,13 +63,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 2,
-      "pattern": "ABB",
       "past": [
         {
           "form": "had",
@@ -94,13 +93,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 3,
-      "pattern": "ABC",
       "cue": "делать (уроки, работу)",
       "past": [
         {
@@ -127,13 +125,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 4,
-      "pattern": "ABB",
       "cue": "сказать (что-то)",
       "past": [
         {
@@ -160,13 +157,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 5,
-      "pattern": "ABC",
       "cue": "идти, ехать",
       "past": [
         {
@@ -193,13 +189,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 6,
-      "pattern": "ABB",
       "cue": "получать, доставать",
       "past": [
         {
@@ -226,13 +221,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 7,
-      "pattern": "ABB",
       "cue": "делать, изготавливать (торт, чай)",
       "past": [
         {
@@ -258,13 +252,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 8,
-      "pattern": "ABC",
       "past": [
         {
           "form": "knew",
@@ -289,13 +282,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 9,
-      "pattern": "ABB",
       "past": [
         {
           "form": "thought",
@@ -320,13 +312,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 10,
-      "pattern": "ABC",
       "past": [
         {
           "form": "took",
@@ -351,13 +342,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 11,
-      "pattern": "ABC",
       "past": [
         {
           "form": "saw",
@@ -382,13 +372,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_aba"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 12,
-      "pattern": "ABA",
       "past": [
         {
           "form": "came",
@@ -413,13 +402,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 13,
-      "pattern": "ABB",
       "past": [
         {
           "form": "found",
@@ -444,13 +432,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 14,
-      "pattern": "ABC",
       "past": [
         {
           "form": "gave",
@@ -476,13 +463,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 15,
-      "pattern": "ABB",
       "cue": "рассказать, сказать (кому-то)",
       "past": [
         {
@@ -508,13 +494,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 16,
-      "pattern": "ABB",
       "past": [
         {
           "form": "felt",
@@ -539,13 +524,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_aba"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 17,
-      "pattern": "ABA",
       "cue": "становиться (кем-то)",
       "past": [
         {
@@ -573,13 +557,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 18,
-      "pattern": "ABB",
       "past": [
         {
           "form": "left",
@@ -605,13 +588,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_aaa"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 19,
-      "pattern": "AAA",
       "cue": "класть, ставить (куда-то)",
       "past": [
         {
@@ -638,13 +620,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 20,
-      "pattern": "ABB",
       "past": [
         {
           "form": "meant",
@@ -670,13 +651,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 21,
-      "pattern": "ABB",
       "cue": "хранить, сохранять",
       "past": [
         {
@@ -703,13 +683,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_aaa"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 22,
-      "pattern": "AAA",
       "past": [
         {
           "form": "let",
@@ -734,13 +713,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 23,
-      "pattern": "ABC",
       "past": [
         {
           "form": "began",
@@ -765,13 +743,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 24,
-      "pattern": "ABC",
       "past": [
         {
           "form": "showed",
@@ -796,13 +773,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 25,
-      "pattern": "ABB",
       "past": [
         {
           "form": "heard",
@@ -827,13 +803,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_aba"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 26,
-      "pattern": "ABA",
       "cue": "бегать, бежать",
       "past": [
         {
@@ -859,13 +834,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 27,
-      "pattern": "ABB",
       "cue": "держать (в руках)",
       "past": [
         {
@@ -891,13 +865,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 28,
-      "pattern": "ABB",
       "past": [
         {
           "form": "brought",
@@ -922,13 +895,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 29,
-      "pattern": "ABC",
       "past": [
         {
           "form": "wrote",
@@ -953,13 +925,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 30,
-      "pattern": "ABB",
       "past": [
         {
           "form": "sat",
@@ -984,13 +955,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 31,
-      "pattern": "ABB",
       "past": [
         {
           "form": "stood",
@@ -1016,13 +986,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 32,
-      "pattern": "ABB",
       "past": [
         {
           "form": "lost",
@@ -1047,13 +1016,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 33,
-      "pattern": "ABB",
       "past": [
         {
           "form": "paid",
@@ -1078,13 +1046,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 34,
-      "pattern": "ABB",
       "past": [
         {
           "form": "met",
@@ -1111,13 +1078,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_aaa"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 35,
-      "pattern": "AAA",
       "cue": "устанавливать; заходить (о солнце)",
       "past": [
         {
@@ -1144,13 +1110,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 36,
-      "pattern": "ABB",
       "cue": "учить (сам), узнавать",
       "past": [
         {
@@ -1185,13 +1150,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 37,
-      "pattern": "ABB",
       "past": [
         {
           "form": "led",
@@ -1216,13 +1180,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 38,
-      "pattern": "ABB",
       "past": [
         {
           "form": "understood",
@@ -1247,13 +1210,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 39,
-      "pattern": "ABC",
       "cue": "говорить (на языке), разговаривать",
       "past": [
         {
@@ -1279,13 +1241,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_aaa"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 40,
-      "pattern": "AAA",
       "past": [
         {
           "form": "read",
@@ -1311,13 +1272,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 41,
-      "pattern": "ABB",
       "past": [
         {
           "form": "spent",
@@ -1343,13 +1303,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 42,
-      "pattern": "ABC",
       "past": [
         {
           "form": "grew",
@@ -1375,13 +1334,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 43,
-      "pattern": "ABB",
       "cue": "выигрывать (игру, приз)",
       "past": [
         {
@@ -1407,13 +1365,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 44,
-      "pattern": "ABB",
       "past": [
         {
           "form": "bought",
@@ -1439,13 +1396,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 45,
-      "pattern": "ABB",
       "past": [
         {
           "form": "sent",
@@ -1470,13 +1426,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 46,
-      "pattern": "ABB",
       "past": [
         {
           "form": "built",
@@ -1501,13 +1456,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 47,
-      "pattern": "ABC",
       "past": [
         {
           "form": "fell",
@@ -1532,13 +1486,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_aaa"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 48,
-      "pattern": "AAA",
       "past": [
         {
           "form": "cut",
@@ -1563,13 +1516,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 49,
-      "pattern": "ABB",
       "past": [
         {
           "form": "sold",
@@ -1595,13 +1547,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 50,
-      "pattern": "ABB",
       "past": [
         {
           "form": "lit",
@@ -1627,13 +1578,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 51,
-      "pattern": "ABC",
       "cue": "водить машину",
       "past": [
         {
@@ -1660,13 +1610,12 @@
       ],
       "level": "A1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 52,
-      "pattern": "ABC",
       "past": [
         {
           "form": "broke",
@@ -1691,13 +1640,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 53,
-      "pattern": "ABC",
       "past": [
         {
           "form": "wore",
@@ -1722,13 +1670,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_aaa"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 54,
-      "pattern": "AAA",
       "cue": "ударять, попадать (в цель)",
       "past": [
         {
@@ -1754,17 +1701,16 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 55,
-      "pattern": "ABC",
       "past": [
         {
           "form": "ate",
-          "ipa": "ˈɛt"
+          "ipa": "ˈeɪt"
         }
       ],
       "pastParticiple": [
@@ -1786,13 +1732,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 56,
-      "pattern": "ABB",
       "cue": "учить (кого-то), преподавать",
       "past": [
         {
@@ -1818,13 +1763,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_aaa"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 57,
-      "pattern": "AAA",
       "past": [
         {
           "form": "cost",
@@ -1850,13 +1794,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 58,
-      "pattern": "ABB",
       "past": [
         {
           "form": "caught",
@@ -1881,13 +1824,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 59,
-      "pattern": "ABC",
       "past": [
         {
           "form": "drew",
@@ -1912,13 +1854,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 60,
-      "pattern": "ABC",
       "past": [
         {
           "form": "chose",
@@ -1942,14 +1883,11 @@
         "искать"
       ],
       "level": "A2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 61,
-      "pattern": "ABB",
       "past": [
         {
           "form": "sought",
@@ -1975,13 +1913,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 62,
-      "pattern": "ABB",
       "past": [
         {
           "form": "dealt",
@@ -2007,13 +1944,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 63,
-      "pattern": "ABB",
       "past": [
         {
           "form": "fought",
@@ -2038,13 +1974,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 64,
-      "pattern": "ABC",
       "cue": "бросать, кидать",
       "past": [
         {
@@ -2071,13 +2006,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 65,
-      "pattern": "ABC",
       "past": [
         {
           "form": "rose",
@@ -2102,13 +2036,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 66,
-      "pattern": "ABB",
       "past": [
         {
           "form": "shot",
@@ -2132,14 +2065,11 @@
         "лежать"
       ],
       "level": "A2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 67,
-      "pattern": "ABC",
       "past": [
         {
           "form": "lay",
@@ -2164,14 +2094,11 @@
         "накрывать (на стол)"
       ],
       "level": "A2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 68,
-      "pattern": "ABB",
       "cue": "накрывать на стол, класть (горизонтально)",
       "past": [
         {
@@ -2198,23 +2125,30 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 70,
-      "pattern": "ABB",
       "past": [
         {
           "form": "hung",
           "ipa": "hˈʌŋ"
+        },
+        {
+          "form": "hanged",
+          "ipa": "hˈæŋd"
         }
       ],
       "pastParticiple": [
         {
           "form": "hung",
           "ipa": "hˈʌŋ"
+        },
+        {
+          "form": "hanged",
+          "ipa": "hˈæŋd"
         }
       ]
     },
@@ -2229,13 +2163,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 71,
-      "pattern": "ABC",
       "past": [
         {
           "form": "forgot",
@@ -2260,14 +2193,11 @@
         "вскакивать"
       ],
       "level": "A2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 72,
-      "pattern": "ABC",
       "cue": "вскакивать",
       "past": [
         {
@@ -2293,13 +2223,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 73,
-      "pattern": "ABC",
       "past": [
         {
           "form": "shook",
@@ -2324,13 +2253,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 74,
-      "pattern": "ABC",
       "past": [
         {
           "form": "flew",
@@ -2356,13 +2284,12 @@
       ],
       "level": "A2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 75,
-      "pattern": "ABB",
       "past": [
         {
           "form": "dreamt",
@@ -2395,13 +2322,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 76,
-      "pattern": "ABC",
       "past": [
         {
           "form": "sang",
@@ -2427,13 +2353,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_aab"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 77,
-      "pattern": "AAB",
       "cue": "побеждать (соперника), бить",
       "past": [
         {
@@ -2459,14 +2384,11 @@
         "виться"
       ],
       "level": "B1",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 78,
-      "pattern": "ABB",
       "past": [
         {
           "form": "wound",
@@ -2492,13 +2414,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_aaa"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 79,
-      "pattern": "AAA",
       "past": [
         {
           "form": "hurt",
@@ -2523,14 +2444,11 @@
         "бастовать"
       ],
       "level": "B1",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 80,
-      "pattern": "ABB",
       "cue": "наносить удар; бить (о часах, молнии)",
       "past": [
         {
@@ -2556,13 +2474,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 81,
-      "pattern": "ABB",
       "past": [
         {
           "form": "slept",
@@ -2588,13 +2505,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 82,
-      "pattern": "ABB",
       "past": [
         {
           "form": "stuck",
@@ -2619,13 +2535,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 83,
-      "pattern": "ABC",
       "past": [
         {
           "form": "drank",
@@ -2651,13 +2566,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 84,
-      "pattern": "ABC",
       "past": [
         {
           "form": "hid",
@@ -2683,13 +2597,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 85,
-      "pattern": "ABC",
       "past": [
         {
           "form": "rode",
@@ -2714,13 +2627,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 86,
-      "pattern": "ABB",
       "past": [
         {
           "form": "fed",
@@ -2745,14 +2657,11 @@
         "намазывать"
       ],
       "level": "B1",
-      "topics": [
-        "irr_aaa"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 88,
-      "pattern": "AAA",
       "past": [
         {
           "form": "spread",
@@ -2776,14 +2685,11 @@
         "мчаться"
       ],
       "level": "B1",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 89,
-      "pattern": "ABB",
       "past": [
         {
           "form": "sped",
@@ -2808,13 +2714,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 90,
-      "pattern": "ABC",
       "past": [
         {
           "form": "blew",
@@ -2840,13 +2745,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 91,
-      "pattern": "ABB",
       "past": [
         {
           "form": "burnt",
@@ -2879,14 +2783,11 @@
         "опираться"
       ],
       "level": "B1",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 92,
-      "pattern": "ABB",
       "cue": "опираться, прислоняться",
       "past": [
         {
@@ -2920,13 +2821,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_aaa"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 93,
-      "pattern": "AAA",
       "past": [
         {
           "form": "shut",
@@ -2953,13 +2853,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 94,
-      "pattern": "ABC",
       "past": [
         {
           "form": "bore",
@@ -2988,13 +2887,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 95,
-      "pattern": "ABC",
       "past": [
         {
           "form": "rang",
@@ -3020,13 +2918,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 96,
-      "pattern": "ABC",
       "past": [
         {
           "form": "woke",
@@ -3051,13 +2948,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 97,
-      "pattern": "ABC",
       "past": [
         {
           "form": "stole",
@@ -3082,13 +2978,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 98,
-      "pattern": "ABC",
       "past": [
         {
           "form": "tore",
@@ -3113,14 +3008,11 @@
         "отбрасывать (тень)"
       ],
       "level": "B1",
-      "topics": [
-        "irr_aaa"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 99,
-      "pattern": "AAA",
       "cue": "отбрасывать (тень), бросать (взгляд)",
       "past": [
         {
@@ -3145,14 +3037,11 @@
         "скользить"
       ],
       "level": "B1",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 100,
-      "pattern": "ABB",
       "past": [
         {
           "form": "slid",
@@ -3177,14 +3066,11 @@
         "наклоняться"
       ],
       "level": "B1",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 101,
-      "pattern": "ABB",
       "cue": "сгибать, гнуть",
       "past": [
         {
@@ -3211,13 +3097,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 102,
-      "pattern": "ABB",
       "past": [
         {
           "form": "smelt",
@@ -3250,14 +3135,11 @@
         "качаться"
       ],
       "level": "B1",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 103,
-      "pattern": "ABB",
       "past": [
         {
           "form": "swung",
@@ -3282,13 +3164,12 @@
       ],
       "level": "B1",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 104,
-      "pattern": "ABB",
       "past": [
         {
           "form": "dug",
@@ -3312,14 +3193,11 @@
         "связывать"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 105,
-      "pattern": "ABB",
       "past": [
         {
           "form": "bound",
@@ -3344,14 +3222,11 @@
         "уходить"
       ],
       "level": "B2",
-      "topics": [
-        "irr_aaa"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 106,
-      "pattern": "AAA",
       "cue": "бросать (привычку), уходить (с работы)",
       "past": [
         {
@@ -3376,14 +3251,11 @@
         "возникать"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 107,
-      "pattern": "ABC",
       "past": [
         {
           "form": "arose",
@@ -3408,13 +3280,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 108,
-      "pattern": "ABB",
       "past": [
         {
           "form": "swept",
@@ -3439,14 +3310,11 @@
         "кружиться"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 109,
-      "pattern": "ABB",
       "past": [
         {
           "form": "spun",
@@ -3471,14 +3339,11 @@
         "ставить"
       ],
       "level": "B2",
-      "topics": [
-        "irr_aaa"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 110,
-      "pattern": "AAA",
       "cue": "держать пари",
       "past": [
         {
@@ -3504,14 +3369,11 @@
         "снимать (деньги)"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 112,
-      "pattern": "ABC",
       "past": [
         {
           "form": "withdrew",
@@ -3537,13 +3399,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 113,
-      "pattern": "ABC",
       "past": [
         {
           "form": "froze",
@@ -3567,14 +3428,11 @@
         "тонуть"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 114,
-      "pattern": "ABC",
       "past": [
         {
           "form": "sank",
@@ -3599,13 +3457,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 115,
-      "pattern": "ABC",
       "past": [
         {
           "form": "swam",
@@ -3630,14 +3487,11 @@
         "делить"
       ],
       "level": "B2",
-      "topics": [
-        "irr_aaa"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 116,
-      "pattern": "AAA",
       "past": [
         {
           "form": "split",
@@ -3662,14 +3516,11 @@
         "спасаться бегством"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 117,
-      "pattern": "ABB",
       "cue": "спасаться бегством",
       "past": [
         {
@@ -3694,14 +3545,11 @@
         "избавлять"
       ],
       "level": "B2",
-      "topics": [
-        "irr_aaa"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 118,
-      "pattern": "AAA",
       "past": [
         {
           "form": "rid",
@@ -3726,14 +3574,11 @@
         "переносить"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 119,
-      "pattern": "ABC",
       "past": [
         {
           "form": "underwent",
@@ -3758,13 +3603,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 120,
-      "pattern": "ABC",
       "past": [
         {
           "form": "bit",
@@ -3790,13 +3634,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 121,
-      "pattern": "ABC",
       "past": [
         {
           "form": "swore",
@@ -3822,13 +3665,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 123,
-      "pattern": "ABB",
       "past": [
         {
           "form": "shone",
@@ -3852,14 +3694,11 @@
         "расстраивать"
       ],
       "level": "B2",
-      "topics": [
-        "irr_aaa"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 124,
-      "pattern": "AAA",
       "past": [
         {
           "form": "upset",
@@ -3884,13 +3723,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 126,
-      "pattern": "ABB",
       "past": [
         {
           "form": "lent",
@@ -3916,13 +3754,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_aaa"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 127,
-      "pattern": "AAA",
       "past": [
         {
           "form": "burst",
@@ -3947,13 +3784,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 128,
-      "pattern": "ABC",
       "past": [
         {
           "form": "forgave",
@@ -3978,14 +3814,11 @@
         "передавать в эфир"
       ],
       "level": "B2",
-      "topics": [
-        "irr_aaa"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 129,
-      "pattern": "AAA",
       "past": [
         {
           "form": "broadcast",
@@ -4009,14 +3842,11 @@
         "прыгать"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 130,
-      "pattern": "ABB",
       "cue": "прыгать (далеко, высоко)",
       "past": [
         {
@@ -4049,14 +3879,11 @@
         "проливать"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 131,
-      "pattern": "ABB",
       "past": [
         {
           "form": "spilt",
@@ -4089,14 +3916,11 @@
         "браться (за)"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 132,
-      "pattern": "ABC",
       "past": [
         {
           "form": "undertook",
@@ -4121,13 +3945,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 133,
-      "pattern": "ABB",
       "past": [
         {
           "form": "spelt",
@@ -4160,14 +3983,11 @@
         "проливать (слёзы)"
       ],
       "level": "B2",
-      "topics": [
-        "irr_aaa"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 134,
-      "pattern": "AAA",
       "past": [
         {
           "form": "shed",
@@ -4192,14 +4012,11 @@
         "садиться (о ткани)"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 135,
-      "pattern": "ABC",
       "past": [
         {
           "form": "shrank",
@@ -4223,14 +4040,11 @@
         "цепляться"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 137,
-      "pattern": "ABB",
       "past": [
         {
           "form": "clung",
@@ -4255,13 +4069,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 139,
-      "pattern": "ABC",
       "past": [
         {
           "form": "forbade",
@@ -4286,14 +4099,11 @@
         "набухать"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 140,
-      "pattern": "ABC",
       "past": [
         {
           "form": "swelled",
@@ -4318,14 +4128,11 @@
         "плести"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 141,
-      "pattern": "ABC",
       "past": [
         {
           "form": "wove",
@@ -4349,14 +4156,11 @@
         "плевать"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 142,
-      "pattern": "ABB",
       "past": [
         {
           "form": "spat",
@@ -4380,14 +4184,11 @@
         "становиться на колени"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 143,
-      "pattern": "ABB",
       "past": [
         {
           "form": "knelt",
@@ -4412,13 +4213,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abb"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 144,
-      "pattern": "ABB",
       "past": [
         {
           "form": "stung",
@@ -4443,14 +4243,11 @@
         "красться"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 145,
-      "pattern": "ABB",
       "past": [
         {
           "form": "crept",
@@ -4475,14 +4272,11 @@
         "принимать (за другого)"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 146,
-      "pattern": "ABC",
       "past": [
         {
           "form": "mistook",
@@ -4507,14 +4301,11 @@
         "баловать"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 147,
-      "pattern": "ABB",
       "past": [
         {
           "form": "spoilt",
@@ -4547,14 +4338,11 @@
         "восстанавливать"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abb"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 148,
-      "pattern": "ABB",
       "past": [
         {
           "form": "rebuilt",
@@ -4579,13 +4367,12 @@
       ],
       "level": "B2",
       "topics": [
-        "irr_abc"
+        "irr_sl6"
       ],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 149,
-      "pattern": "ABC",
       "past": [
         {
           "form": "sewed",
@@ -4613,14 +4400,11 @@
         "вонять"
       ],
       "level": "B2",
-      "topics": [
-        "irr_abc"
-      ],
+      "topics": [],
       "textbooks": [
         "Irregular verbs"
       ],
       "rank": 150,
-      "pattern": "ABC",
       "past": [
         {
           "form": "stank",
@@ -4631,6 +4415,37 @@
         {
           "form": "stunk",
           "ipa": "stˈʌŋk"
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "form": "can",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "kˈæn",
+      "translations": [
+        "мочь",
+        "уметь"
+      ],
+      "level": "A1",
+      "topics": [
+        "irr_sl6"
+      ],
+      "textbooks": [
+        "Irregular verbs"
+      ],
+      "rank": 151,
+      "past": [
+        {
+          "form": "could",
+          "ipa": "kˈʊd"
+        }
+      ],
+      "pastParticiple": [
+        {
+          "form": "(been able to)",
+          "ipa": "bɪn ˈeɪbəl tə"
         }
       ]
     }

@@ -1,4 +1,4 @@
-  <section class="card" id="card" tabindex="0" role="button" aria-pressed="false">
+  <section class="card{% if view.form_columns %} card-forms{% endif %}" id="card" tabindex="0" role="button" aria-pressed="false">
     <div class="card-inner">
       <div class="card-face card-front">
         <p class="prompt">{{ view.prompt }}</p>
@@ -12,7 +12,8 @@
       </div>
       <div class="card-face card-back" aria-hidden="true">
         {% if view.form_columns %}
-          <dl class="forms-grid" aria-label="{{ view.answer }}">
+          {% set longest = view.form_columns | map(attribute="form") | map("length") | max %}
+          <dl class="forms-grid{% if longest > 8 %} forms-grid-long{% endif %}" aria-label="{{ view.answer }}">
             {% for col in view.form_columns %}
               <div class="forms-col">
                 <dt class="forms-label">{{ col.label }}</dt>

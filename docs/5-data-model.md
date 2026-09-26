@@ -63,7 +63,6 @@
 | `entry_id` | PK, → инфинитив (`verb`) |
 | `past`, `past_ipa` | Past Simple и IPA, параллельные массивы (`learnt`, `learned`) |
 | `past_participle`, `past_participle_ipa` | Past Participle и IPA |
-| `pattern` | `AAA` / `AAB` / `ABA` / `ABB` / `ABC` |
 | `rank` | место в частотном списке |
 | `cue` | лицо карточки `forms`, если перевод неоднозначен |
 

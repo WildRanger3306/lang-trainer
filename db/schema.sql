@@ -66,7 +66,6 @@ CREATE TABLE verb_forms (
   past_ipa TEXT[] NOT NULL,
   past_participle TEXT[] NOT NULL,
   past_participle_ipa TEXT[] NOT NULL,
-  pattern TEXT,
   rank INT,
   cue TEXT,
   CHECK (cardinality(past) >= 1 AND cardinality(past) = cardinality(past_ipa)),

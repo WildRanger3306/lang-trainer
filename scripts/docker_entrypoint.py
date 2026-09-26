@@ -233,7 +233,6 @@ def migrate_verb_forms() -> None:
               past_ipa TEXT[] NOT NULL,
               past_participle TEXT[] NOT NULL,
               past_participle_ipa TEXT[] NOT NULL,
-              pattern TEXT,
               rank INT,
               cue TEXT,
               CHECK (cardinality(past) >= 1 AND cardinality(past) = cardinality(past_ipa)),
@@ -244,6 +243,8 @@ def migrate_verb_forms() -> None:
             )
             """
         )
+        # Formation type (AAA/ABB/…) is derivable from the forms.
+        conn.execute("ALTER TABLE verb_forms DROP COLUMN IF EXISTS pattern")
         # Irregular verbs mode (§016): answers counted apart from train.
         conn.execute(
             """

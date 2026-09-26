@@ -7,7 +7,6 @@ CREATE TABLE IF NOT EXISTS verb_forms (
   past_ipa TEXT[] NOT NULL,
   past_participle TEXT[] NOT NULL,
   past_participle_ipa TEXT[] NOT NULL,
-  pattern TEXT,
   rank INT,
   cue TEXT,
   CHECK (cardinality(past) >= 1 AND cardinality(past) = cardinality(past_ipa)),
@@ -16,6 +15,9 @@ CREATE TABLE IF NOT EXISTS verb_forms (
     AND cardinality(past_participle) = cardinality(past_participle_ipa)
   )
 );
+
+-- Formation type (AAA/ABB/…) is derivable from the forms; column dropped 2026-09-26.
+ALTER TABLE verb_forms DROP COLUMN IF EXISTS pattern;
 
 -- Irregular verbs mode (§016): its answers are counted apart from train.
 ALTER TABLE card_progress DROP CONSTRAINT IF EXISTS card_progress_introduced_via_check;

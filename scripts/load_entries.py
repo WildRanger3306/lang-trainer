@@ -100,14 +100,13 @@ def _upsert_forms(conn, entry_id: int, entry: dict) -> None:
         """
         INSERT INTO verb_forms (
           entry_id, past, past_ipa, past_participle, past_participle_ipa,
-          pattern, rank, cue
-        ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+          rank, cue
+        ) VALUES (%s, %s, %s, %s, %s, %s, %s)
         ON CONFLICT (entry_id) DO UPDATE SET
           past = EXCLUDED.past,
           past_ipa = EXCLUDED.past_ipa,
           past_participle = EXCLUDED.past_participle,
           past_participle_ipa = EXCLUDED.past_participle_ipa,
-          pattern = EXCLUDED.pattern,
           rank = EXCLUDED.rank,
           cue = EXCLUDED.cue
         """,
@@ -117,7 +116,6 @@ def _upsert_forms(conn, entry_id: int, entry: dict) -> None:
             [f["ipa"] for f in past],
             [f["form"] for f in participle],
             [f["ipa"] for f in participle],
-            entry.get("pattern"),
             entry.get("rank"),
             entry.get("cue"),
         ),
