@@ -8,9 +8,8 @@
       {% include "_lang_switch.html" %}
     </div>
     <p class="lead">
-      Для
-      {% if language == "en" %}английского{% else %}французского{% endif %}:
-      учебник и темы. Пустой блок — без ограничения. Сохраняется для вашего логина.
+      Отметьте учебники; внутри учебника можно выбрать темы. Учебник без тем берётся целиком.
+      Сохраняется для вашего логина.
     </p>
   </header>
 
@@ -18,47 +17,72 @@
     <p class="banner">Сохранено.</p>
   {% endif %}
 
-  <form class="panel" method="post" action="/filters">
+  <form class="filters" id="filters" method="post" action="/filters" data-preview-url="/filters/preview">
     <input type="hidden" name="language" value="{{ language }}">
 
-    {% if options.textbooks %}
-    <fieldset>
-      <legend>Учебник</legend>
-      {% for name in options.textbooks %}
-        <label class="choice">
-          <input type="checkbox" name="textbook" value="{{ name }}" {% if name in selected_textbooks %}checked{% endif %}>
-          {{ name }}
-        </label>
-      {% endfor %}
-    </fieldset>
-    {% endif %}
+    <section class="summary" id="filters-summary" aria-live="polite">
+      <p class="summary-title" data-sum="title">{% if selected_textbooks %}В фильтре{% else %}Выберите учебник{% endif %}</p>
+      <p class="summary-main"><strong data-sum="words">{{ preview.words | words }}</strong>, начато <strong data-sum="started">{{ preview.started | num }}</strong></p>
+      <p class="summary-sub">Повтор <strong data-sum="due">{{ preview.due | num }}</strong> · без прогресса <strong data-sum="untouched">{{ preview.untouched | num }}</strong> карточек</p>
+    </section>
 
-    {% if options.topics %}
-    <fieldset class="topic-field">
-      <legend>Тема</legend>
-      <div class="topic-chips">
-        {% for topic in options.topics %}
-          <label class="topic-chip">
-            <input
-              type="checkbox"
-              class="topic-chip-input"
-              name="topic"
-              value="{{ topic.name }}"
-              {% if topic.name in selected_topics %}checked{% endif %}
-            >
-            <span class="topic-chip-name">{{ topic.name }}</span>
-            <span class="topic-chip-count">{{ topic.count }}</span>
-          </label>
-        {% endfor %}
-      </div>
-    </fieldset>
-    {% else %}
-    <p class="hint-text">Тем для этого языка пока нет.</p>
-    {% endif %}
+    {% for bank in banks %}
+      {% set on = bank.name in selected_textbooks %}
+      {% set picked = namespace(n=0) %}
+      {% for chip in bank.chips %}{% if (bank.name ~ '/' ~ chip.name) in selected_picks %}{% set picked.n = picked.n + 1 %}{% endif %}{% endfor %}
+      {% if bank.no_topic and (bank.name ~ '/' ~ bank.no_topic.name) in selected_picks %}{% set picked.n = picked.n + 1 %}{% endif %}
+      <section class="bank{% if on %} is-on{% endif %}" data-bank aria-labelledby="bank-{{ loop.index }}">
+        <label class="bank-head">
+          <input class="bank-check" type="checkbox" name="textbook" value="{{ bank.name }}"{% if on %} checked{% endif %}>
+          <span class="bank-name" id="bank-{{ loop.index }}">{{ bank.name }}</span>
+          <span class="bank-count">{{ bank.words | words }}</span>
+        </label>
+        {% set pr = bank.progress %}
+        {% set sh = pr.shares() %}
+        <div class="bank-meta">
+          <span class="bank-state" data-state>{% if on %}{% if picked.n %}тем: {{ picked.n }}{% else %}весь учебник{% endif %}{% endif %}</span>
+          <button type="button" class="meta-toggle" aria-expanded="false" aria-controls="detail-{{ loop.index }}">начато {{ ((pr.started * 100 / pr.words) | round | int) if pr.words else 0 }}%</button>
+        </div>
+        <div class="meter" style="--a: {{ sh[0] }}%; --b: {{ sh[1] }}%; --c: {{ sh[2] }}%"></div>
+        <div class="bank-detail" id="detail-{{ loop.index }}" hidden>
+          <span><i class="dot dot-known"></i>знаю уверенно <b>{{ pr.known | num }}</b></span>
+          <span><i class="dot dot-mid"></i>закрепляю <b>{{ pr.consolidating | num }}</b></span>
+          <span><i class="dot dot-learning"></i>учу <b>{{ pr.learning | num }}</b></span>
+          <span><i class="dot dot-rest"></i>не начато <b>{{ (pr.words - pr.started) | num }}</b></span>
+        </div>
+
+        {% if bank.chips or bank.no_topic %}
+        <div class="topic-chips">
+          {% for chip in bank.chips %}
+            {% set pick = bank.name ~ '/' ~ chip.name %}
+            <label class="topic-chip" title="знаю {{ chip.progress.known }} · закрепляю {{ chip.progress.consolidating }} · учу {{ chip.progress.learning }} из {{ chip.words }}">
+              <input class="topic-chip-input" type="checkbox" name="topic" value="{{ pick }}"{% if pick in selected_picks %} checked{% endif %}{% if not on %} disabled{% endif %}>
+              <span class="topic-chip-name">{{ topic_title(chip.name) }}</span>
+              <span class="topic-chip-count">{{ chip.words | num }}</span>
+              {% set sh = chip.progress.shares() %}<i class="topic-chip-meter" style="--a: {{ sh[0] }}%; --b: {{ sh[1] }}%; --c: {{ sh[2] }}%"></i>
+            </label>
+          {% endfor %}
+          {% if bank.no_topic %}
+            {% set chip = bank.no_topic %}
+            {% set pick = bank.name ~ '/' ~ chip.name %}
+            <label class="topic-chip topic-chip-none" title="Слова без темы: знаю {{ chip.progress.known }} · закрепляю {{ chip.progress.consolidating }} · учу {{ chip.progress.learning }} из {{ chip.words }}">
+              <input class="topic-chip-input" type="checkbox" name="topic" value="{{ pick }}"{% if pick in selected_picks %} checked{% endif %}{% if not on %} disabled{% endif %}>
+              <span class="topic-chip-name">Без темы</span>
+              <span class="topic-chip-count">{{ chip.words | num }}</span>
+              {% set sh = chip.progress.shares() %}<i class="topic-chip-meter" style="--a: {{ sh[0] }}%; --b: {{ sh[1] }}%; --c: {{ sh[2] }}%"></i>
+            </label>
+          {% endif %}
+        </div>
+        {% endif %}
+      </section>
+    {% endfor %}
 
     <div class="actions">
       <button class="btn btn-primary" type="submit">Сохранить</button>
       <a class="btn btn-secondary" href="/?language={{ language }}">Отмена</a>
     </div>
   </form>
+{% endblock %}
+{% block scripts %}
+  <script src="{{ asset('filters.js') }}"></script>
 {% endblock %}

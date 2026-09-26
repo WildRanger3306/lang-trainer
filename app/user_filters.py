@@ -4,7 +4,8 @@ from __future__ import annotations
 
 import psycopg
 
-from app.session import SessionFilter
+from app.session import NO_TOPIC, SessionFilter, make_pick, split_pick
+from app.topics import WHOLE_BANK, compress_topics
 
 
 def get_last_language(conn: psycopg.Connection, user_id: int) -> str | None:
@@ -27,6 +28,53 @@ def set_last_language(conn: psycopg.Connection, user_id: int, language: str) -> 
     conn.commit()
 
 
+def _topic_homes(conn: psycopg.Connection, language: str) -> dict[str, str]:
+    """topic -> textbook that holds most of its words."""
+    rows = conn.execute(
+        """
+        SELECT tp.name, tb.name, COUNT(DISTINCT e.id)
+        FROM topics tp
+        JOIN entry_topics eto ON eto.topic_id = tp.id
+        JOIN entries e ON e.id = eto.entry_id
+        JOIN entry_textbooks et ON et.entry_id = e.id
+        JOIN textbooks tb ON tb.id = et.textbook_id
+        WHERE e.language = %s
+        GROUP BY tp.name, tb.name
+        """,
+        (language,),
+    ).fetchall()
+    best: dict[str, tuple[int, str]] = {}
+    for topic, book, words in rows:
+        if topic not in best or (words, book) > best[topic]:
+            best[topic] = (int(words), book)
+    return {topic: book for topic, (_words, book) in best.items()}
+
+
+def _upgrade_legacy_topics(
+    conn: psycopg.Connection,
+    language: str,
+    textbooks: tuple[str, ...],
+    topics: tuple[str, ...],
+) -> tuple[tuple[str, ...], tuple[str, ...]]:
+    """Old saves kept bare topic names; move each under its home textbook."""
+    if all("/" in topic for topic in topics):
+        return textbooks, topics
+    homes = _topic_homes(conn, language)
+    books = list(textbooks)
+    picks: list[str] = []
+    for topic in topics:
+        if "/" in topic:
+            picks.append(topic)
+            continue
+        home = homes.get(topic)
+        if home is None:
+            continue
+        if home not in books:
+            books.append(home)
+        picks.append(make_pick(home, topic))
+    return tuple(books), tuple(picks)
+
+
 def get_user_filter(
     conn: psycopg.Connection, user_id: int, language: str
 ) -> SessionFilter:
@@ -42,8 +90,9 @@ def get_user_filter(
     ).fetchone()
     if row is None:
         return SessionFilter(language=language)
-    textbooks = tuple(row[0] or ())
-    topics = tuple(row[1] or ())
+    textbooks, topics = _upgrade_legacy_topics(
+        conn, language, tuple(row[0] or ()), tuple(row[1] or ())
+    )
     return SessionFilter(language=language, textbooks=textbooks, topics=topics)
 
 
@@ -56,8 +105,9 @@ def save_user_filter(
 ) -> SessionFilter:
     if language not in ("en", "fr"):
         raise ValueError("language must be en or fr")
-    books = list(textbooks)
-    tops = list(topics)
+    books = list(dict.fromkeys(textbooks))
+    # A topic only counts inside a selected textbook.
+    tops = [pick for pick in dict.fromkeys(topics) if split_pick(pick)[0] in books]
     conn.execute(
         """
         INSERT INTO user_language_filters (user_id, language, textbooks, topics)
@@ -76,11 +126,21 @@ def save_user_filter(
 
 def filter_summary(flt: SessionFilter) -> str:
     """Short human-readable active filter for the home screen."""
+    if not flt.textbooks:
+        return "учебник не выбран"
+    picks: dict[str, list[str]] = {}
+    for pick in flt.topics:
+        book, topic = split_pick(pick)
+        picks.setdefault(book, []).append(topic)
     parts: list[str] = []
-    if flt.textbooks:
-        parts.append(", ".join(flt.textbooks))
-    if flt.topics:
-        parts.append(", ".join(flt.topics))
-    if not parts:
-        return "весь язык"
+    for book in flt.textbooks:
+        topics = picks.get(book, [])
+        if not topics:
+            parts.append(book)
+            continue
+        regular = [t for t in topics if t != NO_TOPIC and t not in WHOLE_BANK]
+        labels = [compress_topics(regular)] if regular else []
+        if NO_TOPIC in topics:
+            labels.append("без темы")
+        parts.append(f"{book} ({', '.join(labels)})" if labels else book)
     return " · ".join(parts)

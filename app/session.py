@@ -10,6 +10,19 @@ DIRECTIONS = ("foreign_to_native", "native_to_foreign")
 FORMS = "forms"
 FORMS_TEXTBOOK = "Irregular verbs"
 
+# A saved topic pick is "<textbook>/<topic>" (a topic is only meaningful inside its
+# textbook). NO_TOPIC as the topic part means "words of that textbook without a topic".
+NO_TOPIC = "~none"
+
+
+def make_pick(textbook: str, topic: str) -> str:
+    return f"{textbook}/{topic}"
+
+
+def split_pick(pick: str) -> tuple[str, str]:
+    textbook, _, topic = pick.partition("/")
+    return textbook, topic
+
 
 @dataclass(frozen=True)
 class SessionFilter:

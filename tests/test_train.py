@@ -38,12 +38,31 @@ class TrainFlowTests(unittest.TestCase):
         )
         self.assertEqual(login.status_code, 303)
 
+    def select_textbook(self, language: str, name: str) -> None:
+        saved = self.client.post(
+            "/filters",
+            data={"language": language, "textbook": name},
+            follow_redirects=False,
+        )
+        self.assertEqual(saved.status_code, 303)
+
+    def test_start_requires_a_textbook(self) -> None:
+        start = self.client.post(
+            "/start", data={"language": "en"}, follow_redirects=False
+        )
+        self.assertEqual(start.status_code, 303)
+        self.assertIn("error=", start.headers["location"])
+        assess = self.client.post(
+            "/assess/start", data={"language": "en"}, follow_redirects=False
+        )
+        self.assertIn("error=", assess.headers["location"])
+
     def test_filter_page_renders(self) -> None:
         response = self.client.get("/")
         self.assertEqual(response.status_code, 200)
         self.assertIn("английский", response.text)
         self.assertIn("Фильтры", response.text)
-        self.assertIn("весь язык", response.text)
+        self.assertIn("учебник не выбран", response.text)
         self.assertNotIn('name="textbook"', response.text)
         self.assertIn("Повтор", response.text)
         self.assertIn("Серафима", response.text)
@@ -104,6 +123,7 @@ class TrainFlowTests(unittest.TestCase):
         self.assertEqual(response.headers["location"], "/login")
 
     def test_grade_writes_progress(self) -> None:
+        self.select_textbook("en", "Starlight 6")
         start = self.client.post(
             "/start",
             data={"language": "en"},
@@ -187,7 +207,7 @@ class TrainFlowTests(unittest.TestCase):
         )
 
     def test_fr_session_uses_higher_cap(self) -> None:
-        response = self.client.get("/session?language=fr&seed=1")
+        response = self.client.get("/session?language=fr&textbook=Loiseau%20Blue%206&seed=1")
         self.assertEqual(response.status_code, 200)
         payload = response.json()
         self.assertEqual(payload["new_per_day"], 20)
@@ -195,6 +215,7 @@ class TrainFlowTests(unittest.TestCase):
         self.assertLessEqual(payload["new_in_session"], 20)
 
     def test_assessment_know_skips_new_quota(self) -> None:
+        self.select_textbook("en", "Starlight 6")
         start = self.client.post(
             "/assess/start",
             data={"language": "en"},

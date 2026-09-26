@@ -300,74 +300,167 @@ html, body {
   gap: 1.1rem;
 }
 
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+.filters { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.85rem; }
+
+.bank {
   display: grid;
-  gap: 0.45rem;
+  min-width: 0;
+  gap: 0.5rem;
+  padding: 0.85rem 1rem 1rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
-legend {
-  font-weight: 650;
-  margin-bottom: 0.35rem;
+.bank.is-on {
+  border-color: color-mix(in srgb, var(--accent) 60%, var(--line));
+  background: color-mix(in srgb, var(--accent) 6%, var(--panel));
 }
 
-.choice {
+.bank-head {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.7rem;
   min-height: var(--tap);
-  padding: 0 0.15rem;
+  cursor: pointer;
 }
 
-.choice input {
-  width: 1.15rem;
-  height: 1.15rem;
+.bank-check {
+  width: 1.35rem;
+  height: 1.35rem;
+  flex: none;
+  accent-color: var(--accent);
 }
 
-.choice-row {
+.bank-name {
+  flex: 1;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.25;
+}
+
+.bank-count {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.bank-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.bank-state { color: var(--accent); font-weight: 600; }
+
+.meter,
+.topic-chip-meter {
+  --mid: color-mix(in srgb, var(--accent) 70%, #fff);
+  background: linear-gradient(
+    90deg,
+    var(--know) 0 var(--a),
+    var(--mid) var(--a) var(--b),
+    var(--doubt) var(--b) var(--c),
+    color-mix(in srgb, var(--line) 70%, transparent) var(--c) 100%
+  );
+}
+
+.meter {
+  height: 5px;
+  border-radius: 3px;
+}
+
+.meta-toggle {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+
+.meta-toggle[aria-expanded="true"] { color: var(--ink); }
+
+.bank-detail {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 1rem;
+  gap: 0.25rem 0.9rem;
+  font-size: 0.85rem;
+  color: var(--muted);
 }
 
-.topic-field legend {
-  margin-bottom: 0.65rem;
+.bank-detail[hidden] { display: none; }
+.bank-detail b { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+.dot {
+  display: inline-block;
+  width: 0.65rem;
+  height: 0.65rem;
+  margin-right: 0.3rem;
+  border-radius: 50%;
+  vertical-align: -0.05rem;
 }
+
+.dot-known { background: var(--know); }
+.dot-mid { background: color-mix(in srgb, var(--accent) 70%, #fff); }
+.dot-learning { background: var(--doubt); }
+.dot-rest { background: color-mix(in srgb, var(--line) 90%, var(--muted)); }
 
 .topic-chips {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
+  margin-top: 0.35rem;
 }
 
 .topic-chip {
   position: relative;
   display: inline-flex;
   align-items: center;
+  max-width: 100%;
   gap: 0.5rem;
   min-height: 2.5rem;
-  padding: 0.4rem 0.55rem 0.4rem 0.85rem;
+  padding: 0.4rem 0.55rem 0.55rem 0.85rem;
   border-radius: 999px;
   border: 1px solid color-mix(in srgb, var(--line) 85%, var(--ink));
   background: var(--bg);
-  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--ink) 8%, transparent);
   cursor: pointer;
   user-select: none;
-  transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: background 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
 }
 
-.topic-chip:hover {
-  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
-}
+.topic-chip-none { border-style: dashed; }
+
+.topic-chip:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
 
 .topic-chip:has(.topic-chip-input:checked) {
   border-color: color-mix(in srgb, var(--accent) 75%, var(--line));
   background: color-mix(in srgb, var(--accent) 22%, var(--bg));
-  box-shadow:
-    inset 0 1px 0 color-mix(in srgb, var(--ink) 10%, transparent),
-    0 0 0 1px color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+.topic-chip:has(.topic-chip-input:checked) .topic-chip-name::before {
+  content: "✓";
+  margin-right: 0.35rem;
+  color: var(--accent);
+}
+
+.topic-chip:has(.topic-chip-input:focus-visible) {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.topic-chip:has(.topic-chip-input:disabled) {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.topic-chip:has(.topic-chip-input:disabled):hover {
+  border-color: color-mix(in srgb, var(--line) 85%, var(--ink));
 }
 
 .topic-chip-input {
@@ -385,9 +478,9 @@ legend {
 }
 
 .topic-chip-name {
+  min-width: 0;
   font-weight: 600;
   line-height: 1.2;
-  white-space: nowrap;
 }
 
 .topic-chip-count {
@@ -400,13 +493,40 @@ legend {
   font-size: 0.92rem;
   font-variant-numeric: tabular-nums;
   background: color-mix(in srgb, var(--accent) 16%, var(--panel));
-  color: color-mix(in srgb, var(--accent) 55%, #6b8cff);
+  color: var(--accent);
 }
 
-.topic-chip:has(.topic-chip-input:checked) .topic-chip-count {
-  background: color-mix(in srgb, var(--accent) 30%, var(--panel));
-  color: color-mix(in srgb, var(--accent) 70%, #9eb4ff);
+.topic-chip-meter {
+  position: absolute;
+  left: 0.85rem;
+  right: 0.75rem;
+  bottom: 0.3rem;
+  height: 3px;
+  border-radius: 2px;
 }
+
+.summary {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--accent) 12%, var(--panel));
+  transition: opacity 0.15s ease;
+}
+
+.summary p { margin: 0; }
+.summary.is-stale { opacity: 0.6; }
+
+.summary-title {
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.summary-main { font-size: 1.15rem; }
+.summary-sub { color: var(--muted); font-size: 0.95rem; }
+.summary strong { font-variant-numeric: tabular-nums; color: var(--ink); }
 
 .btn {
   display: inline-flex;
@@ -490,6 +610,13 @@ legend {
 }
 
 .hint-text a { color: var(--accent); }
+
+.hint-warn { color: var(--doubt); font-weight: 600; }
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
 
 .card {
   min-height: 16rem;

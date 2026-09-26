@@ -16,7 +16,12 @@ from app.db import connect
 from app.load_limits import get_new_per_day
 from app.progress import count_introduced_today, save_assessment, save_grade
 from app.queue import build_assessment_cards, build_session_cards, build_verbs_cards
-from app.repository import fetch_filter_options, fetch_queue_preview, fetch_textbook_banks
+from app.repository import (
+    count_filter_words,
+    fetch_filter_banks,
+    fetch_queue_preview,
+    fetch_textbook_banks,
+)
 from app.scheduler import ASSESS_BATCH, ASSESS_KNOW_INTERVAL, ASSESS_VERDICTS, preferred_direction
 from app.session import SessionFilter
 from app.stats import (
@@ -35,6 +40,7 @@ from app.user_filters import (
     save_user_filter,
     set_last_language,
 )
+from app.topics import format_number, topic_title, words_label
 from app.users import User, authenticate, get_user_by_id
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -56,6 +62,9 @@ def _asset(path: str) -> str:
 
 
 templates.env.globals["asset"] = _asset
+templates.env.globals["topic_title"] = topic_title
+templates.env.filters["num"] = format_number
+templates.env.filters["words"] = words_label
 store = SessionStore()
 auth_store = AuthStore()
 
@@ -183,6 +192,7 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
             "error": error,
             "language": language,
             "filter_label": filter_summary(flt),
+            "filter_empty": not flt.textbooks,
             "preview": preview,
             "new_per_day": daily_new,
             "preferred_direction": preferred_direction(language),
@@ -194,6 +204,17 @@ def filter_page(request: Request, error: str | None = None) -> HTMLResponse | Re
     )
 
 
+def _filter_preview(conn, flt: SessionFilter, user_id: int) -> dict[str, int]:
+    words, started = count_filter_words(conn, flt, user_id)
+    queue = fetch_queue_preview(conn, flt, user_id)
+    return {
+        "words": words,
+        "started": started,
+        "due": queue.due_count,
+        "untouched": queue.new_available,
+    }
+
+
 @app.get("/filters", response_class=HTMLResponse, response_model=None)
 def filters_page(
     request: Request, saved: str | None = None
@@ -203,20 +224,44 @@ def filters_page(
         return user
     with connect() as conn:
         language = _resolve_language(request, user, conn)
-        options = fetch_filter_options(conn, language)
+        banks = fetch_filter_banks(conn, language, user.id)
         flt = get_user_filter(conn, user.id, language)
+        preview = _filter_preview(conn, flt, user.id)
     return templates.TemplateResponse(
         request,
         "filters.html",
         {
             **_nav(user),
             "language": language,
-            "options": options,
+            "banks": banks,
             "selected_textbooks": list(flt.textbooks),
-            "selected_topics": list(flt.topics),
+            "selected_picks": list(flt.topics),
+            "preview": preview,
             "saved": saved == "1",
         },
     )
+
+
+@app.get("/filters/preview")
+def filters_preview(
+    request: Request,
+    language: str,
+    textbook: list[str] | None = Query(default=None),
+    topic: list[str] | None = Query(default=None),
+) -> dict[str, int]:
+    user = _current_user(request)
+    if user is None:
+        raise HTTPException(status_code=401, detail="login required")
+    try:
+        flt = SessionFilter(
+            language=language,
+            textbooks=tuple(textbook or ()),
+            topics=tuple(topic or ()),
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    with connect() as conn:
+        return _filter_preview(conn, flt, user.id)
 
 
 @app.post("/filters")
@@ -262,6 +307,11 @@ def start_session(
         flt = get_user_filter(conn, user.id, language)
         picked, due_n, new_n = build_session_cards(conn, flt, user.id, random.Random())
 
+    if not flt.textbooks:
+        return RedirectResponse(
+            f"/?language={language}&error=Выберите+учебник+в+фильтрах",
+            status_code=303,
+        )
     if not picked:
         return RedirectResponse(
             f"/?language={language}&error=Нет+карточек+на+сегодня",
@@ -316,6 +366,11 @@ def start_assessment(
             conn, flt, user.id, random.Random()
         )
 
+    if not flt.textbooks:
+        return RedirectResponse(
+            f"/?language={language}&error=Выберите+учебник+в+фильтрах",
+            status_code=303,
+        )
     if not picked:
         return RedirectResponse(
             f"/?language={language}&error=Нет+неоценённых+карточек",

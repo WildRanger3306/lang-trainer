@@ -26,14 +26,14 @@
   <p class="hint-text">
     Фильтр:
     <strong>{{ filter_label }}</strong>
-    · <a href="/filters?language={{ language }}">изменить</a>
+    · <a href="/filters?language={{ language }}">{% if filter_empty %}выбрать{% else %}изменить{% endif %}</a>
   </p>
 
   <form class="panel" method="post" action="/start">
     <input type="hidden" name="language" value="{{ language }}">
     <div class="actions">
-      <button class="btn btn-primary" type="submit">Тренировка</button>
-      <button class="btn btn-secondary" type="submit" formaction="/assess/start">
+      <button class="btn btn-primary" type="submit"{% if filter_empty %} disabled{% endif %}>Тренировка</button>
+      <button class="btn btn-secondary" type="submit" formaction="/assess/start"{% if filter_empty %} disabled{% endif %}>
         Оценка знаний
       </button>
       {% if verbs %}
@@ -42,6 +42,9 @@
         </button>
       {% endif %}
     </div>
+    {% if filter_empty %}
+      <p class="hint-text hint-warn">Выберите учебник в <a href="/filters?language={{ language }}">фильтрах</a> — без него очередь пуста.</p>
+    {% endif %}
     <p class="hint-text">
       Оценка: до {{ assess_batch }} карточек без прогресса.
       «Знаю» → интервал {{ assess_know_interval }} дн., квоту новых не тратит.
