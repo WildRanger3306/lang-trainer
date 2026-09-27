@@ -416,6 +416,12 @@ def migrate_user_filters() -> None:
         )
         conn.execute(
             """
+            ALTER TABLE users
+              ADD COLUMN IF NOT EXISTS allowed_modes TEXT[] NOT NULL DEFAULT '{train,assess}'
+            """
+        )
+        conn.execute(
+            """
             CREATE TABLE IF NOT EXISTS user_language_filters (
               user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
               language language_code NOT NULL,

@@ -90,6 +90,7 @@ CREATE TABLE users (
   last_language language_code,
   is_admin BOOLEAN NOT NULL DEFAULT false,
   allowed_languages language_code[] NOT NULL DEFAULT '{en,fr}',
+  allowed_modes TEXT[] NOT NULL DEFAULT '{train,assess}',
   CONSTRAINT users_login_format CHECK (login ~ '^[a-zA-Z0-9_-]+$')
 );
 

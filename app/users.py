@@ -16,6 +16,11 @@ PBKDF2_ROUNDS = 200_000
 
 ALL_LANGUAGES = ("en", "fr")
 
+# Home-screen actions a user can start: train (FSRS session) and assess (know/doubt/
+# unknown triage). Distinct from app.main.TRAIN_MODES, which groups train with verbs
+# for a different purpose (which sessions use FSRS grading).
+USER_MODES = ("train", "assess")
+
 
 @dataclass(frozen=True)
 class User:
@@ -24,6 +29,7 @@ class User:
     display_name: str | None
     is_admin: bool = False
     allowed_languages: tuple[str, ...] = ALL_LANGUAGES
+    allowed_modes: tuple[str, ...] = USER_MODES
 
     @property
     def label(self) -> str:
@@ -36,6 +42,9 @@ class User:
     def default_language(self) -> str:
         """First allowed language; "en" if somehow none (shouldn't happen, DB default is both)."""
         return self.allowed_languages[0] if self.allowed_languages else "en"
+
+    def can_start(self, mode: str) -> bool:
+        return mode in self.allowed_modes
 
 
 def hash_password(password: str) -> str:
@@ -75,6 +84,12 @@ def clean_languages(codes) -> tuple[str, ...]:
     return tuple(code for code in ALL_LANGUAGES if code in wanted)
 
 
+def clean_modes(codes) -> tuple[str, ...]:
+    """Known mode codes only, in a stable order, without duplicates."""
+    wanted = set(codes)
+    return tuple(code for code in USER_MODES if code in wanted)
+
+
 def validate_login(login: str) -> str:
     login = login.strip()
     if not login or not LOGIN_RE.match(login):
@@ -89,6 +104,7 @@ def _user_from_row(row: dict) -> User:
         display_name=row["display_name"],
         is_admin=bool(row["is_admin"]),
         allowed_languages=tuple(row["allowed_languages"] or ()),
+        allowed_modes=tuple(row["allowed_modes"] or ()),
     )
 
 
@@ -96,7 +112,7 @@ def get_user_by_login(conn: psycopg.Connection, login: str) -> tuple[User, str] 
     with conn.cursor(row_factory=dict_row) as cur:
         cur.execute(
             """
-            SELECT id, login, display_name, is_admin, allowed_languages::text[], password_hash
+            SELECT id, login, display_name, is_admin, allowed_languages::text[], allowed_modes, password_hash
             FROM users WHERE login = %s
             """,
             (login,),
@@ -111,7 +127,7 @@ def get_user_by_id(conn: psycopg.Connection, user_id: int) -> User | None:
     with conn.cursor(row_factory=dict_row) as cur:
         cur.execute(
             """
-            SELECT id, login, display_name, is_admin, allowed_languages::text[]
+            SELECT id, login, display_name, is_admin, allowed_languages::text[], allowed_modes
             FROM users WHERE id = %s
             """,
             (user_id,),
@@ -126,7 +142,7 @@ def list_users(conn: psycopg.Connection) -> list[User]:
     with conn.cursor(row_factory=dict_row) as cur:
         cur.execute(
             """
-            SELECT id, login, display_name, is_admin, allowed_languages::text[]
+            SELECT id, login, display_name, is_admin, allowed_languages::text[], allowed_modes
             FROM users ORDER BY login
             """
         )
@@ -148,7 +164,7 @@ def create_user(
             """
             INSERT INTO users (login, password_hash, display_name)
             VALUES (%s, %s, %s)
-            RETURNING id, login, display_name, is_admin, allowed_languages::text[]
+            RETURNING id, login, display_name, is_admin, allowed_languages::text[], allowed_modes
             """,
             (login, hash_password(password), display_name),
         )
@@ -175,6 +191,19 @@ def set_allowed_languages(
         raise ValueError("at least one language must stay allowed")
     conn.execute(
         "UPDATE users SET allowed_languages = %s::language_code[] WHERE id = %s",
+        (list(cleaned), user_id),
+    )
+    conn.commit()
+    return cleaned
+
+
+def set_allowed_modes(conn: psycopg.Connection, user_id: int, modes) -> tuple[str, ...]:
+    """At least one mode must stay enabled — otherwise the account is unusable."""
+    cleaned = clean_modes(modes)
+    if not cleaned:
+        raise ValueError("at least one mode must stay allowed")
+    conn.execute(
+        "UPDATE users SET allowed_modes = %s::text[] WHERE id = %s",
         (list(cleaned), user_id),
     )
     conn.commit()

@@ -3,27 +3,46 @@
 {% block body %}
   <header class="header">
     <h1>Пользователи</h1>
-    <p class="lead">Кому какие языки доступны. Меняется сразу, без кнопки «Сохранить».</p>
+    <p class="lead">Кому какие языки и режимы доступны. Меняется сразу, без кнопки «Сохранить».</p>
   </header>
 
   <div class="admin-users">
     {% for u in users %}
-      <div class="panel admin-user" data-admin-user data-url="/admin/users/{{ u.id }}/languages">
+      <div class="panel admin-user">
         <div class="admin-user-head">
           <span class="admin-user-name">{{ u.label }}{% if u.display_name %} <span class="admin-user-login">({{ u.login }})</span>{% endif %}</span>
           {% if u.is_admin %}<span class="role-badge">Админ</span>{% endif %}
         </div>
-        <div class="topic-chips">
-          <label class="topic-chip">
-            <input class="topic-chip-input" type="checkbox" value="en"{% if 'en' in u.allowed_languages %} checked{% endif %}>
-            <span class="topic-chip-name">английский</span>
-          </label>
-          <label class="topic-chip">
-            <input class="topic-chip-input" type="checkbox" value="fr"{% if 'fr' in u.allowed_languages %} checked{% endif %}>
-            <span class="topic-chip-name">французский</span>
-          </label>
+
+        <div class="admin-field" data-admin-field data-url="/admin/users/{{ u.id }}/languages">
+          <p class="parts-title">Языки</p>
+          <div class="topic-chips">
+            <label class="topic-chip">
+              <input class="topic-chip-input" type="checkbox" name="language" value="en"{% if 'en' in u.allowed_languages %} checked{% endif %}>
+              <span class="topic-chip-name">английский</span>
+            </label>
+            <label class="topic-chip">
+              <input class="topic-chip-input" type="checkbox" name="language" value="fr"{% if 'fr' in u.allowed_languages %} checked{% endif %}>
+              <span class="topic-chip-name">французский</span>
+            </label>
+          </div>
+          <p class="admin-field-status" data-status aria-live="polite"></p>
         </div>
-        <p class="admin-user-status" data-status aria-live="polite"></p>
+
+        <div class="admin-field" data-admin-field data-url="/admin/users/{{ u.id }}/modes">
+          <p class="parts-title">Режимы</p>
+          <div class="topic-chips">
+            <label class="topic-chip">
+              <input class="topic-chip-input" type="checkbox" name="mode" value="train"{% if 'train' in u.allowed_modes %} checked{% endif %}>
+              <span class="topic-chip-name">тренировка</span>
+            </label>
+            <label class="topic-chip">
+              <input class="topic-chip-input" type="checkbox" name="mode" value="assess"{% if 'assess' in u.allowed_modes %} checked{% endif %}>
+              <span class="topic-chip-name">оценка знаний</span>
+            </label>
+          </div>
+          <p class="admin-field-status" data-status aria-live="polite"></p>
+        </div>
       </div>
     {% endfor %}
   </div>

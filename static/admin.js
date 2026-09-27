@@ -1,7 +1,7 @@
 (function () {
-  document.querySelectorAll("[data-admin-user]").forEach((card) => {
-    const boxes = card.querySelectorAll(".topic-chip-input");
-    const status = card.querySelector("[data-status]");
+  document.querySelectorAll("[data-admin-field]").forEach((field) => {
+    const boxes = field.querySelectorAll(".topic-chip-input");
+    const status = field.querySelector("[data-status]");
     let fadeTimer = null;
 
     function show(text, isError) {
@@ -24,12 +24,12 @@
         const values = checkedValues();
         if (values.length === 0) {
           box.checked = true;
-          show("Нужен хотя бы один язык", true);
+          show("Нужно оставить хотя бы один вариант", true);
           return;
         }
         const body = new URLSearchParams();
-        values.forEach((value) => body.append("language", value));
-        fetch(card.dataset.url, {
+        values.forEach((value) => body.append(box.name, value));
+        fetch(field.dataset.url, {
           method: "POST",
           credentials: "same-origin",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },

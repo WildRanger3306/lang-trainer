@@ -45,12 +45,15 @@ from app.parts import PART_GROUPS, clean_parts
 from app.topics import format_number, topic_title, words_label
 from app.users import (
     ALL_LANGUAGES,
+    USER_MODES,
     User,
     authenticate,
     clean_languages,
+    clean_modes,
     get_user_by_id,
     list_users,
     set_allowed_languages,
+    set_allowed_modes,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -127,6 +130,7 @@ def _nav(user: User | None) -> dict:
     return {
         "user": user,
         "allowed_languages": user.allowed_languages if user else ALL_LANGUAGES,
+        "allowed_modes": user.allowed_modes if user else USER_MODES,
     }
 
 
@@ -336,6 +340,8 @@ def start_session(
         return user
     if not user.can_use(language):
         return RedirectResponse("/?error=Выберите+язык", status_code=303)
+    if not user.can_start("train"):
+        return RedirectResponse("/?error=Режим+недоступен", status_code=303)
 
     with connect() as conn:
         set_last_language(conn, user.id, language)
@@ -396,6 +402,8 @@ def start_assessment(
         return user
     if not user.can_use(language):
         return RedirectResponse("/?error=Выберите+язык", status_code=303)
+    if not user.can_start("assess"):
+        return RedirectResponse("/?error=Режим+недоступен", status_code=303)
 
     with connect() as conn:
         set_last_language(conn, user.id, language)
@@ -609,6 +617,16 @@ def admin_page(request: Request) -> HTMLResponse:
     )
 
 
+def _require_admin_api(request: Request) -> User:
+    """Like _require_admin, but for JSON endpoints: raises instead of redirecting."""
+    user = _current_user(request)
+    if user is None:
+        raise HTTPException(status_code=401)
+    if not user.is_admin:
+        raise HTTPException(status_code=404)
+    return user
+
+
 @app.post("/admin/users/{user_id}/languages")
 def admin_set_languages(
     request: Request,
@@ -616,17 +634,29 @@ def admin_set_languages(
     language: list[str] | None = Form(default=None),
 ) -> dict[str, list[str]]:
     """Saves on every checkbox toggle (admin.js) — no separate Save button."""
-    user = _current_user(request)
-    if user is None:
-        raise HTTPException(status_code=401)
-    if not user.is_admin:
-        raise HTTPException(status_code=404)
+    _require_admin_api(request)
     with connect() as conn:
         try:
             allowed = set_allowed_languages(conn, user_id, clean_languages(language or ()))
         except ValueError as exc:
             raise HTTPException(status_code=400, detail=str(exc)) from exc
     return {"allowed_languages": list(allowed)}
+
+
+@app.post("/admin/users/{user_id}/modes")
+def admin_set_modes(
+    request: Request,
+    user_id: int,
+    mode: list[str] | None = Form(default=None),
+) -> dict[str, list[str]]:
+    """Saves on every checkbox toggle (admin.js) — no separate Save button."""
+    _require_admin_api(request)
+    with connect() as conn:
+        try:
+            allowed = set_allowed_modes(conn, user_id, clean_modes(mode or ()))
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc)) from exc
+    return {"allowed_modes": list(allowed)}
 
 
 @app.get("/about", response_class=HTMLResponse, response_model=None)
@@ -681,6 +711,8 @@ def create_session_json(
         raise HTTPException(status_code=401, detail="login required")
     if not user.can_use(language):
         raise HTTPException(status_code=403, detail="language not allowed for this user")
+    if not user.can_start("train"):
+        raise HTTPException(status_code=403, detail="train mode not allowed for this user")
     try:
         flt = SessionFilter(
             language=language,
