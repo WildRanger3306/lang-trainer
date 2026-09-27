@@ -154,8 +154,8 @@ class LanguageEnforcementTests(unittest.TestCase):
         response = self.client.get("/session?language=fr")
         self.assertEqual(response.status_code, 403)
 
-    def test_filters_preview_rejects_disallowed_language(self) -> None:
-        response = self.client.get("/filters/preview?language=fr")
+    def test_filters_save_rejects_disallowed_language(self) -> None:
+        response = self.client.post("/filters", data={"language": "fr"})
         self.assertEqual(response.status_code, 403)
 
 
@@ -174,11 +174,9 @@ class ModeEnforcementTests(unittest.TestCase):
         )
         self.assertEqual(login.status_code, 303)
         saved = self.client.post(
-            "/filters",
-            data={"language": "en", "textbook": "Starlight 6"},
-            follow_redirects=False,
+            "/filters", data={"language": "en", "textbook": "Starlight 6"}
         )
-        self.assertEqual(saved.status_code, 303)
+        self.assertEqual(saved.status_code, 200)
 
     def tearDown(self) -> None:
         with connect() as conn:

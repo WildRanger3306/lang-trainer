@@ -9,15 +9,11 @@
     </div>
     <p class="lead">
       Отметьте учебники; внутри учебника можно выбрать темы. Учебник без тем берётся целиком.
-      Сохраняется для вашего логина.
+      Меняется сразу, без кнопки «Сохранить».
     </p>
   </header>
 
-  {% if saved %}
-    <p class="banner">Сохранено.</p>
-  {% endif %}
-
-  <form class="filters" id="filters" method="post" action="/filters" data-preview-url="/filters/preview">
+  <form class="filters" id="filters" method="post" action="/filters">
     <input type="hidden" name="language" value="{{ language }}">
 
     <section class="summary" id="filters-summary" aria-live="polite">
@@ -93,11 +89,6 @@
         {% endif %}
       </section>
     {% endfor %}
-
-    <div class="actions">
-      <button class="btn btn-primary" type="submit">Сохранить</button>
-      <a class="btn btn-secondary" href="/?language={{ language }}">Отмена</a>
-    </div>
   </form>
 {% endblock %}
 {% block scripts %}

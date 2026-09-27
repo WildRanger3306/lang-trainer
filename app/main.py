@@ -41,7 +41,7 @@ from app.user_filters import (
     save_user_filter,
     set_last_language,
 )
-from app.parts import PART_GROUPS, clean_parts
+from app.parts import PART_GROUPS
 from app.topics import format_number, topic_title, words_label
 from app.users import (
     ALL_LANGUAGES,
@@ -245,9 +245,7 @@ def _filter_preview(conn, flt: SessionFilter, user_id: int) -> dict:
 
 
 @app.get("/filters", response_class=HTMLResponse, response_model=None)
-def filters_page(
-    request: Request, saved: str | None = None
-) -> HTMLResponse | RedirectResponse:
+def filters_page(request: Request) -> HTMLResponse | RedirectResponse:
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
         return user
@@ -271,35 +269,8 @@ def filters_page(
                 for key, label, short, _values in PART_GROUPS
             ],
             "preview": preview,
-            "saved": saved == "1",
         },
     )
-
-
-@app.get("/filters/preview")
-def filters_preview(
-    request: Request,
-    language: str,
-    textbook: list[str] | None = Query(default=None),
-    topic: list[str] | None = Query(default=None),
-    pos: list[str] | None = Query(default=None),
-) -> dict:
-    user = _current_user(request)
-    if user is None:
-        raise HTTPException(status_code=401, detail="login required")
-    if not user.can_use(language):
-        raise HTTPException(status_code=403, detail="language not allowed for this user")
-    try:
-        flt = SessionFilter(
-            language=language,
-            textbooks=tuple(textbook or ()),
-            topics=tuple(topic or ()),
-            parts=clean_parts(pos or ()),
-        )
-    except ValueError as exc:
-        raise HTTPException(status_code=400, detail=str(exc)) from exc
-    with connect() as conn:
-        return _filter_preview(conn, flt, user.id)
 
 
 @app.post("/filters")
@@ -309,14 +280,16 @@ def filters_save(
     textbook: list[str] | None = Form(default=None),
     topic: list[str] | None = Form(default=None),
     pos: list[str] | None = Form(default=None),
-) -> RedirectResponse:
-    user = _require_user(request)
-    if isinstance(user, RedirectResponse):
-        return user
+) -> dict:
+    """Saves on every checkbox/chip toggle (filters.js) — no Save button. Returns
+    the same shape as the old /filters/preview, now reflecting what was just stored."""
+    user = _current_user(request)
+    if user is None:
+        raise HTTPException(status_code=401)
     if not user.can_use(language):
-        return RedirectResponse("/filters?error=1", status_code=303)
+        raise HTTPException(status_code=403, detail="language not allowed for this user")
     with connect() as conn:
-        save_user_filter(
+        flt = save_user_filter(
             conn,
             user.id,
             language,
@@ -325,9 +298,7 @@ def filters_save(
             pos or [],
         )
         set_last_language(conn, user.id, language)
-    return RedirectResponse(
-        f"/filters?language={language}&saved=1", status_code=303
-    )
+        return _filter_preview(conn, flt, user.id)
 
 
 @app.post("/start")

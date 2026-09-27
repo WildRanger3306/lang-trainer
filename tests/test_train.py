@@ -36,11 +36,9 @@ class TrainFlowTests(unittest.TestCase):
 
     def select_textbook(self, language: str, name: str) -> None:
         saved = self.client.post(
-            "/filters",
-            data={"language": language, "textbook": name},
-            follow_redirects=False,
+            "/filters", data={"language": language, "textbook": name}
         )
-        self.assertEqual(saved.status_code, 303)
+        self.assertEqual(saved.status_code, 200)
 
     def test_start_requires_a_textbook(self) -> None:
         start = self.client.post(
@@ -78,12 +76,10 @@ class TrainFlowTests(unittest.TestCase):
         self.assertIn('name="textbook"', page.text)
 
         save = self.client.post(
-            "/filters",
-            data={"language": "en", "textbook": "Starlight 6"},
-            follow_redirects=False,
+            "/filters", data={"language": "en", "textbook": "Starlight 6"}
         )
-        self.assertEqual(save.status_code, 303)
-        self.assertIn("saved=1", save.headers["location"])
+        self.assertEqual(save.status_code, 200)
+        self.assertIn("words", save.json())
 
         home = self.client.get("/?language=en")
         self.assertEqual(home.status_code, 200)
@@ -111,6 +107,27 @@ class TrainFlowTests(unittest.TestCase):
             ).fetchone()
         self.assertEqual(list(row[0]), ["Starlight 6"])
         self.assertEqual(list(row[1]), [])
+
+    def test_filters_page_has_no_save_button(self) -> None:
+        page = self.client.get("/filters?language=en")
+        self.assertEqual(page.status_code, 200)
+        # The lead paragraph explains autosave in words ("без кнопки «Сохранить»"),
+        # but no actual <button>Сохранить</button> or actions row should remain.
+        self.assertNotIn(">Сохранить<", page.text)
+        self.assertNotIn('class="actions"', page.text)
+
+    def test_filters_save_reflects_the_new_selection(self) -> None:
+        before = self.client.post("/filters", data={"language": "en"}).json()
+        self.assertEqual(before["words"], 0)
+
+        after = self.client.post(
+            "/filters", data={"language": "en", "textbook": "Starlight 6"}
+        ).json()
+        self.assertGreater(after["words"], 0)
+
+        # A fresh page load reflects what was just saved, not what came before.
+        page = self.client.get("/filters?language=en")
+        self.assertIn("Starlight 6", page.text)
 
     def test_unauthenticated_redirects(self) -> None:
         bare = TestClient(app)

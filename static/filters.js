@@ -58,9 +58,10 @@
     if (controller) controller.abort();
     controller = new AbortController();
     slot("title").textContent = params.has("textbook") ? "В фильтре" : "Выберите учебник";
-    fetch(form.dataset.previewUrl + "?" + params.toString(), {
+    fetch(form.action, {
+      method: "POST",
       credentials: "same-origin",
-      headers: { Accept: "application/json" },
+      body: params,
       signal: controller.signal,
     })
       .then((response) => (response.ok ? response.json() : Promise.reject(response.status)))
