@@ -43,7 +43,15 @@ from app.user_filters import (
 )
 from app.parts import PART_GROUPS, clean_parts
 from app.topics import format_number, topic_title, words_label
-from app.users import User, authenticate, get_user_by_id
+from app.users import (
+    ALL_LANGUAGES,
+    User,
+    authenticate,
+    clean_languages,
+    get_user_by_id,
+    list_users,
+    set_allowed_languages,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 COOKIE = "train_session"
@@ -94,18 +102,32 @@ def _require_user(request: Request) -> User | RedirectResponse:
     return user
 
 
+def _require_admin(request: Request) -> User | RedirectResponse:
+    user = _require_user(request)
+    if isinstance(user, RedirectResponse):
+        return user
+    if not user.is_admin:
+        # 404, not 403: don't hint the route exists to non-admins.
+        raise HTTPException(status_code=404)
+    return user
+
+
 def _resolve_language(request: Request, user: User, conn) -> str:
+    """Requested language if this user is allowed it; else their last one; else their first."""
     language = request.query_params.get("language")
-    if language not in ("en", "fr"):
-        language = get_last_language(conn, user.id) or "en"
-    if language not in ("en", "fr"):
-        language = "en"
+    if not user.can_use(language or ""):
+        language = get_last_language(conn, user.id)
+    if not user.can_use(language or ""):
+        language = user.default_language
     set_last_language(conn, user.id, language)
     return language
 
 
 def _nav(user: User | None) -> dict:
-    return {"user": user}
+    return {
+        "user": user,
+        "allowed_languages": user.allowed_languages if user else ALL_LANGUAGES,
+    }
 
 
 # FSRS-graded modes on /train: the daily session and irregular verbs (§016).
@@ -261,6 +283,8 @@ def filters_preview(
     user = _current_user(request)
     if user is None:
         raise HTTPException(status_code=401, detail="login required")
+    if not user.can_use(language):
+        raise HTTPException(status_code=403, detail="language not allowed for this user")
     try:
         flt = SessionFilter(
             language=language,
@@ -285,7 +309,7 @@ def filters_save(
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
         return user
-    if language not in ("en", "fr"):
+    if not user.can_use(language):
         return RedirectResponse("/filters?error=1", status_code=303)
     with connect() as conn:
         save_user_filter(
@@ -310,7 +334,7 @@ def start_session(
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
         return user
-    if language not in ("en", "fr"):
+    if not user.can_use(language):
         return RedirectResponse("/?error=Выберите+язык", status_code=303)
 
     with connect() as conn:
@@ -344,6 +368,8 @@ def start_verbs(request: Request) -> RedirectResponse:
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
         return user
+    if not user.can_use("en"):
+        return RedirectResponse("/?error=Выберите+язык", status_code=303)
     with connect() as conn:
         set_last_language(conn, user.id, "en")
         picked, due_n, new_n = build_verbs_cards(conn, user.id, random.Random())
@@ -368,7 +394,7 @@ def start_assessment(
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
         return user
-    if language not in ("en", "fr"):
+    if not user.can_use(language):
         return RedirectResponse("/?error=Выберите+язык", status_code=303)
 
     with connect() as conn:
@@ -571,6 +597,38 @@ def done_page(request: Request) -> HTMLResponse | RedirectResponse:
     )
 
 
+@app.get("/admin", response_class=HTMLResponse, response_model=None)
+def admin_page(request: Request) -> HTMLResponse:
+    admin = _require_admin(request)
+    if isinstance(admin, RedirectResponse):
+        return admin
+    with connect() as conn:
+        users = list_users(conn)
+    return templates.TemplateResponse(
+        request, "admin.html", {**_nav(admin), "users": users}
+    )
+
+
+@app.post("/admin/users/{user_id}/languages")
+def admin_set_languages(
+    request: Request,
+    user_id: int,
+    language: list[str] | None = Form(default=None),
+) -> dict[str, list[str]]:
+    """Saves on every checkbox toggle (admin.js) — no separate Save button."""
+    user = _current_user(request)
+    if user is None:
+        raise HTTPException(status_code=401)
+    if not user.is_admin:
+        raise HTTPException(status_code=404)
+    with connect() as conn:
+        try:
+            allowed = set_allowed_languages(conn, user_id, clean_languages(language or ()))
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc)) from exc
+    return {"allowed_languages": list(allowed)}
+
+
 @app.get("/about", response_class=HTMLResponse, response_model=None)
 def about_page(request: Request) -> HTMLResponse | RedirectResponse:
     user = _require_user(request)
@@ -592,8 +650,8 @@ def stats_page(
     user = _require_user(request)
     if isinstance(user, RedirectResponse):
         return user
-    if language not in ("en", "fr"):
-        language = "en"
+    if not user.can_use(language):
+        language = user.default_language
     with connect() as conn:
         summary = build_language_summary(conn, user.id, language)
     return templates.TemplateResponse(
@@ -621,6 +679,8 @@ def create_session_json(
     user = _current_user(request)
     if user is None:
         raise HTTPException(status_code=401, detail="login required")
+    if not user.can_use(language):
+        raise HTTPException(status_code=403, detail="language not allowed for this user")
     try:
         flt = SessionFilter(
             language=language,

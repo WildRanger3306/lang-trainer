@@ -40,9 +40,14 @@
         <img class="logo logo-sm" src="/static/logo.png" width="40" height="40" alt="">
         <span>{{ user.label }}</span>
       </a>
-      <form method="post" action="/logout">
-        <button class="linkish" type="submit">Выйти</button>
-      </form>
+      <div class="userbar-actions">
+        {% if user.is_admin %}
+        <a class="linkish" href="/admin">Админ</a>
+        {% endif %}
+        <form method="post" action="/logout">
+          <button class="linkish" type="submit">Выйти</button>
+        </form>
+      </div>
     </div>
     {% block tabbar %}
     {% set path = request.url.path %}

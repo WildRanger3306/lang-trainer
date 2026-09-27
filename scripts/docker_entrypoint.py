@@ -404,6 +404,18 @@ def migrate_user_filters() -> None:
         )
         conn.execute(
             """
+            ALTER TABLE users
+              ADD COLUMN IF NOT EXISTS is_admin BOOLEAN NOT NULL DEFAULT false
+            """
+        )
+        conn.execute(
+            """
+            ALTER TABLE users
+              ADD COLUMN IF NOT EXISTS allowed_languages language_code[] NOT NULL DEFAULT '{en,fr}'
+            """
+        )
+        conn.execute(
+            """
             CREATE TABLE IF NOT EXISTS user_language_filters (
               user_id BIGINT NOT NULL REFERENCES users (id) ON DELETE CASCADE,
               language language_code NOT NULL,

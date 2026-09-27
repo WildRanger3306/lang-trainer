@@ -14,16 +14,28 @@ from psycopg.rows import dict_row
 LOGIN_RE = re.compile(r"^[a-zA-Z0-9_-]+$")
 PBKDF2_ROUNDS = 200_000
 
+ALL_LANGUAGES = ("en", "fr")
+
 
 @dataclass(frozen=True)
 class User:
     id: int
     login: str
     display_name: str | None
+    is_admin: bool = False
+    allowed_languages: tuple[str, ...] = ALL_LANGUAGES
 
     @property
     def label(self) -> str:
         return self.display_name or self.login
+
+    def can_use(self, language: str) -> bool:
+        return language in self.allowed_languages
+
+    @property
+    def default_language(self) -> str:
+        """First allowed language; "en" if somehow none (shouldn't happen, DB default is both)."""
+        return self.allowed_languages[0] if self.allowed_languages else "en"
 
 
 def hash_password(password: str) -> str:
@@ -57,6 +69,12 @@ def verify_password(password: str, stored: str) -> bool:
     return hmac.compare_digest(digest.hex(), digest_hex)
 
 
+def clean_languages(codes) -> tuple[str, ...]:
+    """Known language codes only, in a stable order, without duplicates."""
+    wanted = set(codes)
+    return tuple(code for code in ALL_LANGUAGES if code in wanted)
+
+
 def validate_login(login: str) -> str:
     login = login.strip()
     if not login or not LOGIN_RE.match(login):
@@ -64,11 +82,21 @@ def validate_login(login: str) -> str:
     return login
 
 
+def _user_from_row(row: dict) -> User:
+    return User(
+        id=int(row["id"]),
+        login=row["login"],
+        display_name=row["display_name"],
+        is_admin=bool(row["is_admin"]),
+        allowed_languages=tuple(row["allowed_languages"] or ()),
+    )
+
+
 def get_user_by_login(conn: psycopg.Connection, login: str) -> tuple[User, str] | None:
     with conn.cursor(row_factory=dict_row) as cur:
         cur.execute(
             """
-            SELECT id, login, display_name, password_hash
+            SELECT id, login, display_name, is_admin, allowed_languages::text[], password_hash
             FROM users WHERE login = %s
             """,
             (login,),
@@ -76,19 +104,14 @@ def get_user_by_login(conn: psycopg.Connection, login: str) -> tuple[User, str] 
         row = cur.fetchone()
     if row is None:
         return None
-    user = User(
-        id=int(row["id"]),
-        login=row["login"],
-        display_name=row["display_name"],
-    )
-    return user, row["password_hash"]
+    return _user_from_row(row), row["password_hash"]
 
 
 def get_user_by_id(conn: psycopg.Connection, user_id: int) -> User | None:
     with conn.cursor(row_factory=dict_row) as cur:
         cur.execute(
             """
-            SELECT id, login, display_name
+            SELECT id, login, display_name, is_admin, allowed_languages::text[]
             FROM users WHERE id = %s
             """,
             (user_id,),
@@ -96,11 +119,18 @@ def get_user_by_id(conn: psycopg.Connection, user_id: int) -> User | None:
         row = cur.fetchone()
     if row is None:
         return None
-    return User(
-        id=int(row["id"]),
-        login=row["login"],
-        display_name=row["display_name"],
-    )
+    return _user_from_row(row)
+
+
+def list_users(conn: psycopg.Connection) -> list[User]:
+    with conn.cursor(row_factory=dict_row) as cur:
+        cur.execute(
+            """
+            SELECT id, login, display_name, is_admin, allowed_languages::text[]
+            FROM users ORDER BY login
+            """
+        )
+        return [_user_from_row(row) for row in cur.fetchall()]
 
 
 def create_user(
@@ -113,16 +143,42 @@ def create_user(
     login = validate_login(login)
     if not password:
         raise ValueError("password required")
-    row = conn.execute(
-        """
-        INSERT INTO users (login, password_hash, display_name)
-        VALUES (%s, %s, %s)
-        RETURNING id, login, display_name
-        """,
-        (login, hash_password(password), display_name),
-    ).fetchone()
+    with conn.cursor(row_factory=dict_row) as cur:
+        cur.execute(
+            """
+            INSERT INTO users (login, password_hash, display_name)
+            VALUES (%s, %s, %s)
+            RETURNING id, login, display_name, is_admin, allowed_languages::text[]
+            """,
+            (login, hash_password(password), display_name),
+        )
+        row = cur.fetchone()
     conn.commit()
-    return User(id=int(row[0]), login=row[1], display_name=row[2])
+    return _user_from_row(row)
+
+
+def set_admin(conn: psycopg.Connection, login: str, is_admin: bool) -> None:
+    cur = conn.execute(
+        "UPDATE users SET is_admin = %s WHERE login = %s", (is_admin, login)
+    )
+    if cur.rowcount == 0:
+        raise ValueError(f"user not found: {login}")
+    conn.commit()
+
+
+def set_allowed_languages(
+    conn: psycopg.Connection, user_id: int, languages
+) -> tuple[str, ...]:
+    """At least one language must stay enabled — otherwise the account is unusable."""
+    cleaned = clean_languages(languages)
+    if not cleaned:
+        raise ValueError("at least one language must stay allowed")
+    conn.execute(
+        "UPDATE users SET allowed_languages = %s::language_code[] WHERE id = %s",
+        (list(cleaned), user_id),
+    )
+    conn.commit()
+    return cleaned
 
 
 def set_password(conn: psycopg.Connection, login: str, password: str) -> None:

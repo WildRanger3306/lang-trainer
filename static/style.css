@@ -59,6 +59,12 @@ html, body {
 
 .userbar form { margin: 0; }
 
+.userbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
 .brand-mark {
   display: inline-flex;
   align-items: center;
@@ -1097,6 +1103,58 @@ html, body {
 @media (prefers-reduced-motion: reduce) {
   .card-inner,
   .progress-bar i { transition: none; }
+}
+
+.admin-users {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.admin-user {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.admin-user-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.admin-user-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.admin-user-login {
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.role-badge {
+  flex: none;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--line));
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.admin-user-status {
+  min-height: 1.2rem;
+  margin: 0;
+  color: var(--know);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.admin-user-status.is-error {
+  color: var(--forget);
 }
 
 @media (min-width: 720px) {
