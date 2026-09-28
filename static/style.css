@@ -10,6 +10,7 @@
   --doubt: #8a6a2c;
   --forget: #8a3b2c;
   --error: #8a3b2c;
+  --learn: #35648c;
   --on-accent: #ffffff;
   --radius: 16px;
   --tap: 48px;
@@ -27,6 +28,7 @@
     --doubt: #d4b06a;
     --forget: #e09a8c;
     --error: #e09a8c;
+    --learn: #8fb4d9;
     --on-accent: #10201a;
   }
 }
@@ -364,14 +366,18 @@ html, body {
 
 .meter,
 .topic-chip-meter {
-  --mid: color-mix(in srgb, var(--accent) 70%, #fff);
-  background: linear-gradient(
+  /* Consolidating reuses --doubt (amber) and learning gets its own --learn (blue):
+     a same-hue tint of --know here used to blend into both --know and the
+     accent-tinted checked chip background at this thinness. */
+  background-color: color-mix(in srgb, var(--ink) 14%, var(--bg));
+  background-image: linear-gradient(
     90deg,
     var(--know) 0 var(--a),
-    var(--mid) var(--a) var(--b),
-    var(--doubt) var(--b) var(--c),
-    color-mix(in srgb, var(--line) 70%, transparent) var(--c) 100%
+    var(--doubt) var(--a) var(--b),
+    var(--learn) var(--b) var(--c),
+    transparent var(--c) 100%
   );
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--ink) 18%, transparent);
 }
 
 .meter {
@@ -413,8 +419,8 @@ html, body {
 }
 
 .dot-known { background: var(--know); }
-.dot-mid { background: color-mix(in srgb, var(--accent) 70%, #fff); }
-.dot-learning { background: var(--doubt); }
+.dot-mid { background: var(--doubt); }
+.dot-learning { background: var(--learn); }
 .dot-rest { background: color-mix(in srgb, var(--line) 90%, var(--muted)); }
 
 .topic-chips {
