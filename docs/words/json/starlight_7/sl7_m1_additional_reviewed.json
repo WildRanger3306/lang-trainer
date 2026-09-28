@@ -1,0 +1,1460 @@
+{
+  "topic": "sl7_m1",
+  "source": {
+    "module": "Starlight 7 Module 1 Work & Play",
+    "note": "Лексемы со сканов M1+VB1–3, которых нет (точным form) в алфавитном WL SL7",
+    "book_pages": "docs/words/raw/Starlight_7_Book/0007.jpg–0024.jpg",
+    "vocabulary_bank": [
+      "docs/words/raw/Starlight_7_Book/VB1.jpg",
+      "docs/words/raw/Starlight_7_Book/VB2.jpg",
+      "docs/words/raw/Starlight_7_Book/VB3.jpg"
+    ]
+  },
+  "notes": [
+    "Реестр недостающих в WL лексем M1 (Vocabulary Bank VB1-3 + основные страницы модуля).",
+    "Переводы, часть речи и коды — вручную; сверено с VB1-3 (профессии, спорт, работа); часть фраз (природа/волонтёрство) со сканами основных страниц не сверялась.",
+    "Транскрипция из docs/words/ipa/en_UK.txt для одиночных слов; для составных форм не заполняется, как и везде в проекте."
+  ],
+  "count": 83,
+  "entries": [
+    {
+      "language": "en",
+      "form": "agree on",
+      "partOfSpeech": "phrasal_verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "договариваться о (чём-либо)"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "air traffic controller",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "авиадиспетчер"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "animal shelter volunteer",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "волонтёр приюта для животных"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "application",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˌæplɪkˈeɪʃən",
+      "translations": [
+        "заявление",
+        "заявка"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "apply for a position",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "подавать заявление на должность"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "biologist",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "baɪˈɒlədʒˌɪst",
+      "translations": [
+        "биолог"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bomb disposal expert",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "сапёр",
+        "специалист по обезвреживанию бомб"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "bonus",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "bˈəʊnəs",
+      "translations": [
+        "премия",
+        "бонус"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "boxing",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "bˈɒksɪŋ",
+      "translations": [
+        "бокс"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "build houses",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "строить дома"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "career",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kərˈiə",
+      "translations": [
+        "карьера"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "caretaker",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kˈeəteɪkɐ",
+      "translations": [
+        "смотритель здания",
+        "сторож"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "conservation group volunteer",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "волонтёр природоохранной организации"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "crane operator",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "крановщик"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "curling",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "kˈɜːlɪŋ",
+      "translations": [
+        "кёрлинг"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "CV",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "sˌiːvˈiː",
+      "translations": [
+        "резюме"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "cycling",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "sˈaɪklɪŋ",
+      "translations": [
+        "велоспорт",
+        "езда на велосипеде"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "delivery driver",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "водитель службы доставки"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "dentist",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dˈɛntɪst",
+      "translations": [
+        "стоматолог",
+        "зубной врач"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "diving",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dˈaɪvɪŋ",
+      "translations": [
+        "дайвинг",
+        "прыжки в воду"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "earn a living",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "зарабатывать на жизнь"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "find out",
+      "partOfSpeech": "phrasal_verb",
+      "partOfSpeechCode": "phr v",
+      "transcription": null,
+      "translations": [
+        "выяснять",
+        "узнавать"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "fire",
+      "partOfSpeech": "verb",
+      "partOfSpeechCode": "v",
+      "transcription": "fˈaɪə",
+      "translations": [
+        "увольнять"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "freshwater",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "frˈɛʃwɔːtɐ",
+      "translations": [
+        "пресноводный"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "full-time",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj, adv",
+      "transcription": "fˈʊltˈaɪm",
+      "translations": [
+        "на полный рабочий день",
+        "на полную ставку"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "graphic designer",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "графический дизайнер"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hairdresser",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "hˈeədrɛsɐ",
+      "translations": [
+        "парикмахер"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "help protect an endangered species",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "помогать защищать вымирающий вид"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hiking",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "hˈaɪkɪŋ",
+      "translations": [
+        "пеший туризм",
+        "походы"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hockey",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "hˈɒki",
+      "translations": [
+        "хоккей на траве"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "hold her breath",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "задерживать дыхание"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "horse-riding",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "hˈɔːsrˌaɪdɪŋ",
+      "translations": [
+        "верховая езда",
+        "конный спорт"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ice hockey",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "хоккей с шайбой"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "ice-skating",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˈaɪsskˌeɪtɪŋ",
+      "translations": [
+        "катание на коньках"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "interior decorator",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "дизайнер интерьеров",
+        "декоратор"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "interview witness",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "опрашивать свидетеля"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "job",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dʒˈɒb",
+      "translations": [
+        "работа",
+        "должность"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "judo",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "dʒˈuːdəʊ",
+      "translations": [
+        "дзюдо"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lacrosse",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈækrɒs",
+      "translations": [
+        "лакросс"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lake",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "lˈeɪk",
+      "translations": [
+        "озеро"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "librarian",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "laɪbrˈeəriən",
+      "translations": [
+        "библиотекарь"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "lungs",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": "lˈʌŋz",
+      "translations": [
+        "лёгкие"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "made redundant",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "уволенный по сокращению штатов"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "make-up artist",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "визажист",
+        "гримёр"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "managing director",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "генеральный директор",
+        "управляющий директор"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "manual jobs",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": null,
+      "translations": [
+        "физический труд",
+        "работа, требующая физических усилий"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "meteorologist",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˌiːtɪɔːrˈɒlədʒˌɪst",
+      "translations": [
+        "метеоролог"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "miner",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "mˈaɪnɐ",
+      "translations": [
+        "шахтёр"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "offer a job",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "предлагать работу"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "organisation",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "ˌɔːgɐnaɪzˈeɪʃən",
+      "translations": [
+        "организация"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "outdoor jobs",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": null,
+      "translations": [
+        "работа на открытом воздухе"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "perks",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": "pˈɜːks",
+      "translations": [
+        "дополнительные льготы",
+        "бонусы к зарплате"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "personal trainer",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "персональный тренер"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "planet",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "plˈænɪt",
+      "translations": [
+        "планета"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "plant trees",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "сажать деревья"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "polo",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "pˈəʊləʊ",
+      "translations": [
+        "поло"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "qualifications",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": "kwˌɒlɪfɪkˈeɪʃənz",
+      "translations": [
+        "квалификация",
+        "профессиональная подготовка"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "qualities",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": "kwˈɒlɪtiz",
+      "translations": [
+        "качества"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "recommendation",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "rˌɛkəmɛndˈeɪʃən",
+      "translations": [
+        "рекомендация"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "remote areas",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": null,
+      "translations": [
+        "отдалённые районы",
+        "глухие места"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "rugby",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "rˈʌgbi",
+      "translations": [
+        "регби"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "skiing",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "skˈiːɪŋ",
+      "translations": [
+        "лыжный спорт",
+        "катание на лыжах"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "skills",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": "skˈɪlz",
+      "translations": [
+        "навыки",
+        "умения"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "skydiving",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "skˈaɪdaɪvɪŋ",
+      "translations": [
+        "парашютный спорт",
+        "скайдайвинг"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "snooker",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "snˈuːkɐ",
+      "translations": [
+        "снукер"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "squash",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "skwˈɒʃ",
+      "translations": [
+        "сквош"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "swimming",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "swˈɪmɪŋ",
+      "translations": [
+        "плавание"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "swimming pool cleaner",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "уборщик бассейнов"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "table tennis",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "настольный теннис"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "tailor",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "tˈeɪlɐ",
+      "translations": [
+        "портной"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "take care of orphans",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "заботиться о сиротах"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "teach English",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "преподавать английский"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "totally silent",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "совершенно бесшумный",
+        "абсолютно тихий"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "train employees",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "обучать сотрудников"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "transfer",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n, v",
+      "transcription": "trænsfˈɜː",
+      "translations": [
+        "перевод (на другое место)",
+        "переводить"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "TV presenter",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "телеведущий"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "underpaid",
+      "partOfSpeech": "adjective",
+      "partOfSpeechCode": "adj",
+      "transcription": "ˌʌndəpˈeɪd",
+      "translations": [
+        "низкооплачиваемый",
+        "получающий слишком мало"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "university degree",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "диплом о высшем образовании",
+        "учёная степень"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "vacancy",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": "vˈeɪkənsi",
+      "translations": [
+        "вакансия"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "wages",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "pl n",
+      "transcription": "wˈeɪdʒɪz",
+      "translations": [
+        "заработная плата",
+        "оплата труда"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "waiting tables",
+      "partOfSpeech": "phrase",
+      "partOfSpeechCode": "phr",
+      "transcription": null,
+      "translations": [
+        "работать официантом"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "water polo",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n",
+      "transcription": null,
+      "translations": [
+        "водное поло"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    },
+    {
+      "language": "en",
+      "form": "work",
+      "partOfSpeech": "noun",
+      "partOfSpeechCode": "n, v",
+      "transcription": "wˈɜːk",
+      "translations": [
+        "работа",
+        "работать"
+      ],
+      "level": null,
+      "topics": [
+        "sl7_m1"
+      ],
+      "textbooks": [
+        "Starlight 7"
+      ]
+    }
+  ]
+}
